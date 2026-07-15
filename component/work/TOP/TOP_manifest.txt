@@ -1,0 +1,15 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+
+Date      :  Tue Jul 14 06:56:45 2026
+Project   :  E:\Image_Processing_with_low_power_demo\Image_Processing_with_low_power_demo\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF
+Component :  TOP
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    E:/Image_Processing_with_low_power_demo/Image_Processing_with_low_power_demo/HF10_OV7725_LCD_FF/HF10_OV7725_LCD_FF/component/work/TOP/TOP.v
+
+Stimulus files for all Simulation tools:
+    E:/Image_Processing_with_low_power_demo/Image_Processing_with_low_power_demo/HF10_OV7725_LCD_FF/HF10_OV7725_LCD_FF/component/work/TOP/subsystem.bfm
+    E:/Image_Processing_with_low_power_demo/Image_Processing_with_low_power_demo/HF10_OV7725_LCD_FF/HF10_OV7725_LCD_FF/component/work/TOP/subsystem.bfm
+

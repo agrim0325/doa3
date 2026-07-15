@@ -1,0 +1,16 @@
+Project Name: DSP_FIR_FILTER
+Location: F:\SVN\HelloFPGA\Release\DSP_FIR_FILTER
+Description: SPI4.2
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S010-1VF256I
+Family         : SmartFusion2
+Die            : M2S010
+Package        : 256 VF
+Speed          : -1
+Core Voltage   : 1.2
+Range          : IND

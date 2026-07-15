@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\synthesis\synlog\IGL2_FIR_FILTER_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>FCCC_0/GL0</data>
+<data>150.0 MHz</data>
+<data>242.9 MHz</data>
+<data>2.549</data>
+</row>
+<row>
+<data>FCCC_0/GL1</data>
+<data>150.0 MHz</data>
+<data>305.0 MHz</data>
+<data>3.388</data>
+</row>
+<row>
+<data>FCCC_0/GL2</data>
+<data>100.0 MHz</data>
+<data>178.1 MHz</data>
+<data>4.385</data>
+</row>
+<row>
+<data>FCCC_0/GL3</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>OSC_0/I_RCOSC_25_50MHZ/CLKOUT</data>
+<data>50.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>fft_inpl_slowClock|divider_inferred_clock[2]</data>
+<data>100.0 MHz</data>
+<data>155.1 MHz</data>
+<data>3.554</data>
+</row>
+<row>
+<data>led_blink|clkout_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>607.2 MHz</data>
+<data>8.353</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+</report_table>

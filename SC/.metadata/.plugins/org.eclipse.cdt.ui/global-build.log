@@ -1,0 +1,9 @@
+15:07:24 **** Incremental Build of configuration Debug for project Camera_Dot_Detector ****
+make all 
+'Building file: ../drivers_config/sys_config/sys_config.c'
+'Invoking: Cross ARM GNU C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../" -I"../CMSIS" -I"../CMSIS/startup_gcc" -I"../drivers/mss_gpio" -I"../drivers_config" -I"../drivers_config/sys_config" -I"../hal" -I"../hal/CortexM3" -I"../hal/CortexM3/GNU" -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+'arm-none-eabi-gcc' is not recognized as an internal or external command,
+operable program or batch file.
+make: *** [drivers_config/sys_config/sys_config.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.

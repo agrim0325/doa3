@@ -1,0 +1,76 @@
+INFO: Reading User SDC file D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\constraint\TOP_derived_constraints.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+
+No errors or warnings found.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+I/O Register Combining   : ON
+High-effort              : OFF
+Repair min-delay         : OFF
+Incremental              : OFF
+Inter-clock optimization : ON
+
+INFO: Reading User PDC file D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 37 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+
+Placer V5.0 - 2025.2.0 
+Design: TOP                             Started: Tue Jul 14 15:42:50 2026
+
+Initializing Normal-Effort Timing-Driven Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 1 seconds
+Placement                : 4 seconds
+Improvement              : 10 seconds
+
+Placer completed successfully.
+
+Design: TOP                             
+Finished: Tue Jul 14 15:43:31 2026
+Total CPU Time:     00:00:36            Total Elapsed Time: 00:00:41
+Total Memory Usage: 297.2 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\TOPStarted: Tue Jul 14 15:43:36 2026
+
+
+Router completed successfully.
+
+Design: D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\TOP
+Finished: Tue Jul 14 15:43:47 2026
+Total CPU Time:     00:00:09            Total Elapsed Time: 00:00:11
+Total Memory Usage: 449.4 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 1042 | 12084 | 8.62       |
+| DFF           | 785  | 12084 | 6.50       |
+| I/O Register  | 0    | 414   | 0.00       |
+| Logic Element | 1248 | 12084 | 10.33      |
++---------------+------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  37   | 100.00%    |
+| Placed |  0    | 0.00%      |
++--------+-------+------------+
+

@@ -1,0 +1,1668 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: HYD-LT-I31063
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: HYD-LT-I31063
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+@I::"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Clock_gen.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Rx_async.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Tx_async.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\fifo_256x8_g4.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\CoreUART.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\UART_IF.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\DATA_HANDLE.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_AHBLMasterIF.v" (library CORESYSSERVICES_LIB)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v" (library CORESYSSERVICES_LIB)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v" (library CORESYSSERVICES_LIB)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v" (library CORESYSSERVICES_LIB)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\CORESYSSERVICES_C0\CORESYSSERVICES_C0_0\rtl\vlog\core\CoreSysServices.v" (library CORESYSSERVICES_LIB)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\CORESYSSERVICES_C0\CORESYSSERVICES_C0.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\FF_FSM.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\FF\FF.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\FILTER_CONTROL_FSM.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\Coef_Buff\IGL2_FIR_FILTER_Coef_Buff_TPSRAM.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\FCCC_0\IGL2_FIR_FILTER_FCCC_0_FCCC.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\FFT_Im_Buff\IGL2_FIR_FILTER_FFT_Im_Buff_TPSRAM.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\FFT_Re_Buff\IGL2_FIR_FILTER_FFT_Re_Buff_TPSRAM.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\FIR_IN_Buff\IGL2_FIR_FILTER_FIR_IN_Buff_TPSRAM.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\FIR_Out_Buff\IGL2_FIR_FILTER_FIR_Out_Buff_TPSRAM.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\OSC_0\IGL2_FIR_FILTER_OSC_0_OSC.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\PB_logic.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\crc_256_pwr.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\led_blink.v" (library work)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\IGL2_FIR_FILTER_COREFFT_0_ram_smGen.v" (library COREFFT_LIB)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v" (library COREFFT_LIB)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\fftDp.v" (library COREFFT_LIB)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\twiddle32.v" (library COREFFT_LIB)
+@N: CG347 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\twiddle32.v":35:25:35:37|Read a parallel_case directive.
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\mac_lib.v" (library COREFFT_LIB)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\cmplx.v" (library COREFFT_LIB)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v" (library COREFFT_LIB)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT.v" (library COREFFT_LIB)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT_TOP.v" (library COREFFT_LIB)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac_lib.v" (library COREFIR_LIB)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v" (library COREFIR_LIB)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v" (library COREFIR_LIB)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\coef_store.v" (library COREFIR_LIB)
+@I:"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\coef_store.v":"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\IGL2_FIR_FILTER_COREFIR_0_coef.v" (library COREFIR_LIB)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\enum_fir.v" (library COREFIR_LIB)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\enum_COREFIR.v" (library COREFIR_LIB)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\top\COREFIR.v" (library COREFIR_LIB)
+@I::"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\IGL2_FIR_FILTER.v" (library work)
+Verilog syntax check successful!
+Selecting top level module IGL2_FIR_FILTER
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":382:7:382:13|Synthesizing module RAM1K18 in library work.
+Running optimization stage 1 on RAM1K18 .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND in library work.
+Running optimization stage 1 on GND .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
+Running optimization stage 1 on VCC .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\Coef_Buff\IGL2_FIR_FILTER_Coef_Buff_TPSRAM.v":5:7:5:38|Synthesizing module IGL2_FIR_FILTER_Coef_Buff_TPSRAM in library work.
+Running optimization stage 1 on IGL2_FIR_FILTER_Coef_Buff_TPSRAM .......
+@W: CL318 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\Coef_Buff\IGL2_FIR_FILTER_Coef_Buff_TPSRAM.v":15:14:15:15|*Output RD has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@N: CG775 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT_TOP.v":28:7:28:39|Component IGL2_FIR_FILTER_COREFFT_0_COREFFT not found in library "work" or "__hyper__lib__", but found in library COREFFT_LIB
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT_TOP.v":28:7:28:39|Synthesizing module IGL2_FIR_FILTER_COREFFT_0_COREFFT in library COREFFT_LIB.
+
+	FPGA_FAMILY=32'b00000000000000000000000000010011
+	URAM_MAXDEPTH=32'b00000000000000000000000000000000
+	CFG_ARCH=32'b00000000000000000000000000000001
+	DATA_BITS=32'b00000000000000000000000000010010
+	TWID_BITS=32'b00000000000000000000000000010010
+	FFT_SIZE=32'b00000000000000000000000100000000
+	SCALE_ON=32'b00000000000000000000000000000001
+	SCALE_SCH=32'b00000000000000000000000011111111
+	ORDER=32'b00000000000000000000000000000000
+	INVERSE=32'b00000000000000000000000000000000
+	SCALE=32'b00000000000000000000000000000000
+	POINTS=32'b00000000000000000000000100000000
+	WIDTH=32'b00000000000000000000000000010000
+	MEMBUF=32'b00000000000000000000000000000001
+	SCALE_EXP_ON=32'b00000000000000000000000000000000
+	NO_RAM=32'b00000000000000000000000000000000
+	LOG2PTS=32'b00000000000000000000000000001000
+	LOGLOG2PTS=32'b00000000000000000000000000000011
+	FLOGLOG2PTS=32'b00000000000000000000000000000100
+	STREAM_DATAO_BITS=32'b00000000000000000000000000010010
+	IN_BITS=32'b00000000000000000000000000010000
+	OUTP_BITS=32'b00000000000000000000000000010000
+   Generated name = IGL2_FIR_FILTER_COREFFT_0_COREFFT_Z1
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":445:7:445:24|Synthesizing module fft_inpl_slowClock in library COREFFT_LIB.
+Running optimization stage 1 on fft_inpl_slowClock .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":186:7:186:31|Synthesizing module fft_inpl_kitDelay_bit_reg in library COREFFT_LIB.
+
+	DELAY=32'b00000000000000000000000000000010
+   Generated name = fft_inpl_kitDelay_bit_reg_2s
+Running optimization stage 1 on fft_inpl_kitDelay_bit_reg_2s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":29:7:29:22|Synthesizing module fft_inpl_kitEdge in library COREFFT_LIB.
+
+	FRONT_EDGE=32'b00000000000000000000000000000000
+   Generated name = fft_inpl_kitEdge_0s
+Running optimization stage 1 on fft_inpl_kitEdge_0s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":126:7:126:24|Synthesizing module fft_inpl_counter_w in library COREFFT_LIB.
+
+	WIDTH=32'b00000000000000000000000000001010
+	TC=32'b00000000000000000000000010001001
+   Generated name = fft_inpl_counter_w_10_137s
+Running optimization stage 1 on fft_inpl_counter_w_10_137s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":70:7:70:22|Synthesizing module fft_inpl_counter in library COREFFT_LIB.
+
+	WIDTH=32'b00000000000000000000000000000101
+	TC=32'b00000000000000000000000000000111
+   Generated name = fft_inpl_counter_5_7
+Running optimization stage 1 on fft_inpl_counter_5_7 .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":186:7:186:31|Synthesizing module fft_inpl_kitDelay_bit_reg in library COREFFT_LIB.
+
+	DELAY=32'b00000000000000000000000000000011
+   Generated name = fft_inpl_kitDelay_bit_reg_3s
+Running optimization stage 1 on fft_inpl_kitDelay_bit_reg_3s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":361:7:361:25|Synthesizing module fft_inpl_rdFFTtimer in library COREFFT_LIB.
+
+	HALFPTS=32'b00000000000000000000000010000000
+	LOGPTS=32'b00000000000000000000000000001000
+	LOGLOGPTS=32'b00000000000000000000000000000011
+	RW_DLY=32'b00000000000000000000000000001010
+	MEMBUF=32'b00000000000000000000000000000001
+   Generated name = fft_inpl_rdFFTtimer_128s_8_3_10s_1s
+Running optimization stage 1 on fft_inpl_rdFFTtimer_128s_8_3_10s_1s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":226:7:226:27|Synthesizing module fft_inpl_kitDelay_reg in library COREFFT_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000001010
+	DELAY=32'b00000000000000000000000000000010
+   Generated name = fft_inpl_kitDelay_reg_10_2s
+Running optimization stage 1 on fft_inpl_kitDelay_reg_10_2s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":226:7:226:27|Synthesizing module fft_inpl_kitDelay_reg in library COREFFT_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000000101
+	DELAY=32'b00000000000000000000000000000010
+   Generated name = fft_inpl_kitDelay_reg_5_2s
+Running optimization stage 1 on fft_inpl_kitDelay_reg_5_2s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":186:7:186:31|Synthesizing module fft_inpl_kitDelay_bit_reg in library COREFFT_LIB.
+
+	DELAY=32'b00000000000000000000000000000001
+   Generated name = fft_inpl_kitDelay_bit_reg_1s
+Running optimization stage 1 on fft_inpl_kitDelay_bit_reg_1s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":99:7:99:24|Synthesizing module fft_inpl_kitCountS in library COREFFT_LIB.
+
+	WIDTH=32'b00000000000000000000000000000111
+	DCVALUE=32'b00000000000000000000000001111111
+	BUILD_DC=32'b00000000000000000000000000000000
+   Generated name = fft_inpl_kitCountS_7_127s_0s
+Running optimization stage 1 on fft_inpl_kitCountS_7_127s_0s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":226:7:226:27|Synthesizing module fft_inpl_kitDelay_reg in library COREFFT_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000000111
+	DELAY=32'b00000000000000000000000000000010
+   Generated name = fft_inpl_kitDelay_reg_7_2s
+Running optimization stage 1 on fft_inpl_kitDelay_reg_7_2s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":226:7:226:27|Synthesizing module fft_inpl_kitDelay_reg in library COREFFT_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000000001
+	DELAY=32'b00000000000000000000000000001010
+   Generated name = fft_inpl_kitDelay_reg_1s_10s
+Running optimization stage 1 on fft_inpl_kitDelay_reg_1s_10s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":70:7:70:22|Synthesizing module fft_inpl_counter in library COREFFT_LIB.
+
+	WIDTH=32'b00000000000000000000000000001000
+	TC=32'b00000000000000000000000011111111
+   Generated name = fft_inpl_counter_8_255s
+Running optimization stage 1 on fft_inpl_counter_8_255s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":481:7:481:24|Synthesizing module fft_inpl_inBuf_ldA in library COREFFT_LIB.
+
+	PTS=32'b00000000000000000000000100000000
+	LOGPTS=32'b00000000000000000000000000001000
+   Generated name = fft_inpl_inBuf_ldA_256s_8
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":502:7:502:15|Removing wire load_over, as there is no assignment to it.
+Running optimization stage 1 on fft_inpl_inBuf_ldA_256s_8 .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":623:7:623:30|Synthesizing module fft_inpl_inBuf_fftA_pipe in library COREFFT_LIB.
+
+	LOGPTS=32'b00000000000000000000000000001000
+	LOGLOGPTS=32'b00000000000000000000000000000011
+   Generated name = fft_inpl_inBuf_fftA_pipe_8_3
+Running optimization stage 1 on fft_inpl_inBuf_fftA_pipe_8_3 .......
+@W: CL265 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":675:2:675:7|Removing unused bit 6 of mask1_r[6:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":695:7:695:22|Synthesizing module fft_inpl_twid_rA in library COREFFT_LIB.
+
+	LOGPTS=32'b00000000000000000000000000001000
+	LOGLOGPTS=32'b00000000000000000000000000000011
+   Generated name = fft_inpl_twid_rA_8_3
+Running optimization stage 1 on fft_inpl_twid_rA_8_3 .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":186:7:186:31|Synthesizing module fft_inpl_kitDelay_bit_reg in library COREFFT_LIB.
+
+	DELAY=32'b00000000000000000000000000000100
+   Generated name = fft_inpl_kitDelay_bit_reg_4s
+Running optimization stage 1 on fft_inpl_kitDelay_bit_reg_4s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":405:7:405:28|Synthesizing module fft_inpl_kitSync_ngrst in library COREFFT_LIB.
+
+	PULSE_WIDTH=32'b00000000000000000000000000000001
+   Generated name = fft_inpl_kitSync_ngrst_1s
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":412:13:412:17|Object tick2 is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on fft_inpl_kitSync_ngrst_1s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":161:7:161:23|Synthesizing module fft_inpl_bcounter in library COREFFT_LIB.
+
+	WIDTH=32'b00000000000000000000000000000111
+   Generated name = fft_inpl_bcounter_7
+Running optimization stage 1 on fft_inpl_bcounter_7 .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":739:7:739:26|Synthesizing module fft_inpl_twid_wA_gen in library COREFFT_LIB.
+
+	LOGPTS=32'b00000000000000000000000000001000
+	LOGLOGPTS=32'b00000000000000000000000000000011
+   Generated name = fft_inpl_twid_wA_gen_8_3
+Running optimization stage 1 on fft_inpl_twid_wA_gen_8_3 .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":226:7:226:27|Synthesizing module fft_inpl_kitDelay_reg in library COREFFT_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000000011
+	DELAY=32'b00000000000000000000000000000010
+   Generated name = fft_inpl_kitDelay_reg_3_2s
+Running optimization stage 1 on fft_inpl_kitDelay_reg_3_2s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":532:7:532:22|Synthesizing module fft_inpl_outBufA in library COREFFT_LIB.
+
+	PTS=32'b00000000000000000000000100000000
+	LOGPTS=32'b00000000000000000000000000001000
+	MEMBUF=32'b00000000000000000000000000000001
+   Generated name = fft_inpl_outBufA_256s_8_1s
+Running optimization stage 1 on fft_inpl_outBufA_256s_8_1s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":29:7:29:21|Synthesizing module fft_inpl_sm_top in library COREFFT_LIB.
+
+	PTS=32'b00000000000000000000000100000000
+	HALFPTS=32'b00000000000000000000000010000000
+	LOGPTS=32'b00000000000000000000000000001000
+	LOGLOGPTS=32'b00000000000000000000000000000011
+	RW_DLY=32'b00000000000000000000000000001010
+	MEMBUF=32'b00000000000000000000000000000001
+   Generated name = fft_inpl_sm_top_256s_128s_8_3_10s_1s
+Running optimization stage 1 on fft_inpl_sm_top_256s_128s_8_3_10s_1s .......
+@W: CL168 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":234:61:234:72|Removing instance wStage_dly_2 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":118:38:118:50|Removing instance edge_detect_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\fftDp.v":249:7:249:39|Synthesizing module IGL2_FIR_FILTER_COREFFT_0_inPlace in library COREFFT_LIB.
+
+	LOGPTS=32'b00000000000000000000000000001000
+	DWIDTH=32'b00000000000000000000000000100000
+	MEMBUF=32'b00000000000000000000000000000001
+	URAM_MAXDEPTH=32'b00000000000000000000000000000000
+	FPGA_FAMILY=32'b00000000000000000000000000010011
+   Generated name = IGL2_FIR_FILTER_COREFFT_0_inPlace_8_32s_1s_0s_19s
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\fftDp.v":163:7:163:40|Synthesizing module IGL2_FIR_FILTER_COREFFT_0_inBuffer in library COREFFT_LIB.
+
+	LOGPTS=32'b00000000000000000000000000001000
+	DWIDTH=32'b00000000000000000000000000100000
+	MEMBUF=32'b00000000000000000000000000000001
+	URAM_MAXDEPTH=32'b00000000000000000000000000000000
+	FPGA_FAMILY=32'b00000000000000000000000000010011
+   Generated name = IGL2_FIR_FILTER_COREFFT_0_inBuffer_8_32s_1s_0s_19s
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\fftDp.v":36:7:36:39|Synthesizing module IGL2_FIR_FILTER_COREFFT_0_wrapRam in library COREFFT_LIB.
+
+	LOGPTS=32'b00000000000000000000000000001000
+	DWIDTH=32'b00000000000000000000000000100000
+	FPGA_FAMILY=32'b00000000000000000000000000010011
+	URAM_MAXDEPTH=32'b00000000000000000000000000000000
+	RAM_DEPTH=32'b00000000000000000000000010000000
+	SMARTGEN=32'b00000000000000000000000000000001
+   Generated name = IGL2_FIR_FILTER_COREFFT_0_wrapRam_8_32s_19s_0s_128s_1s
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\IGL2_FIR_FILTER_COREFFT_0_ram_smGen.v":5:7:5:41|Synthesizing module IGL2_FIR_FILTER_COREFFT_0_ram_smGen in library COREFFT_LIB.
+Running optimization stage 1 on IGL2_FIR_FILTER_COREFFT_0_ram_smGen .......
+@W: CL318 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\IGL2_FIR_FILTER_COREFFT_0_ram_smGen.v":16:14:16:15|*Output DO has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Running optimization stage 1 on IGL2_FIR_FILTER_COREFFT_0_wrapRam_8_32s_19s_0s_128s_1s .......
+Running optimization stage 1 on IGL2_FIR_FILTER_COREFFT_0_inBuffer_8_32s_1s_0s_19s .......
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\fftDp.v":267:19:267:27|Object wA_bfly_r is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\fftDp.v":268:19:268:27|Object wA_load_r is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\fftDp.v":270:6:270:15|Object wEn_bfly_r is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\fftDp.v":270:18:270:26|Object wEn_odd_r is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\fftDp.v":270:29:270:38|Object wEn_even_r is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on IGL2_FIR_FILTER_COREFFT_0_inPlace_8_32s_1s_0s_19s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":460:7:460:21|Synthesizing module fft_inpl_switch in library COREFFT_LIB.
+
+	DWIDTH=32'b00000000000000000000000000100000
+   Generated name = fft_inpl_switch_32s
+Running optimization stage 1 on fft_inpl_switch_32s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":326:7:326:23|Synthesizing module fft_inpl_kitRndUp in library COREFFT_LIB.
+
+	WIDTH_OUT=32'b00000000000000000000000000010000
+	RND_MODE=32'b00000000000000000000000000000001
+   Generated name = fft_inpl_kitRndUp_16s_1s
+Running optimization stage 1 on fft_inpl_kitRndUp_16s_1s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\cmplx.v":442:7:442:24|Synthesizing module fft_inpl_cmplx_rnd in library COREFFT_LIB.
+
+	WIDTH=32'b00000000000000000000000000010000
+	NOPIPE=32'b00000000000000000000000000000000
+	FPGA_FAMILY=32'b00000000000000000000000000010011
+	RND=32'b00000000000000000000000000000001
+	P_WIDTH=32'b00000000000000000000000000101100
+   Generated name = fft_inpl_cmplx_rnd_16s_0s_19s_1s_44s
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":364:7:364:22|Synthesizing module fft_inpl_signExt in library COREFFT_LIB.
+
+	INWIDTH=32'b00000000000000000000000000010000
+	OUTWIDTH=32'b00000000000000000000000000010010
+	UNSIGNED=32'b00000000000000000000000000000000
+   Generated name = fft_inpl_signExt_16s_18s_0s
+Running optimization stage 1 on fft_inpl_signExt_16s_18s_0s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\mac_lib.v":36:7:36:25|Synthesizing module fft_inpl_mac18x18mx in library COREFFT_LIB.
+
+	WIDTH_A=32'b00000000000000000000000000010000
+	WIDTH_B=32'b00000000000000000000000000010000
+	BYPASS_REG_A=32'b00000000000000000000000000000000
+	BYPASS_REG_B=32'b00000000000000000000000000000000
+	BYPASS_REG_P=32'b00000000000000000000000000000000
+	FPGA_FAMILY=32'b00000000000000000000000000010011
+	BY_REGA=2'b00
+	BY_REGB=2'b00
+	BY_REGP=2'b00
+	P_WIDTH=32'b00000000000000000000000000101100
+   Generated name = fft_inpl_mac18x18mx_16s_16s_0s_0s_0s_19s_0_0_0_44s
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":569:7:569:10|Synthesizing module MACC in library work.
+Running optimization stage 1 on MACC .......
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\mac_lib.v":69:13:69:20|Removing wire sel_cdin, as there is no assignment to it.
+Running optimization stage 1 on fft_inpl_mac18x18mx_16s_16s_0s_0s_0s_19s_0_0_0_44s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":364:7:364:22|Synthesizing module fft_inpl_signExt in library COREFFT_LIB.
+
+	INWIDTH=32'b00000000000000000000000000101100
+	OUTWIDTH=32'b00000000000000000000000000100001
+	UNSIGNED=32'b00000000000000000000000000000000
+   Generated name = fft_inpl_signExt_44s_33s_0s
+Running optimization stage 1 on fft_inpl_signExt_44s_33s_0s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\cmplx.v":354:7:354:28|Synthesizing module fft_inpl_half_cmplx_18 in library COREFFT_LIB.
+
+	WIDTH=32'b00000000000000000000000000010000
+	MINUS=32'b00000000000000000000000000000001
+	NOPIPE=32'b00000000000000000000000000000000
+	FPGA_FAMILY=32'b00000000000000000000000000010011
+	P_WIDTH=32'b00000000000000000000000000101100
+	SUB=1'b1
+	DBG=32'b00000000000000000000000000000000
+   Generated name = fft_inpl_half_cmplx_18_16s_1s_0s_19s_44s_1_0s
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":226:7:226:27|Synthesizing module fft_inpl_kitDelay_reg in library COREFFT_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000010000
+	DELAY=32'b00000000000000000000000000000001
+   Generated name = fft_inpl_kitDelay_reg_16s_1s
+Running optimization stage 1 on fft_inpl_kitDelay_reg_16s_1s .......
+Running optimization stage 1 on fft_inpl_half_cmplx_18_16s_1s_0s_19s_44s_1_0s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\cmplx.v":354:7:354:28|Synthesizing module fft_inpl_half_cmplx_18 in library COREFFT_LIB.
+
+	WIDTH=32'b00000000000000000000000000010000
+	MINUS=32'b00000000000000000000000000000000
+	NOPIPE=32'b00000000000000000000000000000000
+	FPGA_FAMILY=32'b00000000000000000000000000010011
+	P_WIDTH=32'b00000000000000000000000000101100
+	SUB=1'b0
+	DBG=32'b00000000000000000000000000000000
+   Generated name = fft_inpl_half_cmplx_18_16s_0s_0s_19s_44s_0_0s
+Running optimization stage 1 on fft_inpl_half_cmplx_18_16s_0s_0s_19s_44s_0_0s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\cmplx.v":414:7:414:23|Synthesizing module fft_inpl_cmplx_18 in library COREFFT_LIB.
+
+	WIDTH=32'b00000000000000000000000000010000
+	NOPIPE=32'b00000000000000000000000000000000
+	FPGA_FAMILY=32'b00000000000000000000000000010011
+	P_WIDTH=32'b00000000000000000000000000101100
+   Generated name = fft_inpl_cmplx_18_16s_0s_19s_44s
+Running optimization stage 1 on fft_inpl_cmplx_18_16s_0s_19s_44s .......
+Running optimization stage 1 on fft_inpl_cmplx_rnd_16s_0s_19s_1s_44s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":226:7:226:27|Synthesizing module fft_inpl_kitDelay_reg in library COREFFT_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000010000
+	DELAY=32'b00000000000000000000000000000100
+   Generated name = fft_inpl_kitDelay_reg_16s_4s
+Running optimization stage 1 on fft_inpl_kitDelay_reg_16s_4s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":226:7:226:27|Synthesizing module fft_inpl_kitDelay_reg in library COREFFT_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000000010
+	DELAY=32'b00000000000000000000000000000101
+   Generated name = fft_inpl_kitDelay_reg_2s_5s
+Running optimization stage 1 on fft_inpl_kitDelay_reg_2s_5s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":499:7:499:20|Synthesizing module fft_inpl_bfly2 in library COREFFT_LIB.
+
+	WIDTH=32'b00000000000000000000000000010000
+	TWIDTH=32'b00000000000000000000000000010000
+	DWIDTH=32'b00000000000000000000000000100000
+	TDWIDTH=32'b00000000000000000000000000100000
+	MPIPE=32'b00000000000000000000000000000011
+	FPGA_FAMILY=32'b00000000000000000000000000010011
+   Generated name = fft_inpl_bfly2_16s_16s_32s_32s_3s_19s
+Running optimization stage 1 on fft_inpl_bfly2_16s_16s_32s_32s_3s_19s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\twiddle32.v":27:7:27:39|Synthesizing module IGL2_FIR_FILTER_COREFFT_0_twiddle in library COREFFT_LIB.
+
+	TDWIDTH=32'b00000000000000000000000000100000
+	LOGPTS=32'b00000000000000000000000000001000
+   Generated name = IGL2_FIR_FILTER_COREFFT_0_twiddle_32s_8
+Running optimization stage 1 on IGL2_FIR_FILTER_COREFFT_0_twiddle_32s_8 .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\fftDp.v":369:7:369:39|Synthesizing module IGL2_FIR_FILTER_COREFFT_0_twidLUT in library COREFFT_LIB.
+
+	LOGPTS=32'b00000000000000000000000000001000
+	TDWIDTH=32'b00000000000000000000000000100000
+	URAM_MAXDEPTH=32'b00000000000000000000000000000000
+	FPGA_FAMILY=32'b00000000000000000000000000010011
+   Generated name = IGL2_FIR_FILTER_COREFFT_0_twidLUT_8_32s_0s_19s
+Running optimization stage 1 on IGL2_FIR_FILTER_COREFFT_0_twidLUT_8_32s_0s_19s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":570:7:570:24|Synthesizing module fft_inpl_autoScale in library COREFFT_LIB.
+
+	SCALE_MODE=32'b00000000000000000000000000000000
+	SCALE_EXP_ON=32'b00000000000000000000000000000000
+	LOGLOGPTS=32'b00000000000000000000000000000100
+	MEMBUF=32'b00000000000000000000000000000001
+   Generated name = fft_inpl_autoScale_0s_0s_4_1s
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":590:22:590:32|Object scale_exp_r is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":590:35:590:49|Object scale_exp_count is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on fft_inpl_autoScale_0s_0s_4_1s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT.v":28:7:28:45|Synthesizing module IGL2_FIR_FILTER_COREFFT_0_COREFFT_INPLC in library COREFFT_LIB.
+
+	INVERSE=32'b00000000000000000000000000000000
+	SCALE=32'b00000000000000000000000000000000
+	POINTS=32'b00000000000000000000000100000000
+	WIDTH=32'b00000000000000000000000000010000
+	MEMBUF=32'b00000000000000000000000000000001
+	URAM_MAXDEPTH=32'b00000000000000000000000000000000
+	SCALE_EXP_ON=32'b00000000000000000000000000000000
+	FPGA_FAMILY=32'b00000000000000000000000000010011
+	LOGPTS=32'b00000000000000000000000000001000
+	LOGLOGPTS=32'b00000000000000000000000000000011
+	FLOGLOGPTS=32'b00000000000000000000000000000100
+	DWIDTH=32'b00000000000000000000000000100000
+	TWIDTH=32'b00000000000000000000000000010000
+	TDWIDTH=32'b00000000000000000000000000100000
+	HALFPTS=32'b00000000000000000000000010000000
+	MPIPE=32'b00000000000000000000000000000011
+	RW_DLY=32'b00000000000000000000000000001010
+   Generated name = IGL2_FIR_FILTER_COREFFT_0_COREFFT_INPLC_Z2
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\fftDp.v":329:7:329:39|Synthesizing module IGL2_FIR_FILTER_COREFFT_0_outBuff in library COREFFT_LIB.
+
+	LOGPTS=32'b00000000000000000000000000001000
+	DWIDTH=32'b00000000000000000000000000100000
+	URAM_MAXDEPTH=32'b00000000000000000000000000000000
+	FPGA_FAMILY=32'b00000000000000000000000000010011
+   Generated name = IGL2_FIR_FILTER_COREFFT_0_outBuff_8_32s_0s_19s
+Running optimization stage 1 on IGL2_FIR_FILTER_COREFFT_0_outBuff_8_32s_0s_19s .......
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT.v":86:20:86:24|Removing wire outPQ, as there is no assignment to it.
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT.v":87:16:87:24|Removing wire ctrl_outp, as there is no assignment to it.
+Running optimization stage 1 on IGL2_FIR_FILTER_COREFFT_0_COREFFT_INPLC_Z2 .......
+Running optimization stage 1 on IGL2_FIR_FILTER_COREFFT_0_COREFFT_Z1 .......
+@W: CL318 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT_TOP.v":86:34:86:36|*Output RFS has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT_TOP.v":86:39:86:49|*Output OVFLOW_FLAG has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@N: CG775 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\top\COREFIR.v":28:7:28:39|Component IGL2_FIR_FILTER_COREFIR_0_COREFIR not found in library "work" or "__hyper__lib__", but found in library COREFIR_LIB
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\top\COREFIR.v":28:7:28:39|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_COREFIR in library COREFIR_LIB.
+
+	CFG_ARCH=32'b00000000000000000000000000000001
+	COEF_SYMM=32'b00000000000000000000000000000001
+	COEF_UNSIGN=32'b00000000000000000000000000000000
+	DATA_UNSIGN=32'b00000000000000000000000000000000
+	SYSTOLIC=32'b00000000000000000000000000000000
+	INP_REG=32'b00000000000000000000000000000001
+	TAPS=32'b00000000000000000000000000011111
+	COEF_TYPE=32'b00000000000000000000000000000001
+	COEF_SETS=32'b00000000000000000000000000000001
+	COEF_WIDTH=32'b00000000000000000000000000010000
+	DATA_WIDTH=32'b00000000000000000000000000010000
+	COEF_RAM=32'b00000000000000000000000000000000
+	DATA_RAM=32'b00000000000000000000000000000000
+	SAMPLEID=32'b00000000000000000000000000000000
+	ID_WIDTH=32'b00000000000000000000000000001100
+	SAMPLE_RATE=32'b00000000000011110100001001000000
+	L=32'b00000000000000000000000000000010
+	M=32'b00000000000000000000000000000010
+	CLOCK_RATE=32'b00000000100110001001011010000000
+	FPGA_FAMILY=32'b00000000000000000000000000010011
+	DIE_SIZE=32'b00000000000000000000000000001010
+	URAM_MAXDEPTH=32'b00000000000000000000000000000000
+	PERFORMANCE=32'b00000000000000000000000000000000
+	RADIX=32'b00000000000000000000000000001010
+	FPGA_FAMILYI=32'b00000000000000000000000000010011
+	clk_sample_rate=32'b00000000000000000000000000001010
+	FLOOR_PHY=32'b00000000000000000000000000000011
+	PHY_TAPS_FOLD=32'b00000000000000000000000000000100
+	PHY_TAPS_INTP=32'b00000000000000000000000000001111
+   Generated name = IGL2_FIR_FILTER_COREFIR_0_COREFIR_Z3
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":72:7:72:23|Synthesizing module enum_kitDelay_reg in library COREFIR_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000010000
+	DELAY=32'b00000000000000000000000000000010
+   Generated name = enum_kitDelay_reg_16s_2s
+Running optimization stage 1 on enum_kitDelay_reg_16s_2s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":72:7:72:23|Synthesizing module enum_kitDelay_reg in library COREFIR_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000000100
+	DELAY=32'b00000000000000000000000000000010
+   Generated name = enum_kitDelay_reg_4s_2s
+Running optimization stage 1 on enum_kitDelay_reg_4s_2s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":38:7:38:27|Synthesizing module enum_kitDelay_bit_reg in library COREFIR_LIB.
+
+	DELAY=32'b00000000000000000000000000000010
+   Generated name = enum_kitDelay_bit_reg_2s
+Running optimization stage 1 on enum_kitDelay_bit_reg_2s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":38:7:38:27|Synthesizing module enum_kitDelay_bit_reg in library COREFIR_LIB.
+
+	DELAY=32'b00000000000000000000000000000100
+   Generated name = enum_kitDelay_bit_reg_4s
+Running optimization stage 1 on enum_kitDelay_bit_reg_4s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":185:7:185:24|Synthesizing module enum_kitSync_ngrst in library COREFIR_LIB.
+
+	PULSE_WIDTH=32'b00000000000000000000000000000001
+   Generated name = enum_kitSync_ngrst_1s
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":192:13:192:17|Object tick2 is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on enum_kitSync_ngrst_1s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":38:7:38:27|Synthesizing module enum_kitDelay_bit_reg in library COREFIR_LIB.
+
+	DELAY=32'b00000000000000000000000000000011
+   Generated name = enum_kitDelay_bit_reg_3s
+Running optimization stage 1 on enum_kitDelay_bit_reg_3s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":38:7:38:27|Synthesizing module enum_kitDelay_bit_reg in library COREFIR_LIB.
+
+	DELAY=32'b00000000000000000000000000110001
+   Generated name = enum_kitDelay_bit_reg_49
+Running optimization stage 1 on enum_kitDelay_bit_reg_49 .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\coef_store.v":54:7:54:41|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_wide_coef in library COREFIR_LIB.
+
+	TAPS=32'b00000000000000000000000000010000
+	COEF_BITS=32'b00000000000000000000000000010000
+	COEF_SETS=32'b00000000000000000000000000000001
+	COEF_TYPE=32'b00000000000000000000000000000001
+   Generated name = IGL2_FIR_FILTER_COREFIR_0_wide_coef_16s_16s_1s_1s
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":142:7:142:18|Synthesizing module enum_coef_sr in library COREFIR_LIB.
+
+	TAPS=32'b00000000000000000000000000010000
+	COEF_WIDTH=32'b00000000000000000000000000010000
+   Generated name = enum_coef_sr_16s_16s
+Running optimization stage 1 on enum_coef_sr_16s_16s .......
+Running optimization stage 1 on IGL2_FIR_FILTER_COREFIR_0_wide_coef_16s_16s_1s_1s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\enum_fir.v":27:7:27:43|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_fir_enum_g4 in library COREFIR_LIB.
+
+	TAPS=32'b00000000000000000000000000011111
+	COEF_TYPE=32'b00000000000000000000000000000001
+	COEF_SETS=32'b00000000000000000000000000000001
+	COEF_SYMM=32'b00000000000000000000000000000001
+	COEF_BITS=32'b00000000000000000000000000010000
+	COEF_UNSIGN=32'b00000000000000000000000000000000
+	DATA_BITS=32'b00000000000000000000000000010000
+	DATA_UNSIGN=32'b00000000000000000000000000000000
+	ACC_WIDTH=32'b00000000000000000000000000101100
+	SYSTOLIC=32'b00000000000000000000000000000000
+	VALID_O=32'b00000000000000000000000000000001
+	COLUMN=32'b00000000000000000000000000001011
+	XREG_COEF=32'b00000000000000000000000000000100
+	PERFORMANCE=32'b00000000000000000000000000000000
+	TAPS_PHY=32'b00000000000000000000000000001111
+	ODD_SYMM=32'b00000000000000000000000000000001
+	LATENCY1=32'b00000000000000000000000000000011
+	SYST=32'b00000000000000000000000000000001
+	XREGS=32'b00000000000000000000000000000100
+	LATENC2=32'b00000000000000000000000000011110
+	LATENC3=32'b00000000000000000000000000101101
+	LATENCY=32'b00000000000000000000000000110001
+	MAXDLY=32'b00000000000000000000000000100000
+   Generated name = IGL2_FIR_FILTER_COREFIR_0_fir_enum_g4_Z4
+@W: CG1332 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\enum_fir.v":190:14:190:56|Index 33 is out of range for mutli-dimensional array syst_dly_line
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":116:7:116:18|Synthesizing module enum_signExt in library COREFIR_LIB.
+
+	INWIDTH=32'b00000000000000000000000000010000
+	OUTWIDTH=32'b00000000000000000000000000010010
+	UNSIGNED=32'b00000000000000000000000000000000
+   Generated name = enum_signExt_16s_18s_0s
+Running optimization stage 1 on enum_signExt_16s_18s_0s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":64:7:64:43|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4 in library COREFIR_LIB.
+
+	ACC_WIDTH=32'b00000000000000000000000000101100
+	CHAIN_BREAK=32'b00000000000000000000000000000000
+	XREG_COEF=32'b00000000000000000000000000000100
+	EXTEND=32'b00000000000000000000000000000000
+	EXT_WIDTH=32'b00000000000000000000000000000001
+   Generated name = IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_0s_4s_0s_1
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac_lib.v":33:7:33:48|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_mac18x18_enum_g4 in library COREFIR_LIB.
+Running optimization stage 1 on IGL2_FIR_FILTER_COREFIR_0_mac18x18_enum_g4 .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":31:7:31:39|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_add2_g4 in library COREFIR_LIB.
+Running optimization stage 1 on IGL2_FIR_FILTER_COREFIR_0_add2_g4 .......
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":90:23:90:31|Removing wire cdout_ext, as there is no assignment to it.
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":90:34:90:41|Removing wire cdin_ext, as there is no assignment to it.
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":91:23:91:30|Removing wire pre_pout, as there is no assignment to it.
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":92:14:92:17|Removing wire dumb, as there is no assignment to it.
+Running optimization stage 1 on IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_0s_4s_0s_1 .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":138:7:138:43|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_tap_enum_g4 in library COREFIR_LIB.
+
+	COEF_SYMM=32'b00000000000000000000000000000001
+	COEF_BITS=32'b00000000000000000000000000010000
+	COEF_UNSIGN=32'b00000000000000000000000000000000
+	DATA_BITS=32'b00000000000000000000000000010000
+	DATA_UNSIGN=32'b00000000000000000000000000000000
+	ACC_WIDTH=32'b00000000000000000000000000101100
+	CHAIN_BREAK=32'b00000000000000000000000000000000
+	XREG_COEF=32'b00000000000000000000000000000100
+   Generated name = IGL2_FIR_FILTER_COREFIR_0_tap_enum_g4_1s_16s_0s_16s_0s_44_0s_4s
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":72:7:72:23|Synthesizing module enum_kitDelay_reg in library COREFIR_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000010010
+	DELAY=32'b00000000000000000000000000000001
+   Generated name = enum_kitDelay_reg_18s_1s
+Running optimization stage 1 on enum_kitDelay_reg_18s_1s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":38:7:38:27|Synthesizing module enum_kitDelay_bit_reg in library COREFIR_LIB.
+
+	DELAY=32'b00000000000000000000000000000001
+   Generated name = enum_kitDelay_bit_reg_1s
+Running optimization stage 1 on enum_kitDelay_bit_reg_1s .......
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":168:23:168:30|Removing wire coef_val, as there is no assignment to it.
+Running optimization stage 1 on IGL2_FIR_FILTER_COREFIR_0_tap_enum_g4_1s_16s_0s_16s_0s_44_0s_4s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":64:7:64:43|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4 in library COREFIR_LIB.
+
+	ACC_WIDTH=32'b00000000000000000000000000101100
+	CHAIN_BREAK=32'b00000000000000000000000000000001
+	XREG_COEF=32'b00000000000000000000000000000100
+	EXTEND=32'b00000000000000000000000000000000
+	EXT_WIDTH=32'b00000000000000000000000000000001
+   Generated name = IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_1s_4s_0s_1
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":72:7:72:23|Synthesizing module enum_kitDelay_reg in library COREFIR_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000101100
+	DELAY=32'b00000000000000000000000000000011
+   Generated name = enum_kitDelay_reg_44_3s
+Running optimization stage 1 on enum_kitDelay_reg_44_3s .......
+Running optimization stage 1 on IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_1s_4s_0s_1 .......
+@W: CL318 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":86:25:86:29|*Output cdout has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":138:7:138:43|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_tap_enum_g4 in library COREFIR_LIB.
+
+	COEF_SYMM=32'b00000000000000000000000000000001
+	COEF_BITS=32'b00000000000000000000000000010000
+	COEF_UNSIGN=32'b00000000000000000000000000000000
+	DATA_BITS=32'b00000000000000000000000000010000
+	DATA_UNSIGN=32'b00000000000000000000000000000000
+	ACC_WIDTH=32'b00000000000000000000000000101100
+	CHAIN_BREAK=32'b00000000000000000000000000000001
+	XREG_COEF=32'b00000000000000000000000000000100
+   Generated name = IGL2_FIR_FILTER_COREFIR_0_tap_enum_g4_1s_16s_0s_16s_0s_44_1s_4s
+Running optimization stage 1 on IGL2_FIR_FILTER_COREFIR_0_tap_enum_g4_1s_16s_0s_16s_0s_44_1s_4s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":72:7:72:23|Synthesizing module enum_kitDelay_reg in library COREFIR_LIB.
+
+	BITWIDTH=32'b00000000000000000000000000010000
+	DELAY=32'b00000000000000000000000000000001
+   Generated name = enum_kitDelay_reg_16s_1s
+Running optimization stage 1 on enum_kitDelay_reg_16s_1s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":241:7:241:56|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_odd_symmetry_tap_enum_g4 in library COREFIR_LIB.
+
+	COEF_BITS=32'b00000000000000000000000000010000
+	COEF_UNSIGN=32'b00000000000000000000000000000000
+	DATA_BITS=32'b00000000000000000000000000010000
+	DATA_UNSIGN=32'b00000000000000000000000000000000
+	ACC_WIDTH=32'b00000000000000000000000000101100
+	XREG_COEF=32'b00000000000000000000000000000100
+   Generated name = IGL2_FIR_FILTER_COREFIR_0_odd_symmetry_tap_enum_g4_16s_0s_16s_0s_44_4s
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":266:23:266:30|Removing wire coef_val, as there is no assignment to it.
+Running optimization stage 1 on IGL2_FIR_FILTER_COREFIR_0_odd_symmetry_tap_enum_g4_16s_0s_16s_0s_44_4s .......
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\enum_fir.v":108:7:108:12|Object filled is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\enum_fir.v":110:7:110:20|Object add_valid_tick is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\enum_fir.v":110:23:110:37|Object add_valid_tick2 is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on IGL2_FIR_FILTER_COREFIR_0_fir_enum_g4_Z4 .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\enum_COREFIR.v":47:7:47:46|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_COREENUMFIR_G4 in library COREFIR_LIB.
+
+	TAPS=32'b00000000000000000000000000011111
+	COEF_TYPE=32'b00000000000000000000000000000001
+	COEF_SETS=32'b00000000000000000000000000000001
+	COEF_SYMM=32'b00000000000000000000000000000001
+	COEF_WIDTH=32'b00000000000000000000000000010000
+	COEF_SIGN=32'b00000000000000000000000000000000
+	DATA_WIDTH=32'b00000000000000000000000000010000
+	DATA_SIGN=32'b00000000000000000000000000000000
+	SYSTOLIC=32'b00000000000000000000000000000000
+	VALID_O=32'b00000000000000000000000000000001
+	INP_REG=32'b00000000000000000000000000000001
+	CASCADE=32'b00000000000000000000000000001011
+	PERFORMANCE=32'b00000000000000000000000000000000
+	OUT_WIDTH=32'b00000000000000000000000000100101
+	HW_WIDTH1=32'b00000000000000000000000000100101
+	HW_WIDTH=32'b00000000000000000000000000100101
+	ACC_WIDTH=32'b00000000000000000000000000101100
+	XREG_COEF=32'b00000000000000000000000000000100
+	WRAP_LAYERS=32'b00000000000000000000000000000010
+   Generated name = IGL2_FIR_FILTER_COREFIR_0_COREENUMFIR_G4_Z5
+Running optimization stage 1 on IGL2_FIR_FILTER_COREFIR_0_COREENUMFIR_G4_Z5 .......
+Running optimization stage 1 on IGL2_FIR_FILTER_COREFIR_0_COREFIR_Z3 .......
+@W: CL318 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\top\COREFIR.v":96:62:96:66|*Output DATAO has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\crc_256_pwr.v":121:7:121:17|Synthesizing module crc_256_pwr in library work.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\crc_256_pwr.v":14:7:14:13|Synthesizing module crc_256 in library work.
+@N: CG179 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\crc_256_pwr.v":74:34:74:39|Removing redundant assignment.
+Running optimization stage 1 on crc_256 .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\crc_256_pwr.v":81:7:81:20|Synthesizing module crc_256_repeat in library work.
+Running optimization stage 1 on crc_256_repeat .......
+Running optimization stage 1 on crc_256_pwr .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Clock_gen.v":30:0:30:31|Synthesizing module DATA_HANDLE_COREUART_0_Clock_gen in library work.
+
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = DATA_HANDLE_COREUART_0_Clock_gen_0s_0s
+Running optimization stage 1 on DATA_HANDLE_COREUART_0_Clock_gen_0s_0s .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Tx_async.v":14:0:14:30|Synthesizing module DATA_HANDLE_COREUART_0_Tx_async in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	TX_FIFO=32'b00000000000000000000000000000000
+	CUARTI1ll=32'b00000000000000000000000000000000
+	CUARTl1ll=32'b00000000000000000000000000000001
+	CUARTOO0l=32'b00000000000000000000000000000010
+	CUARTIO0l=32'b00000000000000000000000000000011
+	CUARTlO0l=32'b00000000000000000000000000000100
+	CUARTOI0l=32'b00000000000000000000000000000101
+	CUARTII0l=32'b00000000000000000000000000000110
+   Generated name = DATA_HANDLE_COREUART_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s
+@W: CG1340 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Tx_async.v":168:0:168:8|Index into variable CUARTIl0l could be out of range ; a simulation mismatch is possible.
+@W: CG1340 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Tx_async.v":168:0:168:8|Index into variable CUARTIl0l could be out of range ; a simulation mismatch is possible.
+@N: CG179 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Tx_async.v":870:0:870:8|Removing redundant assignment.
+Running optimization stage 1 on DATA_HANDLE_COREUART_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s .......
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Tx_async.v":301:0:301:5|Optimizing register bit CUARTI00l to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Tx_async.v":301:0:301:5|Pruning unused register CUARTI00l. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Rx_async.v":14:0:14:30|Synthesizing module DATA_HANDLE_COREUART_0_Rx_async in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	RX_FIFO=32'b00000000000000000000000000000000
+	CUARTOIIl=32'b00000000000000000000000000000000
+	CUARTIIIl=32'b00000000000000000000000000000001
+	CUARTlIIl=32'b00000000000000000000000000000010
+	CUARTOlIl=32'b00000000000000000000000000000011
+   Generated name = DATA_HANDLE_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s
+@N: CG179 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Rx_async.v":750:0:750:7|Removing redundant assignment.
+@N: CG179 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Rx_async.v":857:0:857:8|Removing redundant assignment.
+Running optimization stage 1 on DATA_HANDLE_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s .......
+@W: CL177 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Rx_async.v":1613:0:1613:5|Sharing sequential element CUARTI1l. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\CoreUART.v":14:0:14:30|Synthesizing module DATA_HANDLE_COREUART_0_COREUART in library work.
+
+	TX_FIFO=32'b00000000000000000000000000000000
+	RX_FIFO=32'b00000000000000000000000000000000
+	RX_LEGACY_MODE=32'b00000000000000000000000000000000
+	FAMILY=32'b00000000000000000000000000010011
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = DATA_HANDLE_COREUART_0_COREUART_0s_0s_0s_19s_0s_0s
+@N: CG179 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\CoreUART.v":1338:0:1338:7|Removing redundant assignment.
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\CoreUART.v":333:0:333:7|Object CUARTlI0 is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on DATA_HANDLE_COREUART_0_COREUART_0s_0s_0s_19s_0s_0s .......
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\CoreUART.v":1268:0:1268:5|Pruning unused register CUARTO10. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\CoreUART.v":1159:0:1159:5|Pruning unused register CUARTOl0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\CoreUART.v":1159:0:1159:5|Pruning unused register CUARTIl0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\CoreUART.v":1106:0:1106:5|Pruning unused register CUARTIOl[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\CoreUART.v":984:0:984:5|Pruning unused register CUARTll0[1:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\CoreUART.v":936:0:936:5|Pruning unused register CUARTOI0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\CoreUART.v":936:0:936:5|Pruning unused register CUARTlO0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\CoreUART.v":888:0:888:5|Pruning unused register CUARTOO0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\CoreUART.v":888:0:888:5|Pruning unused register CUARTl1l. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\CoreUART.v":405:0:405:5|Pruning unused register CUARTIll. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\UART_IF.v":20:7:20:13|Synthesizing module UART_IF in library work.
+@W: CG296 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\UART_IF.v":107:8:107:13|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\UART_IF.v":114:18:114:30|Referenced variable FIR_OUT_RDATA is not in sensitivity list.
+@W: CG290 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\UART_IF.v":121:18:121:29|Referenced variable FFT_RE_RDATA is not in sensitivity list.
+@W: CG290 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\UART_IF.v":128:18:128:29|Referenced variable FFT_IM_RDATA is not in sensitivity list.
+@W: CG290 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\UART_IF.v":111:24:111:30|Referenced variable RAM_REN is not in sensitivity list.
+Running optimization stage 1 on UART_IF .......
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\UART_IF.v":139:0:139:5|Pruning unused register WR_COMPLETE. Make sure that there are no unused intermediate registers.
+@A: CL282 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\UART_IF.v":139:0:139:5|Feedback mux created for signal DATA_WEN. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CL189 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\UART_IF.v":139:0:139:5|Register bit DATA_WEN is always 1.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\DATA_HANDLE.v":9:7:9:17|Synthesizing module DATA_HANDLE in library work.
+Running optimization stage 1 on DATA_HANDLE .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
+Running optimization stage 1 on CLKINT .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":729:7:729:9|Synthesizing module CCC in library work.
+Running optimization stage 1 on CCC .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\FCCC_0\IGL2_FIR_FILTER_FCCC_0_FCCC.v":5:7:5:33|Synthesizing module IGL2_FIR_FILTER_FCCC_0_FCCC in library work.
+Running optimization stage 1 on IGL2_FIR_FILTER_FCCC_0_FCCC .......
+@N: CG775 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\CORESYSSERVICES_C0\CORESYSSERVICES_C0_0\rtl\vlog\core\CoreSysServices.v":30:7:30:61|Component CORESYSSERVICES_C0_CORESYSSERVICES_C0_0_CORESYSSERVICES not found in library "work" or "__hyper__lib__", but found in library CORESYSSERVICES_LIB
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":30:7:30:28|Synthesizing module CoreSysServices_UserIF in library CORESYSSERVICES_LIB.
+
+	SNSERVICE=32'b00000000000000000000000000000000
+	DSNPTR=32'b00100000000000000000000000000000
+	UCSERVICE=32'b00000000000000000000000000000000
+	USERCODEPTR=32'b00100000000000000000000000000000
+	DCSERVICE=32'b00000000000000000000000000000000
+	DEVICECERTPTR=32'b00100000000000000000000000000000
+	SECDCSERVICE=32'b00000000000000000000000000000000
+	SECONDECCCERTPTR=32'b00100000000000000000000000000000
+	UDVSERVICE=32'b00000000000000000000000000000000
+	DESIGNVERPTR=32'b00100000000000000000000000000000
+	CRYPTOAES128SERVICE=32'b00000000000000000000000000000000
+	CRYPTOAES128DATAPTR=32'b00100000000000000000000000000000
+	CRYPTOAES256SERVICE=32'b00000000000000000000000000000000
+	CRYPTOAES256DATAPTR=32'b00100000000000000000000000000000
+	CRYPTOSHA256SERVICE=32'b00000000000000000000000000000000
+	CRYPTOSHA256DATAPTR=32'b00100000000000000000000000000000
+	CRYPTORSLTPTR=32'b00100000000000000000000000000000
+	CRYPTODATAINPPTR=32'b00100000000000000000000000000000
+	CRYPTOHMACSERVICE=32'b00000000000000000000000000000000
+	CRYPTOHMACDATAPTR=32'b00100000000000000000000000000000
+	CRYPTOSRCADPTR=32'b00100000000000000000000000000000
+	CRYPTODSTADPTR=32'b00100000000000000000000000000000
+	FFSERVICE=32'b00000000000000000000000000000001
+	KEYTREESERVICE=32'b00000000000000000000000000000000
+	KEYTREEDATAPTR=32'b00100000000000000000000000000000
+	CHRESPSERVICE=32'b00000000000000000000000000000000
+	CHRESPPTR=32'b00100000000000000000000000000000
+	CHRESPKEYADDR=32'b00100000000000000000000000000000
+	NRBGSERVICE=32'b00000000000000000000000000000000
+	NRBGINSTPTR=32'b00100000000000000000000000000000
+	NRBGPERSTRINGPTR=32'b00100000000000000000000000000000
+	NRBGGENPTR=32'b00100000000000000000000000000000
+	NRBGREQDATAPTR=32'b00100000000000000000000000000000
+	NRBGRESEEDPTR=32'b00100000000000000000000000000000
+	NRBGADDINPPTR=32'b00100000000000000000000000000000
+	ZERSERVICE=32'b00000000000000000000000000000000
+	PROGIAPSERVICE=32'b00000000000000000000000000000000
+	PROGNVMDISERVICE=32'b00000000000000000000000000000000
+	PORDSERVICE=32'b00000000000000000000000000000000
+	ECCPOINTMULTSERVICE=32'b00000000000000000000000000000000
+	ECCPMULTDESC=32'b00100000000000000000000000000000
+	ECCPMULTPPTR=32'b00100000000000000000000000000000
+	ECCPMULTDPTR=32'b00100000000000000000000000000000
+	ECCPMULTQPTR=32'b00100000000000000000000000000000
+	ECCPOINTADDSERVICE=32'b00000000000000000000000000000000
+	ECCPADDDESC=32'b00100000000000000000000000000000
+	ECCPADDPPTR=32'b00100000000000000000000000000000
+	ECCPADDQPTR=32'b00100000000000000000000000000000
+	ECCPADDRPTR=32'b00100000000000000000000000000000
+	TAMPERDETECTSERVICE=32'b00000000000000000000000000000000
+	TAMPERCONTROLSERVICE=32'b00000000000000000000000000000000
+	PUFSERVICE=32'b00000000000000000000000000000000
+	PUFUSERACPTR=32'b00100000000000000000000000000000
+	PUFUSERKCPTR=32'b00100000000000000000000000000000
+	PUFUSERKEYPTR=32'b00100000000000000000000000000000
+	PUFPUBLICKEYPTR=32'b00100000000000000000000000000000
+	PUFPUBLICKEYADDR=32'b00100000000000000000000000000000
+	PUFSEEDPTR=32'b00100000000000000000000000000000
+	PUFSEEDADDR=32'b00100000000000000000000000000000
+	AHB_AWIDTH=32'b00000000000000000000000000100000
+	AHB_DWIDTH=32'b00000000000000000000000000100000
+   Generated name = CoreSysServices_UserIF_Z6
+Running optimization stage 1 on CoreSysServices_UserIF_Z6 .......
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":789:3:789:8|Pruning unused register cuhprior_flushdone_d3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":738:3:738:8|Pruning unused register pord_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":738:3:738:8|Pruning unused register pord_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":592:3:592:8|Pruning unused register custatus_out_en_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":522:3:522:8|Pruning unused register pord_comb_d1. Make sure that there are no unused intermediate registers.
+@W: CL207 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":719:3:719:8|All reachable assignments to pord assign 0, register removed by optimization.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":505:3:505:8|Optimizing register bit hprior_kp_busy_high to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":653:3:653:8|Optimizing register bit uclatchoptions_hold[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":653:3:653:8|Optimizing register bit uclatchoptions_hold[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":653:3:653:8|Optimizing register bit uclatchoptions_hold[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":653:3:653:8|Optimizing register bit uclatchoptions_hold[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":653:3:653:8|Optimizing register bit uclatchoptions_hold[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":653:3:653:8|Optimizing register bit ucmdbyte_req_hold[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":653:3:653:8|Optimizing register bit ucmdbyte_req_hold[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":653:3:653:8|Optimizing register bit ucmdbyte_req_hold[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":653:3:653:8|Optimizing register bit ucmdbyte_req_hold[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":653:3:653:8|Optimizing register bit ucmdbyte_req_hold[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":653:3:653:8|Optimizing register bit ucmdbyte_req_hold[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":653:3:653:8|Pruning register bits 5 to 2 of uclatchoptions_hold[5:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":653:3:653:8|Pruning register bit 0 of uclatchoptions_hold[5:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":653:3:653:8|Pruning register bits 7 to 5 of ucmdbyte_req_hold[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":653:3:653:8|Pruning register bit 3 of ucmdbyte_req_hold[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":653:3:653:8|Pruning register bits 1 to 0 of ucmdbyte_req_hold[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":505:3:505:8|Pruning unused register hprior_kp_busy_high. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":837:7:837:18|Synthesizing module FLASH_FREEZE in library work.
+Running optimization stage 1 on FLASH_FREEZE .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":30:7:30:28|Synthesizing module CoreSysServices_CmdDec in library CORESYSSERVICES_LIB.
+
+	SNSERVICE=32'b00000000000000000000000000000000
+	DSNPTR=32'b00100000000000000000000000000000
+	UCSERVICE=32'b00000000000000000000000000000000
+	USERCODEPTR=32'b00100000000000000000000000000000
+	DCSERVICE=32'b00000000000000000000000000000000
+	DEVICECERTPTR=32'b00100000000000000000000000000000
+	SECDCSERVICE=32'b00000000000000000000000000000000
+	SECONDECCCERTPTR=32'b00100000000000000000000000000000
+	UDVSERVICE=32'b00000000000000000000000000000000
+	DESIGNVERPTR=32'b00100000000000000000000000000000
+	CRYPTOAES128SERVICE=32'b00000000000000000000000000000000
+	CRYPTOAES128DATAPTR=32'b00100000000000000000000000000000
+	CRYPTOAES256SERVICE=32'b00000000000000000000000000000000
+	CRYPTOAES256DATAPTR=32'b00100000000000000000000000000000
+	CRYPTOSHA256SERVICE=32'b00000000000000000000000000000000
+	CRYPTOSHA256DATAPTR=32'b00100000000000000000000000000000
+	CRYPTORSLTPTR=32'b00100000000000000000000000000000
+	CRYPTODATAINPPTR=32'b00100000000000000000000000000000
+	CRYPTOHMACSERVICE=32'b00000000000000000000000000000000
+	CRYPTOHMACDATAPTR=32'b00100000000000000000000000000000
+	CRYPTOSRCADPTR=32'b00100000000000000000000000000000
+	CRYPTODSTADPTR=32'b00100000000000000000000000000000
+	FFSERVICE=32'b00000000000000000000000000000001
+	KEYTREESERVICE=32'b00000000000000000000000000000000
+	KEYTREEDATAPTR=32'b00100000000000000000000000000000
+	CHRESPSERVICE=32'b00000000000000000000000000000000
+	CHRESPPTR=32'b00100000000000000000000000000000
+	CHRESPKEYADDR=32'b00100000000000000000000000000000
+	NRBGSERVICE=32'b00000000000000000000000000000000
+	NRBGINSTPTR=32'b00100000000000000000000000000000
+	NRBGPERSTRINGPTR=32'b00100000000000000000000000000000
+	NRBGGENPTR=32'b00100000000000000000000000000000
+	NRBGREQDATAPTR=32'b00100000000000000000000000000000
+	NRBGRESEEDPTR=32'b00100000000000000000000000000000
+	NRBGADDINPPTR=32'b00100000000000000000000000000000
+	ZERSERVICE=32'b00000000000000000000000000000000
+	PROGIAPSERVICE=32'b00000000000000000000000000000000
+	PROGNVMDISERVICE=32'b00000000000000000000000000000000
+	PORDSERVICE=32'b00000000000000000000000000000000
+	ECCPOINTMULTSERVICE=32'b00000000000000000000000000000000
+	ECCPMULTDESC=32'b00100000000000000000000000000000
+	ECCPMULTPPTR=32'b00100000000000000000000000000000
+	ECCPMULTDPTR=32'b00100000000000000000000000000000
+	ECCPMULTQPTR=32'b00100000000000000000000000000000
+	ECCPOINTADDSERVICE=32'b00000000000000000000000000000000
+	ECCPADDDESC=32'b00100000000000000000000000000000
+	ECCPADDPPTR=32'b00100000000000000000000000000000
+	ECCPADDQPTR=32'b00100000000000000000000000000000
+	ECCPADDRPTR=32'b00100000000000000000000000000000
+	TAMPERDETECTSERVICE=32'b00000000000000000000000000000000
+	TAMPERCONTROLSERVICE=32'b00000000000000000000000000000000
+	PUFSERVICE=32'b00000000000000000000000000000000
+	PUFUSERACPTR=32'b00100000000000000000000000000000
+	PUFUSERKCPTR=32'b00100000000000000000000000000000
+	PUFUSERKEYPTR=32'b00100000000000000000000000000000
+	PUFPUBLICKEYPTR=32'b00100000000000000000000000000000
+	PUFPUBLICKEYADDR=32'b00100000000000000000000000000000
+	PUFSEEDPTR=32'b00100000000000000000000000000000
+	PUFSEEDADDR=32'b00100000000000000000000000000000
+	AHB_AWIDTH=32'b00000000000000000000000000100000
+	AHB_DWIDTH=32'b00000000000000000000000000100000
+	C_IDLE=2'b00
+	C_REQ_PHASE=2'b01
+	C_RESP_PHASE=2'b10
+	REQ_IDLE=6'b000000
+	REQ_WAIT_MEMWR1=6'b000001
+	REQ_MEMWR_DESC=6'b000010
+	REQ_WAIT_MEMWR2=6'b000011
+	REQ_MEMWR_DATA=6'b000100
+	REQ_PHASE=6'b000101
+	REQ_FIIC_INT=6'b000111
+	REQ_POLL_CINT1=6'b001000
+	REQ_RDCOMM_STATUS1=6'b001001
+	REQ_WRCOMM_CTRL=6'b001010
+	REQ_WRCOMM_INT=6'b001011
+	REQ_WRCOMM_FRM=6'b001100
+	REQ_WRCOMM_DATA=6'b001101
+	REQ_POLL_CINT2=6'b001110
+	REQ_RDCOMM_STATUS2=6'b001111
+	REQ_WAIT_REG1=6'b010000
+	REQ_WAIT_REG2=6'b010001
+	REQ_WAIT_REG3=6'b010010
+	REQ_WAIT_REG4=6'b010011
+	REQ_WAIT_REG5=6'b010100
+	REQ_WAIT_REG6=6'b010101
+	REQ_WAIT_REG7=6'b010110
+	REQ_WAIT_REG8=6'b010111
+	REQ_WAIT_REG9=6'b011000
+	REQ_RD_INT=6'b011011
+	REQ_RDCOMM_INT=6'b011100
+	REQ_WAIT_REG10=6'b100001
+	REQ_WAIT_REG11=6'b100010
+	REQ_WAIT_REG12=6'b100011
+	REQ_WAIT_REG13=6'b100100
+	REQ_WRCOMM_CTRL2=6'b100101
+	REQ_WRCOMM_CTRL3=6'b100110
+	REQ_WRCOMM_CTRL4=6'b100111
+	REQ_WRCOMM_INT2=6'b101000
+	REQ_WAIT_MEMWR22=6'b101001
+	REQ_MEMWR_DATA1=6'b101010
+	REQ_WAIT_ASYNCRD1=6'b101011
+	REQ_RDCOMM_ASYNCFRM1=6'b101100
+	REQ_WAIT_ASYNCRD2=6'b101101
+	REQ_RDCOMM_ASYNCFRM2=6'b101110
+	REQ_ASYNC_OUT1=6'b110000
+	REQ_ASYNC_OUT2=6'b110001
+	REQ_WAIT_REG14=6'b110010
+	REQ_WRCOMM_DESC2=6'b110011
+	REQ_WAIT_REG15=6'b110100
+	RESP_IDLE=6'b000000
+	RESP_PHASE=6'b000001
+	RESP_RDCOMM_STATUS=6'b000011
+	RESP_RDCOMM_FRM=6'b000100
+	RESP_RDCOMM_DESC=6'b000101
+	RESP_RDCOMM_DATA=6'b000110
+	RESP_WAIT_MEMRD=6'b000111
+	RESP_MEMRD=6'b001000
+	RESP_POLL_CINT1=6'b001001
+	RESP_POLL_CINT4=6'b001100
+	RESP_REG1=6'b001101
+	RESP_REG4=6'b010000
+	RESP_REG5=6'b010001
+	RESP_REG6=6'b010010
+	RESP_REG7=6'b010011
+	RESP_REG8=6'b010100
+	RESP_REG9=6'b010101
+	RESP_WRCOMM_CTRL1=6'b010110
+	RESP_WAIT_REG11=6'b010111
+	RESP_WRCOMM_CTRL2=6'b011000
+	RESP_WAIT_REG12=6'b011001
+	RESP_RDCOMM_STATUS3=6'b011011
+	RESP_WRCOMM_INT3=6'b100100
+	RESP_WAIT_REG13=6'b100101
+	RESP_FIIC_INT=6'b100110
+	RESP_WAIT_REG14=6'b100111
+	RESP_WAIT_ASYNCRD1=6'b101000
+	RESP_RDCOMM_ASYNCFRM1=6'b101001
+	RESP_ASYNC_OUT1=6'b101100
+	RESP_WAIT_ASYNCRD3=6'b101110
+	RESP_RDCOMM_ASYNCFRM3=6'b101111
+	RESP_ASYNC_OUT3=6'b110000
+	ASYNCEVENT_POLL_IDLE=4'b0000
+	ASYNCEVENT_POLL_WAIT=4'b0001
+	ASYNCEVENT_POLL_CINT=4'b0010
+	ASYNCEVENT_REG1=4'b0011
+	ASYNCEVENT_RDCOMM_STATUS=4'b0100
+	ASYNCEVENT_WAIT_RD1=4'b0101
+	ASYNCEVENT_RDCOMM_FRM1=4'b0110
+	ASYNCEVENT_RDCOMM_OUT1=4'b0111
+	ASYNCEVENT_WAIT=4'b1000
+	ASYNCEVENT_PHASE=4'b1001
+	ASYNCEVENT_WAIT_REG11=4'b1010
+	ASYNCEVENT_WRCOMM_CTRL1=4'b1011
+	ASYNCEVENT_WAIT_REG13=4'b1100
+	ASYNCEVENT_FIIC_INT=4'b1101
+	ASYNCEVENT_WAIT_REG14=4'b1110
+	ASYNCEVENT_WRCOMM_INT3=4'b1111
+	COMM_CTRL_REG=32'b01000000000000010110000000000000
+	COMM_STATUS_REG=32'b01000000000000010110000000000100
+	COMM_INTEN_REG=32'b01000000000000010110000000001000
+	COMM_DATA8_REG=32'b01000000000000010110000000010000
+	COMM_DATA32_REG=32'b01000000000000010110000000010100
+	COMM_FRM8_REG=32'b01000000000000010110000000011000
+	COMM_FRM32_REG=32'b01000000000000010110000000011100
+   Generated name = CoreSysServices_CmdDec_Z7
+@N: CG179 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1912:26:1912:35|Removing redundant assignment.
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":418:30:418:40|Object cfwr_req_d1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":436:30:436:43|Object cfsrc_addr_int is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":437:30:437:43|Object cfdst_addr_int is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":447:30:447:39|Object memwr_data is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":470:30:470:44|Object req_srcreg_addr is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":472:30:472:44|Object req_srcreg_data is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":512:30:512:50|Object cuhprior_flushdone_d1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":555:30:555:41|Removing wire cfwr_req_int, as there is no assignment to it.
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":557:30:557:39|Removing wire cfwr_req_c, as there is no assignment to it.
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":563:30:563:39|Removing wire cfdata_w_o, as there is no assignment to it.
+Running optimization stage 1 on CoreSysServices_CmdDec_Z7 .......
+@W: CL318 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":372:29:372:42|*Output cutrans_done_o has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL168 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2927:16:2927:29|Removing instance FLASH_FREEZE_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2980:3:2980:8|Pruning unused register FF_exit. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2962:3:2962:8|Pruning unused register FF_exit_led. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2949:3:2949:8|Pruning unused register FF_entry_led. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2939:3:2939:8|Pruning unused register FF_entry. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Pruning unused register cunvm_bfr_iapverify_done_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2770:3:2770:8|Pruning unused register latchen_hrdata_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2461:3:2461:8|Pruning unused register fiicreg_done_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2461:3:2461:8|Pruning unused register commctrlreg_done_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2461:3:2461:8|Pruning unused register commpoll_done_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1924:3:1924:8|Pruning unused register set_puf_getkcnum_r. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1906:3:1906:8|Pruning unused register wait_count[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1731:3:1731:8|Pruning unused register fctrans_done_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1611:3:1611:8|Pruning unused register pord_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1611:3:1611:8|Pruning unused register pord_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1582:3:1582:8|Pruning unused register req_phase_active_pulse. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1532:3:1532:8|Pruning unused register resp_data_done_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1532:3:1532:8|Pruning unused register req_phase_active_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1033:3:1033:8|Pruning unused register resp_desc_done. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1033:3:1033:8|Pruning unused register resp_frm_done. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1015:3:1015:8|Pruning unused register req_desc_done. Make sure that there are no unused intermediate registers.
+@W: CL271 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1924:3:1924:8|Pruning unused bits 31 to 8 of fcdataout_d1[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL113 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2811:3:2811:8|Feedback mux created for signal cutamper_msg[7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL207 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2786:3:2786:8|All reachable assignments to cutamper_msg_valid assign 0, register removed by optimization.
+@W: CL177 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2461:3:2461:8|Sharing sequential element fcpop_d1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1924:3:1924:8|Sharing sequential element tamper_fail_valid_r. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1924:3:1924:8|Sharing sequential element tamper_detect_valid_r. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL207 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1594:3:1594:8|All reachable assignments to pord assign 0, register removed by optimization.
+@W: CL250 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2811:3:2811:8|All reachable assignments to cutamper_msg[7:0] assign 0, register removed by optimization
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1944:3:1944:8|Optimizing register bit cutamper_detect_valid to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1944:3:1944:8|Optimizing register bit cutamper_fail_valid to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_addr_d1[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Optimizing register bit resp_srcreg_data_d1[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Pruning register bit 31 of resp_srcreg_addr_d1[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Pruning register bits 29 to 17 of resp_srcreg_addr_d1[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Pruning register bit 15 of resp_srcreg_addr_d1[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Pruning register bits 12 to 5 of resp_srcreg_addr_d1[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Pruning register bits 1 to 0 of resp_srcreg_addr_d1[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Pruning register bits 31 to 30 of resp_srcreg_data_d1[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Pruning register bits 28 to 8 of resp_srcreg_data_d1[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Pruning register bits 6 to 5 of resp_srcreg_data_d1[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Pruning register bit 2 of resp_srcreg_data_d1[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Pruning register bit 0 of resp_srcreg_data_d1[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1944:3:1944:8|Pruning unused register cutamper_detect_valid. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1944:3:1944:8|Pruning unused register cutamper_fail_valid. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":30:7:30:29|Synthesizing module CoreSysServices_FSMCtrl in library CORESYSSERVICES_LIB.
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":236:21:236:36|Object rvalid_out_en_d1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":237:21:237:36|Object rvalid_out_en_d2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":245:21:245:31|Removing wire fmhaddr_lat, as there is no assignment to it.
+Running optimization stage 1 on CoreSysServices_FSMCtrl .......
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":952:3:952:8|Pruning unused register busreq_prev. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":934:6:934:11|Pruning unused register pop_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":868:5:868:10|Pruning unused register fmhtrans_int2[1:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":732:3:732:8|Pruning unused register haddr_prev[29:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":709:2:709:7|Pruning unused register latch_addr_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":709:2:709:7|Pruning unused register latch_addr_d3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":639:2:639:7|Pruning unused register latch_addr_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":627:2:627:7|Pruning unused register state_prev_clk[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":293:3:293:8|Optimizing register bit fmhburst_d1[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":293:3:293:8|Optimizing register bit fmhburst_d1[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":853:5:853:10|Optimizing register bit fmhtrans_int[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":853:5:853:10|Pruning register bit 0 of fmhtrans_int[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":293:3:293:8|Pruning register bits 2 to 1 of fmhburst_d1[2:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_AHBLMasterIF.v":30:7:30:34|Synthesizing module CoreSysServices_AHBLMasterIF in library CORESYSSERVICES_LIB.
+Running optimization stage 1 on CoreSysServices_AHBLMasterIF .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\CORESYSSERVICES_C0\CORESYSSERVICES_C0_0\rtl\vlog\core\CoreSysServices.v":30:7:30:61|Synthesizing module CORESYSSERVICES_C0_CORESYSSERVICES_C0_0_CORESYSSERVICES in library CORESYSSERVICES_LIB.
+
+	SNSERVICE=32'b00000000000000000000000000000000
+	DSNPTR=32'b00100000000000000000000000000000
+	UCSERVICE=32'b00000000000000000000000000000000
+	USERCODEPTR=32'b00100000000000000000000000000000
+	DCSERVICE=32'b00000000000000000000000000000000
+	DEVICECERTPTR=32'b00100000000000000000000000000000
+	SECDCSERVICE=32'b00000000000000000000000000000000
+	SECONDECCCERTPTR=32'b00100000000000000000000000000000
+	UDVSERVICE=32'b00000000000000000000000000000000
+	DESIGNVERPTR=32'b00100000000000000000000000000000
+	CRYPTOAES128SERVICE=32'b00000000000000000000000000000000
+	CRYPTOAES128DATAPTR=32'b00100000000000000000000000000000
+	CRYPTOAES256SERVICE=32'b00000000000000000000000000000000
+	CRYPTOAES256DATAPTR=32'b00100000000000000000000000000000
+	CRYPTOSRCADPTR=32'b00100000000000000000000000000000
+	CRYPTODSTADPTR=32'b00100000000000000000000000000000
+	CRYPTOSHA256SERVICE=32'b00000000000000000000000000000000
+	CRYPTOSHA256DATAPTR=32'b00100000000000000000000000000000
+	CRYPTORSLTPTR=32'b00100000000000000000000000000000
+	CRYPTODATAINPPTR=32'b00100000000000000000000000000000
+	CRYPTOHMACSERVICE=32'b00000000000000000000000000000000
+	CRYPTOHMACDATAPTR=32'b00100000000000000000000000000000
+	FFSERVICE=32'b00000000000000000000000000000001
+	KEYTREESERVICE=32'b00000000000000000000000000000000
+	KEYTREEDATAPTR=32'b00100000000000000000000000000000
+	CHRESPSERVICE=32'b00000000000000000000000000000000
+	CHRESPPTR=32'b00100000000000000000000000000000
+	CHRESPKEYADDR=32'b00100000000000000000000000000000
+	NRBGSERVICE=32'b00000000000000000000000000000000
+	NRBGINSTPTR=32'b00100000000000000000000000000000
+	NRBGPERSTRINGPTR=32'b00100000000000000000000000000000
+	NRBGGENPTR=32'b00100000000000000000000000000000
+	NRBGREQDATAPTR=32'b00100000000000000000000000000000
+	NRBGRESEEDPTR=32'b00100000000000000000000000000000
+	NRBGADDINPPTR=32'b00100000000000000000000000000000
+	ZERSERVICE=32'b00000000000000000000000000000000
+	PROGIAPSERVICE=32'b00000000000000000000000000000000
+	PROGNVMDISERVICE=32'b00000000000000000000000000000000
+	PORDSERVICE=32'b00000000000000000000000000000000
+	ECCPOINTMULTSERVICE=32'b00000000000000000000000000000000
+	ECCPMULTDESC=32'b00100000000000000000000000000000
+	ECCPMULTPPTR=32'b00100000000000000000000000000000
+	ECCPMULTDPTR=32'b00100000000000000000000000000000
+	ECCPMULTQPTR=32'b00100000000000000000000000000000
+	ECCPOINTADDSERVICE=32'b00000000000000000000000000000000
+	ECCPADDDESC=32'b00100000000000000000000000000000
+	ECCPADDPPTR=32'b00100000000000000000000000000000
+	ECCPADDQPTR=32'b00100000000000000000000000000000
+	ECCPADDRPTR=32'b00100000000000000000000000000000
+	TAMPERDETECTSERVICE=32'b00000000000000000000000000000000
+	TAMPERCONTROLSERVICE=32'b00000000000000000000000000000000
+	PUFSERVICE=32'b00000000000000000000000000000000
+	PUFUSERACPTR=32'b00100000000000000000000000000000
+	PUFUSERKCPTR=32'b00100000000000000000000000000000
+	PUFUSERKEYPTR=32'b00100000000000000000000000000000
+	PUFPUBLICKEYPTR=32'b00100000000000000000000000000000
+	PUFPUBLICKEYADDR=32'b00100000000000000000000000000000
+	PUFSEEDPTR=32'b00100000000000000000000000000000
+	PUFSEEDADDR=32'b00100000000000000000000000000000
+	AHB_AWIDTH=32'b00000000000000000000000000100000
+	AHB_DWIDTH=32'b00000000000000000000000000100000
+   Generated name = CORESYSSERVICES_C0_CORESYSSERVICES_C0_0_CORESYSSERVICES_Z8
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\CORESYSSERVICES_C0\CORESYSSERVICES_C0_0\rtl\vlog\core\CoreSysServices.v":259:29:259:41|Removing wire cfburst_len_o, as there is no assignment to it.
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\CORESYSSERVICES_C0\CORESYSSERVICES_C0_0\rtl\vlog\core\CoreSysServices.v":265:29:265:42|Removing wire ustatus_resp_o, as there is no assignment to it.
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\CORESYSSERVICES_C0\CORESYSSERVICES_C0_0\rtl\vlog\core\CoreSysServices.v":266:29:266:35|Removing wire ubusy_o, as there is no assignment to it.
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\CORESYSSERVICES_C0\CORESYSSERVICES_C0_0\rtl\vlog\core\CoreSysServices.v":267:29:267:38|Removing wire udata_en_o, as there is no assignment to it.
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\CORESYSSERVICES_C0\CORESYSSERVICES_C0_0\rtl\vlog\core\CoreSysServices.v":268:29:268:41|Removing wire udata_valid_o, as there is no assignment to it.
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\CORESYSSERVICES_C0\CORESYSSERVICES_C0_0\rtl\vlog\core\CoreSysServices.v":269:29:269:37|Removing wire udata_r_o, as there is no assignment to it.
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\CORESYSSERVICES_C0\CORESYSSERVICES_C0_0\rtl\vlog\core\CoreSysServices.v":275:29:275:41|Removing wire uclatchpord_o, as there is no assignment to it.
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\CORESYSSERVICES_C0\CORESYSSERVICES_C0_0\rtl\vlog\core\CoreSysServices.v":281:29:281:45|Removing wire uccrypto_opmode_o, as there is no assignment to it.
+@W: CG360 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\CORESYSSERVICES_C0\CORESYSSERVICES_C0_0\rtl\vlog\core\CoreSysServices.v":304:29:304:40|Removing wire cudata_wen_o, as there is no assignment to it.
+Running optimization stage 1 on CORESYSSERVICES_C0_CORESYSSERVICES_C0_0_CORESYSSERVICES_Z8 .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\CORESYSSERVICES_C0\CORESYSSERVICES_C0.v":9:7:9:24|Synthesizing module CORESYSSERVICES_C0 in library work.
+Running optimization stage 1 on CORESYSSERVICES_C0 .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\FF_FSM.v":1:7:1:12|Synthesizing module ff_fsm in library work.
+Running optimization stage 1 on ff_fsm .......
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\FF\FF.v":9:7:9:8|Synthesizing module FF in library work.
+Running optimization stage 1 on FF .......
+@W: CL168 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\FF\FF.v":106:7:106:14|Removing instance ff_fsm_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\FF\FF.v":73:19:73:38|Removing instance CORESYSSERVICES_C0_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\FFT_Im_Buff\IGL2_FIR_FILTER_FFT_Im_Buff_TPSRAM.v":5:7:5:40|Synthesizing module IGL2_FIR_FILTER_FFT_Im_Buff_TPSRAM in library work.
+Running optimization stage 1 on IGL2_FIR_FILTER_FFT_Im_Buff_TPSRAM .......
+@W: CL318 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\FFT_Im_Buff\IGL2_FIR_FILTER_FFT_Im_Buff_TPSRAM.v":15:14:15:15|*Output RD has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\FFT_Re_Buff\IGL2_FIR_FILTER_FFT_Re_Buff_TPSRAM.v":5:7:5:40|Synthesizing module IGL2_FIR_FILTER_FFT_Re_Buff_TPSRAM in library work.
+Running optimization stage 1 on IGL2_FIR_FILTER_FFT_Re_Buff_TPSRAM .......
+@W: CL318 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\FFT_Re_Buff\IGL2_FIR_FILTER_FFT_Re_Buff_TPSRAM.v":15:14:15:15|*Output RD has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\FILTER_CONTROL_FSM.v":20:7:20:23|Synthesizing module FILTERCONTROL_FSM in library work.
+Running optimization stage 1 on FILTERCONTROL_FSM .......
+
+Only the first 100 messages of id 'CG364' are reported. To see all messages use 'report_messages -log D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\synthesis\synlog\IGL2_FIR_FILTER_compiler.srr -id CG364' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CG364} -count unlimited' in the Tcl shell.
+Running optimization stage 1 on IGL2_FIR_FILTER_FIR_IN_Buff_TPSRAM .......
+@W: CL318 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\FIR_IN_Buff\IGL2_FIR_FILTER_FIR_IN_Buff_TPSRAM.v":15:14:15:15|*Output RD has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Running optimization stage 1 on IGL2_FIR_FILTER_FIR_Out_Buff_TPSRAM .......
+@W: CL318 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\FIR_Out_Buff\IGL2_FIR_FILTER_FIR_Out_Buff_TPSRAM.v":15:14:15:15|*Output RD has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CG136 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\led_blink.v":10:4:10:5|Edge and condition mismatch
+@W: CG136 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\led_blink.v":25:4:25:5|Edge and condition mismatch
+Running optimization stage 1 on led_blink .......
+Running optimization stage 1 on RCOSC_25_50MHZ .......
+@W: CL318 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":17:7:17:12|*Output CLKOUT has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Running optimization stage 1 on IGL2_FIR_FILTER_OSC_0_OSC .......
+@W: CL318 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\OSC_0\IGL2_FIR_FILTER_OSC_0_OSC.v":16:7:16:24|*Output RCOSC_25_50MHZ_O2F has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\OSC_0\IGL2_FIR_FILTER_OSC_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\OSC_0\IGL2_FIR_FILTER_OSC_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\OSC_0\IGL2_FIR_FILTER_OSC_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\OSC_0\IGL2_FIR_FILTER_OSC_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CG136 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\PB_logic.v":12:0:12:1|Edge and condition mismatch
+@W: CG136 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\PB_logic.v":23:0:23:1|Edge and condition mismatch
+Running optimization stage 1 on PB_logic .......
+Running optimization stage 1 on SYSRESET .......
+Running optimization stage 1 on IGL2_FIR_FILTER .......
+Running optimization stage 2 on IGL2_FIR_FILTER .......
+Running optimization stage 2 on SYSRESET .......
+Running optimization stage 2 on PB_logic .......
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\PB_logic.v":22:0:22:5|Trying to extract state machine for register rfsm.
+Extracted state machine for register rfsm
+State machine has 4 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+Running optimization stage 2 on IGL2_FIR_FILTER_OSC_0_OSC .......
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\OSC_0\IGL2_FIR_FILTER_OSC_0_OSC.v":14:7:14:9|Input XTL is unused.
+Running optimization stage 2 on RCOSC_25_50MHZ .......
+Running optimization stage 2 on led_blink .......
+Running optimization stage 2 on IGL2_FIR_FILTER_FIR_Out_Buff_TPSRAM .......
+Running optimization stage 2 on IGL2_FIR_FILTER_FIR_IN_Buff_TPSRAM .......
+Running optimization stage 2 on FILTERCONTROL_FSM .......
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\FILTER_CONTROL_FSM.v":68:0:68:5|Trying to extract state machine for register fsm.
+Extracted state machine for register fsm
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+Running optimization stage 2 on IGL2_FIR_FILTER_FFT_Re_Buff_TPSRAM .......
+Running optimization stage 2 on IGL2_FIR_FILTER_FFT_Im_Buff_TPSRAM .......
+Running optimization stage 2 on FF .......
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\FF\FF.v":24:7:24:9|Input clk is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\FF\FF.v":25:7:25:13|Input ff_trig is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\FF\FF.v":26:7:26:11|Input reset is unused.
+Running optimization stage 2 on ff_fsm .......
+@N: CL135 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\FF_FSM.v":57:4:57:9|Found sequential shift sync3 with address depth of 3 words and data bit width of 1.
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\FF_FSM.v":187:4:187:9|Trying to extract state machine for register pres_state.
+Extracted state machine for register pres_state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\FF_FSM.v":104:4:104:9|Trying to extract state machine for register mux_sel_state.
+Extracted state machine for register mux_sel_state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Running optimization stage 2 on CORESYSSERVICES_C0 .......
+Running optimization stage 2 on CORESYSSERVICES_C0_CORESYSSERVICES_C0_0_CORESYSSERVICES_Z8 .......
+Running optimization stage 2 on CoreSysServices_AHBLMasterIF .......
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_AHBLMasterIF.v":72:28:72:31|Input HCLK is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_AHBLMasterIF.v":73:28:73:34|Input HRESETN is unused.
+Running optimization stage 2 on CoreSysServices_FSMCtrl .......
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":293:3:293:8|Optimizing register bit fmhburst_d1[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":293:3:293:8|Pruning unused register fmhburst_d1[0]. Make sure that there are no unused intermediate registers.
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":326:3:326:8|Trying to extract state machine for register curr_state.
+Extracted state machine for register curr_state
+State machine has 7 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0101
+   1000
+   1001
+   1011
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":162:21:162:30|Input cfwr_req_d is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":163:21:163:30|Input cfrd_req_d is unused.
+Running optimization stage 2 on CoreSysServices_CmdDec_Z7 .......
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":997:3:997:8|Optimizing register bit burstlen_memwr_data_r[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1096:3:1096:8|Optimizing register bit cfburst_len_rd_d1[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1096:3:1096:8|Optimizing register bit cfburst_len_rd_d1[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1096:3:1096:8|Optimizing register bit cfburst_len_rd_d1[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1096:3:1096:8|Optimizing register bit cfburst_len_rd_d1[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1096:3:1096:8|Optimizing register bit cfburst_len_rd_d1[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1096:3:1096:8|Optimizing register bit cfburst_len_rd_d1[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1096:3:1096:8|Optimizing register bit cfburst_len_rd_d1[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1096:3:1096:8|Optimizing register bit cfburst_len_rd_d1[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1096:3:1096:8|Optimizing register bit cfburst_len_rd_d1[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1096:3:1096:8|Optimizing register bit cfburst_len_rd_d1[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1096:3:1096:8|Optimizing register bit cfburst_len_rd_d1[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1096:3:1096:8|Optimizing register bit cfburst_len_rd_d1[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1096:3:1096:8|Optimizing register bit cfburst_len_rd_d1[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1096:3:1096:8|Optimizing register bit cfburst_len_rd_d1[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1096:3:1096:8|Optimizing register bit cfburst_len_rd_d1[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1096:3:1096:8|Optimizing register bit cfburst_len_rd_d1[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1096:3:1096:8|Pruning register bits 31 to 16 of cfburst_len_rd_d1[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":997:3:997:8|Pruning register bit 31 of burstlen_memwr_data_r[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL177 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1924:3:1924:8|Sharing sequential element fcdataout_d1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1096:3:1096:8|Optimizing register bit cfburst_len_wr_d1[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1096:3:1096:8|Pruning register bit 31 of cfburst_len_wr_d1[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":3426:3:3426:8|Trying to extract state machine for register asynchevent_curr_state.
+Extracted state machine for register asynchevent_curr_state
+State machine has 2 reachable states with original encodings of:
+   0000
+   1001
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":3004:3:3004:8|Trying to extract state machine for register resp_curr_state.
+Extracted state machine for register resp_curr_state
+State machine has 31 reachable states with original encodings of:
+   000000
+   000001
+   000011
+   000101
+   000110
+   000111
+   001000
+   001001
+   001100
+   001101
+   010000
+   010001
+   010010
+   010011
+   010100
+   010101
+   010110
+   010111
+   011000
+   011001
+   011011
+   100100
+   100101
+   100110
+   100111
+   101000
+   101001
+   101100
+   101110
+   101111
+   110000
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1970:3:1970:8|Trying to extract state machine for register req_curr_state.
+Extracted state machine for register req_curr_state
+State machine has 37 reachable states with original encodings of:
+   000000
+   000001
+   000010
+   000011
+   000100
+   000101
+   000111
+   001000
+   001001
+   001010
+   001011
+   001100
+   001101
+   001110
+   001111
+   010000
+   010001
+   010010
+   010011
+   010100
+   010101
+   100001
+   100010
+   100101
+   100110
+   101000
+   101001
+   101010
+   101011
+   101100
+   101101
+   101110
+   110000
+   110001
+   110010
+   110011
+   110100
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1640:3:1640:8|Trying to extract state machine for register main_curr_state.
+Extracted state machine for register main_curr_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL190 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1895:3:1895:8|Optimizing register bit cfrd_asyncevent_o to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":2889:3:2889:8|Pruning unused register resp_srcreg_addr_d1[30]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1895:3:1895:8|Pruning unused register cfrd_asyncevent_o. Make sure that there are no unused intermediate registers.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":345:17:345:31|Input ucdata_wvalid_i is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":356:17:356:24|Input fcpush_i is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":360:17:360:23|Input clr_req is unused.
+Running optimization stage 2 on FLASH_FREEZE .......
+Running optimization stage 2 on CoreSysServices_UserIF_Z6 .......
+@N: CL135 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":772:3:772:8|Found sequential shift zer_new_serv_d1 with address depth of 3 words and data bit width of 1.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":257:28:257:41|Input cutrans_done_i is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":262:28:262:48|Input cutamper_detect_valid is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":263:28:263:46|Input cutamper_fail_valid is unused.
+Running optimization stage 2 on IGL2_FIR_FILTER_FCCC_0_FCCC .......
+Running optimization stage 2 on CCC .......
+Running optimization stage 2 on CLKINT .......
+Running optimization stage 2 on DATA_HANDLE .......
+Running optimization stage 2 on UART_IF .......
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\UART_IF.v":139:0:139:5|Trying to extract state machine for register rfsm.
+Extracted state machine for register rfsm
+State machine has 11 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   1000
+   1001
+   1010
+   1011
+Running optimization stage 2 on DATA_HANDLE_COREUART_0_COREUART_0s_0s_0s_19s_0s_0s .......
+Running optimization stage 2 on DATA_HANDLE_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s .......
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Rx_async.v":871:0:871:5|Trying to extract state machine for register CUARTll0.
+Extracted state machine for register CUARTll0
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+Running optimization stage 2 on DATA_HANDLE_COREUART_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s .......
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Tx_async.v":301:0:301:5|Trying to extract state machine for register CUARTlI0l.
+Extracted state machine for register CUARTlI0l
+State machine has 6 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Tx_async.v":81:0:81:7|Input CUARTI1I is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Tx_async.v":84:0:84:7|Input CUARTlO1 is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Tx_async.v":87:0:87:7|Input CUARTOI1 is unused.
+Running optimization stage 2 on DATA_HANDLE_COREUART_0_Clock_gen_0s_0s .......
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Clock_gen.v":75:0:75:16|Input BAUD_VAL_FRACTION is unused.
+Running optimization stage 2 on crc_256_repeat .......
+Running optimization stage 2 on crc_256 .......
+Running optimization stage 2 on crc_256_pwr .......
+Running optimization stage 2 on IGL2_FIR_FILTER_COREFIR_0_COREENUMFIR_G4_Z5 .......
+Running optimization stage 2 on IGL2_FIR_FILTER_COREFIR_0_odd_symmetry_tap_enum_g4_16s_0s_16s_0s_44_4s .......
+Running optimization stage 2 on enum_kitDelay_reg_16s_1s .......
+Running optimization stage 2 on IGL2_FIR_FILTER_COREFIR_0_tap_enum_g4_1s_16s_0s_16s_0s_44_1s_4s .......
+Running optimization stage 2 on enum_kitDelay_reg_44_3s .......
+Running optimization stage 2 on IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_1s_4s_0s_1 .......
+Running optimization stage 2 on enum_kitDelay_bit_reg_1s .......
+Running optimization stage 2 on enum_kitDelay_reg_18s_1s .......
+Running optimization stage 2 on IGL2_FIR_FILTER_COREFIR_0_tap_enum_g4_1s_16s_0s_16s_0s_44_0s_4s .......
+Running optimization stage 2 on IGL2_FIR_FILTER_COREFIR_0_add2_g4 .......
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":42:26:42:30|Input clkEn is unused.
+Running optimization stage 2 on IGL2_FIR_FILTER_COREFIR_0_mac18x18_enum_g4 .......
+Running optimization stage 2 on IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_0s_4s_0s_1 .......
+Running optimization stage 2 on enum_signExt_16s_18s_0s .......
+Running optimization stage 2 on IGL2_FIR_FILTER_COREFIR_0_fir_enum_g4_Z4 .......
+@N: CL135 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\enum_fir.v":158:8:158:13|Found sequential shift fill_syst_dly.genblk1.syst_dly_line with address depth of 6 words and data bit width of 16.
+@N: CL135 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\enum_fir.v":142:6:142:11|Found sequential shift fill_short_dly.genblk1.short_dly_line with address depth of 4 words and data bit width of 16.
+Running optimization stage 2 on enum_coef_sr_16s_16s .......
+Running optimization stage 2 on IGL2_FIR_FILTER_COREFIR_0_wide_coef_16s_16s_1s_1s .......
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\coef_store.v":67:14:67:16|Input set is unused.
+Running optimization stage 2 on enum_kitDelay_bit_reg_49 .......
+@N: CL135 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Found sequential shift genblk1.delayLine with address depth of 49 words and data bit width of 1.
+Running optimization stage 2 on enum_kitDelay_bit_reg_3s .......
+@N: CL135 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Found sequential shift genblk1.delayLine with address depth of 3 words and data bit width of 1.
+Running optimization stage 2 on enum_kitSync_ngrst_1s .......
+Running optimization stage 2 on enum_kitDelay_bit_reg_4s .......
+@N: CL135 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Found sequential shift genblk1.delayLine with address depth of 4 words and data bit width of 1.
+Running optimization stage 2 on enum_kitDelay_bit_reg_2s .......
+Running optimization stage 2 on enum_kitDelay_reg_4s_2s .......
+Running optimization stage 2 on enum_kitDelay_reg_16s_2s .......
+Running optimization stage 2 on IGL2_FIR_FILTER_COREFIR_0_COREFIR_Z3 .......
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\top\COREFIR.v":90:28:90:35|Input COEF_REF is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\top\COREFIR.v":92:28:92:36|Input SAMPLE_ID is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\top\COREFIR.v":93:28:93:31|Input RCLK is unused.
+Running optimization stage 2 on IGL2_FIR_FILTER_COREFFT_0_outBuff_8_32s_0s_19s .......
+Running optimization stage 2 on IGL2_FIR_FILTER_COREFFT_0_COREFFT_INPLC_Z2 .......
+Running optimization stage 2 on fft_inpl_autoScale_0s_0s_4_1s .......
+@A: CL153 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":590:22:590:32|*Unassigned bits of scale_exp_r[3:0] are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":584:8:584:22|Input fftRd_done_tick is unused.
+Running optimization stage 2 on IGL2_FIR_FILTER_COREFFT_0_twidLUT_8_32s_0s_19s .......
+Running optimization stage 2 on IGL2_FIR_FILTER_COREFFT_0_twiddle_32s_8 .......
+Running optimization stage 2 on fft_inpl_bfly2_16s_16s_32s_32s_3s_19s .......
+Running optimization stage 2 on fft_inpl_kitDelay_reg_2s_5s .......
+Running optimization stage 2 on fft_inpl_kitDelay_reg_16s_4s .......
+Running optimization stage 2 on fft_inpl_cmplx_18_16s_0s_19s_44s .......
+Running optimization stage 2 on fft_inpl_half_cmplx_18_16s_0s_0s_19s_44s_0_0s .......
+Running optimization stage 2 on fft_inpl_kitDelay_reg_16s_1s .......
+Running optimization stage 2 on fft_inpl_half_cmplx_18_16s_1s_0s_19s_44s_1_0s .......
+Running optimization stage 2 on fft_inpl_signExt_44s_33s_0s .......
+@W: CL246 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":369:22:369:24|Input port bits 42 to 32 of inp[43:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on MACC .......
+Running optimization stage 2 on fft_inpl_mac18x18mx_16s_16s_0s_0s_0s_19s_0_0_0_44s .......
+Running optimization stage 2 on fft_inpl_signExt_16s_18s_0s .......
+Running optimization stage 2 on fft_inpl_cmplx_rnd_16s_0s_19s_1s_44s .......
+Running optimization stage 2 on fft_inpl_kitRndUp_16s_1s .......
+Running optimization stage 2 on fft_inpl_switch_32s .......
+Running optimization stage 2 on IGL2_FIR_FILTER_COREFFT_0_ram_smGen .......
+Running optimization stage 2 on IGL2_FIR_FILTER_COREFFT_0_wrapRam_8_32s_19s_0s_128s_1s .......
+Running optimization stage 2 on IGL2_FIR_FILTER_COREFFT_0_inBuffer_8_32s_1s_0s_19s .......
+Running optimization stage 2 on IGL2_FIR_FILTER_COREFFT_0_inPlace_8_32s_1s_0s_19s .......
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\fftDp.v":258:20:258:23|Input load is unused.
+Running optimization stage 2 on fft_inpl_sm_top_256s_128s_8_3_10s_1s .......
+Running optimization stage 2 on fft_inpl_outBufA_256s_8_1s .......
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":549:8:549:20|Input rTimerTC_tick is unused.
+Running optimization stage 2 on fft_inpl_kitDelay_reg_3_2s .......
+Running optimization stage 2 on fft_inpl_twid_wA_gen_8_3 .......
+Running optimization stage 2 on fft_inpl_bcounter_7 .......
+Running optimization stage 2 on fft_inpl_kitSync_ngrst_1s .......
+Running optimization stage 2 on fft_inpl_kitDelay_bit_reg_4s .......
+Running optimization stage 2 on fft_inpl_twid_rA_8_3 .......
+Running optimization stage 2 on fft_inpl_inBuf_fftA_pipe_8_3 .......
+Running optimization stage 2 on fft_inpl_inBuf_ldA_256s_8 .......
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":493:20:493:24|Input clkEn is unused.
+Running optimization stage 2 on fft_inpl_counter_8_255s .......
+Running optimization stage 2 on fft_inpl_kitDelay_reg_1s_10s .......
+Running optimization stage 2 on fft_inpl_kitDelay_reg_7_2s .......
+Running optimization stage 2 on fft_inpl_kitCountS_7_127s_0s .......
+Running optimization stage 2 on fft_inpl_kitDelay_bit_reg_1s .......
+Running optimization stage 2 on fft_inpl_kitDelay_reg_5_2s .......
+Running optimization stage 2 on fft_inpl_kitDelay_reg_10_2s .......
+Running optimization stage 2 on fft_inpl_rdFFTtimer_128s_8_3_10s_1s .......
+Running optimization stage 2 on fft_inpl_kitDelay_bit_reg_3s .......
+Running optimization stage 2 on fft_inpl_counter_5_7 .......
+Running optimization stage 2 on fft_inpl_counter_w_10_137s .......
+Running optimization stage 2 on fft_inpl_kitEdge_0s .......
+Running optimization stage 2 on fft_inpl_kitDelay_bit_reg_2s .......
+Running optimization stage 2 on fft_inpl_slowClock .......
+Running optimization stage 2 on IGL2_FIR_FILTER_COREFFT_0_COREFFT_Z1 .......
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT_TOP.v":85:32:85:36|Input CLKEN is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT_TOP.v":85:20:85:22|Input RST is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT_TOP.v":85:25:85:29|Input START is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT_TOP.v":85:39:85:50|Input INVERSE_STRM is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT_TOP.v":85:53:85:59|Input REFRESH is unused.
+Running optimization stage 2 on IGL2_FIR_FILTER_Coef_Buff_TPSRAM .......
+Running optimization stage 2 on VCC .......
+Running optimization stage 2 on GND .......
+Running optimization stage 2 on RAM1K18 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\synthesis\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 102MB peak: 124MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+
+Process completed successfully.
+# Tue May 28 17:56:26 2019
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: HYD-LT-I31063
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 223R, Built Oct 23 2018 09:18:38
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 76MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue May 28 17:56:26 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
+
+Process completed successfully.
+# Tue May 28 17:56:26 2019
+
+###########################################################]

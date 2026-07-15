@@ -1,0 +1,4 @@
+CKID0001:@|S:FlashFreeze_SB_0.CCC_0.CCC_INST@|E:apb3_if_0.lcd_wr_o@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:led_blink_0.clkout@|E:led_blink_0.led[0]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0003:@|S:FlashFreeze_SB_0.BIBUF_1@|E:FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST@|F:@syn_sample_clock_path==CKID0003@|M:ClockId0003 
+CKID0004:@|S:OSC_C0_0.OSC_C0_0.I_RCOSC_25_50MHZ@|E:FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.ddr_settled@|F:@syn_sample_clock_path==CKID0004@|M:ClockId0004 

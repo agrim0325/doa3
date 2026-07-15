@@ -1,0 +1,28 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+2 non-gated/non-generated clock tree(s) driving 16 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 428 clock pin(s) of sequential element(s)
+0 instances converted, 428 sequential instances remain driven by gated/generated clocks
+
+==================================================================== Non-Gated/Non-Generated Clocks =====================================================================
+Clock Tree ID     Driving Element                        Drive Element Type                     Fanout     Sample Instance                                               
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0003       FlashFreeze_SB_0.BIBUF_1               BIBUF                                  1          FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST          
+@K:CKID0004       OSC_C0_0.OSC_C0_0.I_RCOSC_25_50MHZ     clock definition on RCOSC_25_50MHZ     15         FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.ddr_settled
+=========================================================================================================================================================================
+================================================================================================== Gated/Generated Clocks ===================================================================================================
+Clock Tree ID     Driving Element                     Drive Element Type     Fanout     Sample Instance        Explanation                                                                                                   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       FlashFreeze_SB_0.CCC_0.CCC_INST     CCC                    426        apb3_if_0.lcd_wr_o     Illegal instance on clock path. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       led_blink_0.clkout                  SLE                    2          led_blink_0.led[0]     No generated or derived clock directive on output of sequential instance                                      
+=============================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

@@ -1,0 +1,80 @@
+
+fsm_encoding {7301030112} onehot
+
+fsm_state_encoding {7301030112} CUARTI1ll {000001}
+
+fsm_state_encoding {7301030112} CUARTl1ll {000010}
+
+fsm_state_encoding {7301030112} CUARTOO0l {000100}
+
+fsm_state_encoding {7301030112} CUARTIO0l {001000}
+
+fsm_state_encoding {7301030112} CUARTlO0l {010000}
+
+fsm_state_encoding {7301030112} CUARTOI0l {100000}
+
+fsm_registers {7301030112} {CUARTlI0l[5]}  {CUARTlI0l[4]}  {CUARTlI0l[3]}  {CUARTlI0l[2]}  {CUARTlI0l[1]}  {CUARTlI0l[0]} 
+
+fsm_encoding {6871087111} sequential
+
+fsm_state_encoding {6871087111} 00 {00}
+
+fsm_state_encoding {6871087111} 01 {01}
+
+fsm_state_encoding {6871087111} 10 {10}
+
+fsm_state_encoding {6871087111} 11 {11}
+
+fsm_registers {6871087111} {CUARTll0[1]}  {CUARTll0[0]} 
+
+fsm_encoding {10139013910} onehot
+
+fsm_state_encoding {10139013910} 0000 {00000000001}
+
+fsm_state_encoding {10139013910} 0001 {00000000010}
+
+fsm_state_encoding {10139013910} 0010 {00000000100}
+
+fsm_state_encoding {10139013910} 0011 {00000001000}
+
+fsm_state_encoding {10139013910} 0100 {00000010000}
+
+fsm_state_encoding {10139013910} 0101 {00000100000}
+
+fsm_state_encoding {10139013910} 0110 {00001000000}
+
+fsm_state_encoding {10139013910} 1000 {00010000000}
+
+fsm_state_encoding {10139013910} 1001 {00100000000}
+
+fsm_state_encoding {10139013910} 1010 {01000000000}
+
+fsm_state_encoding {10139013910} 1011 {10000000000}
+
+fsm_registers {10139013910} {rfsm[10]}  {rfsm[9]}  {rfsm[8]}  {rfsm[7]}  {rfsm[6]}  {rfsm[5]}  {rfsm[4]}  {rfsm[3]}  {rfsm[2]}  {rfsm[1]}  {rfsm[0]} 
+
+fsm_encoding {20680682} onehot
+
+fsm_state_encoding {20680682} 000 {00001}
+
+fsm_state_encoding {20680682} 001 {00010}
+
+fsm_state_encoding {20680682} 010 {00100}
+
+fsm_state_encoding {20680682} 011 {01000}
+
+fsm_state_encoding {20680682} 100 {10000}
+
+fsm_registers {20680682} {fsm[4]}  {fsm[3]}  {fsm[2]}  {fsm[1]}  {fsm[0]} 
+
+fsm_encoding {29220221} original
+
+fsm_state_encoding {29220221} 0000 {0000}
+
+fsm_state_encoding {29220221} 0001 {0001}
+
+fsm_state_encoding {29220221} 0010 {0010}
+
+fsm_state_encoding {29220221} 0011 {0011}
+
+fsm_registers {29220221} {rfsm[3]}  {rfsm[2]}  {rfsm[1]}  {rfsm[0]} 

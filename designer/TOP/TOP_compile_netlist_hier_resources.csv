@@ -1,0 +1,32 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,LSRAM 18K,Math (18x18),PLLs and CCCs,Chip Globals,MSS,10/100/1000 Ethernet,RCOSC_50MHZ
+CAMERA_PWDN_GEN/Primitives,0,1,0,0,0,0,0,0,0,0,0,0
+FlashFreeze_SB_0/CCC_0/Primitives,1,0,0,0,0,0,0,1,2,0,0,0
+FlashFreeze_SB_0/CORERESET_FF_0_0/CORERESET_FF_0_0/Primitives,21,46,0,0,0,0,0,0,3,0,0,0
+FlashFreeze_SB_0/FlashFreeze_SB_MSS_0/Primitives,0,0,0,0,0,0,0,0,0,1,0,0
+FlashFreeze_SB_0/Primitives,2,0,0,0,2,0,0,0,0,0,0,0
+OSC_C0_0/OSC_C0_0/Primitives,0,0,0,0,0,0,0,0,1,0,0,1
+Primitives/Primitives,2,0,0,0,35,0,0,0,1,0,0,0
+UART_interface_0/COREUART_C0_0/COREUART_C0_0/CUARTIO1/Primitives,13,11,0,0,0,0,0,0,0,0,0,0
+UART_interface_0/COREUART_C0_0/COREUART_C0_0/CUARTO01/Primitives,42,32,0,0,0,0,0,0,0,0,0,0
+UART_interface_0/COREUART_C0_0/COREUART_C0_0/CUARTOO1/Primitives,27,20,0,0,0,0,0,0,0,0,0,0
+UART_interface_0/COREUART_C0_0/COREUART_C0_0/Primitives,2,1,0,0,0,0,0,0,0,0,0,0
+UART_interface_0/addr_decoder_0/Primitives,6,50,0,0,0,0,0,0,0,0,0,0
+UART_interface_0/receive_data_0/Primitives,20,50,0,0,0,0,0,0,0,0,0,0
+apb3_if_0/Primitives,10,13,0,0,0,0,0,0,0,0,0,0
+dot_osd_integration_0/overlay/Primitives,40,22,0,0,0,0,0,0,0,0,0,0
+dot_osd_integration_0/overlay/eng/Primitives,89,0,0,0,0,0,0,0,0,0,0,0
+dot_osd_integration_0/overlay/eng/bcdx/Primitives,40,0,0,0,0,0,0,0,0,0,0,0
+dot_osd_integration_0/overlay/eng/bcdy/Primitives,38,0,0,0,0,0,0,0,0,0,0,0
+dot_osd_integration_0/overlay/eng/fnt/Primitives,82,0,0,0,0,0,0,0,0,0,0,0
+dot_osd_integration_0/tracker/Primitives,189,181,0,0,0,0,0,0,0,0,0,0
+led_blink_0/Primitives,32,30,0,0,0,0,0,0,1,0,0,0
+line_write_read_0/Image_Enhancement_0/Primitives,19,69,0,0,0,0,0,0,0,0,0,0
+line_write_read_0/Image_Enhancement_0/un1_b_const_i_muladd_0[35:18]/Primitives,0,0,36,36,0,0,1,0,0,0,0,0
+line_write_read_0/Image_Enhancement_0/un1_g_const_i_muladd_0[35:18]/Primitives,0,0,36,36,0,0,1,0,0,0,0,0
+line_write_read_0/Image_Enhancement_0/un1_r_const_i_muladd_0[35:18]/Primitives,0,0,36,36,0,0,1,0,0,0,0,0
+line_write_read_0/LCD_FSM_0/Primitives,141,30,0,0,0,0,0,0,0,0,0,0
+line_write_read_0/WRITE_LSRAM_0/Primitives,46,48,0,0,0,0,0,0,0,0,0,0
+line_write_read_0/double_flop_0/Primitives,0,20,0,0,0,0,0,0,0,0,0,0
+line_write_read_0/ramDualPort_0/Primitives,16,17,36,36,0,1,0,0,0,0,0,0
+mux_2_1_0/Primitives,20,0,0,0,0,0,0,0,0,0,0,0

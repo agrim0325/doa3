@@ -1,0 +1,109 @@
+15:27:29 **** Build of configuration Release for project smartfusion2-cortex-m3-blinky ****
+make all 
+Building file: ../hal/CortexM3/GNU/hal.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+Finished building: ../hal/CortexM3/GNU/hal.S
+ 
+Building file: ../hal/CortexM3/GNU/hw_reg_access.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hw_reg_access.d" -MT"hal/CortexM3/GNU/hw_reg_access.o" -c -o "hal/CortexM3/GNU/hw_reg_access.o" "../hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../hal/CortexM3/cortex_nvic.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -I"../" -I"../CMSIS" -I"../CMSIS/startup_gcc" -I"../drivers/mss_gpio" -I"../drivers_config" -I"../drivers_config/sys_config" -I"../hal" -I"../hal/CortexM3" -I"../hal/CortexM3/GNU" -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"hal/CortexM3/cortex_nvic.d" -MT"hal/CortexM3/cortex_nvic.o" -c -o "hal/CortexM3/cortex_nvic.o" "../hal/CortexM3/cortex_nvic.c"
+Finished building: ../hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../drivers_config/sys_config/sys_config.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -I"../" -I"../CMSIS" -I"../CMSIS/startup_gcc" -I"../drivers/mss_gpio" -I"../drivers_config" -I"../drivers_config/sys_config" -I"../hal" -I"../hal/CortexM3" -I"../hal/CortexM3/GNU" -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+Finished building: ../drivers_config/sys_config/sys_config.c
+ 
+Building file: ../drivers/mss_sys_services/mss_comblk.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -I"../" -I"../CMSIS" -I"../CMSIS/startup_gcc" -I"../drivers/mss_gpio" -I"../drivers_config" -I"../drivers_config/sys_config" -I"../hal" -I"../hal/CortexM3" -I"../hal/CortexM3/GNU" -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_comblk.d" -MT"drivers/mss_sys_services/mss_comblk.o" -c -o "drivers/mss_sys_services/mss_comblk.o" "../drivers/mss_sys_services/mss_comblk.c"
+Finished building: ../drivers/mss_sys_services/mss_comblk.c
+ 
+Building file: ../drivers/mss_sys_services/mss_sys_services.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -I"../" -I"../CMSIS" -I"../CMSIS/startup_gcc" -I"../drivers/mss_gpio" -I"../drivers_config" -I"../drivers_config/sys_config" -I"../hal" -I"../hal/CortexM3" -I"../hal/CortexM3/GNU" -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_sys_services.d" -MT"drivers/mss_sys_services/mss_sys_services.o" -c -o "drivers/mss_sys_services/mss_sys_services.o" "../drivers/mss_sys_services/mss_sys_services.c"
+Finished building: ../drivers/mss_sys_services/mss_sys_services.c
+ 
+Building file: ../drivers/mss_nvm/mss_nvm.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -I"../" -I"../CMSIS" -I"../CMSIS/startup_gcc" -I"../drivers/mss_gpio" -I"../drivers_config" -I"../drivers_config/sys_config" -I"../hal" -I"../hal/CortexM3" -I"../hal/CortexM3/GNU" -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_nvm/mss_nvm.d" -MT"drivers/mss_nvm/mss_nvm.o" -c -o "drivers/mss_nvm/mss_nvm.o" "../drivers/mss_nvm/mss_nvm.c"
+Finished building: ../drivers/mss_nvm/mss_nvm.c
+ 
+Building file: ../drivers/mss_i2c/mss_i2c.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -I"../" -I"../CMSIS" -I"../CMSIS/startup_gcc" -I"../drivers/mss_gpio" -I"../drivers_config" -I"../drivers_config/sys_config" -I"../hal" -I"../hal/CortexM3" -I"../hal/CortexM3/GNU" -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_i2c/mss_i2c.d" -MT"drivers/mss_i2c/mss_i2c.o" -c -o "drivers/mss_i2c/mss_i2c.o" "../drivers/mss_i2c/mss_i2c.c"
+Finished building: ../drivers/mss_i2c/mss_i2c.c
+ 
+Building file: ../drivers/mss_hpdma/mss_hpdma.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -I"../" -I"../CMSIS" -I"../CMSIS/startup_gcc" -I"../drivers/mss_gpio" -I"../drivers_config" -I"../drivers_config/sys_config" -I"../hal" -I"../hal/CortexM3" -I"../hal/CortexM3/GNU" -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_hpdma/mss_hpdma.d" -MT"drivers/mss_hpdma/mss_hpdma.o" -c -o "drivers/mss_hpdma/mss_hpdma.o" "../drivers/mss_hpdma/mss_hpdma.c"
+Finished building: ../drivers/mss_hpdma/mss_hpdma.c
+ 
+Building file: ../drivers/mss_gpio/mss_gpio.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -I"../" -I"../CMSIS" -I"../CMSIS/startup_gcc" -I"../drivers/mss_gpio" -I"../drivers_config" -I"../drivers_config/sys_config" -I"../hal" -I"../hal/CortexM3" -I"../hal/CortexM3/GNU" -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_gpio/mss_gpio.d" -MT"drivers/mss_gpio/mss_gpio.o" -c -o "drivers/mss_gpio/mss_gpio.o" "../drivers/mss_gpio/mss_gpio.c"
+Finished building: ../drivers/mss_gpio/mss_gpio.c
+ 
+Building file: ../CMSIS/startup_gcc/newlib_stubs.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -I"../" -I"../CMSIS" -I"../CMSIS/startup_gcc" -I"../drivers/mss_gpio" -I"../drivers_config" -I"../drivers_config/sys_config" -I"../hal" -I"../hal/CortexM3" -I"../hal/CortexM3/GNU" -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/startup_gcc/newlib_stubs.d" -MT"CMSIS/startup_gcc/newlib_stubs.o" -c -o "CMSIS/startup_gcc/newlib_stubs.o" "../CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -x assembler-with-cpp -MMD -MP -MF"CMSIS/startup_gcc/startup_m2sxxx.d" -MT"CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "CMSIS/startup_gcc/startup_m2sxxx.o" "../CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../CMSIS/system_m2sxxx.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -I"../" -I"../CMSIS" -I"../CMSIS/startup_gcc" -I"../drivers/mss_gpio" -I"../drivers_config" -I"../drivers_config/sys_config" -I"../hal" -I"../hal/CortexM3" -I"../hal/CortexM3/GNU" -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/system_m2sxxx.d" -MT"CMSIS/system_m2sxxx.o" -c -o "CMSIS/system_m2sxxx.o" "../CMSIS/system_m2sxxx.c"
+Finished building: ../CMSIS/system_m2sxxx.c
+ 
+Building file: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -I"../" -I"../CMSIS" -I"../CMSIS/startup_gcc" -I"../drivers/mss_gpio" -I"../drivers_config" -I"../drivers_config/sys_config" -I"../hal" -I"../hal/CortexM3" -I"../hal/CortexM3/GNU" -std=gnu11 --specs=cmsis.specs -MMD -MP -MF".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" -c -o ".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" "../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c"
+Finished building: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+ 
+Building file: ../ili9488.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -I"../" -I"../CMSIS" -I"../CMSIS/startup_gcc" -I"../drivers/mss_gpio" -I"../drivers_config" -I"../drivers_config/sys_config" -I"../hal" -I"../hal/CortexM3" -I"../hal/CortexM3/GNU" -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"ili9488.d" -MT"ili9488.o" -c -o "ili9488.o" "../ili9488.c"
+Finished building: ../ili9488.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -I"../" -I"../CMSIS" -I"../CMSIS/startup_gcc" -I"../drivers/mss_gpio" -I"../drivers_config" -I"../drivers_config/sys_config" -I"../hal" -I"../hal/CortexM3" -I"../hal/CortexM3/GNU" -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../ov7725.c
+Invoking: Cross ARM GNU C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -I"../" -I"../CMSIS" -I"../CMSIS/startup_gcc" -I"../drivers/mss_gpio" -I"../drivers_config" -I"../drivers_config/sys_config" -I"../hal" -I"../hal/CortexM3" -I"../hal/CortexM3/GNU" -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"ov7725.d" -MT"ov7725.o" -c -o "ov7725.o" "../ov7725.c"
+Finished building: ../ov7725.c
+ 
+Building target: smartfusion2-cortex-m3-blinky.elf
+Invoking: Cross ARM GNU C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -T "F:\SVN\HelloFPGA\Release\Integration\Filter_demo\Hello_FPGA\DSP_FIR_FILTER\SC\smartfusion2-cortex-m3-blinky\CMSIS\startup_gcc\production-smartfusion2-execute-in-place.ld" -Xlinker --gc-sections -Wl,-Map,"smartfusion2-cortex-m3-blinky.map" --specs=nano.specs -o "smartfusion2-cortex-m3-blinky.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./ili9488.o ./main.o ./ov7725.o   
+Finished building target: smartfusion2-cortex-m3-blinky.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "smartfusion2-cortex-m3-blinky.elf"  "smartfusion2-cortex-m3-blinky.hex"
+Finished building: smartfusion2-cortex-m3-blinky.hex
+ 
+Invoking: Cross ARM GNU Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "smartfusion2-cortex-m3-blinky.elf" > "smartfusion2-cortex-m3-blinky.lst"
+Finished building: smartfusion2-cortex-m3-blinky.lst
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "smartfusion2-cortex-m3-blinky.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12560	     32	  65504	  78096	  13110	smartfusion2-cortex-m3-blinky.elf
+Finished building: smartfusion2-cortex-m3-blinky.siz
+ 
+
+15:27:44 Build Finished. 0 errors, 0 warnings. (took 15s.709ms)
+

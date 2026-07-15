@@ -1,0 +1,47 @@
+@P:  Worst Slack : 2.549
+@P:  FCCC_0/GL0 - Estimated Frequency : 242.9 MHz
+@P:  FCCC_0/GL0 - Requested Frequency : 150.0 MHz
+@P:  FCCC_0/GL0 - Estimated Period : 4.118
+@P:  FCCC_0/GL0 - Requested Period : 6.667
+@P:  FCCC_0/GL0 - Slack : 2.549
+@P:  FCCC_0/GL1 - Estimated Frequency : 305.0 MHz
+@P:  FCCC_0/GL1 - Requested Frequency : 150.0 MHz
+@P:  FCCC_0/GL1 - Estimated Period : 3.279
+@P:  FCCC_0/GL1 - Requested Period : 6.667
+@P:  FCCC_0/GL1 - Slack : 3.388
+@P:  FCCC_0/GL2 - Estimated Frequency : 178.1 MHz
+@P:  FCCC_0/GL2 - Requested Frequency : 100.0 MHz
+@P:  FCCC_0/GL2 - Estimated Period : 5.615
+@P:  FCCC_0/GL2 - Requested Period : 10.000
+@P:  FCCC_0/GL2 - Slack : 4.385
+@P:  FCCC_0/GL3 - Estimated Frequency : NA
+@P:  FCCC_0/GL3 - Requested Frequency : 100.0 MHz
+@P:  FCCC_0/GL3 - Estimated Period : NA
+@P:  FCCC_0/GL3 - Requested Period : 10.000
+@P:  FCCC_0/GL3 - Slack : NA
+@P:  OSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Frequency : NA
+@P:  OSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Frequency : 50.0 MHz
+@P:  OSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Period : NA
+@P:  OSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Period : 20.000
+@P:  OSC_0/I_RCOSC_25_50MHZ/CLKOUT - Slack : NA
+@P:  fft_inpl_slowClock|divider_inferred_clock[2] - Estimated Frequency : 155.1 MHz
+@P:  fft_inpl_slowClock|divider_inferred_clock[2] - Requested Frequency : 100.0 MHz
+@P:  fft_inpl_slowClock|divider_inferred_clock[2] - Estimated Period : 6.446
+@P:  fft_inpl_slowClock|divider_inferred_clock[2] - Requested Period : 10.000
+@P:  fft_inpl_slowClock|divider_inferred_clock[2] - Slack : 3.554
+@P:  led_blink|clkout_inferred_clock - Estimated Frequency : 607.2 MHz
+@P:  led_blink|clkout_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  led_blink|clkout_inferred_clock - Estimated Period : 1.647
+@P:  led_blink|clkout_inferred_clock - Requested Period : 10.000
+@P:  led_blink|clkout_inferred_clock - Slack : 8.353
+@P:  System - Estimated Frequency : NA
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : NA
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : NA
+@P: IGL2_FIR_FILTER Part : m2s010vf256-1
+@P: IGL2_FIR_FILTER Register bits  : 4095 
+@P: IGL2_FIR_FILTER DSP Blocks  : 20
+@P: IGL2_FIR_FILTER I/O primitives : 9
+@P: IGL2_FIR_FILTER RAM1K18 :  12
+@P:  CPU Time : 0h:00m:20s

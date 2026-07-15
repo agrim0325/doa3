@@ -1,0 +1,3 @@
+buildConsole/keepLog=true
+buildConsole/logLocation=F\:\\SVN\\HelloFPGA\\Release\\Integration\\Filter_demo\\Hello_FPGA\\DSP_FIR_FILTER\\SC\\.metadata\\.plugins\\org.eclipse.cdt.ui\\smartfusion2-cortex-m3-blinky.build.log
+eclipse.preferences.version=1

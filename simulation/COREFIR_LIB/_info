@@ -1,0 +1,611 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/simulation
+venum_coef_sr
+Z1 !s110 1559113568
+!i10b 1
+!s100 ;[DQ9X[MSjkzK=3H5GF360
+Im61KQSjlnS^OnTjnjhG;i3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/simulation
+Z4 w1556518914
+Z5 8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/Actel/DirectCore/COREFIR/8.6.101/rtl/vlog/core/kit.v
+Z6 FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/Actel/DirectCore/COREFIR/8.6.101/rtl/vlog/core/kit.v
+L0 142
+Z7 OW;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1559113567.000000
+Z9 !s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/Actel/DirectCore/COREFIR/8.6.101/rtl/vlog/core/kit.v|
+Z10 !s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|COREFIR_LIB|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/Actel/DirectCore/COREFIR/8.6.101/rtl/vlog/core/kit.v|
+!s101 -O0
+!i113 1
+Z11 o-vlog01compat -work COREFIR_LIB -O0
+Z12 !s92 +incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4 -vlog01compat -work COREFIR_LIB -O0
+Z13 tCvgOpt 0
+venum_kitDelay_bit_reg
+R1
+!i10b 1
+!s100 lET7@[]a303@ZjDQKh1J;3
+I_ZHi?Mh6LdT7Ch?B3<ncb0
+R2
+R3
+R4
+R5
+R6
+L0 38
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+R13
+nenum_kit@delay_bit_reg
+venum_kitDelay_reg
+R1
+!i10b 1
+!s100 A5ER`UNBZe]N?F>4mYGYn0
+Io@W@Cz0_AMY5cl5cIHgME0
+R2
+R3
+R4
+R5
+R6
+L0 72
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+R13
+nenum_kit@delay_reg
+venum_kitSync_ngrst
+R1
+!i10b 1
+!s100 MTVdFjZlajY4J?KI[OaWU3
+I6Zd=T>k1AHZY1gnCV=]g[0
+R2
+R3
+R4
+R5
+R6
+L0 185
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+R13
+nenum_kit@sync_ngrst
+venum_signExt
+R1
+!i10b 1
+!s100 zMi7ljDTc9MD7^hA7kIf82
+I_P3NV<3<PZQi^2b<X6g`?3
+R2
+R3
+R4
+R5
+R6
+L0 116
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+R13
+nenum_sign@ext
+vFIR_FILTER_COREFIR_0_add2_g4
+Z14 !s110 1559113567
+!i10b 1
+!s100 ]X:`U>@XGDS>@fOJbgQZa1
+IXjkg8c::oaAPM?@A^aoK72
+R2
+R3
+Z15 w1559106402
+Z16 8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/mac.v
+Z17 FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/mac.v
+Z18 L0 31
+R7
+r1
+!s85 0
+31
+R8
+Z19 !s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/mac.v|
+Z20 !s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|COREFIR_LIB|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/mac.v|
+!s101 -O0
+!i113 1
+R11
+R12
+R13
+n@f@i@r_@f@i@l@t@e@r_@c@o@r@e@f@i@r_0_add2_g4
+vFIR_FILTER_COREFIR_0_const_arr
+R1
+!i10b 1
+!s100 UWl:7f_Y3oM7JW?_miNDY3
+Im[=]UP0MlM3bMYkUP2J@32
+R2
+R3
+R15
+Z21 8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/coef_store.v
+Z22 FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/coef_store.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/FIR_FILTER_COREFIR_0_coef.v
+Z23 L0 29
+R7
+r1
+!s85 0
+31
+Z24 !s108 1559113568.000000
+Z25 !s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/FIR_FILTER_COREFIR_0_coef.v|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/coef_store.v|
+Z26 !s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|COREFIR_LIB|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/coef_store.v|
+!s101 -O0
+!i113 1
+R11
+R12
+R13
+n@f@i@r_@f@i@l@t@e@r_@c@o@r@e@f@i@r_0_const_arr
+vFIR_FILTER_COREFIR_0_COREENUMFIR_G4
+R1
+!i10b 1
+!s100 hk3;8jK;6IBWL_?IC8c;E1
+Iem^l?UXFiDM?<VdcG5X;C2
+R2
+R3
+R15
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/enum_COREFIR.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/enum_COREFIR.v
+Z27 L0 47
+R7
+r1
+!s85 0
+31
+R24
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/enum_COREFIR.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|COREFIR_LIB|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/enum_COREFIR.v|
+!s101 -O0
+!i113 1
+R11
+R12
+R13
+n@f@i@r_@f@i@l@t@e@r_@c@o@r@e@f@i@r_0_@c@o@r@e@e@n@u@m@f@i@r_@g4
+vFIR_FILTER_COREFIR_0_COREFIR
+R1
+!i10b 1
+!s100 12dL[k<^L]PZY]GXE`ch;0
+IFR_AVaY6m`2L^^PCMVm4f3
+R2
+R3
+R15
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/top/COREFIR.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/top/COREFIR.v
+Z28 L0 28
+R7
+r1
+!s85 0
+31
+R24
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/top/COREFIR.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|COREFIR_LIB|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/top/COREFIR.v|
+!s101 -O0
+!i113 1
+R11
+R12
+R13
+n@f@i@r_@f@i@l@t@e@r_@c@o@r@e@f@i@r_0_@c@o@r@e@f@i@r
+vFIR_FILTER_COREFIR_0_fir_enum_g4
+R1
+!i10b 1
+!s100 >nHUHRmO6`Jl_36Mca6W82
+In7_]Xd278Ycfg5H8HUA372
+R2
+R3
+R15
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/enum_fir.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/enum_fir.v
+Z29 L0 27
+R7
+r1
+!s85 0
+31
+R24
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/enum_fir.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|COREFIR_LIB|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/enum_fir.v|
+!s101 -O0
+!i113 1
+R11
+R12
+R13
+n@f@i@r_@f@i@l@t@e@r_@c@o@r@e@f@i@r_0_fir_enum_g4
+vFIR_FILTER_COREFIR_0_mac18x18_enum_g4
+R14
+!i10b 1
+!s100 m93oK8g]iZQHE<5T3YIjQ1
+I`7_Y;Zz[HU^md:fIN[gP<2
+R2
+R3
+R15
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/mac_lib.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/mac_lib.v
+Z30 L0 33
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/mac_lib.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|COREFIR_LIB|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/mac_lib.v|
+!s101 -O0
+!i113 1
+R11
+R12
+R13
+n@f@i@r_@f@i@l@t@e@r_@c@o@r@e@f@i@r_0_mac18x18_enum_g4
+vFIR_FILTER_COREFIR_0_mac_enum_g4
+R14
+!i10b 1
+!s100 i<CPX>bU>l^K_L?PV;[aU0
+ICiHedGXPP0:[8bZ:@LMYE3
+R2
+R3
+R15
+R16
+R17
+Z31 L0 64
+R7
+r1
+!s85 0
+31
+R8
+R19
+R20
+!s101 -O0
+!i113 1
+R11
+R12
+R13
+n@f@i@r_@f@i@l@t@e@r_@c@o@r@e@f@i@r_0_mac_enum_g4
+vFIR_FILTER_COREFIR_0_odd_symmetry_tap_enum_g4
+R14
+!i10b 1
+!s100 P9HMJhVXhZ0^<UTDo_ghb3
+IW;VmE<cN0jEB4gSdjn@An2
+R2
+R3
+R15
+R16
+R17
+Z32 L0 241
+R7
+r1
+!s85 0
+31
+R8
+R19
+R20
+!s101 -O0
+!i113 1
+R11
+R12
+R13
+n@f@i@r_@f@i@l@t@e@r_@c@o@r@e@f@i@r_0_odd_symmetry_tap_enum_g4
+vFIR_FILTER_COREFIR_0_tap_enum_g4
+R14
+!i10b 1
+!s100 ]X<iFBbfUd56_<LW]ZjC20
+Iaj6SRbEjF9AJEEG5HiCfl1
+R2
+R3
+R15
+R16
+R17
+Z33 L0 138
+R7
+r1
+!s85 0
+31
+R8
+R19
+R20
+!s101 -O0
+!i113 1
+R11
+R12
+R13
+n@f@i@r_@f@i@l@t@e@r_@c@o@r@e@f@i@r_0_tap_enum_g4
+vFIR_FILTER_COREFIR_0_wide_coef
+R1
+!i10b 1
+!s100 BAX_=1WT2C304<X03R1Q^2
+IG6eNU5TFNG]D@g@e?ZHCO3
+R2
+R3
+R15
+R21
+R22
+Z34 L0 54
+R7
+r1
+!s85 0
+31
+R24
+R25
+R26
+!s101 -O0
+!i113 1
+R11
+R12
+R13
+n@f@i@r_@f@i@l@t@e@r_@c@o@r@e@f@i@r_0_wide_coef
+vIGL2_FIR_FILTER_COREFIR_0_add2_g4
+Z35 !s110 1559037133
+!i10b 1
+!s100 5Fj^OGD6JI[U;_n0C0k7F3
+IGT3g[TPJJiW@mTThMdz;:3
+R2
+R0
+Z36 w1559034938
+Z37 8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/mac.v
+Z38 FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/mac.v
+R18
+R7
+r1
+!s85 0
+31
+Z39 !s108 1559037133.000000
+Z40 !s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/mac.v|
+Z41 !s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|COREFIR_LIB|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/mac.v|
+!s101 -O0
+!i113 1
+R11
+Z42 !s92 {+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4} -vlog01compat -work COREFIR_LIB -O0
+R13
+n@i@g@l2_@f@i@r_@f@i@l@t@e@r_@c@o@r@e@f@i@r_0_add2_g4
+vIGL2_FIR_FILTER_COREFIR_0_const_arr
+R35
+!i10b 1
+!s100 S3;[06dzShcZozRX6FoT83
+IaHnRg3WZBU9=dB?<6E>0F1
+R2
+R0
+R36
+Z43 8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/coef_store.v
+Z44 FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/coef_store.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/IGL2_FIR_FILTER_COREFIR_0_coef.v
+R23
+R7
+r1
+!s85 0
+31
+R39
+Z45 !s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/IGL2_FIR_FILTER_COREFIR_0_coef.v|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/coef_store.v|
+Z46 !s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|COREFIR_LIB|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/coef_store.v|
+!s101 -O0
+!i113 1
+R11
+R42
+R13
+n@i@g@l2_@f@i@r_@f@i@l@t@e@r_@c@o@r@e@f@i@r_0_const_arr
+vIGL2_FIR_FILTER_COREFIR_0_COREENUMFIR_G4
+R35
+!i10b 1
+!s100 J0IRM1dD_UEC5C[m_YNoz2
+I=URT7CM8OFnmFk9gH@ibF3
+R2
+R0
+R36
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/enum_COREFIR.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/enum_COREFIR.v
+R27
+R7
+r1
+!s85 0
+31
+R39
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/enum_COREFIR.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|COREFIR_LIB|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/enum_COREFIR.v|
+!s101 -O0
+!i113 1
+R11
+R42
+R13
+n@i@g@l2_@f@i@r_@f@i@l@t@e@r_@c@o@r@e@f@i@r_0_@c@o@r@e@e@n@u@m@f@i@r_@g4
+vIGL2_FIR_FILTER_COREFIR_0_COREFIR
+R35
+!i10b 1
+!s100 ?UN3VZ:UW@M6J>P85@8oa2
+I@hK6l=CXk;YJoMBiD4Le02
+R2
+R0
+R36
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/top/COREFIR.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/top/COREFIR.v
+R28
+R7
+r1
+!s85 0
+31
+R39
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/top/COREFIR.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|COREFIR_LIB|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/top/COREFIR.v|
+!s101 -O0
+!i113 1
+R11
+R42
+R13
+n@i@g@l2_@f@i@r_@f@i@l@t@e@r_@c@o@r@e@f@i@r_0_@c@o@r@e@f@i@r
+vIGL2_FIR_FILTER_COREFIR_0_fir_enum_g4
+R35
+!i10b 1
+!s100 [6g;f3X=z3G9MBaUT`03T1
+ILY:6RTEe^UFJC<Udi_;Zc0
+R2
+R0
+R36
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/enum_fir.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/enum_fir.v
+R29
+R7
+r1
+!s85 0
+31
+R39
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/enum_fir.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|COREFIR_LIB|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/enum_fir.v|
+!s101 -O0
+!i113 1
+R11
+R42
+R13
+n@i@g@l2_@f@i@r_@f@i@l@t@e@r_@c@o@r@e@f@i@r_0_fir_enum_g4
+vIGL2_FIR_FILTER_COREFIR_0_mac18x18_enum_g4
+R35
+!i10b 1
+!s100 AZ`JMOPRaR_bePKKfG>KL1
+I_bJ6I9Jd;F<4e>n6IJRTZ3
+R2
+R0
+R36
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/mac_lib.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/mac_lib.v
+R30
+R7
+r1
+!s85 0
+31
+R39
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/mac_lib.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|COREFIR_LIB|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4/mac_lib.v|
+!s101 -O0
+!i113 1
+R11
+R42
+R13
+n@i@g@l2_@f@i@r_@f@i@l@t@e@r_@c@o@r@e@f@i@r_0_mac18x18_enum_g4
+vIGL2_FIR_FILTER_COREFIR_0_mac_enum_g4
+R35
+!i10b 1
+!s100 L6C;8Fj26<E37nQUihK0J1
+IYMlkgPE=ian5Y^fknZQ8[2
+R2
+R0
+R36
+R37
+R38
+R31
+R7
+r1
+!s85 0
+31
+R39
+R40
+R41
+!s101 -O0
+!i113 1
+R11
+R42
+R13
+n@i@g@l2_@f@i@r_@f@i@l@t@e@r_@c@o@r@e@f@i@r_0_mac_enum_g4
+vIGL2_FIR_FILTER_COREFIR_0_odd_symmetry_tap_enum_g4
+R35
+!i10b 1
+!s100 a=W5>0edZ89Y:Ic?YOf?P3
+I7zW7P[@ET>:jCmnbizK^R2
+R2
+R0
+R36
+R37
+R38
+R32
+R7
+r1
+!s85 0
+31
+R39
+R40
+R41
+!s101 -O0
+!i113 1
+R11
+R42
+R13
+n@i@g@l2_@f@i@r_@f@i@l@t@e@r_@c@o@r@e@f@i@r_0_odd_symmetry_tap_enum_g4
+vIGL2_FIR_FILTER_COREFIR_0_tap_enum_g4
+R35
+!i10b 1
+!s100 YbJHCmDQC9l:Q<kNe;l[M1
+IH8dPHhC`O:i[9;mV>^?dR2
+R2
+R0
+R36
+R37
+R38
+R33
+R7
+r1
+!s85 0
+31
+R39
+R40
+R41
+!s101 -O0
+!i113 1
+R11
+R42
+R13
+n@i@g@l2_@f@i@r_@f@i@l@t@e@r_@c@o@r@e@f@i@r_0_tap_enum_g4
+vIGL2_FIR_FILTER_COREFIR_0_wide_coef
+R35
+!i10b 1
+!s100 5`4g;GhEYzijme[e:T>G^1
+I426zQD?AGTUeCa>IzPL`73
+R2
+R0
+R36
+R43
+R44
+R34
+R7
+r1
+!s85 0
+31
+R39
+R45
+R46
+!s101 -O0
+!i113 1
+R11
+R42
+R13
+n@i@g@l2_@f@i@r_@f@i@l@t@e@r_@c@o@r@e@f@i@r_0_wide_coef

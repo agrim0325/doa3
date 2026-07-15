@@ -1,0 +1,259 @@
+# Tue Jul 14 15:41:56 2026
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: DESKTOP-PVRG6C7
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202503actsp1, Build 108R, Built Nov 18 2025 06:37:26, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 187MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 193MB peak: 204MB)
+
+Reading constraint file: D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\synthesis.fdc
+@L: D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\synthesis\TOP_scck.rpt 
+See clock summary report "D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\synthesis\TOP_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 202MB peak: 204MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 202MB peak: 204MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 203MB peak: 204MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 203MB peak: 205MB)
+
+NConnInternalConnection caching is on
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+@N: FX1171 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\osd_overlay.v":164:2:164:7|Found instance dot_osd_integration_0.overlay.byte_phase with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@W: BN132 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1204:4:1204:9|Removing sequential instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 259MB peak: 259MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 259MB peak: 260MB)
+
+@N: MO111 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@W: MO129 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":755:4:755:9|Sequential instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":774:4:774:9|Sequential instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":793:4:793:9|Sequential instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":812:4:812:9|Sequential instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":851:4:851:9|Sequential instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm1_areset_n_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1503:4:1503:9|Sequential instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.RESET_N_F2M_int is reduced to a combinational gate by constant propagation.
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 260MB peak: 260MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 260MB peak: 260MB)
+
+@N: BN115 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\top\top.v":240:7:240:14|Removing instance FF_EXT_0 (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\coreuart_c0\coreuart_c0_0\rtl\vlog\core_obfuscated\rx_async.v":1613:0:1613:5|Removing sequential instance CUARTI0I (in view: work.COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\coreuart_c0\coreuart_c0_0\rtl\vlog\core_obfuscated\rx_async.v":1613:0:1613:5|Removing sequential instance CUARTIO0 (in view: work.COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1204:4:1204:9|Removing sequential instance DDR_READY_int (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1204:4:1204:9|Removing sequential instance SDIF_READY_int (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1204:4:1204:9|Removing sequential instance SDIF_RELEASED_int (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1204:4:1204:9|Removing sequential instance FDDR_CORE_RESET_N_int (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1285:4:1285:9|Removing sequential instance SDIF0_PHY_RESET_N_int (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1285:4:1285:9|Removing sequential instance SDIF0_CORE_RESET_N_0 (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1350:4:1350:9|Removing sequential instance SDIF1_PHY_RESET_N_int (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1350:4:1350:9|Removing sequential instance SDIF1_CORE_RESET_N_0 (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1415:4:1415:9|Removing sequential instance SDIF2_PHY_RESET_N_int (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1415:4:1415:9|Removing sequential instance SDIF2_CORE_RESET_N_0 (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1480:4:1480:9|Removing sequential instance SDIF3_PHY_RESET_N_int (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1480:4:1480:9|Removing sequential instance SDIF3_CORE_RESET_N_0 (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\coreuart_c0\coreuart_c0_0\rtl\vlog\core_obfuscated\rx_async.v":575:0:575:5|Removing sequential instance CUARTO11 (in view: work.COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\coreuart_c0\coreuart_c0_0\rtl\vlog\core_obfuscated\rx_async.v":1430:0:1430:5|Removing sequential instance CUARTI11 (in view: work.COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\coreuart_c0\coreuart_c0_0\rtl\vlog\core_obfuscated\rx_async.v":653:0:653:5|Removing sequential instance CUARTI01 (in view: work.COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1285:4:1285:9|Removing sequential instance sdif0_state[3:0] (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1350:4:1350:9|Removing sequential instance sdif1_state[3:0] (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1415:4:1415:9|Removing sequential instance sdif2_state[3:0] (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1480:4:1480:9|Removing sequential instance sdif3_state[3:0] (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\coreuart_c0\coreuart_c0_0\rtl\vlog\core_obfuscated\rx_async.v":871:0:871:5|Removing sequential instance CUARTOOll (in view: work.COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":885:4:885:9|Removing sequential instance sdif0_areset_n_q2 (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":902:4:902:9|Removing sequential instance sdif1_areset_n_q2 (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":919:4:919:9|Removing sequential instance sdif2_areset_n_q2 (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":936:4:936:9|Removing sequential instance sdif3_areset_n_q2 (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":885:4:885:9|Removing sequential instance sdif0_areset_n_q1 (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":902:4:902:9|Removing sequential instance sdif1_areset_n_q1 (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":919:4:919:9|Removing sequential instance sdif2_areset_n_q1 (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":936:4:936:9|Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreReset_FF_Z1_layer0(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\coreuart_c0\coreuart_c0_0\rtl\vlog\core_obfuscated\rx_async.v":871:0:871:5|Removing sequential instance CUARTl1Il (in view: work.COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=21,dsps=22 on top level netlist TOP 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 262MB peak: 262MB)
+
+@W: MT688 :"d:/goa/doa-main/hf10_ov7725_lcd_ff/hf10_ov7725_lcd_ff/designer/top/synthesis.fdc":8:0:8:0|No path from master pin (-source) to source of clock FlashFreeze_SB_0/CCC_0/GL0 due to black box FlashFreeze_SB_0.CCC_0.CCC_INST 
+@W: MT688 :"d:/goa/doa-main/hf10_ov7725_lcd_ff/hf10_ov7725_lcd_ff/designer/top/synthesis.fdc":9:0:9:0|No path from master pin (-source) to source of clock FlashFreeze_SB_0/CCC_0/GL1 due to black box FlashFreeze_SB_0.CCC_0.CCC_INST 
+
+
+Clock Summary
+******************
+
+          Start                                         Requested     Requested     Clock                                                          Clock                     Clock
+Level     Clock                                         Frequency     Period        Type                                                           Group                     Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     50.0 MHz      20.000        declared                                                       default_clkgroup          15   
+1 .         FlashFreeze_SB_0/CCC_0/GL0                  100.0 MHz     10.000        generated (from OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup          741  
+1 .         FlashFreeze_SB_0/CCC_0/GL1                  24.0 MHz      41.667        generated (from OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup          0    
+                                                                                                                                                                                  
+0 -       System                                        100.0 MHz     10.000        system                                                         system_clkgroup           0    
+                                                                                                                                                                                  
+0 -       led_blink|clkout_inferred_clock               100.0 MHz     10.000        inferred                                                       Inferred_clkgroup_0_1     2    
+                                                                                                                                                                                  
+0 -       FlashFreeze_SB|BIBUF_1_Y_inferred_clock       100.0 MHz     10.000        inferred                                                       Inferred_clkgroup_0_2     1    
+==================================================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                              Clock     Source                                                        Clock Pin                                                                   Non-clock Pin     Non-clock Pin                                               
+Clock                                         Load      Pin                                                           Seq Example                                                                 Seq Example       Comb Example                                                
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     15        OSC_C0_0.OSC_C0_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.release_sdif0_core.C     -                 OSC_C0_0.OSC_C0_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
+FlashFreeze_SB_0/CCC_0/GL0                    741       FlashFreeze_SB_0.CCC_0.CCC_INST.GL0(CCC)                      apb3_if_0.cs_o.C                                                            -                 FlashFreeze_SB_0.CCC_0.GL0_INST.I(BUFG)                     
+FlashFreeze_SB_0/CCC_0/GL1                    0         FlashFreeze_SB_0.CCC_0.CCC_INST.GL1(CCC)                      -                                                                           -                 FlashFreeze_SB_0.AND2_0.A(AND2)                             
+                                                                                                                                                                                                                                                                                
+System                                        0         -                                                             -                                                                           -                 -                                                           
+                                                                                                                                                                                                                                                                                
+led_blink|clkout_inferred_clock               2         led_blink_0.clkout.Q[0](dffre)                                led_blink_0.led[1:0].C                                                      -                 -                                                           
+                                                                                                                                                                                                                                                                                
+FlashFreeze_SB|BIBUF_1_Y_inferred_clock       1         FlashFreeze_SB_0.BIBUF_1.O(IOBUF)                             FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST.I2C0_SCL_F2H_SCP       -                 -                                                           
+================================================================================================================================================================================================================================================================================
+
+@W: MT530 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\led_blink.v":28:0:28:5|Found inferred clock led_blink|clkout_inferred_clock which controls 2 sequential elements including led_blink_0.led[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\flashfreeze_sb_mss\flashfreeze_sb_mss.v":252:0:252:13|Found inferred clock FlashFreeze_SB|BIBUF_1_Y_inferred_clock which controls 1 sequential elements including FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\synthesis\TOP.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 262MB peak: 263MB)
+
+Encoding state machine sm0_state[6:0] (in view: work.CoreReset_FF_Z1_layer0(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine s_state[0:42] (in view: work.LCD_FSM(lcd_fsm))
+original code -> new code
+   000000 -> 000000
+   000001 -> 000001
+   000010 -> 000011
+   000011 -> 000010
+   000100 -> 000110
+   000101 -> 000111
+   000110 -> 000101
+   000111 -> 000100
+   001000 -> 001100
+   001001 -> 001101
+   001010 -> 001111
+   001011 -> 001110
+   001100 -> 001010
+   001101 -> 001011
+   001110 -> 001001
+   001111 -> 001000
+   010000 -> 011000
+   010001 -> 011001
+   010010 -> 011011
+   010011 -> 011010
+   010100 -> 011110
+   010101 -> 011111
+   010110 -> 011101
+   010111 -> 011100
+   011000 -> 010100
+   011001 -> 010101
+   011010 -> 010111
+   011011 -> 010110
+   011100 -> 010010
+   011101 -> 010011
+   011110 -> 010001
+   011111 -> 010000
+   110000 -> 110000
+   110001 -> 110001
+   110010 -> 110011
+   110011 -> 110010
+   110100 -> 110110
+   110101 -> 110111
+   110110 -> 110101
+   110111 -> 110100
+   111100 -> 111100
+   111101 -> 111101
+   111111 -> 111111
+Encoding state machine CUARTlI0l[5:0] (in view: work.COREUART_C0_COREUART_C0_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 000001
+   00000000000000000000000000000001 -> 000010
+   00000000000000000000000000000010 -> 000100
+   00000000000000000000000000000011 -> 001000
+   00000000000000000000000000000100 -> 010000
+   00000000000000000000000000000101 -> 100000
+Encoding state machine CUARTll0[3:0] (in view: work.COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\coreuart_c0\coreuart_c0_0\rtl\vlog\core_obfuscated\rx_async.v":871:0:871:5|There are no possible illegal states for state machine CUARTll0[3:0] (in view: work.COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+Encoding state machine state[0:19] (in view: work.receive_data(receive_data))
+original code -> new code
+   00000000000000000001 -> 00000000000000000001
+   00000000000000000010 -> 00000000000000000010
+   00000000000000000100 -> 00000000000000000100
+   00000000000000001000 -> 00000000000000001000
+   00000000000000010000 -> 00000000000000010000
+   00000000000000100000 -> 00000000000000100000
+   00000000000001000000 -> 00000000000001000000
+   00000000000010000000 -> 00000000000010000000
+   00000000000100000000 -> 00000000000100000000
+   00000000001000000000 -> 00000000001000000000
+   00000000010000000000 -> 00000000010000000000
+   00000000100000000000 -> 00000000100000000000
+   00000001000000000000 -> 00000001000000000000
+   00000010000000000000 -> 00000010000000000000
+   00000100000000000000 -> 00000100000000000000
+   00001000000000000000 -> 00001000000000000000
+   00010000000000000000 -> 00010000000000000000
+   00100000000000000000 -> 00100000000000000000
+   01000000000000000000 -> 01000000000000000000
+   10000000000000000000 -> 10000000000000000000
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 265MB peak: 265MB)
+
+@W: MF511 |Found issues with constraints. Please check constraint checker report "D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\synthesis\TOP_cck.rpt" .
+
+Finished constraint checker (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 266MB peak: 266MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 175MB peak: 267MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:03s cputime
+# Tue Jul 14 15:42:01 2026
+
+###########################################################]

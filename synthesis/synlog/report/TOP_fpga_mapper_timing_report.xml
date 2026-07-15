@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\synthesis\synlog\TOP_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>FlashFreeze_SB_0/CCC_0/GL0</data>
+<data>100.0 MHz</data>
+<data>153.2 MHz</data>
+<data>3.471</data>
+</row>
+<row>
+<data>FlashFreeze_SB_0/CCC_0/GL1</data>
+<data>24.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>FlashFreeze_SB|BIBUF_1_Y_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT</data>
+<data>50.0 MHz</data>
+<data>125.2 MHz</data>
+<data>9.486</data>
+</row>
+<row>
+<data>led_blink|clkout_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>607.2 MHz</data>
+<data>8.353</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>488.8 MHz</data>
+<data>7.954</data>
+</row>
+</report_table>

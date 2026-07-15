@@ -1,0 +1,180 @@
+
+fsm_encoding {71204412047} onehot
+
+fsm_state_encoding {71204412047} 000 {0000001}
+
+fsm_state_encoding {71204412047} 001 {0000010}
+
+fsm_state_encoding {71204412047} 010 {0000100}
+
+fsm_state_encoding {71204412047} 011 {0001000}
+
+fsm_state_encoding {71204412047} 100 {0010000}
+
+fsm_state_encoding {71204412047} 101 {0100000}
+
+fsm_state_encoding {71204412047} 110 {1000000}
+
+fsm_registers {71204412047} {sm0_state[6]}  {sm0_state[5]}  {sm0_state[4]}  {sm0_state[3]}  {sm0_state[2]}  {sm0_state[1]}  {sm0_state[0]} 
+
+fsm_encoding {15179161791} gray
+
+fsm_state_encoding {15179161791} idle {000000}
+
+fsm_state_encoding {15179161791} after_vsync {000001}
+
+fsm_state_encoding {15179161791} ram_reset1 {000011}
+
+fsm_state_encoding {15179161791} ram_reset {000010}
+
+fsm_state_encoding {15179161791} ram_reset5 {000110}
+
+fsm_state_encoding {15179161791} ram_reset4 {000111}
+
+fsm_state_encoding {15179161791} ram_reset2 {000101}
+
+fsm_state_encoding {15179161791} ram_reset3 {000100}
+
+fsm_state_encoding {15179161791} ram_reset13 {001100}
+
+fsm_state_encoding {15179161791} ram_reset12 {001101}
+
+fsm_state_encoding {15179161791} ram_reset10 {001111}
+
+fsm_state_encoding {15179161791} ram_reset11 {001110}
+
+fsm_state_encoding {15179161791} ram_reset6 {001010}
+
+fsm_state_encoding {15179161791} ram_reset7 {001011}
+
+fsm_state_encoding {15179161791} ram_reset9 {001001}
+
+fsm_state_encoding {15179161791} ram_reset8 {001000}
+
+fsm_state_encoding {15179161791} ram_reset29 {011000}
+
+fsm_state_encoding {15179161791} ram_reset28 {011001}
+
+fsm_state_encoding {15179161791} ram_reset26 {011011}
+
+fsm_state_encoding {15179161791} ram_reset27 {011010}
+
+fsm_state_encoding {15179161791} ram_reset22 {011110}
+
+fsm_state_encoding {15179161791} ram_reset23 {011111}
+
+fsm_state_encoding {15179161791} ram_reset25 {011101}
+
+fsm_state_encoding {15179161791} ram_reset24 {011100}
+
+fsm_state_encoding {15179161791} ram_reset14 {010100}
+
+fsm_state_encoding {15179161791} ram_reset15 {010101}
+
+fsm_state_encoding {15179161791} ram_reset17 {010111}
+
+fsm_state_encoding {15179161791} ram_reset16 {010110}
+
+fsm_state_encoding {15179161791} ram_reset21 {010010}
+
+fsm_state_encoding {15179161791} ram_reset20 {010011}
+
+fsm_state_encoding {15179161791} ram_reset18 {010001}
+
+fsm_state_encoding {15179161791} ram_reset19 {010000}
+
+fsm_state_encoding {15179161791} ram_reset30 {110000}
+
+fsm_state_encoding {15179161791} ram_reset31 {110001}
+
+fsm_state_encoding {15179161791} writing {110011}
+
+fsm_state_encoding {15179161791} waiting {110010}
+
+fsm_state_encoding {15179161791} writing3 {110110}
+
+fsm_state_encoding {15179161791} writing2 {110111}
+
+fsm_state_encoding {15179161791} writing1 {110101}
+
+fsm_state_encoding {15179161791} writing1_i {110100}
+
+fsm_state_encoding {15179161791} writing4 {111100}
+
+fsm_state_encoding {15179161791} writing5 {111101}
+
+fsm_state_encoding {15179161791} writing6 {111111}
+
+fsm_registers {15179161791} {s_state[5]}  {s_state[4]}  {s_state[3]}  {s_state[2]}  {s_state[1]}  {s_state[0]} 
+
+fsm_encoding {1730103012} onehot
+
+fsm_state_encoding {1730103012} CUARTI1ll {000001}
+
+fsm_state_encoding {1730103012} CUARTl1ll {000010}
+
+fsm_state_encoding {1730103012} CUARTOO0l {000100}
+
+fsm_state_encoding {1730103012} CUARTIO0l {001000}
+
+fsm_state_encoding {1730103012} CUARTlO0l {010000}
+
+fsm_state_encoding {1730103012} CUARTOI0l {100000}
+
+fsm_registers {1730103012} {CUARTlI0l[5]}  {CUARTlI0l[4]}  {CUARTlI0l[3]}  {CUARTlI0l[2]}  {CUARTlI0l[1]}  {CUARTlI0l[0]} 
+
+fsm_encoding {1687108711} sequential
+
+fsm_state_encoding {1687108711} 00 {00}
+
+fsm_state_encoding {1687108711} 01 {01}
+
+fsm_state_encoding {1687108711} 10 {10}
+
+fsm_state_encoding {1687108711} 11 {11}
+
+fsm_registers {1687108711} {CUARTll0[1]}  {CUARTll0[0]} 
+
+fsm_encoding {1113381332} onehot
+
+fsm_state_encoding {1113381332} idle {00000000000000000001}
+
+fsm_state_encoding {1113381332} get_1 {00000000000000000010}
+
+fsm_state_encoding {1113381332} set_data_0 {00000000000000000100}
+
+fsm_state_encoding {1113381332} set_data_0_i1 {00000000000000001000}
+
+fsm_state_encoding {1113381332} set_data_0_i2 {00000000000000010000}
+
+fsm_state_encoding {1113381332} set_data_0_i3 {00000000000000100000}
+
+fsm_state_encoding {1113381332} set_data_0_i4 {00000000000001000000}
+
+fsm_state_encoding {1113381332} set_data_0_i5 {00000000000010000000}
+
+fsm_state_encoding {1113381332} set_data_1 {00000000000100000000}
+
+fsm_state_encoding {1113381332} set_data_1_i1 {00000000001000000000}
+
+fsm_state_encoding {1113381332} set_data_1_i2 {00000000010000000000}
+
+fsm_state_encoding {1113381332} set_data_2 {00000000100000000000}
+
+fsm_state_encoding {1113381332} set_data_2_i1 {00000001000000000000}
+
+fsm_state_encoding {1113381332} set_data_2_i2 {00000010000000000000}
+
+fsm_state_encoding {1113381332} set_data_3 {00000100000000000000}
+
+fsm_state_encoding {1113381332} set_data_3_i1 {00001000000000000000}
+
+fsm_state_encoding {1113381332} set_data_3_i2 {00010000000000000000}
+
+fsm_state_encoding {1113381332} set_data_4 {00100000000000000000}
+
+fsm_state_encoding {1113381332} set_data_4_i1 {01000000000000000000}
+
+fsm_state_encoding {1113381332} set_data_4_i2 {10000000000000000000}
+
+fsm_registers {1113381332} {state[0]}  {state[1]}  {state[2]}  {state[3]}  {state[4]}  {state[5]}  {state[6]}  {state[7]}  {state[8]}  {state[9]}  {state[10]}  {state[11]}  {state[12]}  {state[13]}  {state[14]}  {state[15]}  {state[16]}  {state[17]}  {state[18]}  {state[19]} 

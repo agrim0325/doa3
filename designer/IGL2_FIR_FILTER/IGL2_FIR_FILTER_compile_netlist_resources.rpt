@@ -1,0 +1,205 @@
+Resource Report
+Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)
+Date: Tue May 28 17:57:00 2019
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S010         |
+| Package                        | 256 VF         |
+| Speed Grade                    | -1             |
+| Temp                           | -40:25:100     |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+----------------------------------------------------------------------+
+| Topcell | IGL2_FIR_FILTER                                                      |
+| Format  | Verilog                                                              |
+| Source  | D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\synthesis\IGL2_FIR_FILTER.vm |
++---------+----------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 6654 | 12084 | 55.06      |
+| DFF                       | 5247 | 12084 | 43.42      |
+| I/O Register              | 0    | 414   | 0.00       |
+| User I/O                  | 9    | 138   | 6.52       |
+| -- Single-ended I/O       | 9    | 138   | 6.52       |
+| -- Differential I/O Pairs | 0    | 65    | 0.00       |
+| RAM64x18                  | 0    | 22    | 0.00       |
+| RAM1K18                   | 12   | 21    | 57.14      |
+| MACC                      | 20   | 22    | 90.91      |
+| Chip Globals              | 7    | 8     | 87.50      |
+| CCC                       | 1    | 2     | 50.00      |
+| RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+------+
+| Type                     | 4LUT | DFF  |
++--------------------------+------+------+
+| Fabric Logic             | 5502 | 4095 |
+| RAM64x18 Interface Logic | 0    | 0    |
+| RAM1K18 Interface Logic  | 432  | 432  |
+| MACC Interface Logic     | 720  | 720  |
+| Total Used               | 6654 | 5247 |
++--------------------------+------+------+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 21   |
+| 7      | 3    |
+| 8      | 4    |
+| 9      | 1    |
+| 10     | 1    |
+| 11     | 1    |
+| 12     | 2    |
+| 13     | 1    |
+| 16     | 5    |
+| 17     | 17   |
+| 27     | 1    |
+| Total  | 57   |
++--------+------+
+
+Detailed MACC Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 2    |
+| 5      | 1    |
+| 11     | 1    |
+| Total  | 4    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 3            | 0           | 0               |
+| Output I/O                    | 6            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS25     |  2.50v |  N/A |  3    |  6     |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+I/O Placement
++----------+-------+------------+
+| Type     | Count | Percentage |
++----------+-------+------------+
+| Locked   |  0    | 0.00%      |
+| Placed   |  0    | 0.00%      |
+| UnPlaced |  9    | 100.00%    |
++----------+-------+------------+
+
+Nets assigned to chip global resources
++--------+---------+-----------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                          |
++--------+---------+-----------------------------------------------------------------------------------------------+
+| 1553   | INT_NET | Net   : FCCC_0_GL2                                                                            |
+|        |         | Driver: FCCC_0/GL2_INST/U0_RGB1                                                               |
+|        |         | Source: NETLIST                                                                               |
+| 1551   | INT_NET | Net   : PB_logic_0_rstno                                                                      |
+|        |         | Driver: PB_logic_0/rstno_RNII8K3/U0_RGB1                                                      |
+|        |         | Source: NETLIST                                                                               |
+| 1507   | INT_NET | Net   : FCCC_0_GL1_0                                                                          |
+|        |         | Driver: FCCC_0/GL1_INST/U0_RGB1                                                               |
+|        |         | Source: NETLIST                                                                               |
+| 1241   | INT_NET | Net   : SYSRESET_0_POWER_ON_RESET_N                                                           |
+|        |         | Driver: SYSRESET_0_POWER_ON_RESET_N_keep_RNICK88/U0_RGB1                                      |
+|        |         | Source: NETLIST                                                                               |
+| 1230   | INT_NET | Net   : FCCC_0_GL0                                                                            |
+|        |         | Driver: FCCC_0/GL0_INST/U0_RGB1                                                               |
+|        |         | Source: NETLIST                                                                               |
+| 17     | INT_NET | Net   : COREFFT_0/genblk1.DUT_INPLACE/divider_i_0[2]                                          |
+|        |         | Driver: COREFFT_0/genblk1.DUT_INPLACE/slowClock_0/divider_inferred_clock_RNI6AME_0[2]/U0_RGB1 |
+|        |         | Source: NETLIST                                                                               |
+| 2      | INT_NET | Net   : led_blink_0/clkout_Z                                                                  |
+|        |         | Driver: led_blink_0/clkout_inferred_clock_RNICM14/U0_RGB1                                     |
+|        |         | Source: NETLIST                                                                               |
++--------+---------+-----------------------------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+--------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                         |
++--------+---------+--------------------------------------------------------------------------------------------------------------+
+| 578    | INT_NET | Net   : COREFIR_0/enum_g4.enum_fir_g4/datai_valid_wrap                                                       |
+|        |         | Driver: COREFIR_0/enum_g4.enum_fir_g4/wrap_data_valid/genblk1.delayLine[1]                                   |
+| 338    | INT_NET | Net   : CFG0_GND_INST_NET                                                                                    |
+|        |         | Driver: CFG0_GND_INST                                                                                        |
+| 256    | INT_NET | Net   : COREFIR_0/enum_g4.enum_fir_g4/coefi_valid_wrap                                                       |
+|        |         | Driver: COREFIR_0/enum_g4.enum_fir_g4/wrap_coef_valid/genblk1.delayLine[1]                                   |
+| 196    | INT_NET | Net   : COREFIR_0/enum_g4.enum_fir_g4/fir_enum_g4_0/en_p_join                                                |
+|        |         | Driver: COREFIR_0/enum_g4.enum_fir_g4/fir_enum_g4_0/odd_tap.last_tap/symm_add_balance_0/genblk1.delayLine[0] |
+| 108    | INT_NET | Net   : COREFFT_0/genblk1.DUT_INPLACE/twid_wA_w[0]                                                           |
+|        |         | Driver: COREFFT_0/genblk1.DUT_INPLACE/sm_0/twid_wA_0/slowTimer/Q[0]                                          |
+| 107    | INT_NET | Net   : COREFFT_0/genblk1.DUT_INPLACE/twid_wA_w[3]                                                           |
+|        |         | Driver: COREFFT_0/genblk1.DUT_INPLACE/sm_0/twid_wA_0/slowTimer/Q[3]                                          |
+| 98     | INT_NET | Net   : COREFFT_0/genblk1.DUT_INPLACE/twid_wA_w[4]                                                           |
+|        |         | Driver: COREFFT_0/genblk1.DUT_INPLACE/sm_0/twid_wA_0/slowTimer/Q[4]                                          |
+| 85     | INT_NET | Net   : COREFFT_0/genblk1.DUT_INPLACE/PONG                                                                   |
+|        |         | Driver: COREFFT_0/genblk1.DUT_INPLACE/sm_0/smPong                                                            |
+| 85     | INT_NET | Net   : COREFIR_0/enum_g4.enum_fir_g4/coef_on_wrap                                                           |
+|        |         | Driver: COREFIR_0/enum_g4.enum_fir_g4/wrap_coef_on/genblk1.delayLine[1]                                      |
+| 83     | INT_NET | Net   : COREFFT_0/genblk1.DUT_INPLACE/twid_wA_w[2]                                                           |
+|        |         | Driver: COREFFT_0/genblk1.DUT_INPLACE/sm_0/twid_wA_0/slowTimer/Q[2]                                          |
++--------+---------+--------------------------------------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+--------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                         |
++--------+---------+--------------------------------------------------------------------------------------------------------------+
+| 578    | INT_NET | Net   : COREFIR_0/enum_g4.enum_fir_g4/datai_valid_wrap                                                       |
+|        |         | Driver: COREFIR_0/enum_g4.enum_fir_g4/wrap_data_valid/genblk1.delayLine[1]                                   |
+| 338    | INT_NET | Net   : CFG0_GND_INST_NET                                                                                    |
+|        |         | Driver: CFG0_GND_INST                                                                                        |
+| 256    | INT_NET | Net   : COREFIR_0/enum_g4.enum_fir_g4/coefi_valid_wrap                                                       |
+|        |         | Driver: COREFIR_0/enum_g4.enum_fir_g4/wrap_coef_valid/genblk1.delayLine[1]                                   |
+| 196    | INT_NET | Net   : COREFIR_0/enum_g4.enum_fir_g4/fir_enum_g4_0/en_p_join                                                |
+|        |         | Driver: COREFIR_0/enum_g4.enum_fir_g4/fir_enum_g4_0/odd_tap.last_tap/symm_add_balance_0/genblk1.delayLine[0] |
+| 108    | INT_NET | Net   : COREFFT_0/genblk1.DUT_INPLACE/twid_wA_w[0]                                                           |
+|        |         | Driver: COREFFT_0/genblk1.DUT_INPLACE/sm_0/twid_wA_0/slowTimer/Q[0]                                          |
+| 107    | INT_NET | Net   : COREFFT_0/genblk1.DUT_INPLACE/twid_wA_w[3]                                                           |
+|        |         | Driver: COREFFT_0/genblk1.DUT_INPLACE/sm_0/twid_wA_0/slowTimer/Q[3]                                          |
+| 98     | INT_NET | Net   : COREFFT_0/genblk1.DUT_INPLACE/twid_wA_w[4]                                                           |
+|        |         | Driver: COREFFT_0/genblk1.DUT_INPLACE/sm_0/twid_wA_0/slowTimer/Q[4]                                          |
+| 85     | INT_NET | Net   : COREFFT_0/genblk1.DUT_INPLACE/PONG                                                                   |
+|        |         | Driver: COREFFT_0/genblk1.DUT_INPLACE/sm_0/smPong                                                            |
+| 85     | INT_NET | Net   : COREFIR_0/enum_g4.enum_fir_g4/coef_on_wrap                                                           |
+|        |         | Driver: COREFIR_0/enum_g4.enum_fir_g4/wrap_coef_on/genblk1.delayLine[1]                                      |
+| 83     | INT_NET | Net   : COREFFT_0/genblk1.DUT_INPLACE/twid_wA_w[2]                                                           |
+|        |         | Driver: COREFFT_0/genblk1.DUT_INPLACE/sm_0/twid_wA_0/slowTimer/Q[2]                                          |
++--------+---------+--------------------------------------------------------------------------------------------------------------+
+

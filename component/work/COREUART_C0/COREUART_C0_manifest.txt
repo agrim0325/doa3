@@ -1,0 +1,22 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)
+
+Date      :  Thu Jun 27 14:34:37 2019
+Project   :  C:\Users\schekoti\Documents\MICROSEMI\Work\Hello_FPGA\HF10_OV7725_LCD_FF
+Component :  COREUART_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/schekoti/Documents/MICROSEMI/Work/Hello_FPGA/HF10_OV7725_LCD_FF/component/work/COREUART_C0/COREUART_C0.v
+    C:/Users/schekoti/Documents/MICROSEMI/Work/Hello_FPGA/HF10_OV7725_LCD_FF/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core_obfuscated/Clock_gen.v
+    C:/Users/schekoti/Documents/MICROSEMI/Work/Hello_FPGA/HF10_OV7725_LCD_FF/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core_obfuscated/CoreUART.v
+    C:/Users/schekoti/Documents/MICROSEMI/Work/Hello_FPGA/HF10_OV7725_LCD_FF/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core_obfuscated/Rx_async.v
+    C:/Users/schekoti/Documents/MICROSEMI/Work/Hello_FPGA/HF10_OV7725_LCD_FF/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core_obfuscated/Tx_async.v
+    C:/Users/schekoti/Documents/MICROSEMI/Work/Hello_FPGA/HF10_OV7725_LCD_FF/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/core_obfuscated/fifo_256x8_g4.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/schekoti/Documents/MICROSEMI/Work/Hello_FPGA/HF10_OV7725_LCD_FF/component/work/COREUART_C0/COREUART_C0_0/mti/scripts/wave_vlog.do
+
+    C:/Users/schekoti/Documents/MICROSEMI/Work/Hello_FPGA/HF10_OV7725_LCD_FF/component/work/COREUART_C0/COREUART_C0_0/coreparameters.v
+    C:/Users/schekoti/Documents/MICROSEMI/Work/Hello_FPGA/HF10_OV7725_LCD_FF/component/work/COREUART_C0/COREUART_C0_0/rtl/vlog/test/user/testbnch.v
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>TOP</design>
+	<target_verilog>D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\synthesis\TOP.vm</target_verilog>
+</SynplifyOutput>

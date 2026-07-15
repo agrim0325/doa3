@@ -1,0 +1,35 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. TOP, 641, 612, 278, 0, 3, 1, 0, 8, 37
+.	. FF_GENERATOR, 1, 0, 0, 0, 0, 0, 0, 0, 0
+.	. FlashFreeze_SB, 46, 22, 0, 0, 0, 0, 0, 5, 2
+.	.	. CORERESET_FF_0, 46, 21, 0, 0, 0, 0, 0, 3, 0
+.	.	.	. CoreReset_FF_Z1_layer0, 46, 21, 0, 0, 0, 0, 0, 3, 0
+.	.	. FlashFreeze_SB_CCC_0_FCCC, 0, 1, 0, 0, 0, 0, 0, 2, 0
+.	.	. FlashFreeze_SB_MSS, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	. OSC_C0, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	. OSC_C0_OSC_C0_0_OSC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	. UART_interface, 164, 96, 14, 0, 0, 0, 0, 0, 0
+.	.	. COREUART_C0, 64, 70, 14, 0, 0, 0, 0, 0, 0
+.	.	.	. COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s, 64, 70, 14, 0, 0, 0, 0, 0, 0
+.	.	.	.	. COREUART_C0_COREUART_C0_0_Clock_gen_1s_0s, 20, 13, 14, 0, 0, 0, 0, 0, 0
+.	.	.	.	. COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s, 32, 42, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. COREUART_C0_COREUART_C0_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s, 11, 13, 0, 0, 0, 0, 0, 0, 0
+.	.	. addr_decoder, 50, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	. receive_data, 50, 20, 0, 0, 0, 0, 0, 0, 0
+.	. dot_osd_integration, 203, 281, 193, 0, 0, 0, 0, 0, 0
+.	.	. dot_detector, 181, 32, 152, 0, 0, 0, 0, 0, 0
+.	.	. osd_overlay, 22, 249, 41, 0, 0, 0, 0, 0, 0
+.	.	.	. osd_engine, 0, 230, 19, 0, 0, 0, 0, 0, 0
+.	.	.	.	. bin2bcd, 0, 40, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. bin2bcd_1, 0, 38, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. font5x7, 0, 67, 15, 0, 0, 0, 0, 0, 0
+.	. led_blink, 30, 5, 27, 0, 0, 0, 0, 1, 0
+.	. line_write_read, 184, 178, 44, 0, 3, 1, 0, 0, 0
+.	.	. Image_Enhancement, 69, 19, 0, 0, 3, 0, 0, 0, 0
+.	.	. LCD_FSM, 30, 130, 11, 0, 0, 0, 0, 0, 0
+.	.	. WRITE_LSRAM, 48, 13, 33, 0, 0, 0, 0, 0, 0
+.	.	. double_flop, 20, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. ramDualPort, 17, 16, 0, 0, 0, 1, 0, 0, 0
+.	. mux_2_1, 0, 20, 0, 0, 0, 0, 0, 0, 0
+.	. work_apb3_if_apb3_if_32_12_1_g_APB3_IF_DATA_WIDTHg_CONST_WIDTH, 13, 10, 0, 0, 0, 0, 0, 0, 0

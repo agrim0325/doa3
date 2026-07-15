@@ -1,0 +1,12 @@
+14:48:17 **** Incremental Build of configuration Release for project hellofpga_lcd_cam_ff ****
+make all 
+'Building file: ../hal/CortexM3/GNU/hal.S'
+'Invoking: Cross ARM GNU Assembler'
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+'arm-none-eabi-gcc' is not recognized as an internal or external command,
+operable program or batch file.
+make: *** [hal/CortexM3/GNU/hal.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+14:48:18 Build Failed. 1 errors, 0 warnings. (took 455ms)
+

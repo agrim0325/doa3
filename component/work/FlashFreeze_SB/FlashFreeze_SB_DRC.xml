@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>FlashFreeze_SB</header>
+  <drc>
+    <status>F:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin FlashFreeze_SB_MSS_0:FIC_0_APB_MASTER</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/FlashFreeze_SB/pins/FlashFreeze_SB_MSS_0:FIC_0_APB_MASTER</crossprobe>
+  </drc>
+</drcreport>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>UART_interface</header>
+  <drc>
+    <status>F:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output bus pin receive_data_0:addr_o[15:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/UART_interface/pins/receive_data_0:addr_o</crossprobe>
+  </drc>
+</drcreport>

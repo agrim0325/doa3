@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)
+
+Date      :  Thu Aug  8 15:47:52 2019
+Project   :  F:\SVN\HelloFPGA\Update\HF10_OV7725_LCD_FF
+Component :  line_write_read
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    F:/SVN/HelloFPGA/Update/HF10_OV7725_LCD_FF/component/work/line_write_read/line_write_read.v
+

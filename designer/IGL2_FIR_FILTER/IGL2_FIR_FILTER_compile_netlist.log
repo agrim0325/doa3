@@ -1,0 +1,33 @@
+Warning: CMPG4-007: Top level port FF_TRI is not connected to any IO pad
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       7 
+      Globals that cannot be demoted:      3 
+      Globals considered for demotion:     4 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    1553   0      0      'FCCC_0/GL2_INST' 
+    1507   0      0      'FCCC_0/GL1_INST' 
+    1230   0      0      'FCCC_0/GL0_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    17     0      0      'COREFFT_0/genblk1.DUT_INPLACE/slowClock_0/divider_inferred_clock_RNI6AME_0[2]' 
+    2      0      0      'led_blink_0/clkout_inferred_clock_RNICM14' 
+    0      1551   0      'PB_logic_0/rstno_RNII8K3' 
+    0      1241   16     'SYSRESET_0_POWER_ON_RESET_N_keep_RNICK88' 
+
+Info: Demotion information: 
+      Disconnected 16 data pins from global 'SYSRESET_0_POWER_ON_RESET_N_keep_RNICK88'. 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+
+Warning:   Your design contains a Fabric CCC block with the selected Lock Window setting too low when using the On-Chip 25/50 MHz RC oscillator as the reference clock. The PLL may not lock for 'FCCC_0/CCC_INST/INST_CCC_IP' instance. Select a Lock Window setting of '16000' ppm or higher in the PLL Options tab of the CCC block.

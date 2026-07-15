@@ -1,0 +1,32 @@
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       8 
+      Globals that cannot be demoted:      2 
+      Globals considered for demotion:     6 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    627    0      0      'FlashFreeze_SB_0/CCC_0/GL0_INST' 
+    0      0      1      'FlashFreeze_SB_0/CCC_0/GL1_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    15     0      0      'OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB_CLKINT' 
+    2      0      0      'led_blink_0/clkout_inferred_clock_RNICM1K1' 
+    0      354    0      'MX2_0_RNI6A052' 
+    0      178    0      'FlashFreeze_SB_0/CORERESET_FF_0_0/CORERESET_FF_0_0/INIT_DONE_RNIV1UU3' 
+    0      20     0      'FlashFreeze_SB_0/CORERESET_FF_0_0/CORERESET_FF_0_0/sm0_areset_n_clk_base_RNIPALD1' 
+    0      12     0      'FlashFreeze_SB_0/CORERESET_FF_0_0/CORERESET_FF_0_0/sm0_areset_n_RNI6L684' 
+
+Info: Demotion information: 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+
+Warning:   Your design contains a Fabric CCC block with the selected Lock Window setting too low when using the On-Chip 25/50 MHz RC oscillator as the reference clock. The PLL may not lock for 'FlashFreeze_SB_0/CCC_0/CCC_INST/INST_CCC_IP' instance. Select a Lock Window setting of '16000' ppm or higher in the PLL Options tab of the CCC block.

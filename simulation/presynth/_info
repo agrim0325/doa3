@@ -1,0 +1,1036 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/simulation
+vCoreResetP
+Z1 !s110 1559113568
+!i10b 1
+!s100 @Zo];e514VV7P1g<jcJXD0
+Ia?Bm`S:GicnhkT@m=UmSe1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/simulation
+Z4 w1559108844
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/Actel/DirectCore/CoreResetP/8.0.103/rtl/vlog/core/coreresetp.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/Actel/DirectCore/CoreResetP/8.0.103/rtl/vlog/core/coreresetp.v
+L0 23
+Z5 OW;L;10.7c;67
+r1
+!s85 0
+31
+Z6 !s108 1559113568.000000
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/Actel/DirectCore/CoreResetP/8.0.103/rtl/vlog/core/coreresetp.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/Actel/DirectCore/CoreResetP/8.0.103/rtl/vlog/core/coreresetp.v|
+!s101 -O0
+!i113 1
+Z7 o-vlog01compat -work presynth -O0
+Z8 !s92 +incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4 -vlog01compat -work presynth -O0
+Z9 tCvgOpt 0
+n@core@reset@p
+vcoreresetp_pcie_hotreset
+R1
+!i10b 1
+!s100 THP8d2do=M7PPiWYRQc2X2
+IDN:`5e><NXkL:>N5Z7MHS1
+R2
+R3
+R4
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/Actel/DirectCore/CoreResetP/8.0.103/rtl/vlog/core/coreresetp_pcie_hotreset.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/Actel/DirectCore/CoreResetP/8.0.103/rtl/vlog/core/coreresetp_pcie_hotreset.v
+L0 31
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/Actel/DirectCore/CoreResetP/8.0.103/rtl/vlog/core/coreresetp_pcie_hotreset.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/Actel/DirectCore/CoreResetP/8.0.103/rtl/vlog/core/coreresetp_pcie_hotreset.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+vCRC
+Z10 !s110 1559113564
+!i10b 1
+!s100 I;Q_;H>J9H7YJfd3FOF?i1
+ITGbBo>[ELOi=jHoUP9e2g3
+R2
+R3
+w1559106389
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/CRC/CRC.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/CRC/CRC.v
+L0 9
+R5
+r1
+!s85 0
+31
+Z11 !s108 1559113564.000000
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/CRC/CRC.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/CRC/CRC.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@c@r@c
+vcrc_256
+R10
+!i10b 1
+!s100 aaZ>E_LI=nhogT6M2>RT=2
+ISCHa[3XK0Ld1KCYjGzh4M3
+R2
+R3
+Z12 w1559026622
+Z13 8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/hdl/crc_256_pwr.v
+Z14 FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/hdl/crc_256_pwr.v
+Z15 L0 14
+R5
+r1
+!s85 0
+31
+R11
+Z16 !s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/hdl/crc_256_pwr.v|
+Z17 !s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/hdl/crc_256_pwr.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+vcrc_256_pwr
+R10
+!i10b 1
+!s100 W@XQdWFLlhEP9aUm=C[TT0
+IKVlnNJ6`lbEGH`2Pnm]h30
+R2
+R3
+R12
+R13
+R14
+L0 121
+R5
+r1
+!s85 0
+31
+R11
+R16
+R17
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+vcrc_256_repeat
+R10
+!i10b 1
+!s100 AEj?7c52`95d1;zYL:b=b0
+Ifb[2e5Ld^5k4iHLk1Q_052
+R2
+R3
+R12
+R13
+R14
+L0 81
+R5
+r1
+!s85 0
+31
+R11
+R16
+R17
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+vDATA_HANDLE
+Z18 !s110 1559113565
+!i10b 1
+!s100 0GBXDldKO;j;E0U`GDh:R2
+I9J^]A`YPV>be@<HOoXIiN1
+R2
+R3
+Z19 w1557471400
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/DATA_HANDLE.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/DATA_HANDLE.v
+L0 9
+R5
+r1
+!s85 0
+31
+Z20 !s108 1559113565.000000
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/DATA_HANDLE.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/DATA_HANDLE.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@d@a@t@a_@h@a@n@d@l@e
+vDATA_HANDLE_COREUART_0_Clock_gen
+R18
+!i10b 1
+!s100 LzgS5_i810<5@ikgKhL>Q1
+IVUGXEW5QzWAG2A1nPH:Rl0
+R2
+R3
+R19
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/COREUART_0/rtl/vlog/core_obfuscated/Clock_gen.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/COREUART_0/rtl/vlog/core_obfuscated/Clock_gen.v
+L0 30
+R5
+r1
+!s85 0
+31
+R20
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/COREUART_0/rtl/vlog/core_obfuscated/Clock_gen.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/COREUART_0/rtl/vlog/core_obfuscated/Clock_gen.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@d@a@t@a_@h@a@n@d@l@e_@c@o@r@e@u@a@r@t_0_@clock_gen
+vDATA_HANDLE_COREUART_0_COREUART
+R18
+!i10b 1
+!s100 YZjI1<ODn81d6d=0;VJ^z0
+I@5SRo^LPGl6h[=M8dmEWo3
+R2
+R3
+R19
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/COREUART_0/rtl/vlog/core_obfuscated/CoreUART.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/COREUART_0/rtl/vlog/core_obfuscated/CoreUART.v
+R15
+R5
+r1
+!s85 0
+31
+R20
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/COREUART_0/rtl/vlog/core_obfuscated/CoreUART.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/COREUART_0/rtl/vlog/core_obfuscated/CoreUART.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@d@a@t@a_@h@a@n@d@l@e_@c@o@r@e@u@a@r@t_0_@c@o@r@e@u@a@r@t
+vDATA_HANDLE_COREUART_0_fifo_256x8
+R18
+!i10b 1
+!s100 zbo8XeoWBj[JLZlQ8<Dbm2
+Iaik@<>eXm]aEJ1b]ASA5i3
+R2
+R3
+R19
+Z21 8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/COREUART_0/rtl/vlog/core_obfuscated/fifo_256x8_g4.v
+Z22 FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/COREUART_0/rtl/vlog/core_obfuscated/fifo_256x8_g4.v
+R15
+R5
+r1
+!s85 0
+31
+R20
+Z23 !s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/COREUART_0/rtl/vlog/core_obfuscated/fifo_256x8_g4.v|
+Z24 !s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/COREUART_0/rtl/vlog/core_obfuscated/fifo_256x8_g4.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@d@a@t@a_@h@a@n@d@l@e_@c@o@r@e@u@a@r@t_0_fifo_256x8
+vDATA_HANDLE_COREUART_0_fifo_ctrl_128
+R18
+!i10b 1
+!s100 GQK7OAflB89ZFN6K^JcR92
+Ie9RTI6njiPXB0GZ5YF[aZ2
+R2
+R3
+R19
+R21
+R22
+L0 167
+R5
+r1
+!s85 0
+31
+R20
+R23
+R24
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@d@a@t@a_@h@a@n@d@l@e_@c@o@r@e@u@a@r@t_0_fifo_ctrl_128
+vDATA_HANDLE_COREUART_0_ram128x8_pa4
+R18
+!i10b 1
+!s100 1gY=^]K7Z3FYXFn7SNNlk1
+I?<zURgoKh]Q6e7De`J?>d1
+R2
+R3
+R19
+R21
+R22
+L0 716
+R5
+r1
+!s85 0
+31
+R20
+R23
+R24
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@d@a@t@a_@h@a@n@d@l@e_@c@o@r@e@u@a@r@t_0_ram128x8_pa4
+vDATA_HANDLE_COREUART_0_Rx_async
+R18
+!i10b 1
+!s100 0PilHM2OCU9;Xn:h]W5F41
+I94BK@iFKVK<3=ZLfY=Eh61
+R2
+R3
+R19
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/COREUART_0/rtl/vlog/core_obfuscated/Rx_async.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/COREUART_0/rtl/vlog/core_obfuscated/Rx_async.v
+R15
+R5
+r1
+!s85 0
+31
+R20
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/COREUART_0/rtl/vlog/core_obfuscated/Rx_async.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/COREUART_0/rtl/vlog/core_obfuscated/Rx_async.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@d@a@t@a_@h@a@n@d@l@e_@c@o@r@e@u@a@r@t_0_@rx_async
+vDATA_HANDLE_COREUART_0_Tx_async
+R18
+!i10b 1
+!s100 bBWI]8loJN5MGXE6d8;Cd0
+I^_J0K;c;BUek[W=ClTG352
+R2
+R3
+R19
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/COREUART_0/rtl/vlog/core_obfuscated/Tx_async.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/COREUART_0/rtl/vlog/core_obfuscated/Tx_async.v
+R15
+R5
+r1
+!s85 0
+31
+R20
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/COREUART_0/rtl/vlog/core_obfuscated/Tx_async.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/DATA_HANDLE/COREUART_0/rtl/vlog/core_obfuscated/Tx_async.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@d@a@t@a_@h@a@n@d@l@e_@c@o@r@e@u@a@r@t_0_@tx_async
+vFCCC_C0
+R18
+!i10b 1
+!s100 7BNEGYN;DH4MAPh5QSaQn1
+I]IOz[ZY1EXYc^Zff>l`<M2
+R2
+R3
+w1559110341
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FCCC_C0/FCCC_C0.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FCCC_C0/FCCC_C0.v
+L0 9
+R5
+r1
+!s85 0
+31
+R20
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FCCC_C0/FCCC_C0.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FCCC_C0/FCCC_C0.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@f@c@c@c_@c0
+vFCCC_C0_FCCC_C0_0_FCCC
+R18
+!i10b 1
+!s100 :0<k8dFTn`Q;babd1dFzH0
+I0gFDO1[On<B>@lT8RTdcK1
+R2
+R3
+w1559110340
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FCCC_C0/FCCC_C0_0/FCCC_C0_FCCC_C0_0_FCCC.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FCCC_C0/FCCC_C0_0/FCCC_C0_FCCC_C0_0_FCCC.v
+L0 5
+R5
+r1
+!s85 0
+31
+R11
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FCCC_C0/FCCC_C0_0/FCCC_C0_FCCC_C0_0_FCCC.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FCCC_C0/FCCC_C0_0/FCCC_C0_FCCC_C0_0_FCCC.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@f@c@c@c_@c0_@f@c@c@c_@c0_0_@f@c@c@c
+vFILTERCONTROL_FSM
+Z25 !s110 1559113566
+!i10b 1
+!s100 QnR_Y^`QGj:U2HFzJi6z>0
+IGXj>^2]VT4KlMHGcDZ^e41
+R2
+R3
+w1380850752
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/hdl/FILTER_CONTROL_FSM.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/hdl/FILTER_CONTROL_FSM.v
+Z26 L0 20
+R5
+r1
+!s85 0
+31
+R20
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/hdl/FILTER_CONTROL_FSM.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/hdl/FILTER_CONTROL_FSM.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@f@i@l@t@e@r@c@o@n@t@r@o@l_@f@s@m
+vFIR_FILTER
+R1
+!i10b 1
+!s100 heHeR2SDjH_2@K?4J@?Xn2
+IcM=24n3CfzK4cdoUmV1oj0
+R2
+R3
+Z27 w1559106409
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/FIR_FILTER.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/FIR_FILTER.v
+L0 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/FIR_FILTER.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/FIR_FILTER.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@f@i@r_@f@i@l@t@e@r
+vFIR_FILTER_Coef_Buff_TPSRAM
+R25
+!i10b 1
+!s100 m5oFzYoaQeBE]:gc6g49G3
+Ic[kF0Ykf33hFNE8a[@6FG2
+R2
+R3
+w1559106398
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/Coef_Buff/FIR_FILTER_Coef_Buff_TPSRAM.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/Coef_Buff/FIR_FILTER_Coef_Buff_TPSRAM.v
+L0 5
+R5
+r1
+!s85 0
+31
+Z28 !s108 1559113566.000000
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/Coef_Buff/FIR_FILTER_Coef_Buff_TPSRAM.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/Coef_Buff/FIR_FILTER_Coef_Buff_TPSRAM.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@f@i@r_@f@i@l@t@e@r_@coef_@buff_@t@p@s@r@a@m
+vFIR_FILTER_FFT_Im_Buff_TPSRAM
+R25
+!i10b 1
+!s100 d8zaalYZIIB<KP>c4o95=1
+IYV`D1f?LWB4;I@Mn[7j?<0
+R2
+R3
+w1559106404
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/FFT_Im_Buff/FIR_FILTER_FFT_Im_Buff_TPSRAM.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/FFT_Im_Buff/FIR_FILTER_FFT_Im_Buff_TPSRAM.v
+L0 5
+R5
+r1
+!s85 0
+31
+R28
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/FFT_Im_Buff/FIR_FILTER_FFT_Im_Buff_TPSRAM.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/FFT_Im_Buff/FIR_FILTER_FFT_Im_Buff_TPSRAM.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@f@i@r_@f@i@l@t@e@r_@f@f@t_@im_@buff_@t@p@s@r@a@m
+vFIR_FILTER_FFT_Re_Buff_TPSRAM
+R25
+!i10b 1
+!s100 hD2^HEQb?_hI1TGdbF21d1
+IlVC3:WDTM;_[c39QoaTab1
+R2
+R3
+w1559106406
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/FFT_Re_Buff/FIR_FILTER_FFT_Re_Buff_TPSRAM.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/FFT_Re_Buff/FIR_FILTER_FFT_Re_Buff_TPSRAM.v
+L0 5
+R5
+r1
+!s85 0
+31
+R28
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/FFT_Re_Buff/FIR_FILTER_FFT_Re_Buff_TPSRAM.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/FFT_Re_Buff/FIR_FILTER_FFT_Re_Buff_TPSRAM.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@f@i@r_@f@i@l@t@e@r_@f@f@t_@re_@buff_@t@p@s@r@a@m
+vFIR_FILTER_FIR_IN_Buff_TPSRAM
+R25
+!i10b 1
+!s100 Za=`_W3h;k0XNcdaUhd4z1
+I:`hgA2@KGS[SlM`_4UDaM1
+R2
+R3
+w1559106408
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/FIR_IN_Buff/FIR_FILTER_FIR_IN_Buff_TPSRAM.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/FIR_IN_Buff/FIR_FILTER_FIR_IN_Buff_TPSRAM.v
+L0 5
+R5
+r1
+!s85 0
+31
+R28
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/FIR_IN_Buff/FIR_FILTER_FIR_IN_Buff_TPSRAM.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/FIR_IN_Buff/FIR_FILTER_FIR_IN_Buff_TPSRAM.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@f@i@r_@f@i@l@t@e@r_@f@i@r_@i@n_@buff_@t@p@s@r@a@m
+vFIR_FILTER_FIR_Out_Buff_TPSRAM
+R25
+!i10b 1
+!s100 CPGK0e^_^k=klja_]G7YC2
+Ih2i:8?R:Y_de9nR2=>ONl3
+R2
+R3
+R27
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/FIR_Out_Buff/FIR_FILTER_FIR_Out_Buff_TPSRAM.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/FIR_Out_Buff/FIR_FILTER_FIR_Out_Buff_TPSRAM.v
+L0 5
+R5
+r1
+!s85 0
+31
+R28
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/FIR_Out_Buff/FIR_FILTER_FIR_Out_Buff_TPSRAM.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/FIR_Out_Buff/FIR_FILTER_FIR_Out_Buff_TPSRAM.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@f@i@r_@f@i@l@t@e@r_@f@i@r_@out_@buff_@t@p@s@r@a@m
+vFlashFreeze_SB
+Z29 !s110 1559113569
+!i10b 1
+!s100 G>>SNjSDW2<INoSR5RF?00
+IBU1iXN0T1CO74fEO9GSe81
+R2
+R3
+Z30 w1559110379
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FlashFreeze_SB/FlashFreeze_SB.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FlashFreeze_SB/FlashFreeze_SB.v
+L0 9
+R5
+r1
+!s85 0
+31
+Z31 !s108 1559113569.000000
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FlashFreeze_SB/FlashFreeze_SB.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FlashFreeze_SB/FlashFreeze_SB.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@flash@freeze_@s@b
+vFlashFreeze_SB_CCC_0_FCCC
+R1
+!i10b 1
+!s100 8_1S60:jKb[TdW6zE4l9<1
+I0Ad8FS5kF=`NSe:`HFn]90
+R2
+R3
+R30
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FlashFreeze_SB/CCC_0/FlashFreeze_SB_CCC_0_FCCC.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FlashFreeze_SB/CCC_0/FlashFreeze_SB_CCC_0_FCCC.v
+L0 5
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FlashFreeze_SB/CCC_0/FlashFreeze_SB_CCC_0_FCCC.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FlashFreeze_SB/CCC_0/FlashFreeze_SB_CCC_0_FCCC.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@flash@freeze_@s@b_@c@c@c_0_@f@c@c@c
+vFlashFreeze_SB_MSS
+R29
+!i10b 1
+!s100 SFmWdA8jgj];?aQ5R@Kh]3
+Ih5`1z_fRjKDOh<R5TO;LP0
+R2
+R3
+w1559111059
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FlashFreeze_SB_MSS/FlashFreeze_SB_MSS.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FlashFreeze_SB_MSS/FlashFreeze_SB_MSS.v
+L0 9
+R5
+r1
+!s85 0
+31
+R31
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FlashFreeze_SB_MSS/FlashFreeze_SB_MSS.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FlashFreeze_SB_MSS/FlashFreeze_SB_MSS.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@flash@freeze_@s@b_@m@s@s
+vIGL2_FIR_FILTER
+!s110 1559037133
+!i10b 1
+!s100 17;i>;MbEXVMZf40[90<m2
+In:C[z^TAo1`>UV[Cfhn3]3
+R2
+R0
+Z32 w1559034949
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/IGL2_FIR_FILTER.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/IGL2_FIR_FILTER.v
+L0 9
+R5
+r1
+!s85 0
+31
+!s108 1559037133.000000
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/IGL2_FIR_FILTER.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/IGL2_FIR_FILTER.v|
+!s101 -O0
+!i113 1
+R7
+Z33 !s92 {+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4} -vlog01compat -work presynth -O0
+R9
+n@i@g@l2_@f@i@r_@f@i@l@t@e@r
+vIGL2_FIR_FILTER_Coef_Buff_TPSRAM
+Z34 !s110 1559037130
+!i10b 1
+!s100 K_gjhHV_M1EHRIWb]Yd[i1
+IUoOSE=^5D17CRek1]1Ubc2
+R2
+R0
+w1559034934
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/Coef_Buff/IGL2_FIR_FILTER_Coef_Buff_TPSRAM.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/Coef_Buff/IGL2_FIR_FILTER_Coef_Buff_TPSRAM.v
+L0 5
+R5
+r1
+!s85 0
+31
+Z35 !s108 1559037130.000000
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/Coef_Buff/IGL2_FIR_FILTER_Coef_Buff_TPSRAM.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/Coef_Buff/IGL2_FIR_FILTER_Coef_Buff_TPSRAM.v|
+!s101 -O0
+!i113 1
+R7
+R33
+R9
+n@i@g@l2_@f@i@r_@f@i@l@t@e@r_@coef_@buff_@t@p@s@r@a@m
+vIGL2_FIR_FILTER_FCCC_0_FCCC
+R34
+!i10b 1
+!s100 SoRfTKF]i]_EW1ddjHOWY3
+I00=OUYAG8nF5bIIGIZa9]0
+R2
+R0
+w1559034939
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/FCCC_0/IGL2_FIR_FILTER_FCCC_0_FCCC.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/FCCC_0/IGL2_FIR_FILTER_FCCC_0_FCCC.v
+L0 5
+R5
+r1
+!s85 0
+31
+R35
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/FCCC_0/IGL2_FIR_FILTER_FCCC_0_FCCC.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/FCCC_0/IGL2_FIR_FILTER_FCCC_0_FCCC.v|
+!s101 -O0
+!i113 1
+R7
+R33
+R9
+n@i@g@l2_@f@i@r_@f@i@l@t@e@r_@f@c@c@c_0_@f@c@c@c
+vIGL2_FIR_FILTER_FFT_Im_Buff_TPSRAM
+Z36 !s110 1559037131
+!i10b 1
+!s100 0[JX>XZ5[;ck;1TmjWenG3
+I0[f5:[Wdk[9mSmmmX2cWa2
+R2
+R0
+w1559034941
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/FFT_Im_Buff/IGL2_FIR_FILTER_FFT_Im_Buff_TPSRAM.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/FFT_Im_Buff/IGL2_FIR_FILTER_FFT_Im_Buff_TPSRAM.v
+L0 5
+R5
+r1
+!s85 0
+31
+R35
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/FFT_Im_Buff/IGL2_FIR_FILTER_FFT_Im_Buff_TPSRAM.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/FFT_Im_Buff/IGL2_FIR_FILTER_FFT_Im_Buff_TPSRAM.v|
+!s101 -O0
+!i113 1
+R7
+R33
+R9
+n@i@g@l2_@f@i@r_@f@i@l@t@e@r_@f@f@t_@im_@buff_@t@p@s@r@a@m
+vIGL2_FIR_FILTER_FFT_Re_Buff_TPSRAM
+R36
+!i10b 1
+!s100 J3]LFfIiVIUHSihJYbUj23
+ILPni[b2^JD]Sj5UYN5^en0
+R2
+R0
+w1559034943
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/FFT_Re_Buff/IGL2_FIR_FILTER_FFT_Re_Buff_TPSRAM.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/FFT_Re_Buff/IGL2_FIR_FILTER_FFT_Re_Buff_TPSRAM.v
+L0 5
+R5
+r1
+!s85 0
+31
+Z37 !s108 1559037131.000000
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/FFT_Re_Buff/IGL2_FIR_FILTER_FFT_Re_Buff_TPSRAM.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/FFT_Re_Buff/IGL2_FIR_FILTER_FFT_Re_Buff_TPSRAM.v|
+!s101 -O0
+!i113 1
+R7
+R33
+R9
+n@i@g@l2_@f@i@r_@f@i@l@t@e@r_@f@f@t_@re_@buff_@t@p@s@r@a@m
+vIGL2_FIR_FILTER_FIR_IN_Buff_TPSRAM
+R36
+!i10b 1
+!s100 80lQUBi_S^1zlL1=H?Gk00
+I5GnBJYB5:^N>=65``Pb5I0
+R2
+R0
+w1559034945
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/FIR_IN_Buff/IGL2_FIR_FILTER_FIR_IN_Buff_TPSRAM.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/FIR_IN_Buff/IGL2_FIR_FILTER_FIR_IN_Buff_TPSRAM.v
+L0 5
+R5
+r1
+!s85 0
+31
+R37
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/FIR_IN_Buff/IGL2_FIR_FILTER_FIR_IN_Buff_TPSRAM.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/FIR_IN_Buff/IGL2_FIR_FILTER_FIR_IN_Buff_TPSRAM.v|
+!s101 -O0
+!i113 1
+R7
+R33
+R9
+n@i@g@l2_@f@i@r_@f@i@l@t@e@r_@f@i@r_@i@n_@buff_@t@p@s@r@a@m
+vIGL2_FIR_FILTER_FIR_Out_Buff_TPSRAM
+R36
+!i10b 1
+!s100 AZ05MZ8[_ac[<FQSJDg1z2
+IGdV@<j2eag<67zHHXAnLB3
+R2
+R0
+w1559034947
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/FIR_Out_Buff/IGL2_FIR_FILTER_FIR_Out_Buff_TPSRAM.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/FIR_Out_Buff/IGL2_FIR_FILTER_FIR_Out_Buff_TPSRAM.v
+L0 5
+R5
+r1
+!s85 0
+31
+R37
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/FIR_Out_Buff/IGL2_FIR_FILTER_FIR_Out_Buff_TPSRAM.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/FIR_Out_Buff/IGL2_FIR_FILTER_FIR_Out_Buff_TPSRAM.v|
+!s101 -O0
+!i113 1
+R7
+R33
+R9
+n@i@g@l2_@f@i@r_@f@i@l@t@e@r_@f@i@r_@out_@buff_@t@p@s@r@a@m
+vIGL2_FIR_FILTER_OSC_0_OSC
+R36
+!i10b 1
+!s100 ZJlS]`N7M[_N[[gfao;IW2
+IkiCCFfXd7BO10j6=bB39<3
+R2
+R0
+R32
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/OSC_0/IGL2_FIR_FILTER_OSC_0_OSC.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/OSC_0/IGL2_FIR_FILTER_OSC_0_OSC.v
+L0 5
+R5
+r1
+!s85 0
+31
+R37
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/OSC_0/IGL2_FIR_FILTER_OSC_0_OSC.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER_new _50_sw/component/work/IGL2_FIR_FILTER/OSC_0/IGL2_FIR_FILTER_OSC_0_OSC.v|
+!s101 -O0
+!i113 1
+R7
+R33
+R9
+n@i@g@l2_@f@i@r_@f@i@l@t@e@r_@o@s@c_0_@o@s@c
+vled_blink
+R10
+!i10b 1
+!s100 VgIm;6Q@iTSl^EVMDYDc:0
+I>OC>_2<OmzWR=SALigZj72
+R2
+R3
+w1559042399
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/hdl/led_blink.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/hdl/led_blink.v
+L0 1
+R5
+r1
+!s85 0
+31
+R11
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/hdl/led_blink.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/hdl/led_blink.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+vOSC_C0
+R29
+!i10b 1
+!s100 jI=O;zhc7^Ro=ODU52PgC2
+Iza7CDFc3D`NK<Wh8kXmQ21
+R2
+R3
+Z38 w1559110209
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/OSC_C0/OSC_C0.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/OSC_C0/OSC_C0.v
+L0 9
+R5
+r1
+!s85 0
+31
+R31
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/OSC_C0/OSC_C0.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/OSC_C0/OSC_C0.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@o@s@c_@c0
+vOSC_C0_OSC_C0_0_OSC
+R29
+!i10b 1
+!s100 Ga1Bef]oPl55o6MYWUeg41
+IEN[M1k__2>mRlgHD2VJf:1
+R2
+R3
+R38
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.v
+L0 5
+R5
+r1
+!s85 0
+31
+R31
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@o@s@c_@c0_@o@s@c_@c0_0_@o@s@c
+vPB_logic
+R10
+!i10b 1
+!s100 ;aCJ2dN<nDRJ3bCPR4ROF1
+IkGRNB5UeR<Uzgho154M4A2
+R2
+R3
+w1559043375
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/hdl/PB_logic.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/hdl/PB_logic.v
+L0 1
+R5
+r1
+!s85 0
+31
+R11
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/hdl/PB_logic.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/hdl/PB_logic.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@p@b_logic
+vRESET_GEN
+R29
+!i10b 1
+!s100 h;I?d7<AJPKf2F_9d2^H80
+ISj4C]ic=ACWP9Fj5KnBG;2
+R2
+R3
+Z39 w1559037096
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v
+L0 3
+R5
+r1
+!s85 0
+31
+R31
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/RESET_GEN_C0|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/test|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v|
+!s101 -O0
+!i113 1
+R7
+Z40 !s92 +incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4 +incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/Actel/Simulation/RESET_GEN/1.0.1 +incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/RESET_GEN_C0 +incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/test -vlog01compat -work presynth -O0
+R9
+n@r@e@s@e@t_@g@e@n
+vRESET_GEN_C0
+R29
+!i10b 1
+!s100 0Q8FcJ[B:E:kO8:YY@a7=1
+I2O]g3]eON>gEQ332<iMBh1
+R2
+R3
+R39
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/RESET_GEN_C0/RESET_GEN_C0.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/RESET_GEN_C0/RESET_GEN_C0.v
+L0 9
+R5
+r1
+!s85 0
+31
+R31
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/RESET_GEN_C0/RESET_GEN_C0.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/RESET_GEN_C0|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/test|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/RESET_GEN_C0/RESET_GEN_C0.v|
+!s101 -O0
+!i113 1
+R7
+R40
+R9
+n@r@e@s@e@t_@g@e@n_@c0
+vtest
+R29
+!i10b 1
+!s100 faZbG2fF9d6]hIWg@m^j>3
+I6lAGR_BmzURXbb_5iSSOA0
+R2
+R3
+w1559113552
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/test/test.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/test/test.v
+L0 9
+R5
+r1
+!s85 0
+31
+R31
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/test/test.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/RESET_GEN_C0|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/test|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/test/test.v|
+!s101 -O0
+!i113 1
+R7
+R40
+R9
+vTOP
+R29
+!i10b 1
+!s100 e3CcbWioFko>]bm194<Vn2
+IQk9deG`P`>D_m[cWDnHPN1
+R2
+R3
+w1559111065
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/TOP/TOP.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/TOP/TOP.v
+L0 9
+R5
+r1
+!s85 0
+31
+R31
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/TOP/TOP.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/TOP/TOP.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@t@o@p
+vUART_IF
+R18
+!i10b 1
+!s100 N1NLbSIa;N:Bh_jS_znQb2
+I<nQ_RN6TDcQHBZXDB61603
+R2
+R3
+w1380850676
+8D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/hdl/UART_IF.v
+FD:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/hdl/UART_IF.v
+R26
+R5
+r1
+!s85 0
+31
+R20
+!s107 D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/hdl/UART_IF.v|
+!s90 -reportprogress|300|+incdir+D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/component/work/FIR_FILTER/COREFIR_0/rtl/vlog/core/enum_SmFu4|-vlog01compat|-work|presynth|D:/G5_SOC/DSP/FIR_FILTER/DSP_FIR_FILTER/hdl/UART_IF.v|
+!s101 -O0
+!i113 1
+R7
+R8
+R9
+n@u@a@r@t_@i@f

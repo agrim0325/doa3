@@ -1,0 +1,275 @@
+# Microsemi I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: v12.1 12.600.0.14
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 256 VF
+
+# Date generated: Thu Jun 27 15:37:54 2019 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io CAM_PWDN_O            \
+    -pinname M16             \
+    -fixed yes               \
+    -FF_IO_STATE LAST_VALUE  \
+    -DIRECTION OUTPUT
+
+
+set_io {DATA_I[0]}    \
+    -pinname H14      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {DATA_I[1]}    \
+    -pinname H15      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {DATA_I[2]}    \
+    -pinname N15      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {DATA_I[3]}    \
+    -pinname F5       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {DATA_I[4]}    \
+    -pinname L15      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {DATA_I[5]}    \
+    -pinname M13      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {DATA_I[6]}    \
+    -pinname N14      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io {DATA_I[7]}    \
+    -pinname N16      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io FF_Entry_SW    \
+    -pinname P12      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io Fabric_Active   \
+    -pinname L12       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io H_REF_I        \
+    -pinname P7       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io INIT_DONE       \
+    -pinname R10       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io LCD_RST_O             \
+    -pinname L13             \
+    -fixed yes               \
+    -FF_IO_STATE LAST_VALUE  \
+    -DIRECTION OUTPUT
+
+
+set_io PCLK_I         \
+    -pinname T9       \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io RX             \
+    -pinname H13      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io SCL            \
+    -pinname G1       \
+    -fixed yes        \
+    -DIRECTION INOUT
+
+
+set_io SDA            \
+    -pinname G16      \
+    -fixed yes        \
+    -DIRECTION INOUT
+
+
+set_io SW_output       \
+    -pinname H16       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io TX              \
+    -pinname H12       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io V_SYNC_I       \
+    -pinname M15      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io Wake_On_Change_SW  \
+    -pinname G12          \
+    -fixed yes            \
+    -LPE Wake_On_0        \
+    -DIRECTION INPUT
+
+
+set_io XCLK            \
+    -pinname L14       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io cs_o            \
+    -pinname H4        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {data_o[0]}     \
+    -pinname G14       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {data_o[1]}     \
+    -pinname K14       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {data_o[2]}     \
+    -pinname K15       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {data_o[3]}     \
+    -pinname K16       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {data_o[4]}     \
+    -pinname G5        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {data_o[5]}     \
+    -pinname F4        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {data_o[6]}     \
+    -pinname G2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {data_o[7]}     \
+    -pinname F2        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {led[0]}        \
+    -pinname T13       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io {led[1]}        \
+    -pinname G13       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io rd_o            \
+    -pinname H3        \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io rs_o            \
+    -pinname L11       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io wr_o            \
+    -pinname P13       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+
+#
+#Ports using Dedicated Pins
+
+#
+
+set_io DEVRST_N_0     \
+    -pinname M11      \
+    -DIRECTION INPUT
+
+

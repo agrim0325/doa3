@@ -1,0 +1,5 @@
+CKID0001:@|S:FCCC_0.CCC_INST@|E:PB_logic_0.rfsm[1]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:FCCC_0.CCC_INST@|E:COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.add_valid_r@|F:@syn_sample_clock_path1==CKID0002@|M:ClockId0002 
+CKID0003:@|S:FCCC_0.CCC_INST@|E:FILTERCONTROL_FSM_0.FIR_WR_ADDR[9]@|F:@syn_sample_clock_path2==CKID0003@|M:ClockId0003 
+CKID0004:@|S:COREFFT_0.genblk1\.DUT_INPLACE.slowClock_0.divider[2]@|E:COREFFT_0.genblk1\.DUT_INPLACE.sm_0.twid_wA_0.preRstAfterInit@|F:@syn_sample_clock_path==CKID0004@|M:ClockId0004 
+CKID0005:@|S:led_blink_0.clkout@|E:led_blink_0.led[0]@|F:@syn_sample_clock_path==CKID0005@|M:ClockId0005 

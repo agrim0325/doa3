@@ -1,0 +1,166 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG347 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\twiddle32.v":35:25:35:37|Read a parallel_case directive.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":382:7:382:13|Synthesizing module RAM1K18 in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\Coef_Buff\IGL2_FIR_FILTER_Coef_Buff_TPSRAM.v":5:7:5:38|Synthesizing module IGL2_FIR_FILTER_Coef_Buff_TPSRAM in library work.
+@N: CG775 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT_TOP.v":28:7:28:39|Component IGL2_FIR_FILTER_COREFFT_0_COREFFT not found in library "work" or "__hyper__lib__", but found in library COREFFT_LIB
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT_TOP.v":28:7:28:39|Synthesizing module IGL2_FIR_FILTER_COREFFT_0_COREFFT in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":445:7:445:24|Synthesizing module fft_inpl_slowClock in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":186:7:186:31|Synthesizing module fft_inpl_kitDelay_bit_reg in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":29:7:29:22|Synthesizing module fft_inpl_kitEdge in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":126:7:126:24|Synthesizing module fft_inpl_counter_w in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":70:7:70:22|Synthesizing module fft_inpl_counter in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":186:7:186:31|Synthesizing module fft_inpl_kitDelay_bit_reg in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":361:7:361:25|Synthesizing module fft_inpl_rdFFTtimer in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":226:7:226:27|Synthesizing module fft_inpl_kitDelay_reg in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":226:7:226:27|Synthesizing module fft_inpl_kitDelay_reg in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":186:7:186:31|Synthesizing module fft_inpl_kitDelay_bit_reg in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":99:7:99:24|Synthesizing module fft_inpl_kitCountS in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":226:7:226:27|Synthesizing module fft_inpl_kitDelay_reg in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":226:7:226:27|Synthesizing module fft_inpl_kitDelay_reg in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":70:7:70:22|Synthesizing module fft_inpl_counter in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":481:7:481:24|Synthesizing module fft_inpl_inBuf_ldA in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":623:7:623:30|Synthesizing module fft_inpl_inBuf_fftA_pipe in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":695:7:695:22|Synthesizing module fft_inpl_twid_rA in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":186:7:186:31|Synthesizing module fft_inpl_kitDelay_bit_reg in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":405:7:405:28|Synthesizing module fft_inpl_kitSync_ngrst in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":161:7:161:23|Synthesizing module fft_inpl_bcounter in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":739:7:739:26|Synthesizing module fft_inpl_twid_wA_gen in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":226:7:226:27|Synthesizing module fft_inpl_kitDelay_reg in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":532:7:532:22|Synthesizing module fft_inpl_outBufA in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":29:7:29:21|Synthesizing module fft_inpl_sm_top in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\fftDp.v":249:7:249:39|Synthesizing module IGL2_FIR_FILTER_COREFFT_0_inPlace in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\fftDp.v":163:7:163:40|Synthesizing module IGL2_FIR_FILTER_COREFFT_0_inBuffer in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\fftDp.v":36:7:36:39|Synthesizing module IGL2_FIR_FILTER_COREFFT_0_wrapRam in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\IGL2_FIR_FILTER_COREFFT_0_ram_smGen.v":5:7:5:41|Synthesizing module IGL2_FIR_FILTER_COREFFT_0_ram_smGen in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":460:7:460:21|Synthesizing module fft_inpl_switch in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":326:7:326:23|Synthesizing module fft_inpl_kitRndUp in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\cmplx.v":442:7:442:24|Synthesizing module fft_inpl_cmplx_rnd in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":364:7:364:22|Synthesizing module fft_inpl_signExt in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\mac_lib.v":36:7:36:25|Synthesizing module fft_inpl_mac18x18mx in library COREFFT_LIB.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":569:7:569:10|Synthesizing module MACC in library work.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":364:7:364:22|Synthesizing module fft_inpl_signExt in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\cmplx.v":354:7:354:28|Synthesizing module fft_inpl_half_cmplx_18 in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":226:7:226:27|Synthesizing module fft_inpl_kitDelay_reg in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\cmplx.v":354:7:354:28|Synthesizing module fft_inpl_half_cmplx_18 in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\cmplx.v":414:7:414:23|Synthesizing module fft_inpl_cmplx_18 in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":226:7:226:27|Synthesizing module fft_inpl_kitDelay_reg in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":226:7:226:27|Synthesizing module fft_inpl_kitDelay_reg in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":499:7:499:20|Synthesizing module fft_inpl_bfly2 in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\twiddle32.v":27:7:27:39|Synthesizing module IGL2_FIR_FILTER_COREFFT_0_twiddle in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\fftDp.v":369:7:369:39|Synthesizing module IGL2_FIR_FILTER_COREFFT_0_twidLUT in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":570:7:570:24|Synthesizing module fft_inpl_autoScale in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT.v":28:7:28:45|Synthesizing module IGL2_FIR_FILTER_COREFFT_0_COREFFT_INPLC in library COREFFT_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\fftDp.v":329:7:329:39|Synthesizing module IGL2_FIR_FILTER_COREFFT_0_outBuff in library COREFFT_LIB.
+@N: CG775 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\top\COREFIR.v":28:7:28:39|Component IGL2_FIR_FILTER_COREFIR_0_COREFIR not found in library "work" or "__hyper__lib__", but found in library COREFIR_LIB
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\top\COREFIR.v":28:7:28:39|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_COREFIR in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":72:7:72:23|Synthesizing module enum_kitDelay_reg in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":72:7:72:23|Synthesizing module enum_kitDelay_reg in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":38:7:38:27|Synthesizing module enum_kitDelay_bit_reg in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":38:7:38:27|Synthesizing module enum_kitDelay_bit_reg in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":185:7:185:24|Synthesizing module enum_kitSync_ngrst in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":38:7:38:27|Synthesizing module enum_kitDelay_bit_reg in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":38:7:38:27|Synthesizing module enum_kitDelay_bit_reg in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\coef_store.v":54:7:54:41|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_wide_coef in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":142:7:142:18|Synthesizing module enum_coef_sr in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\enum_fir.v":27:7:27:43|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_fir_enum_g4 in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":116:7:116:18|Synthesizing module enum_signExt in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":64:7:64:43|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4 in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac_lib.v":33:7:33:48|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_mac18x18_enum_g4 in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":31:7:31:39|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_add2_g4 in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":138:7:138:43|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_tap_enum_g4 in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":72:7:72:23|Synthesizing module enum_kitDelay_reg in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":38:7:38:27|Synthesizing module enum_kitDelay_bit_reg in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":64:7:64:43|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4 in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":72:7:72:23|Synthesizing module enum_kitDelay_reg in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":138:7:138:43|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_tap_enum_g4 in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":72:7:72:23|Synthesizing module enum_kitDelay_reg in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":241:7:241:56|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_odd_symmetry_tap_enum_g4 in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\enum_COREFIR.v":47:7:47:46|Synthesizing module IGL2_FIR_FILTER_COREFIR_0_COREENUMFIR_G4 in library COREFIR_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\crc_256_pwr.v":121:7:121:17|Synthesizing module crc_256_pwr in library work.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\crc_256_pwr.v":14:7:14:13|Synthesizing module crc_256 in library work.
+@N: CG179 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\crc_256_pwr.v":74:34:74:39|Removing redundant assignment.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\crc_256_pwr.v":81:7:81:20|Synthesizing module crc_256_repeat in library work.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Clock_gen.v":30:0:30:31|Synthesizing module DATA_HANDLE_COREUART_0_Clock_gen in library work.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Tx_async.v":14:0:14:30|Synthesizing module DATA_HANDLE_COREUART_0_Tx_async in library work.
+@N: CG179 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Tx_async.v":870:0:870:8|Removing redundant assignment.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Rx_async.v":14:0:14:30|Synthesizing module DATA_HANDLE_COREUART_0_Rx_async in library work.
+@N: CG179 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Rx_async.v":750:0:750:7|Removing redundant assignment.
+@N: CG179 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Rx_async.v":857:0:857:8|Removing redundant assignment.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\CoreUART.v":14:0:14:30|Synthesizing module DATA_HANDLE_COREUART_0_COREUART in library work.
+@N: CG179 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\CoreUART.v":1338:0:1338:7|Removing redundant assignment.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\UART_IF.v":20:7:20:13|Synthesizing module UART_IF in library work.
+@N: CL189 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\UART_IF.v":139:0:139:5|Register bit DATA_WEN is always 1.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\DATA_HANDLE.v":9:7:9:17|Synthesizing module DATA_HANDLE in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":729:7:729:9|Synthesizing module CCC in library work.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\FCCC_0\IGL2_FIR_FILTER_FCCC_0_FCCC.v":5:7:5:33|Synthesizing module IGL2_FIR_FILTER_FCCC_0_FCCC in library work.
+@N: CG775 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\CORESYSSERVICES_C0\CORESYSSERVICES_C0_0\rtl\vlog\core\CoreSysServices.v":30:7:30:61|Component CORESYSSERVICES_C0_CORESYSSERVICES_C0_0_CORESYSSERVICES not found in library "work" or "__hyper__lib__", but found in library CORESYSSERVICES_LIB
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":30:7:30:28|Synthesizing module CoreSysServices_UserIF in library CORESYSSERVICES_LIB.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":837:7:837:18|Synthesizing module FLASH_FREEZE in library work.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":30:7:30:28|Synthesizing module CoreSysServices_CmdDec in library CORESYSSERVICES_LIB.
+@N: CG179 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1912:26:1912:35|Removing redundant assignment.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":30:7:30:29|Synthesizing module CoreSysServices_FSMCtrl in library CORESYSSERVICES_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_AHBLMasterIF.v":30:7:30:34|Synthesizing module CoreSysServices_AHBLMasterIF in library CORESYSSERVICES_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\CORESYSSERVICES_C0\CORESYSSERVICES_C0_0\rtl\vlog\core\CoreSysServices.v":30:7:30:61|Synthesizing module CORESYSSERVICES_C0_CORESYSSERVICES_C0_0_CORESYSSERVICES in library CORESYSSERVICES_LIB.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\CORESYSSERVICES_C0\CORESYSSERVICES_C0.v":9:7:9:24|Synthesizing module CORESYSSERVICES_C0 in library work.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\FF_FSM.v":1:7:1:12|Synthesizing module ff_fsm in library work.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\FF\FF.v":9:7:9:8|Synthesizing module FF in library work.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\FFT_Im_Buff\IGL2_FIR_FILTER_FFT_Im_Buff_TPSRAM.v":5:7:5:40|Synthesizing module IGL2_FIR_FILTER_FFT_Im_Buff_TPSRAM in library work.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\FFT_Re_Buff\IGL2_FIR_FILTER_FFT_Re_Buff_TPSRAM.v":5:7:5:40|Synthesizing module IGL2_FIR_FILTER_FFT_Re_Buff_TPSRAM in library work.
+@N: CG364 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\FILTER_CONTROL_FSM.v":20:7:20:23|Synthesizing module FILTERCONTROL_FSM in library work.
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\PB_logic.v":22:0:22:5|Trying to extract state machine for register rfsm.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\OSC_0\IGL2_FIR_FILTER_OSC_0_OSC.v":14:7:14:9|Input XTL is unused.
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\FILTER_CONTROL_FSM.v":68:0:68:5|Trying to extract state machine for register fsm.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\FF\FF.v":24:7:24:9|Input clk is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\FF\FF.v":25:7:25:13|Input ff_trig is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\FF\FF.v":26:7:26:11|Input reset is unused.
+@N: CL135 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\FF_FSM.v":57:4:57:9|Found sequential shift sync3 with address depth of 3 words and data bit width of 1.
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\FF_FSM.v":187:4:187:9|Trying to extract state machine for register pres_state.
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\FF_FSM.v":104:4:104:9|Trying to extract state machine for register mux_sel_state.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_AHBLMasterIF.v":72:28:72:31|Input HCLK is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_AHBLMasterIF.v":73:28:73:34|Input HRESETN is unused.
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":326:3:326:8|Trying to extract state machine for register curr_state.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":162:21:162:30|Input cfwr_req_d is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_FSMCtrl.v":163:21:163:30|Input cfrd_req_d is unused.
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":3426:3:3426:8|Trying to extract state machine for register asynchevent_curr_state.
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":3004:3:3004:8|Trying to extract state machine for register resp_curr_state.
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1970:3:1970:8|Trying to extract state machine for register req_curr_state.
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":1640:3:1640:8|Trying to extract state machine for register main_curr_state.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":345:17:345:31|Input ucdata_wvalid_i is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":356:17:356:24|Input fcpush_i is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_CmdDec.v":360:17:360:23|Input clr_req is unused.
+@N: CL135 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":772:3:772:8|Found sequential shift zer_new_serv_d1 with address depth of 3 words and data bit width of 1.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":257:28:257:41|Input cutrans_done_i is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":262:28:262:48|Input cutamper_detect_valid is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\CORESYSSERVICES\3.2.102\rtl\vlog\core\CoreSysServices_UserIF.v":263:28:263:46|Input cutamper_fail_valid is unused.
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\hdl\UART_IF.v":139:0:139:5|Trying to extract state machine for register rfsm.
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Rx_async.v":871:0:871:5|Trying to extract state machine for register CUARTll0.
+@N: CL201 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Tx_async.v":301:0:301:5|Trying to extract state machine for register CUARTlI0l.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Tx_async.v":81:0:81:7|Input CUARTI1I is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Tx_async.v":84:0:84:7|Input CUARTlO1 is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Tx_async.v":87:0:87:7|Input CUARTOI1 is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\DATA_HANDLE\COREUART_0\rtl\vlog\core_obfuscated\Clock_gen.v":75:0:75:16|Input BAUD_VAL_FRACTION is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\mac.v":42:26:42:30|Input clkEn is unused.
+@N: CL135 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\enum_fir.v":158:8:158:13|Found sequential shift fill_syst_dly.genblk1.syst_dly_line with address depth of 6 words and data bit width of 16.
+@N: CL135 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\enum_fir.v":142:6:142:11|Found sequential shift fill_short_dly.genblk1.short_dly_line with address depth of 4 words and data bit width of 16.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\enum_SmFu4\coef_store.v":67:14:67:16|Input set is unused.
+@N: CL135 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Found sequential shift genblk1.delayLine with address depth of 49 words and data bit width of 1.
+@N: CL135 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Found sequential shift genblk1.delayLine with address depth of 3 words and data bit width of 1.
+@N: CL135 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFIR\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Found sequential shift genblk1.delayLine with address depth of 4 words and data bit width of 1.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\top\COREFIR.v":90:28:90:35|Input COEF_REF is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\top\COREFIR.v":92:28:92:36|Input SAMPLE_ID is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFIR_0\rtl\vlog\core\top\COREFIR.v":93:28:93:31|Input RCLK is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\kit.v":584:8:584:22|Input fftRd_done_tick is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\fftDp.v":258:20:258:23|Input load is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":549:8:549:20|Input rTimerTC_tick is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\core\fftSm.v":493:20:493:24|Input clkEn is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT_TOP.v":85:32:85:36|Input CLKEN is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT_TOP.v":85:20:85:22|Input RST is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT_TOP.v":85:25:85:29|Input START is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT_TOP.v":85:39:85:50|Input INVERSE_STRM is unused.
+@N: CL159 :"D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\component\work\IGL2_FIR_FILTER\COREFFT_0\rtl\in_place\vlog\core\COREFFT_TOP.v":85:53:85:59|Input REFRESH is unused.
+@N|Running in 64-bit mode
+

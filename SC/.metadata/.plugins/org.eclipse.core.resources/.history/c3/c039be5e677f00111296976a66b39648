@@ -1,0 +1,109 @@
+/*******************************************************************************
+ * (c) Copyright 2012-2013 Microsemi SoC Products Group.  All rights reserved.
+ *
+ * Flash Freeze system service demo.
+ *
+ *
+ *
+ */
+#include "drivers/mss_sys_services/mss_sys_services.h"
+#include "drivers/mss_gpio/mss_gpio.h"
+#include "Hello_system.h"
+#include "OV7725.h"
+#include "ili9488.h"
+
+static void sys_services_event_handler(uint8_t opcode, uint8_t response);
+volatile uint8_t Enter_FF = 0;
+
+/*============================================================
+ * Delay function
+ */
+void delay(int n)
+{
+	while(n>0) {
+		n--;
+	}
+}
+//void GPIO0_IRQHandler( void )
+//{
+//
+//	Enter_FF = 1;
+//	MSS_GPIO_clear_irq( MSS_GPIO_0 );
+//}
+
+void GPIO1_IRQHandler( void )
+{
+
+	Enter_FF = 1;
+	MSS_GPIO_clear_irq( MSS_GPIO_1 );
+}
+
+int main(void)
+{
+	uint8_t status = 0xFF;
+	uint8_t saturation, saturation_prev;
+	uint8_t contrast, contrast_prev;
+	uint8_t brightness, brightness_prev;
+
+	Enter_FF = 0;
+	/*Initialize Camera Module*/
+	OV7725_init();
+	/*Initialize LCD*/
+	ILI9488_init();
+
+	/*
+	 * Initialize peripherals.
+	 */
+	MSS_SYS_init(sys_services_event_handler);
+
+
+	MSS_GPIO_init();
+	MSS_GPIO_config( MSS_GPIO_1, MSS_GPIO_INPUT_MODE | MSS_GPIO_IRQ_EDGE_NEGATIVE );
+	MSS_GPIO_enable_irq(MSS_GPIO_1);
+
+	while (1)
+	{
+
+		if(Enter_FF == 1)
+		{
+
+			MSS_GPIO_disable_irq(MSS_GPIO_1);
+			Enter_FF = 0;
+			delay(100);
+			MSS_GPIO_config( MSS_GPIO_1, MSS_GPIO_INPUT_MODE | MSS_GPIO_IRQ_EDGE_NEGATIVE );
+			status = MSS_SYS_flash_freeze(MSS_SYS_FPGA_POWER_DOWN | MSS_SYS_MPLL_POWER_DOWN);
+			if(MSS_SYS_SUCCESS == status)
+			{
+				Enter_FF = 0;
+				MSS_GPIO_enable_irq(MSS_GPIO_1);
+
+			}
+			else
+			{
+				Enter_FF = 0;
+			}
+
+		}
+	}
+
+}
+
+/*==============================================================================
+  System Services event handler.
+ */
+static void sys_services_event_handler(uint8_t opcode, uint8_t response)
+{
+	volatile uint32_t inc;
+
+	if(FLASH_FREEZE_SHUTDOWN_OPCODE == opcode)
+	{
+		delay(1000);
+	}
+	else if(FLASH_FREEZE_EXIT_OPCODE == opcode)
+	{
+	}
+}
+
+
+
+

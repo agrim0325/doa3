@@ -1,0 +1,160 @@
+@N: CD231 :"D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\mux_2_1.vhd":28:7:28:13|Synthesizing work.mux_2_1.mux_2_1.
+Post processing for work.mux_2_1.mux_2_1
+Running optimization stage 1 on mux_2_1 .......
+Finished optimization stage 1 on mux_2_1 (CPU Time 0h:00m:00s, Memory Used current: 155MB peak: 155MB)
+@N: CD630 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd":30:7:30:18|Synthesizing work.ff_generator.ff_generator.
+Post processing for work.ff_generator.ff_generator
+Running optimization stage 1 on FF_GENERATOR .......
+@W: CL169 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd":108:8:108:9|Pruning unused register s_ff_done_dly_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd":108:8:108:9|Pruning unused register s_ff_done_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd":108:8:108:9|Pruning unused register s_ff_to_start_dly_2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd":108:8:108:9|Pruning unused register s_ff_to_start_2. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on FF_GENERATOR (CPU Time 0h:00m:00s, Memory Used current: 155MB peak: 155MB)
+@N: Setting default value for generic g_apb3_if_data_width to 32;
+@N: Setting default value for generic g_const_width to 12;
+@N: CD630 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\apb3_if.vhd":31:7:31:13|Synthesizing work.apb3_if.apb3_if.
+Post processing for work.apb3_if.apb3_if
+Running optimization stage 1 on work_apb3_if_apb3_if_32_12_1_g_APB3_IF_DATA_WIDTHg_CONST_WIDTH .......
+Finished optimization stage 1 on work_apb3_if_apb3_if_32_12_1_g_APB3_IF_DATA_WIDTHg_CONST_WIDTH (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 156MB)
+@N: CD630 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd":31:7:31:18|Synthesizing work.receive_data.receive_data.
+@N: CD231 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd":80:14:80:15|Using onehot encoding for type uart_fsm. For example, enumeration idle is mapped to "10000000000000000000".
+@N: CD604 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd":387:16:387:39|OTHERS clause is not synthesized.
+Post processing for work.receive_data.receive_data
+Running optimization stage 1 on receive_data .......
+Finished optimization stage 1 on receive_data (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 157MB)
+@N: CD630 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\addr_decoder.vhd":30:7:30:18|Synthesizing work.addr_decoder.addr_decoder.
+Post processing for work.addr_decoder.addr_decoder
+Running optimization stage 1 on addr_decoder .......
+Finished optimization stage 1 on addr_decoder (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 157MB)
+@N: CD630 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd":31:7:31:17|Synthesizing work.write_lsram.write_lsram.
+Post processing for work.write_lsram.write_lsram
+Running optimization stage 1 on WRITE_LSRAM .......
+@A: CL282 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd":143:8:143:9|Feedback mux created for signal s_data[15:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Finished optimization stage 1 on WRITE_LSRAM (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 157MB)
+@N: CD630 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\RamDualPort.vhd":33:7:33:17|Synthesizing work.ramdualport.ramdualport.
+Post processing for work.ramdualport.ramdualport
+Running optimization stage 1 on ramDualPort .......
+@N: CL134 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\RamDualPort.vhd":72:9:72:11|Found RAM ram, depth=1024, width=16
+Finished optimization stage 1 on ramDualPort (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 157MB)
+@N: CD630 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\LCD_FSM.vhd":30:7:30:13|Synthesizing work.lcd_fsm.lcd_fsm.
+@N: CD232 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\LCD_FSM.vhd":86:15:86:16|Using gray code encoding for type split_fsm.
+Post processing for work.lcd_fsm.lcd_fsm
+Running optimization stage 1 on LCD_FSM .......
+Finished optimization stage 1 on LCD_FSM (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+@N: CD630 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Image_Enhancement.vhd":32:7:32:23|Synthesizing work.image_enhancement.image_enhancement.
+Post processing for work.image_enhancement.image_enhancement
+Running optimization stage 1 on Image_Enhancement .......
+@W: CL271 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Image_Enhancement.vhd":188:20:188:21|Pruning unused bits 42 to 19 of s_term1_b_4(43 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Image_Enhancement.vhd":188:20:188:21|Pruning unused bits 6 to 0 of s_term1_b_4(43 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Image_Enhancement.vhd":188:20:188:21|Pruning unused bits 42 to 19 of s_term1_g_4(43 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Image_Enhancement.vhd":188:20:188:21|Pruning unused bits 6 to 0 of s_term1_g_4(43 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Image_Enhancement.vhd":188:20:188:21|Pruning unused bits 42 to 19 of s_term1_r_5(43 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Image_Enhancement.vhd":188:20:188:21|Pruning unused bits 6 to 0 of s_term1_r_5(43 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on Image_Enhancement (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+@N: CD630 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\double_flop.vhd":30:7:30:17|Synthesizing work.double_flop.double_flop.
+Post processing for work.double_flop.double_flop
+Running optimization stage 1 on double_flop .......
+@A: CL282 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\double_flop.vhd":107:8:107:9|Feedback mux created for signal s_data2[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Finished optimization stage 1 on double_flop (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Running optimization stage 2 on double_flop .......
+Finished optimization stage 2 on double_flop (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
+Running optimization stage 2 on Image_Enhancement .......
+Finished optimization stage 2 on Image_Enhancement (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 159MB)
+Running optimization stage 2 on LCD_FSM .......
+@N: CL201 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\LCD_FSM.vhd":179:16:179:17|Trying to extract state machine for register s_state.
+Extracted state machine for register s_state
+State machine has 43 reachable states with original encodings of:
+   000000
+   000001
+   000010
+   000011
+   000100
+   000101
+   000110
+   000111
+   001000
+   001001
+   001010
+   001011
+   001100
+   001101
+   001110
+   001111
+   010000
+   010001
+   010010
+   010011
+   010100
+   010101
+   010110
+   010111
+   011000
+   011001
+   011010
+   011011
+   011100
+   011101
+   011110
+   011111
+   110000
+   110001
+   110010
+   110011
+   110100
+   110101
+   110110
+   110111
+   111100
+   111101
+   111111
+Finished optimization stage 2 on LCD_FSM (CPU Time 0h:00m:00s, Memory Used current: 159MB peak: 160MB)
+Running optimization stage 2 on ramDualPort .......
+Finished optimization stage 2 on ramDualPort (CPU Time 0h:00m:00s, Memory Used current: 159MB peak: 160MB)
+Running optimization stage 2 on WRITE_LSRAM .......
+@N: CL162 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd":143:8:143:9|Found a potential sequential shift s_data with address depth of 2 words and data bit width of 8.
+@N: CL162 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd":143:8:143:9|Found a potential sequential shift s_data with address depth of 2 words and data bit width of 8.
+Finished optimization stage 2 on WRITE_LSRAM (CPU Time 0h:00m:00s, Memory Used current: 159MB peak: 160MB)
+Running optimization stage 2 on addr_decoder .......
+@W: CL246 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\addr_decoder.vhd":51:4:51:9|Input port bits 31 to 20 of data_i(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on addr_decoder (CPU Time 0h:00m:00s, Memory Used current: 159MB peak: 160MB)
+Running optimization stage 2 on receive_data .......
+@N: CL201 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd":133:8:133:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 20 reachable states with original encodings of:
+   00000000000000000001
+   00000000000000000010
+   00000000000000000100
+   00000000000000001000
+   00000000000000010000
+   00000000000000100000
+   00000000000001000000
+   00000000000010000000
+   00000000000100000000
+   00000000001000000000
+   00000000010000000000
+   00000000100000000000
+   00000001000000000000
+   00000010000000000000
+   00000100000000000000
+   00001000000000000000
+   00010000000000000000
+   00100000000000000000
+   01000000000000000000
+   10000000000000000000
+Finished optimization stage 2 on receive_data (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 160MB)
+Running optimization stage 2 on work_apb3_if_apb3_if_32_12_1_g_APB3_IF_DATA_WIDTHg_CONST_WIDTH .......
+@W: CL246 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\apb3_if.vhd":51:4:51:10|Input port bits 31 to 12 of paddr_i(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\apb3_if.vhd":52:4:52:11|Input port bits 31 to 8 of pwdata_i(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on work_apb3_if_apb3_if_32_12_1_g_APB3_IF_DATA_WIDTHg_CONST_WIDTH (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 160MB)
+Running optimization stage 2 on FF_GENERATOR .......
+@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd":41:4:41:12|Input ff_done_i is unused.
+Finished optimization stage 2 on FF_GENERATOR (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 160MB)
+Running optimization stage 2 on mux_2_1 .......
+Finished optimization stage 2 on mux_2_1 (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 160MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\synthesis\synwork\layer1.duruntime
+
+

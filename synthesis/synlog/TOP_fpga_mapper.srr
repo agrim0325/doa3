@@ -1,0 +1,737 @@
+# Tue Jul 14 15:42:02 2026
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: DESKTOP-PVRG6C7
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202503actsp1, Build 108R, Built Nov 18 2025 06:37:26, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 187MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 204MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 204MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 204MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 204MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 256MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+@N: MO111 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@W: BN132 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1078:4:1078:9|Removing sequential instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sdif3_spll_lock_q1 because it is equivalent to instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.CONFIG2_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1061:4:1061:9|Removing sequential instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.CONFIG2_DONE_q1 because it is equivalent to instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.CONFIG1_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1061:4:1061:9|Removing sequential instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.CONFIG2_DONE_clk_base because it is equivalent to instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.fpll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1044:4:1044:9|Removing sequential instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.CONFIG1_DONE_clk_base because it is equivalent to instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.fpll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\coreuart_c0\coreuart_c0_0\rtl\vlog\core_obfuscated\rx_async.v":1339:0:1339:5|Removing sequential instance CUARTI0Il (in view: work.COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 264MB peak: 264MB)
+
+
+Starting area decomp  (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 264MB peak: 264MB)
+
+@N: FX403 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\ramdualport.vhd":72:9:72:11|Property "block_ram" or "no_rw_check" found for RAM line_write_read_0.ramDualPort_0.ram[15:0] with specified coding style. Inferring block RAM.
+@W: FX107 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\ramdualport.vhd":72:9:72:11|RAM line_write_read_0.ramDualPort_0.ram[15:0] (in view: work.TOP(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: MO231 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":70:4:70:9|Found counter in view:work.dot_detector(verilog) instance col_idx[15:0] 
+@N: MO231 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":70:4:70:9|Found counter in view:work.dot_detector(verilog) instance row_idx[15:0] 
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":70:4:70:9|Removing sequential instance first_byte[3] (in view: work.dot_detector(verilog)) because it does not drive other instances.
+Encoding state machine sm0_state[6:0] (in view: work.CoreReset_FF_Z1_layer0(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+@N: MO231 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\write_lsram.vhd":200:8:200:9|Found counter in view:work.WRITE_LSRAM(write_lsram) instance s_ram_address[9:0] 
+@N: MO231 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\write_lsram.vhd":177:8:177:9|Found counter in view:work.WRITE_LSRAM(write_lsram) instance s_v_counter[9:0] 
+@N: MO231 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\write_lsram.vhd":143:8:143:9|Found counter in view:work.WRITE_LSRAM(write_lsram) instance s_h_counter[9:0] 
+Encoding state machine s_state[0:42] (in view: work.LCD_FSM(lcd_fsm))
+original code -> new code
+   000000 -> 000000
+   000001 -> 000001
+   000010 -> 000011
+   000011 -> 000010
+   000100 -> 000110
+   000101 -> 000111
+   000110 -> 000101
+   000111 -> 000100
+   001000 -> 001100
+   001001 -> 001101
+   001010 -> 001111
+   001011 -> 001110
+   001100 -> 001010
+   001101 -> 001011
+   001110 -> 001001
+   001111 -> 001000
+   010000 -> 011000
+   010001 -> 011001
+   010010 -> 011011
+   010011 -> 011010
+   010100 -> 011110
+   010101 -> 011111
+   010110 -> 011101
+   010111 -> 011100
+   011000 -> 010100
+   011001 -> 010101
+   011010 -> 010111
+   011011 -> 010110
+   011100 -> 010010
+   011101 -> 010011
+   011110 -> 010001
+   011111 -> 010000
+   110000 -> 110000
+   110001 -> 110001
+   110010 -> 110011
+   110011 -> 110010
+   110100 -> 110110
+   110101 -> 110111
+   110110 -> 110101
+   110111 -> 110100
+   111100 -> 111100
+   111101 -> 111101
+   111111 -> 111111
+@N: MO231 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\lcd_fsm.vhd":179:16:179:17|Found counter in view:work.LCD_FSM(lcd_fsm) instance s_ram_address[9:0] 
+@N: MO231 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\coreuart_c0\coreuart_c0_0\rtl\vlog\core_obfuscated\clock_gen.v":219:0:219:5|Found counter in view:work.COREUART_C0_COREUART_C0_0_Clock_gen_1s_0s(verilog) instance genblk1\.CUARTO0[12:0] 
+Encoding state machine CUARTlI0l[5:0] (in view: work.COREUART_C0_COREUART_C0_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 000001
+   00000000000000000000000000000001 -> 000010
+   00000000000000000000000000000010 -> 000100
+   00000000000000000000000000000011 -> 001000
+   00000000000000000000000000000100 -> 010000
+   00000000000000000000000000000101 -> 100000
+Encoding state machine CUARTll0[3:0] (in view: work.COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\coreuart_c0\coreuart_c0_0\rtl\vlog\core_obfuscated\rx_async.v":871:0:871:5|There are no possible illegal states for state machine CUARTll0[3:0] (in view: work.COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+Encoding state machine state[0:19] (in view: work.receive_data(receive_data))
+original code -> new code
+   00000000000000000001 -> 00000000000000000001
+   00000000000000000010 -> 00000000000000000010
+   00000000000000000100 -> 00000000000000000100
+   00000000000000001000 -> 00000000000000001000
+   00000000000000010000 -> 00000000000000010000
+   00000000000000100000 -> 00000000000000100000
+   00000000000001000000 -> 00000000000001000000
+   00000000000010000000 -> 00000000000010000000
+   00000000000100000000 -> 00000000000100000000
+   00000000001000000000 -> 00000000001000000000
+   00000000010000000000 -> 00000000010000000000
+   00000000100000000000 -> 00000000100000000000
+   00000001000000000000 -> 00000001000000000000
+   00000010000000000000 -> 00000010000000000000
+   00000100000000000000 -> 00000100000000000000
+   00001000000000000000 -> 00001000000000000000
+   00010000000000000000 -> 00010000000000000000
+   00100000000000000000 -> 00100000000000000000
+   01000000000000000000 -> 01000000000000000000
+   10000000000000000000 -> 10000000000000000000
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance s_addr[8] (in view: work.receive_data(receive_data)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance s_addr[9] (in view: work.receive_data(receive_data)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance s_addr[10] (in view: work.receive_data(receive_data)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance s_addr[11] (in view: work.receive_data(receive_data)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance s_addr[12] (in view: work.receive_data(receive_data)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance s_addr[13] (in view: work.receive_data(receive_data)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance s_addr[14] (in view: work.receive_data(receive_data)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance s_addr[15] (in view: work.receive_data(receive_data)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+
+Finished area decomp  (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 268MB peak: 268MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 268MB peak: 268MB)
+
+@W: BN132 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":26:4:26:9|Removing instance dot_osd_integration_0.tracker.data_sync1[0] because it is equivalent to instance line_write_read_0.double_flop_0.s_data[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":26:4:26:9|Removing instance dot_osd_integration_0.tracker.data_sync1[1] because it is equivalent to instance line_write_read_0.double_flop_0.s_data[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":26:4:26:9|Removing instance dot_osd_integration_0.tracker.data_sync1[2] because it is equivalent to instance line_write_read_0.double_flop_0.s_data[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":26:4:26:9|Removing instance dot_osd_integration_0.tracker.data_sync1[3] because it is equivalent to instance line_write_read_0.double_flop_0.s_data[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":26:4:26:9|Removing instance dot_osd_integration_0.tracker.data_sync1[4] because it is equivalent to instance line_write_read_0.double_flop_0.s_data[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":26:4:26:9|Removing instance dot_osd_integration_0.tracker.data_sync1[5] because it is equivalent to instance line_write_read_0.double_flop_0.s_data[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":26:4:26:9|Removing instance dot_osd_integration_0.tracker.data_sync1[6] because it is equivalent to instance line_write_read_0.double_flop_0.s_data[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":26:4:26:9|Removing instance dot_osd_integration_0.tracker.data_sync1[7] because it is equivalent to instance line_write_read_0.double_flop_0.s_data[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":26:4:26:9|Removing instance dot_osd_integration_0.tracker.href_sr_0[0] because it is equivalent to instance line_write_read_0.double_flop_0.s_href. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":26:4:26:9|Removing instance dot_osd_integration_0.tracker.pclk_sr_0[0] because it is equivalent to instance line_write_read_0.double_flop_0.s_pclk. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":26:4:26:9|Removing instance dot_osd_integration_0.tracker.href_sr_1[0] because it is equivalent to instance line_write_read_0.double_flop_0.s_href2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":26:4:26:9|Removing instance dot_osd_integration_0.tracker.pclk_sr_1[0] because it is equivalent to instance line_write_read_0.double_flop_0.s_pclk2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\write_lsram.vhd":143:8:143:9|Removing instance line_write_read_0.WRITE_LSRAM_0.s_pclk_dly because it is equivalent to instance dot_osd_integration_0.tracker.pclk_sr_2[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\write_lsram.vhd":143:8:143:9|Removing instance line_write_read_0.WRITE_LSRAM_0.s_h_ref_dly because it is equivalent to instance dot_osd_integration_0.tracker.href_sr_2[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 288MB peak: 288MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 282MB peak: 289MB)
+
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[24] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[28] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[20] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[22] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[23] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[30] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[31] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[25] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[26] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[27] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[29] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[21] (in view: work.TOP(verilog)) because it does not drive other instances.
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 282MB peak: 289MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 282MB peak: 289MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 282MB peak: 289MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 282MB peak: 289MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 308MB peak: 308MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:08s		     2.88ns		 984 /       624
+@N: FP130 |Promoting Net MX2_0_Y_arst on CLKINT  I_524 
+@N: FP130 |Promoting Net INIT_DONE_arst on CLKINT  I_525 
+@N: FP130 |Promoting Net FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n_clk_base_i on CLKINT  I_526 
+@N: FP130 |Promoting Net FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n_arst on CLKINT  I_527 
+@N: FP130 |Promoting Net led_blink_0.clkout on CLKINT  I_528 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 312MB peak: 312MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 313MB peak: 313MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 313MB peak: 313MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 313MB peak: 314MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 256MB peak: 314MB)
+
+Writing Analyst data base D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\synthesis\synwork\TOP_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 310MB peak: 314MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:13s; Memory used current: 312MB peak: 314MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:13s; Memory used current: 312MB peak: 314MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:14s; Memory used current: 307MB peak: 314MB)
+
+@W: MT246 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\flashfreeze_sb\flashfreeze_sb.v":235:13:235:26|Blackbox FLASH_FREEZE is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"d:\goa\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\flashfreeze_sb\ccc_0\flashfreeze_sb_ccc_0_fccc.v":27:36:27:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@N: MT615 |Found clock OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT with period 20.00ns 
+@N: MT615 |Found clock FlashFreeze_SB_0/CCC_0/GL0 with period 10.00ns 
+@N: MT615 |Found clock FlashFreeze_SB_0/CCC_0/GL1 with period 41.67ns 
+@W: MT420 |Found inferred clock led_blink|clkout_inferred_clock with period 10.00ns. Please declare a user-defined clock on net led_blink_0.clkout_0.
+@W: MT420 |Found inferred clock FlashFreeze_SB|BIBUF_1_Y_inferred_clock with period 10.00ns. Please declare a user-defined clock on net FlashFreeze_SB_0.BIBUF_1_Y.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Tue Jul 14 15:42:18 2026
+#
+
+
+Top view:               TOP
+Requested Frequency:    24.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 3.471
+
+                                              Requested     Estimated     Requested     Estimated               Clock                                                          Clock                
+Starting Clock                                Frequency     Frequency     Period        Period        Slack     Type                                                           Group                
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FlashFreeze_SB_0/CCC_0/GL0                    100.0 MHz     153.2 MHz     10.000        6.529         3.471     generated (from OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup     
+FlashFreeze_SB_0/CCC_0/GL1                    24.0 MHz      NA            41.667        NA            NA        generated (from OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup     
+FlashFreeze_SB|BIBUF_1_Y_inferred_clock       100.0 MHz     NA            10.000        NA            NA        inferred                                                       Inferred_clkgroup_0_2
+OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     50.0 MHz      125.2 MHz     20.000        7.985         9.486     declared                                                       default_clkgroup     
+led_blink|clkout_inferred_clock               100.0 MHz     607.2 MHz     10.000        1.647         8.353     inferred                                                       Inferred_clkgroup_0_1
+System                                        100.0 MHz     488.8 MHz     10.000        2.046         7.954     system                                                         system_clkgroup      
+====================================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                   Ending                                     |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                     System                                     |  10.000      7.954   |  No paths    -      |  No paths    -      |  No paths    -    
+System                                     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT  |  20.000      14.209  |  No paths    -      |  No paths    -      |  No paths    -    
+System                                     FlashFreeze_SB_0/CCC_0/GL0                 |  10.000      4.209   |  No paths    -      |  No paths    -      |  No paths    -    
+System                                     led_blink|clkout_inferred_clock            |  10.000      5.196   |  No paths    -      |  No paths    -      |  No paths    -    
+OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT  |  20.000      18.643  |  No paths    -      |  No paths    -      |  No paths    -    
+OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT  FlashFreeze_SB_0/CCC_0/GL0                 |  10.000      9.486   |  No paths    -      |  No paths    -      |  No paths    -    
+FlashFreeze_SB_0/CCC_0/GL0                 OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT  |  10.000      6.008   |  No paths    -      |  No paths    -      |  No paths    -    
+FlashFreeze_SB_0/CCC_0/GL0                 FlashFreeze_SB_0/CCC_0/GL0                 |  10.000      3.471   |  No paths    -      |  No paths    -      |  No paths    -    
+led_blink|clkout_inferred_clock            led_blink|clkout_inferred_clock            |  10.000      8.353   |  No paths    -      |  No paths    -      |  No paths    -    
+=============================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: FlashFreeze_SB_0/CCC_0/GL0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                         Starting                                                                                                      Arrival          
+Instance                                                 Reference                      Type        Pin                Net                                             Time        Slack
+                                                         Clock                                                                                                                          
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST     FlashFreeze_SB_0/CCC_0/GL0     MSS_010     F_HM0_ADDR[8]      FlashFreeze_SB_0_FIC_0_APB_MASTER_PADDR[8]      3.386       3.471
+FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST     FlashFreeze_SB_0/CCC_0/GL0     MSS_010     F_HM0_ADDR[6]      FlashFreeze_SB_0_FIC_0_APB_MASTER_PADDR[6]      3.216       3.695
+FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST     FlashFreeze_SB_0/CCC_0/GL0     MSS_010     F_HM0_ADDR[10]     FlashFreeze_SB_0_FIC_0_APB_MASTER_PADDR[10]     3.392       3.708
+FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST     FlashFreeze_SB_0/CCC_0/GL0     MSS_010     F_HM0_ENABLE       FlashFreeze_SB_0_FIC_0_APB_MASTER_PENABLE       3.207       3.758
+FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST     FlashFreeze_SB_0/CCC_0/GL0     MSS_010     F_HM0_ADDR[9]      FlashFreeze_SB_0_FIC_0_APB_MASTER_PADDR[9]      3.206       3.826
+FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST     FlashFreeze_SB_0/CCC_0/GL0     MSS_010     F_HM0_ADDR[1]      FlashFreeze_SB_0_FIC_0_APB_MASTER_PADDR[1]      3.088       3.843
+FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST     FlashFreeze_SB_0/CCC_0/GL0     MSS_010     F_HM0_ADDR[7]      FlashFreeze_SB_0_FIC_0_APB_MASTER_PADDR[7]      3.084       3.895
+FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST     FlashFreeze_SB_0/CCC_0/GL0     MSS_010     F_HM0_WRITE        FlashFreeze_SB_0_FIC_0_APB_MASTER_PWRITE        3.163       3.909
+FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST     FlashFreeze_SB_0/CCC_0/GL0     MSS_010     F_HM0_ADDR[11]     FlashFreeze_SB_0_FIC_0_APB_MASTER_PADDR[11]     3.087       3.932
+FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST     FlashFreeze_SB_0/CCC_0/GL0     MSS_010     F_HM0_ADDR[0]      FlashFreeze_SB_0_FIC_0_APB_MASTER_PADDR[0]      3.142       3.986
+========================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                        Starting                                                            Required          
+Instance                Reference                      Type     Pin     Net                 Time         Slack
+                        Clock                                                                                 
+--------------------------------------------------------------------------------------------------------------
+apb3_if_0.data_o[0]     FlashFreeze_SB_0/CCC_0/GL0     SLE      EN      data_o_1_sqmuxa     9.707        3.471
+apb3_if_0.data_o[1]     FlashFreeze_SB_0/CCC_0/GL0     SLE      EN      data_o_1_sqmuxa     9.707        3.471
+apb3_if_0.data_o[2]     FlashFreeze_SB_0/CCC_0/GL0     SLE      EN      data_o_1_sqmuxa     9.707        3.471
+apb3_if_0.data_o[3]     FlashFreeze_SB_0/CCC_0/GL0     SLE      EN      data_o_1_sqmuxa     9.707        3.471
+apb3_if_0.data_o[4]     FlashFreeze_SB_0/CCC_0/GL0     SLE      EN      data_o_1_sqmuxa     9.707        3.471
+apb3_if_0.data_o[5]     FlashFreeze_SB_0/CCC_0/GL0     SLE      EN      data_o_1_sqmuxa     9.707        3.471
+apb3_if_0.data_o[6]     FlashFreeze_SB_0/CCC_0/GL0     SLE      EN      data_o_1_sqmuxa     9.707        3.471
+apb3_if_0.data_o[7]     FlashFreeze_SB_0/CCC_0/GL0     SLE      EN      data_o_1_sqmuxa     9.707        3.471
+apb3_if_0.dc_o          FlashFreeze_SB_0/CCC_0/GL0     SLE      EN      dc_o_1_sqmuxa       9.707        3.895
+apb3_if_0.lcd_wr_o      FlashFreeze_SB_0/CCC_0/GL0     SLE      EN      dc_o_1_sqmuxa       9.707        3.895
+==============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.293
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.707
+
+    - Propagation time:                      6.235
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     3.471
+
+    Number of logic level(s):                3
+    Starting point:                          FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[8]
+    Ending point:                            apb3_if_0.data_o[0] / EN
+    The start point is clocked by            FlashFreeze_SB_0/CCC_0/GL0 [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+    The end   point is clocked by            FlashFreeze_SB_0/CCC_0/GL0 [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                       Pin               Pin               Arrival     No. of    
+Name                                                     Type        Name              Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------
+FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST     MSS_010     F_HM0_ADDR[8]     Out     3.386     3.386 f     -         
+FlashFreeze_SB_0_FIC_0_APB_MASTER_PADDR[8]               Net         -                 -       0.216     -           1         
+apb3_if_0.init_done_o_1_sqmuxa_0_a2_0_7                  CFG4        D                 In      -         3.602 f     -         
+apb3_if_0.init_done_o_1_sqmuxa_0_a2_0_7                  CFG4        Y                 Out     0.250     3.852 f     -         
+init_done_o_1_sqmuxa_0_a2_0_7                            Net         -                 -       0.432     -           2         
+apb3_if_0.data_o_1_sqmuxa_0_a2_0                         CFG4        D                 In      -         4.284 f     -         
+apb3_if_0.data_o_1_sqmuxa_0_a2_0                         CFG4        Y                 Out     0.250     4.535 f     -         
+N_559                                                    Net         -                 -       0.708     -           4         
+apb3_if_0.data_o_1_sqmuxa_0_a2                           CFG4        B                 In      -         5.243 f     -         
+apb3_if_0.data_o_1_sqmuxa_0_a2                           CFG4        Y                 Out     0.143     5.386 f     -         
+data_o_1_sqmuxa                                          Net         -                 -       0.849     -           8         
+apb3_if_0.data_o[0]                                      SLE         EN                In      -         6.235 f     -         
+===============================================================================================================================
+Total path delay (propagation time + setup) of 6.529 is 4.323(66.2%) logic and 2.206(33.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                               Starting                                                                                   Arrival           
+Instance                                                                       Reference                                     Type     Pin     Net                         Time        Slack 
+                                                                               Clock                                                                                                        
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.ddr_settled                 OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       ddr_settled                 0.076       9.486 
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.release_sdif0_core          OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       release_sdif0_core          0.076       9.486 
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.release_sdif1_core          OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       release_sdif1_core          0.076       9.486 
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.release_sdif2_core          OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       release_sdif2_core          0.076       9.486 
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.release_sdif3_core          OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       release_sdif3_core          0.076       9.486 
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sdif0_areset_n_rcosc_q2     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       sdif0_areset_n_rcosc_q2     0.094       18.643
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sdif1_areset_n_rcosc_q2     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       sdif1_areset_n_rcosc_q2     0.094       18.643
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sdif2_areset_n_rcosc_q2     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       sdif2_areset_n_rcosc_q2     0.094       18.643
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sdif3_areset_n_rcosc_q2     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       sdif3_areset_n_rcosc_q2     0.094       18.643
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n_rcosc_q2       OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      Q       sm0_areset_n_rcosc_q2       0.094       18.643
+============================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                             Starting                                                                                  Required           
+Instance                                                                     Reference                                     Type     Pin     Net                        Time         Slack 
+                                                                             Clock                                                                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.ddr_settled_q1            OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      D       ddr_settled                9.778        9.486 
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.release_sdif0_core_q1     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      D       release_sdif0_core         9.778        9.486 
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.release_sdif1_core_q1     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      D       release_sdif1_core         9.778        9.486 
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.release_sdif2_core_q1     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      D       release_sdif2_core         9.778        9.486 
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.release_sdif3_core_q1     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      D       release_sdif3_core         9.778        9.486 
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.ddr_settled               OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      ALn     sm0_areset_n_rcosc_i       20.000       18.643
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.release_sdif0_core        OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      ALn     sdif0_areset_n_rcosc_i     20.000       18.643
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.release_sdif1_core        OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      ALn     sdif1_areset_n_rcosc_i     20.000       18.643
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.release_sdif2_core        OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      ALn     sdif2_areset_n_rcosc_i     20.000       18.643
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.release_sdif3_core        OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE      ALn     sdif3_areset_n_rcosc_i     20.000       18.643
+==========================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.222
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.778
+
+    - Propagation time:                      0.292
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 9.486
+
+    Number of logic level(s):                0
+    Starting point:                          FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.ddr_settled / Q
+    Ending point:                            FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.ddr_settled_q1 / D
+    The start point is clocked by            OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK
+    The end   point is clocked by            FlashFreeze_SB_0/CCC_0/GL0 [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                 Pin      Pin               Arrival     No. of    
+Name                                                                  Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.ddr_settled        SLE      Q        Out     0.076     0.076 r     -         
+ddr_settled                                                           Net      -        -       0.216     -           1         
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.ddr_settled_q1     SLE      D        In      -         0.292 r     -         
+================================================================================================================================
+Total path delay (propagation time + setup) of 0.514 is 0.298(58.0%) logic and 0.216(42.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: led_blink|clkout_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                          Arrival          
+Instance               Reference                           Type     Pin     Net          Time        Slack
+                       Clock                                                                              
+----------------------------------------------------------------------------------------------------------
+led_blink_0.led[1]     led_blink|clkout_inferred_clock     SLE      Q       led_c[1]     0.094       8.353
+led_blink_0.led[0]     led_blink|clkout_inferred_clock     SLE      Q       CO0          0.094       8.409
+==========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                                            Required          
+Instance               Reference                           Type     Pin     Net            Time         Slack
+                       Clock                                                                                 
+-------------------------------------------------------------------------------------------------------------
+led_blink_0.led[1]     led_blink|clkout_inferred_clock     SLE      D       led_RNO[1]     9.778        8.353
+led_blink_0.led[0]     led_blink|clkout_inferred_clock     SLE      D       CO0_i          9.778        8.409
+=============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.222
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.778
+
+    - Propagation time:                      1.425
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 8.353
+
+    Number of logic level(s):                1
+    Starting point:                          led_blink_0.led[1] / Q
+    Ending point:                            led_blink_0.led[1] / D
+    The start point is clocked by            led_blink|clkout_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            led_blink|clkout_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                       Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+led_blink_0.led[1]         SLE      Q        Out     0.094     0.094 f     -         
+led_c[1]                   Net      -        -       0.971     -           2         
+led_blink_0.led_RNO[1]     CFG2     B        In      -         1.066 f     -         
+led_blink_0.led_RNO[1]     CFG2     Y        Out     0.143     1.209 r     -         
+led_RNO[1]                 Net      -        -       0.216     -           1         
+led_blink_0.led[1]         SLE      D        In      -         1.425 r     -         
+=====================================================================================
+Total path delay (propagation time + setup) of 1.647 is 0.459(27.9%) logic and 1.188(72.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                    Starting                                                                        Arrival          
+Instance                            Reference     Type             Pin             Net                              Time        Slack
+                                    Clock                                                                                            
+-------------------------------------------------------------------------------------------------------------------------------------
+FlashFreeze_SB_0.FLASH_FREEZE_0     System        FLASH_FREEZE     FF_DONE         FlashFreeze_SB_0_FF_DONE         0.000       4.209
+FlashFreeze_SB_0.CCC_0.CCC_INST     System        CCC              LOCK            FlashFreeze_SB_0_LOCK            0.000       5.341
+FlashFreeze_SB_0.FLASH_FREEZE_0     System        FLASH_FREEZE     FF_TO_START     FlashFreeze_SB_0_FF_TO_START     0.000       9.562
+=====================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                       Starting                                             Required          
+Instance                                                               Reference     Type     Pin     Net                   Time         Slack
+                                                                       Clock                                                                  
+----------------------------------------------------------------------------------------------------------------------------------------------
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n_q1     System        SLE      ALn     sm0_areset_n_arst     10.000       4.209
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n_q2     System        SLE      ALn     sm0_areset_n_arst     10.000       4.209
+dot_osd_integration_0.tracker.byte_phase                               System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
+led_blink_0.clkout                                                     System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
+dot_osd_integration_0.tracker.col_idx[0]                               System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
+dot_osd_integration_0.tracker.col_idx[1]                               System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
+dot_osd_integration_0.tracker.col_idx[2]                               System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
+dot_osd_integration_0.tracker.col_idx[3]                               System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
+dot_osd_integration_0.tracker.col_idx[4]                               System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
+dot_osd_integration_0.tracker.col_idx[5]                               System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
+==============================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      5.791
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 4.209
+
+    Number of logic level(s):                3
+    Starting point:                          FlashFreeze_SB_0.FLASH_FREEZE_0 / FF_DONE
+    Ending point:                            FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n_q1 / ALn
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            FlashFreeze_SB_0/CCC_0/GL0 [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                                Pin         Pin               Arrival     No. of    
+Name                                                                         Type             Name        Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------------
+FlashFreeze_SB_0.FLASH_FREEZE_0                                              FLASH_FREEZE     FF_DONE     Out     0.000     0.000 r     -         
+FlashFreeze_SB_0_FF_DONE                                                     Net              -           -       0.987     -           17        
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.in_POWER_ON_RESET_N       CFG2             A           In      -         0.987 r     -         
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.in_POWER_ON_RESET_N       CFG2             Y           Out     0.067     1.054 r     -         
+in_POWER_ON_RESET_N                                                          Net              -           -       0.977     -           3         
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n              CFG2             B           In      -         2.031 r     -         
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n              CFG2             Y           Out     0.143     2.174 r     -         
+sm0_areset_n                                                                 Net              -           -       1.830     -           1         
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n_RNI6L684     CLKINT           A           In      -         4.004 r     -         
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n_RNI6L684     CLKINT           Y           Out     0.337     4.341 r     -         
+sm0_areset_n_arst                                                            Net              -           -       1.450     -           12        
+FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n_q1           SLE              ALn         In      -         5.791 r     -         
+==================================================================================================================================================
+Total path delay (propagation time + setup) of 5.791 is 0.547(9.4%) logic and 5.244(90.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"d:/goa/doa-main/hf10_ov7725_lcd_ff/hf10_ov7725_lcd_ff/designer/top/synthesis.fdc":10:0:10:0|Timing constraint (through [get_pins { FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST.CONFIG_PRESET_N }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 308MB peak: 314MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 308MB peak: 314MB)
+
+---------------------------------------
+Resource Usage Report for TOP 
+
+Mapping to part: m2s010vf400-1
+Cell usage:
+AND2            1 use
+CCC             1 use
+CLKINT          8 uses
+FLASH_FREEZE    1 use
+MSS_010         1 use
+MX2             2 uses
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+SYSRESET        1 use
+CFG1           6 uses
+CFG2           114 uses
+CFG3           172 uses
+CFG4           320 uses
+
+Carry cells:
+ARI1            259 uses - used for arithmetic functions
+ARI1            19 uses - used for Wide-Mux implementation
+Total ARI1      278 uses
+
+
+Sequential Cells: 
+SLE            641 uses
+
+DSP Blocks:    3 of 22 (13%)
+ MACC:         3 MultAdds
+
+I/O ports: 38
+I/O primitives: 37
+BIBUF          2 uses
+INBUF          14 uses
+OUTBUF         21 uses
+
+
+Global Clock Buffers: 8
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K18) : 1 of 21 (4%)
+
+Total LUTs:    890
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 36; LUTs = 36;
+MACC     Interface Logic : SLEs = 108; LUTs = 108;
+
+Total number of SLEs after P&R:  641 + 0 + 36 + 108 = 785;
+Total number of LUTs after P&R:  890 + 0 + 36 + 108 = 1034;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 142MB peak: 314MB)
+
+Process took 0h:00m:16s realtime, 0h:00m:15s cputime
+# Tue Jul 14 15:42:19 2026
+
+###########################################################]

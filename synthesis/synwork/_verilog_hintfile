@@ -1,0 +1,166 @@
+%%% protect protected_file
+#OPTIONS:"|-bldtbl|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\bin64\\c_vhdl.exe":1763486032
+#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\location.map":1763485106
+#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\std.vhd":1763485108
+#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd\\snps_haps_pkg.vhd":1763485106
+#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\std1164.vhd":1763485108
+#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\std_textio.vhd":1763485108
+#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\numeric.vhd":1763486234
+#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd\\umr_capim.vhd":1763485106
+#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\arith.vhd":1763485106
+#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\unsigned.vhd":1763485108
+#CUR:"D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\FF_GENERATOR.vhd":1784011568
+#CUR:"D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\addr_decoder.vhd":1784011568
+#CUR:"D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\receive_data.vhd":1784011568
+#CUR:"D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\apb3_if.vhd":1784011568
+#CUR:"D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\Image_Enhancement.vhd":1784011568
+#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\signed.vhd":1763485108
+#CUR:"D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\LCD_FSM.vhd":1784011568
+#CUR:"D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\Write_LSRAM.vhd":1784011568
+#CUR:"D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\double_flop.vhd":1784011568
+#CUR:"D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\RamDualPort.vhd":1784011568
+#CUR:"D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\mux_2_1.vhd":1784011568
+@E8lFkRDCl_kG.
+_4DsHLNRs$I	Fs
+bHMk#0RCHD_RH4
+M0bkR4Is_4HR
+bHMkI0RsH._RH4
+M0bkR4O#_4HR
+bHMkO0R#H._RH4
+M0bkR48O_4HR
+bHMk80ROH._RH4
+M0bkR4s8_4HR
+bHMks0R8H._RH4
+M0bkR08NNH4_RHU
+M0bkR08NNH._RFU
+kk0b0NR80FN_RFU
+kk0b0sRI_4FR
+0FkbRk0OF#_RF4
+kk0b0OR8_4FR
+0FkbRk0sF8_RC4
+MF8l8CkD
+8lFkRDCs7NlkuNDF
+s0DsHLNRs$I	Fs
+sbNN0lCC7sRq_aqWaQ7]MRH0CCosN
+bsCNl0RCsq)77 _11WaQ7]MRH0CCosN
+bsCNl0RCsAwzw_u7 aH]RMo0CCHs
+M0bkR	ODR
+-4HkMb0CRI_-NR4M
+HbRk0ILC_R
+-4HkMb08RN8Ns_R
+-4HkMb08RN8Ls_R
+-4HkMb0NR80NN_R
+-4Fbk0kJ0R_-LR4M
+C88lFk
+DClkF8D8CRFDkLCD_VFDb
+HNLssI$RF
+s	HkMb0 R)1h a_4QR
+bHMk10RYB1_pQi_RH4
+M0bkRpuBiR_Q4M
+HbRk07qqa_UQR
+bHMk]0R)_ wQ
+R4Fbk0ku0RB_pim
+R4Fbk0k70Rq_aqm
+RUFbk0k]0R)_ wm
+R4ClM8FD8kCF
+l8CkDRQW)ap _1v)q
+LDHs$NsRsIF	N
+bsCNl0RCstq_7aWq_Q]7aR0HMCsoC
+sbNN0lCCtsR_7q7)1 1_7WQaH]RMo0CCHs
+M0bkR1)  _ahQ4R-
+bHMk10RYB1_pQi_R
+-4HkMb0BRupQi_R
+-4HkMb0_R])_ wQ4R-
+bHMke0R_h1YBR_Q-H4
+M0bkRa7qqR_Q-F4
+kk0b0qR)v)_W__ hm4R-
+0FkbRk07qqa_-mR4k
+F00bkRv)q_7q7)1 1_-mR4M
+C88lFk
+DClkF8DpCRBw7_1Dv
+HNLssI$RF
+s	HkMb0$R##D_O	R_H4M
+HbRk0sCC#0R_H4M
+HbRk0H0MH_M8FCR_H4M
+HbRk0P$_#MHO_RH4
+M0bkRv)q_QW)aq _7_7)QjR4
+bHMks0RN8l_N_0NHnR4
+0FkbRk0D_O8IFs_RF4
+kk0b0#RO_4FR
+0FkbRk08FO_RF4
+kk0b0NRslC_sNC8_MR_F4k
+F00bkRlsN_8N8sR_F4Fj
+kk0b0NR80FN_RCU
+MF8l8CkD
+8lFkRDCQolNCM_ EONMCMlC0H
+DLssN$FRIsb	
+NlsNCs0CRut_QpX _7WQaH]RMo0CCHs
+M0bkR1)  _ahQ4R-
+bHMk10RYB1_pQi_R
+-4HkMb0qR7aeq_q7pQ_-QR4M
+HbRk0 AhqpQ _R
+-4HkMb0qR7aQq_R
+-4HkMb0qR)v7_q7Q)_R
+-4HkMb0_R)B1mhaR_Q-H4
+M0bkRBt_mah1_-QR4M
+HbRk0Am_Bh_1aQ4R-
+bHMkB0Rmmvvhm_Bh_1aQ4R-
+0FkbRk07qqa_peqQm7_R
+-4Fbk0k)0Rqqv_7_7)m4R-
+0FkbRk07qqa_-mR4M
+C88lFk
+DClkF8DNCRb_LdHDV
+HNLssI$RF
+s	bNNslCC0s_RoqduA__Qw7qqa_7WQaH]RMo0CCbs
+NlsNCs0CRBo_mah1_7WQaH]RMo0CCHs
+M0bkRCbs#_C0H4R-
+bHMkb0RO_D	H4R-
+bHMkb0R#_CDH4R-
+bHMkb0RI0sHCR_H-H4
+M0bkRMbCNCLD_-HR4M
+HbRk0b8N8sR_H-H4
+M0bkR8bIN_0NH4R-
+0FkbRk0bNsC8F$_R
+-4Fbk0kb0R#CDPsFs_R
+-4Fbk0k80ROR_F-F4
+kk0b0#RO_-FR4k
+F00bkR8DO__IsF4R-
+0FkbRk0D_O8sF8_R
+-4Fbk0k80RN_0NF4R-
+0FkbRk0H0MH_M8FCR_F-C4
+MF8l8CkD
+8lFkRDCsCCOH_PC8NN0
+LDHs$NsRsIF	M
+HbRk0sCC#0R_H4M
+HbRk0#_$#O_D	H
+R4HkMb0GRs_$s8_4HR
+bHMk80RN_0NH
+RUFbk0kF0RCFM_RF4
+kk0b0NR80sN_8F$_RF4
+kk0b08RN8Fs_R
+4nFbk0k80RN_0NF.Rd
+8CMlkF8DlC
+FD8kC8RN88s_C8OFCDs
+HNLssI$RF
+s	bNNslCC0s_RoB1mhaQ_W7Ra]HCM0o
+CsHkMb0CRs#_C0H4R-
+bHMk#0R$O#_DH	_R
+-4HkMb0NR80sN_8H$_R
+-4HkMb08RN8Hs_R
+-4HkMb0NR80HN_R
+-4Fbk0ks0RCO8_F0M#_-FR4k
+F00bkRCosCOM_F0M#_-FR4k
+F00bkRkLDCF_OM_#0F4R-
+0FkbRk0OlFlFOM_F0M#_-FR4M
+C88lFk
+DClkF8DwCRw _thq )a
+m)DsHLNRs$I	Fs
+bHMks0RC0#C_4HR
+bHMk#0R$O#_DH	_RH4
+M0bkR_VV0#F_00Ns_4HR
+bHMkV0RVF_8MHC_RF4
+kk0b0NROlI_b8FM_RC4
+MF8l8CkD
+
+@ 

@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)
+
+Date      :  Thu Aug  8 11:51:59 2019
+Project   :  F:\SVN\HelloFPGA\Update\HF10_OV7725_LCD_FF
+Component :  UART_interface
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    F:/SVN/HelloFPGA/Update/HF10_OV7725_LCD_FF/component/work/UART_interface/UART_interface.v
+

@@ -1,0 +1,25 @@
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+5 gated/generated clock tree(s) driving 4173 clock pin(s) of sequential element(s)
+0 instances converted, 4173 sequential instances remain driven by gated/generated clocks
+
+=================================================================================================================================== Gated/Generated Clocks ===================================================================================================================================
+Clock Tree ID     Driving Element                                           Drive Element Type     Fanout     Sample Instance                                                   Explanation                                                                                                   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       FCCC_0.CCC_INST                                           CCC                    1553       PB_logic_0.rfsm[1]                                                Illegal instance on clock path. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       FCCC_0.CCC_INST                                           CCC                    1395       COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.add_valid_r          Illegal instance on clock path. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0003       FCCC_0.CCC_INST                                           CCC                    1206       FILTERCONTROL_FSM_0.FIR_WR_ADDR[9]                                Illegal instance on clock path. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0004       COREFFT_0.genblk1\.DUT_INPLACE.slowClock_0.divider[2]     SLE                    17         COREFFT_0.genblk1\.DUT_INPLACE.sm_0.twid_wA_0.preRstAfterInit     No generated or derived clock directive on output of sequential instance                                      
+@K:CKID0005       led_blink_0.clkout                                        SLE                    2          led_blink_0.led[0]                                                No generated or derived clock directive on output of sequential instance                                      
+==============================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

@@ -1,0 +1,921 @@
+# Tue May 28 17:56:30 2019
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: HYD-LT-I31063
+
+Implementation : synthesis
+Synopsys Generic Technology Mapper, Version mapact, Build 2461R, Built Nov 29 2018 09:35:20
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 144MB)
+
+@N: MO111 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\igl2_fir_filter\corefft_0\rtl\in_place\vlog\core\corefft_top.v":86:39:86:49|Tristate driver OVFLOW_FLAG (in view: COREFFT_LIB.IGL2_FIR_FILTER_COREFFT_0_COREFFT_Z1(verilog)) on net OVFLOW_FLAG (in view: COREFFT_LIB.IGL2_FIR_FILTER_COREFFT_0_COREFFT_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\igl2_fir_filter\corefft_0\rtl\in_place\vlog\core\corefft_top.v":86:34:86:36|Tristate driver RFS (in view: COREFFT_LIB.IGL2_FIR_FILTER_COREFFT_0_COREFFT_Z1(verilog)) on net RFS (in view: COREFFT_LIB.IGL2_FIR_FILTER_COREFFT_0_COREFFT_Z1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\igl2_fir_filter\corefir_0\rtl\vlog\core\enum_smfu4\mac.v":86:25:86:29|Tristate driver cdout_1 (in view: COREFIR_LIB.IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_1s_4s_0s_1(verilog)) on net cdout_1 (in view: COREFIR_LIB.IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_1s_4s_0s_1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\igl2_fir_filter\corefir_0\rtl\vlog\core\enum_smfu4\mac.v":86:25:86:29|Tristate driver cdout_2 (in view: COREFIR_LIB.IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_1s_4s_0s_1(verilog)) on net cdout_2 (in view: COREFIR_LIB.IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_1s_4s_0s_1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\igl2_fir_filter\corefir_0\rtl\vlog\core\enum_smfu4\mac.v":86:25:86:29|Tristate driver cdout_3 (in view: COREFIR_LIB.IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_1s_4s_0s_1(verilog)) on net cdout_3 (in view: COREFIR_LIB.IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_1s_4s_0s_1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\igl2_fir_filter\corefir_0\rtl\vlog\core\enum_smfu4\mac.v":86:25:86:29|Tristate driver cdout_4 (in view: COREFIR_LIB.IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_1s_4s_0s_1(verilog)) on net cdout_4 (in view: COREFIR_LIB.IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_1s_4s_0s_1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\igl2_fir_filter\corefir_0\rtl\vlog\core\enum_smfu4\mac.v":86:25:86:29|Tristate driver cdout_5 (in view: COREFIR_LIB.IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_1s_4s_0s_1(verilog)) on net cdout_5 (in view: COREFIR_LIB.IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_1s_4s_0s_1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\igl2_fir_filter\corefir_0\rtl\vlog\core\enum_smfu4\mac.v":86:25:86:29|Tristate driver cdout_6 (in view: COREFIR_LIB.IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_1s_4s_0s_1(verilog)) on net cdout_6 (in view: COREFIR_LIB.IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_1s_4s_0s_1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\igl2_fir_filter\corefir_0\rtl\vlog\core\enum_smfu4\mac.v":86:25:86:29|Tristate driver cdout_7 (in view: COREFIR_LIB.IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_1s_4s_0s_1(verilog)) on net cdout_7 (in view: COREFIR_LIB.IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_1s_4s_0s_1(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\igl2_fir_filter\corefir_0\rtl\vlog\core\enum_smfu4\mac.v":86:25:86:29|Tristate driver cdout_8 (in view: COREFIR_LIB.IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_1s_4s_0s_1(verilog)) on net cdout_8 (in view: COREFIR_LIB.IGL2_FIR_FILTER_COREFIR_0_mac_enum_g4_44_1s_4s_0s_1(verilog)) has its enable tied to GND.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefft\7.0.104\rtl\in_place\vlog\core\kit.v":244:6:244:11|Removing sequential instance COREFFT_0.genblk1.DUT_INPLACE.bfly_0.cmplx_0.genblk1.cmplx18_0.half_1.genblk1.dly_d.genblk1.delayLine[0][15:0] because it is equivalent to instance COREFFT_0.genblk1.DUT_INPLACE.bfly_0.cmplx_0.genblk1.cmplx18_0.half_0.genblk1.dly_d.genblk1.delayLine[0][15:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefir\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Removing sequential instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.taps.tap[6].a_tap.symm_tap.symm_add_balance_0.genblk1.delayLine[0] because it is equivalent to instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.odd_tap.last_tap.symm_add_balance_0.genblk1.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefir\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Removing sequential instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.taps.tap[0].a_tap.symm_tap.symm_add_balance_0.genblk1.delayLine[0] because it is equivalent to instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.odd_tap.last_tap.symm_add_balance_0.genblk1.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefir\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Removing sequential instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.taps.tap[7].a_tap.symm_tap.symm_add_balance_0.genblk1.delayLine[0] because it is equivalent to instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.odd_tap.last_tap.symm_add_balance_0.genblk1.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefir\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Removing sequential instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.taps.tap[14].a_tap.symm_tap.symm_add_balance_0.genblk1.delayLine[0] because it is equivalent to instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.odd_tap.last_tap.symm_add_balance_0.genblk1.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefir\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Removing sequential instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.taps.tap[12].a_tap.symm_tap.symm_add_balance_0.genblk1.delayLine[0] because it is equivalent to instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.odd_tap.last_tap.symm_add_balance_0.genblk1.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefir\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Removing sequential instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.taps.tap[3].a_tap.symm_tap.symm_add_balance_0.genblk1.delayLine[0] because it is equivalent to instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.odd_tap.last_tap.symm_add_balance_0.genblk1.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefir\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Removing sequential instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.taps.tap[10].a_tap.symm_tap.symm_add_balance_0.genblk1.delayLine[0] because it is equivalent to instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.odd_tap.last_tap.symm_add_balance_0.genblk1.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefir\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Removing sequential instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.taps.tap[8].a_tap.symm_tap.symm_add_balance_0.genblk1.delayLine[0] because it is equivalent to instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.odd_tap.last_tap.symm_add_balance_0.genblk1.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefir\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Removing sequential instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.taps.tap[11].a_tap.symm_tap.symm_add_balance_0.genblk1.delayLine[0] because it is equivalent to instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.odd_tap.last_tap.symm_add_balance_0.genblk1.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefir\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Removing sequential instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.taps.tap[5].a_tap.symm_tap.symm_add_balance_0.genblk1.delayLine[0] because it is equivalent to instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.odd_tap.last_tap.symm_add_balance_0.genblk1.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefir\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Removing sequential instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.taps.tap[9].a_tap.symm_tap.symm_add_balance_0.genblk1.delayLine[0] because it is equivalent to instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.odd_tap.last_tap.symm_add_balance_0.genblk1.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefir\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Removing sequential instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.taps.tap[1].a_tap.symm_tap.symm_add_balance_0.genblk1.delayLine[0] because it is equivalent to instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.odd_tap.last_tap.symm_add_balance_0.genblk1.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefir\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Removing sequential instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.taps.tap[2].a_tap.symm_tap.symm_add_balance_0.genblk1.delayLine[0] because it is equivalent to instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.odd_tap.last_tap.symm_add_balance_0.genblk1.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefir\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Removing sequential instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.taps.tap[13].a_tap.symm_tap.symm_add_balance_0.genblk1.delayLine[0] because it is equivalent to instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.odd_tap.last_tap.symm_add_balance_0.genblk1.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefir\8.6.101\rtl\vlog\core\kit.v":55:6:55:11|Removing sequential instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.taps.tap[4].a_tap.symm_tap.symm_add_balance_0.genblk1.delayLine[0] because it is equivalent to instance COREFIR_0.enum_g4.enum_fir_g4.fir_enum_g4_0.odd_tap.last_tap.symm_add_balance_0.genblk1.delayLine[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: BN362 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\data_handle\coreuart_0\rtl\vlog\core_obfuscated\rx_async.v":1339:0:1339:5|Removing sequential instance CUARTI0Il (in view: work.DATA_HANDLE_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 153MB)
+
+@N: MO231 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefft\7.0.104\rtl\in_place\vlog\core\kit.v":111:2:111:7|Found counter in view:COREFFT_LIB.fft_inpl_sm_top_256s_128s_8_3_10s_1s(verilog) instance wTimer_0.Q[6:0] 
+@N: BN362 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefft\7.0.104\rtl\in_place\vlog\core\kit.v":244:6:244:11|Removing sequential instance rStage_dly2.genblk1\.delayLine\[1\][3] (in view: COREFFT_LIB.fft_inpl_sm_top_256s_128s_8_3_10s_1s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefft\7.0.104\rtl\in_place\vlog\core\kit.v":244:6:244:11|Removing sequential instance rStage_dly2.genblk1\.delayLine\[1\][4] (in view: COREFFT_LIB.fft_inpl_sm_top_256s_128s_8_3_10s_1s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefft\7.0.104\rtl\in_place\vlog\core\kit.v":244:6:244:11|Removing sequential instance rTimer_dly2.genblk1\.delayLine\[1\][7] (in view: COREFFT_LIB.fft_inpl_sm_top_256s_128s_8_3_10s_1s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefft\7.0.104\rtl\in_place\vlog\core\kit.v":244:6:244:11|Removing sequential instance rTimer_dly2.genblk1\.delayLine\[1\][8] (in view: COREFFT_LIB.fft_inpl_sm_top_256s_128s_8_3_10s_1s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefft\7.0.104\rtl\in_place\vlog\core\kit.v":244:6:244:11|Removing sequential instance rTimer_dly2.genblk1\.delayLine\[1\][9] (in view: COREFFT_LIB.fft_inpl_sm_top_256s_128s_8_3_10s_1s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefft\7.0.104\rtl\in_place\vlog\core\kit.v":244:6:244:11|Removing sequential instance rStage_dly2.genblk1\.delayLine\[0\][3] (in view: COREFFT_LIB.fft_inpl_sm_top_256s_128s_8_3_10s_1s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefft\7.0.104\rtl\in_place\vlog\core\kit.v":244:6:244:11|Removing sequential instance rStage_dly2.genblk1\.delayLine\[0\][4] (in view: COREFFT_LIB.fft_inpl_sm_top_256s_128s_8_3_10s_1s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefft\7.0.104\rtl\in_place\vlog\core\kit.v":244:6:244:11|Removing sequential instance rTimer_dly2.genblk1\.delayLine\[0\][7] (in view: COREFFT_LIB.fft_inpl_sm_top_256s_128s_8_3_10s_1s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefft\7.0.104\rtl\in_place\vlog\core\kit.v":244:6:244:11|Removing sequential instance rTimer_dly2.genblk1\.delayLine\[0\][8] (in view: COREFFT_LIB.fft_inpl_sm_top_256s_128s_8_3_10s_1s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefft\7.0.104\rtl\in_place\vlog\core\kit.v":244:6:244:11|Removing sequential instance rTimer_dly2.genblk1\.delayLine\[0\][9] (in view: COREFFT_LIB.fft_inpl_sm_top_256s_128s_8_3_10s_1s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO231 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefft\7.0.104\rtl\in_place\vlog\core\kit.v":139:2:139:7|Found counter in view:COREFFT_LIB.fft_inpl_counter_w_10_137s(verilog) instance Q[9:0] 
+@N: MO231 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefft\7.0.104\rtl\in_place\vlog\core\kit.v":79:2:79:7|Found counter in view:COREFFT_LIB.fft_inpl_counter_5_7(verilog) instance Q[4:0] 
+@N: MO231 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefft\7.0.104\rtl\in_place\vlog\core\kit.v":79:2:79:7|Found counter in view:COREFFT_LIB.fft_inpl_counter_8_255s(verilog) instance Q[7:0] 
+@N: MO231 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefft\7.0.104\rtl\in_place\vlog\core\kit.v":168:2:168:7|Found counter in view:COREFFT_LIB.fft_inpl_twid_wA_gen_8_3(verilog) instance slowTimer.Q[6:0] 
+@N: MO231 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":133:0:133:5|Found counter in view:work.crc_256_pwr(verilog) instance cntr[15:0] 
+@N: MO231 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\data_handle\coreuart_0\rtl\vlog\core_obfuscated\clock_gen.v":1011:0:1011:5|Found counter in view:work.DATA_HANDLE_COREUART_0_Clock_gen_0s_0s(verilog) instance genblk1\.CUARTO0[12:0] 
+Encoding state machine CUARTlI0l[5:0] (in view: work.DATA_HANDLE_COREUART_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 000001
+   00000000000000000000000000000001 -> 000010
+   00000000000000000000000000000010 -> 000100
+   00000000000000000000000000000011 -> 001000
+   00000000000000000000000000000100 -> 010000
+   00000000000000000000000000000101 -> 100000
+@W: MO160 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\data_handle\coreuart_0\rtl\vlog\core_obfuscated\tx_async.v":301:0:301:5|Register bit CUARTlI0l[4] (in view view:work.DATA_HANDLE_COREUART_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: BN362 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\data_handle\coreuart_0\rtl\vlog\core_obfuscated\tx_async.v":808:0:808:5|Removing sequential instance CUARTO00l (in view: work.DATA_HANDLE_COREUART_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s(verilog)) because it does not drive other instances.
+Encoding state machine CUARTll0[3:0] (in view: work.DATA_HANDLE_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\data_handle\coreuart_0\rtl\vlog\core_obfuscated\rx_async.v":871:0:871:5|There are no possible illegal states for state machine CUARTll0[3:0] (in view: work.DATA_HANDLE_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+@W: MO161 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\data_handle\coreuart_0\rtl\vlog\core_obfuscated\rx_async.v":754:0:754:5|Register bit CUARTIOll[3] (in view view:work.DATA_HANDLE_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\data_handle\coreuart_0\rtl\vlog\core_obfuscated\rx_async.v":754:0:754:5|Register bit CUARTIOll[2] (in view view:work.DATA_HANDLE_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\data_handle\coreuart_0\rtl\vlog\core_obfuscated\rx_async.v":754:0:754:5|Register bit CUARTIOll[1] (in view view:work.DATA_HANDLE_COREUART_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+Encoding state machine rfsm[10:0] (in view: work.UART_IF(verilog))
+original code -> new code
+   0000 -> 00000000001
+   0001 -> 00000000010
+   0010 -> 00000000100
+   0011 -> 00000001000
+   0100 -> 00000010000
+   0101 -> 00000100000
+   0110 -> 00001000000
+   1000 -> 00010000000
+   1001 -> 00100000000
+   1010 -> 01000000000
+   1011 -> 10000000000
+@N: MO231 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\uart_if.v":139:0:139:5|Found counter in view:work.UART_IF(verilog) instance R_ADDR[10:0] 
+@N: MO231 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\uart_if.v":139:0:139:5|Found counter in view:work.UART_IF(verilog) instance DATA_WADDR[10:0] 
+@N: MO231 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\uart_if.v":139:0:139:5|Found counter in view:work.UART_IF(verilog) instance COEF_WADDR[5:0] 
+Encoding state machine fsm[4:0] (in view: work.FILTERCONTROL_FSM(verilog))
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N: MO231 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\filter_control_fsm.v":68:0:68:5|Found counter in view:work.FILTERCONTROL_FSM(verilog) instance COEF_RADDR[4:0] 
+@N: MO231 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\filter_control_fsm.v":68:0:68:5|Found counter in view:work.FILTERCONTROL_FSM(verilog) instance FFT_WADDR[7:0] 
+@N: MO231 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\filter_control_fsm.v":68:0:68:5|Found counter in view:work.FILTERCONTROL_FSM(verilog) instance FIR_WR_ADDR[9:0] 
+Encoding state machine rfsm[3:0] (in view: work.PB_logic(verilog))
+original code -> new code
+   0000 -> 0000
+   0001 -> 0001
+   0010 -> 0010
+   0011 -> 0011
+@W: MO129 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\pb_logic.v":22:0:22:5|Sequential instance PB_logic_0.rfsm[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\pb_logic.v":22:0:22:5|Sequential instance PB_logic_0.rfsm[3] is reduced to a combinational gate by constant propagation.
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 157MB)
+
+@N: BN362 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefft\7.0.104\rtl\in_place\vlog\core\fftsm.v":439:2:439:7|Removing sequential instance sm_0.rdFFTtimer_0.rStage_r[3] (in view: COREFFT_LIB.IGL2_FIR_FILTER_COREFFT_0_COREFFT_INPLC_Z2(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\actel\directcore\corefft\7.0.104\rtl\in_place\vlog\core\fftsm.v":439:2:439:7|Removing sequential instance sm_0.rdFFTtimer_0.rStage_r[4] (in view: COREFFT_LIB.IGL2_FIR_FILTER_COREFFT_0_COREFFT_INPLC_Z2(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 174MB peak: 179MB)
+
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[32] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[33] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[34] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[35] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[36] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[37] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[38] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[39] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[40] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[41] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[42] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[43] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[44] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[45] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[46] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[47] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[48] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[16]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[49] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[50] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[18]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[51] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[19]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[52] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[20]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[53] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[21]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[54] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[55] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[23]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[56] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[24]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[57] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[25]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[58] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[26]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[59] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[27]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[60] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[28]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[61] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[29]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[62] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[30]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[63] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[31]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[96] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[64]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[97] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[65]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[98] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[66]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[99] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[67]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[100] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[68]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[101] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[69]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[102] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[70]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[103] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[71]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[104] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[72]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[105] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[73]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[106] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[74]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[107] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[75]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[108] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[76]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[109] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[77]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[110] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[78]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[111] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[79]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[112] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[80]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[113] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[81]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[114] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[82]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[115] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[83]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[116] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[84]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[117] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[85]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[118] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[86]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[119] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[87]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[120] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[88]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[121] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[89]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[122] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[90]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[123] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[91]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[124] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[92]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[125] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[93]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[126] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[94]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[127] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[95]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[160] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[128]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[161] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[129]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[162] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[130]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[163] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[131]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[164] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[132]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[165] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[133]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[166] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[134]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[167] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[135]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[168] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[136]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[169] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[137]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[170] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[138]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[171] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[139]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[172] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[140]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[173] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[141]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[174] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[142]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[175] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[143]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[176] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[144]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[177] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[145]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[178] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[146]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\hdl\crc_256_pwr.v":90:0:90:5|Removing instance crc_256_pwr_0.genblk1[1].u0.crc_staged_out[179] because it is equivalent to instance crc_256_pwr_0.genblk1[2].u0.u0.data_in[147]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Only the first 100 messages of id 'BN132' are reported. To see all messages use 'report_messages -log D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\synthesis\synlog\IGL2_FIR_FILTER_fpga_mapper.srr -id BN132' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN132} -count unlimited' in the Tcl shell.
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 165MB peak: 183MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 165MB peak: 183MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 170MB peak: 183MB)
+
+@N: BN362 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\data_handle\coreuart_0\rtl\vlog\core_obfuscated\rx_async.v":1154:0:1154:5|Removing sequential instance DATA_HANDLE_0.COREUART_0.CUARTO01.CUARTO0Il[8] (in view: work.IGL2_FIR_FILTER(verilog)) because it does not drive other instances.
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 173MB peak: 183MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 173MB peak: 183MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 170MB peak: 183MB)
+
+@N: MO106 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\igl2_fir_filter\corefft_0\twiddle32.v":35:4:35:7|Found ROM COREFFT_0.genblk1\.DUT_INPLACE.lut_0.T_1[31:0] (in view: work.IGL2_FIR_FILTER(verilog)) with 128 words by 32 bits.
+
+Finished preparing to map (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 172MB peak: 183MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 263MB peak: 268MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:13s		     1.50ns		5651 /      4095
+@N: FP130 |Promoting Net PB_logic_0_rstno on CLKINT  I_406 
+@N: FP130 |Promoting Net SYSRESET_0_POWER_ON_RESET_N on CLKINT  I_407 
+@N: FP130 |Promoting Net COREFFT_0.genblk1\.DUT_INPLACE.slowClock_0.divider_i_0[2] on CLKINT  I_408 
+@N: FP130 |Promoting Net led_blink_0.clkout on CLKINT  I_409 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 267MB peak: 272MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 270MB peak: 272MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+5 gated/generated clock tree(s) driving 4173 clock pin(s) of sequential element(s)
+0 instances converted, 4173 sequential instances remain driven by gated/generated clocks
+
+=================================================================================================================================== Gated/Generated Clocks ===================================================================================================================================
+Clock Tree ID     Driving Element                                           Drive Element Type     Fanout     Sample Instance                                                   Explanation                                                                                                   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       FCCC_0.CCC_INST                                           CCC                    1553       PB_logic_0.rfsm[1]                                                Illegal instance on clock path. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       FCCC_0.CCC_INST                                           CCC                    1395       COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.add_valid_r          Illegal instance on clock path. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0003       FCCC_0.CCC_INST                                           CCC                    1206       FILTERCONTROL_FSM_0.FIR_WR_ADDR[9]                                Illegal instance on clock path. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0004       COREFFT_0.genblk1\.DUT_INPLACE.slowClock_0.divider[2]     SLE                    17         COREFFT_0.genblk1\.DUT_INPLACE.sm_0.twid_wA_0.preRstAfterInit     No generated or derived clock directive on output of sequential instance                                      
+@K:CKID0005       led_blink_0.clkout                                        SLE                    2          led_blink_0.led[0]                                                No generated or derived clock directive on output of sequential instance                                      
+==============================================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 224MB peak: 272MB)
+
+Writing Analyst data base D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\synthesis\synwork\IGL2_FIR_FILTER_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:17s; Memory used current: 267MB peak: 273MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:19s; Memory used current: 265MB peak: 273MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:19s; Memory used current: 266MB peak: 273MB)
+
+@W: MT246 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\ff\ff.v":121:13:121:26|Blackbox FLASH_FREEZE is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"d:\g5_soc\dsp\fir_filter\dsp_fir_filter\component\work\igl2_fir_filter\fccc_0\igl2_fir_filter_fccc_0_fccc.v":29:36:29:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@N: MT615 |Found clock OSC_0/I_RCOSC_25_50MHZ/CLKOUT with period 20.00ns 
+@N: MT615 |Found clock FCCC_0/GL0 with period 6.67ns 
+@N: MT615 |Found clock FCCC_0/GL1 with period 6.67ns 
+@N: MT615 |Found clock FCCC_0/GL2 with period 10.00ns 
+@N: MT615 |Found clock FCCC_0/GL3 with period 10.00ns 
+@W: MT420 |Found inferred clock led_blink|clkout_inferred_clock with period 10.00ns. Please declare a user-defined clock on net led_blink_0.clkout_0.
+@W: MT420 |Found inferred clock fft_inpl_slowClock|divider_inferred_clock[2] with period 10.00ns. Please declare a user-defined clock on net COREFFT_0.genblk1\.DUT_INPLACE.slowClock_0.divider[2].
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue May 28 17:56:50 2019
+#
+
+
+Top view:               IGL2_FIR_FILTER
+Requested Frequency:    50.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\designer\IGL2_FIR_FILTER\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 2.549
+
+                                                 Requested     Estimated     Requested     Estimated               Clock                                              Clock              
+Starting Clock                                   Frequency     Frequency     Period        Period        Slack     Type                                               Group              
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FCCC_0/GL0                                       150.0 MHz     242.9 MHz     6.667         4.118         2.549     generated (from OSC_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup   
+FCCC_0/GL1                                       150.0 MHz     305.0 MHz     6.667         3.279         3.388     generated (from OSC_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup   
+FCCC_0/GL2                                       100.0 MHz     178.1 MHz     10.000        5.615         4.385     generated (from OSC_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup   
+FCCC_0/GL3                                       100.0 MHz     NA            10.000        NA            NA        generated (from OSC_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup   
+OSC_0/I_RCOSC_25_50MHZ/CLKOUT                    50.0 MHz      NA            20.000        NA            NA        declared                                           default_clkgroup   
+fft_inpl_slowClock|divider_inferred_clock[2]     100.0 MHz     155.1 MHz     10.000        6.446         3.554     inferred                                           Inferred_clkgroup_1
+led_blink|clkout_inferred_clock                  100.0 MHz     607.2 MHz     10.000        1.647         8.353     inferred                                           Inferred_clkgroup_0
+System                                           100.0 MHz     NA            10.000        NA            NA        system                                             system_clkgroup    
+=========================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                      |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                      Ending                                        |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FCCC_0/GL0                                    FCCC_0/GL0                                    |  6.667       2.549  |  No paths    -      |  No paths    -      |  No paths    -    
+FCCC_0/GL0                                    FCCC_0/GL1                                    |  6.667       4.261  |  No paths    -      |  No paths    -      |  No paths    -    
+FCCC_0/GL1                                    FCCC_0/GL0                                    |  6.667       3.734  |  No paths    -      |  No paths    -      |  No paths    -    
+FCCC_0/GL1                                    FCCC_0/GL1                                    |  6.667       3.388  |  No paths    -      |  No paths    -      |  No paths    -    
+FCCC_0/GL2                                    FCCC_0/GL2                                    |  10.000      4.385  |  No paths    -      |  No paths    -      |  No paths    -    
+led_blink|clkout_inferred_clock               led_blink|clkout_inferred_clock               |  10.000      8.353  |  No paths    -      |  No paths    -      |  No paths    -    
+fft_inpl_slowClock|divider_inferred_clock[2]  FCCC_0/GL0                                    |  No paths    -      |  No paths    -      |  No paths    -      |  Diff grp    -    
+fft_inpl_slowClock|divider_inferred_clock[2]  fft_inpl_slowClock|divider_inferred_clock[2]  |  No paths    -      |  10.000      3.554  |  No paths    -      |  No paths    -    
+==================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: FCCC_0/GL0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                        Starting                                                       Arrival          
+Instance                                                Reference      Type        Pin            Net                  Time        Slack
+                                                        Clock                                                                           
+----------------------------------------------------------------------------------------------------------------------------------------
+DATA_HANDLE_0.COREUART_0.CUARTO01.CUARTll0[0]           FCCC_0/GL0     SLE         Q              CUARTll0[0]          0.076       2.549
+DATA_HANDLE_0.COREUART_0.CUARTO01.CUARTll0[1]           FCCC_0/GL0     SLE         Q              CUARTll0[1]          0.076       2.551
+COREFFT_0.genblk1\.DUT_INPLACE.sm_0.trueRst             FCCC_0/GL0     SLE         Q              trueRst              0.094       2.785
+FFT_Im_Buff.IGL2_FIR_FILTER_FFT_Im_Buff_TPSRAM_R0C0     FCCC_0/GL0     RAM1K18     A_DOUT[4]      TPSRAM_4_RD[4]       1.968       2.964
+FFT_Im_Buff.IGL2_FIR_FILTER_FFT_Im_Buff_TPSRAM_R0C0     FCCC_0/GL0     RAM1K18     A_DOUT[10]     TPSRAM_4_RD[9]       1.968       2.964
+FFT_Im_Buff.IGL2_FIR_FILTER_FFT_Im_Buff_TPSRAM_R0C0     FCCC_0/GL0     RAM1K18     A_DOUT[12]     TPSRAM_4_RD[11]      1.968       2.964
+FFT_Im_Buff.IGL2_FIR_FILTER_FFT_Im_Buff_TPSRAM_R0C0     FCCC_0/GL0     RAM1K18     A_DOUT[0]      TPSRAM_4_RD[0]       1.968       2.972
+DATA_HANDLE_0.COREUART_0.CUARTIO1.CUARTOl0l             FCCC_0/GL0     SLE         Q              COREUART_0_TXRDY     0.094       3.047
+FFT_Im_Buff.IGL2_FIR_FILTER_FFT_Im_Buff_TPSRAM_R0C0     FCCC_0/GL0     RAM1K18     A_DOUT[1]      TPSRAM_4_RD[1]       1.968       3.065
+FFT_Im_Buff.IGL2_FIR_FILTER_FFT_Im_Buff_TPSRAM_R0C0     FCCC_0/GL0     RAM1K18     A_DOUT[3]      TPSRAM_4_RD[3]       1.968       3.065
+========================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                      Starting                                        Required          
+Instance                                                              Reference      Type     Pin     Net             Time         Slack
+                                                                      Clock                                                             
+----------------------------------------------------------------------------------------------------------------------------------------
+DATA_HANDLE_0.COREUART_0.CUARTO01.CUARTIlIl[1]                        FCCC_0/GL0     SLE      D       N_92_i          6.445        2.549
+DATA_HANDLE_0.COREUART_0.CUARTO01.CUARTIlIl[2]                        FCCC_0/GL0     SLE      D       N_94_i          6.445        2.549
+DATA_HANDLE_0.COREUART_0.CUARTO01.CUARTIlIl[0]                        FCCC_0/GL0     SLE      D       N_90_i          6.445        2.656
+COREFFT_0.genblk1\.DUT_INPLACE.sm_0.rdFFTtimer_0.stage_timer.Q[1]     FCCC_0/GL0     SLE      D       N_20_i          6.445        2.785
+COREFFT_0.genblk1\.DUT_INPLACE.sm_0.rdFFTtimer_0.stage_timer.Q[2]     FCCC_0/GL0     SLE      D       N_16_i          6.445        2.785
+COREFFT_0.genblk1\.DUT_INPLACE.sm_0.rdFFTtimer_0.stage_timer.Q[0]     FCCC_0/GL0     SLE      D       N_70            6.445        2.827
+DATA_HANDLE_0.UART_IF_0.DATA_OUT[1]                                   FCCC_0/GL0     SLE      D       N_341_mux_i     6.445        2.964
+DATA_HANDLE_0.UART_IF_0.DATA_OUT[3]                                   FCCC_0/GL0     SLE      D       N_344_mux_i     6.445        2.964
+DATA_HANDLE_0.UART_IF_0.DATA_OUT[4]                                   FCCC_0/GL0     SLE      D       N_343_mux_i     6.445        2.964
+DATA_HANDLE_0.UART_IF_0.DATA_OUT[0]                                   FCCC_0/GL0     SLE      D       N_342_mux       6.445        2.972
+========================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.667
+    - Setup time:                            0.222
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.445
+
+    - Propagation time:                      3.896
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     2.549
+
+    Number of logic level(s):                4
+    Starting point:                          DATA_HANDLE_0.COREUART_0.CUARTO01.CUARTll0[0] / Q
+    Ending point:                            DATA_HANDLE_0.COREUART_0.CUARTO01.CUARTIlIl[1] / D
+    The start point is clocked by            FCCC_0/GL0 [rising] on pin CLK
+    The end   point is clocked by            FCCC_0/GL0 [rising] on pin CLK
+
+Instance / Net                                                                Pin      Pin               Arrival     No. of    
+Name                                                                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------
+DATA_HANDLE_0.COREUART_0.CUARTO01.CUARTll0[0]                        SLE      Q        Out     0.076     0.076       -         
+CUARTll0[0]                                                          Net      -        -       0.814     -           7         
+DATA_HANDLE_0.COREUART_0.CUARTO01.CUARTll0_s0_0_a2                   CFG2     B        In      -         0.890       -         
+DATA_HANDLE_0.COREUART_0.CUARTO01.CUARTll0_s0_0_a2                   CFG2     Y        Out     0.125     1.015       -         
+CUARTll0_s0_0_a2                                                     Net      -        -       0.958     -           11        
+DATA_HANDLE_0.COREUART_0.CUARTO01.CUARTlIll\.CUARTIlIl_3_i_a4[3]     CFG4     D        In      -         1.973       -         
+DATA_HANDLE_0.COREUART_0.CUARTO01.CUARTlIll\.CUARTIlIl_3_i_a4[3]     CFG4     Y        Out     0.250     2.223       -         
+N_113                                                                Net      -        -       0.432     -           2         
+DATA_HANDLE_0.COREUART_0.CUARTO01.CUARTlIll\.CUARTIlIl_3_i_o4[0]     CFG4     C        In      -         2.655       -         
+DATA_HANDLE_0.COREUART_0.CUARTO01.CUARTlIll\.CUARTIlIl_3_i_o4[0]     CFG4     Y        Out     0.182     2.837       -         
+N_98                                                                 Net      -        -       0.648     -           3         
+DATA_HANDLE_0.COREUART_0.CUARTO01.CUARTIlIl_RNO[1]                   CFG3     C        In      -         3.486       -         
+DATA_HANDLE_0.COREUART_0.CUARTO01.CUARTIlIl_RNO[1]                   CFG3     Y        Out     0.194     3.679       -         
+N_92_i                                                               Net      -        -       0.216     -           1         
+DATA_HANDLE_0.COREUART_0.CUARTO01.CUARTIlIl[1]                       SLE      D        In      -         3.896       -         
+===============================================================================================================================
+Total path delay (propagation time + setup) of 4.118 is 1.049(25.5%) logic and 3.069(74.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: FCCC_0/GL1
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                               Starting                                                  Arrival          
+Instance                                                                                                       Reference      Type     Pin          Net                  Time        Slack
+                                                                                                               Clock                                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COREFIR_0.enum_g4\.enum_fir_g4.wrap_coef_on.genblk1\.delayLine\[1\]                                            FCCC_0/GL1     SLE      Q            coef_on_wrap         0.094       3.388
+COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.sync_ngrst_0.sync_ngrst_0.genblk1.delayLine[3]                    FCCC_0/GL1     SLE      Q            synced_ngrst         0.076       3.507
+COREFIR_0.enum_g4\.enum_fir_g4.wrap_data_valid.genblk1\.delayLine\[1\]                                         FCCC_0/GL1     SLE      Q            datai_valid_wrap     0.076       3.719
+COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.fill_in_dly.genblk1.delayLine[48]                                 FCCC_0/GL1     SLE      Q            filled_w             0.076       3.734
+COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.pipe_dly_0.genblk1.delayLine[2]                                   FCCC_0/GL1     SLE      Q            datao_valid_i        0.076       3.750
+COREFIR_0.enum_g4\.enum_fir_g4.wrap_coef_valid.genblk1\.delayLine\[1\]                                         FCCC_0/GL1     SLE      Q            coefi_valid_wrap     0.094       4.092
+COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.odd_tap\.last_tap.symm_add_balance_0.genblk1\.delayLine\[0\]      FCCC_0/GL1     SLE      Q            en_p_join            0.094       4.231
+COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.taps\.tap\[3\]\.a_tap.mac_enum_0.adder2\.adder2_0.mac_0.mac_0     FCCC_0/GL1     MACC     CDOUT[0]     cd_w\[4\][0]         0.274       4.652
+COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.taps\.tap\[2\]\.a_tap.mac_enum_0.adder2\.adder2_0.mac_0.mac_0     FCCC_0/GL1     MACC     CDOUT[0]     cd_w\[3\][0]         0.274       4.652
+COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.taps\.tap\[4\]\.a_tap.mac_enum_0.adder2\.adder2_0.mac_0.mac_0     FCCC_0/GL1     MACC     CDOUT[0]     cd_w\[5\][0]         0.274       4.652
+==========================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                  Starting                                Required          
+Instance                                                                          Reference      Type     Pin     Net     Time         Slack
+                                                                                  Clock                                                     
+--------------------------------------------------------------------------------------------------------------------------------------------
+COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.fill_in_dly.genblk1.delayLine[0]     FCCC_0/GL1     SLE      EN      G_1     6.373        3.388
+COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.fill_in_dly.genblk1.delayLine[1]     FCCC_0/GL1     SLE      EN      G_1     6.373        3.388
+COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.fill_in_dly.genblk1.delayLine[2]     FCCC_0/GL1     SLE      EN      G_1     6.373        3.388
+COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.fill_in_dly.genblk1.delayLine[3]     FCCC_0/GL1     SLE      EN      G_1     6.373        3.388
+COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.fill_in_dly.genblk1.delayLine[4]     FCCC_0/GL1     SLE      EN      G_1     6.373        3.388
+COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.fill_in_dly.genblk1.delayLine[5]     FCCC_0/GL1     SLE      EN      G_1     6.373        3.388
+COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.fill_in_dly.genblk1.delayLine[6]     FCCC_0/GL1     SLE      EN      G_1     6.373        3.388
+COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.fill_in_dly.genblk1.delayLine[7]     FCCC_0/GL1     SLE      EN      G_1     6.373        3.388
+COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.fill_in_dly.genblk1.delayLine[8]     FCCC_0/GL1     SLE      EN      G_1     6.373        3.388
+COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.fill_in_dly.genblk1.delayLine[9]     FCCC_0/GL1     SLE      EN      G_1     6.373        3.388
+============================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.667
+    - Setup time:                            0.293
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.373
+
+    - Propagation time:                      2.986
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 3.388
+
+    Number of logic level(s):                1
+    Starting point:                          COREFIR_0.enum_g4\.enum_fir_g4.wrap_coef_on.genblk1\.delayLine\[1\] / Q
+    Ending point:                            COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.fill_in_dly.genblk1.delayLine[0] / EN
+    The start point is clocked by            FCCC_0/GL1 [rising] on pin CLK
+    The end   point is clocked by            FCCC_0/GL1 [rising] on pin CLK
+
+Instance / Net                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                              Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------------------
+COREFIR_0.enum_g4\.enum_fir_g4.wrap_coef_on.genblk1\.delayLine\[1\]               SLE      Q        Out     0.094     0.094       -         
+coef_on_wrap                                                                      Net      -        -       1.358     -           85        
+COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.fill_in_dly.G_1                      CFG3     B        In      -         1.453       -         
+COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.fill_in_dly.G_1                      CFG3     Y        Out     0.143     1.595       -         
+G_1                                                                               Net      -        -       1.390     -           49        
+COREFIR_0.enum_g4\.enum_fir_g4.fir_enum_g4_0.fill_in_dly.genblk1.delayLine[0]     SLE      EN       In      -         2.986       -         
+============================================================================================================================================
+Total path delay (propagation time + setup) of 3.279 is 0.530(16.2%) logic and 2.748(83.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: FCCC_0/GL2
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                       Starting                                                Arrival          
+Instance                                               Reference      Type     Pin     Net                     Time        Slack
+                                                       Clock                                                                    
+--------------------------------------------------------------------------------------------------------------------------------
+crc_256_pwr_0.genblk1\[2\]\.u0.crc_staged_out[146]     FCCC_0/GL2     SLE      Q       casc_data\[3\][146]     0.094       4.385
+crc_256_pwr_0.genblk1\[2\]\.u0.crc_staged_out[220]     FCCC_0/GL2     SLE      Q       casc_data\[3\][220]     0.094       4.405
+crc_256_pwr_0.genblk1\[2\]\.u0.u0.data_in[64]          FCCC_0/GL2     SLE      Q       casc_data\[2\][96]      0.094       4.582
+crc_256_pwr_0.stim_data[65]                            FCCC_0/GL2     SLE      Q       stim_data[65]           0.094       4.582
+crc_256_pwr_0.stim_data[45]                            FCCC_0/GL2     SLE      Q       stim_data[45]           0.094       4.602
+crc_256_pwr_0.genblk1\[2\]\.u0.crc_staged_out[149]     FCCC_0/GL2     SLE      Q       casc_data\[3\][149]     0.094       4.608
+crc_256_pwr_0.stim_data[189]                           FCCC_0/GL2     SLE      Q       stim_data[189]          0.094       4.622
+crc_256_pwr_0.genblk1\[1\]\.u0.crc_staged_out[76]      FCCC_0/GL2     SLE      Q       casc_data\[2\][76]      0.094       4.638
+crc_256_pwr_0.stim_data[115]                           FCCC_0/GL2     SLE      Q       stim_data[115]          0.094       4.643
+crc_256_pwr_0.genblk1\[3\]\.u0.u0.data_in[31]          FCCC_0/GL2     SLE      Q       casc_data\[3\][63]      0.094       4.664
+================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                 Starting                                          Required          
+Instance                                         Reference      Type     Pin     Net               Time         Slack
+                                                 Clock                                                               
+---------------------------------------------------------------------------------------------------------------------
+crc_256_pwr_0.genblk1\[3\]\.u0.u0.lfsr_q[13]     FCCC_0/GL2     SLE      D       lfsr_c_15[13]     9.778        4.385
+crc_256_pwr_0.genblk1\[2\]\.u0.u0.lfsr_q[5]      FCCC_0/GL2     SLE      D       lfsr_c_7[5]       9.778        4.582
+crc_256_pwr_0.genblk1\[0\]\.u0.u0.lfsr_q[5]      FCCC_0/GL2     SLE      D       lfsr_c_7[5]       9.778        4.582
+crc_256_pwr_0.genblk1\[3\]\.u0.u0.lfsr_q[18]     FCCC_0/GL2     SLE      D       lfsr_c_20[18]     9.778        4.608
+crc_256_pwr_0.genblk1\[0\]\.u0.u0.lfsr_q[27]     FCCC_0/GL2     SLE      D       lfsr_c_29[27]     9.778        4.622
+crc_256_pwr_0.genblk1\[0\]\.u0.u0.lfsr_q[18]     FCCC_0/GL2     SLE      D       lfsr_c_20[18]     9.778        4.707
+crc_256_pwr_0.genblk1\[0\]\.u0.u0.lfsr_q[21]     FCCC_0/GL2     SLE      D       lfsr_c_23[21]     9.778        4.710
+crc_256_pwr_0.genblk1\[3\]\.u0.u0.lfsr_q[21]     FCCC_0/GL2     SLE      D       lfsr_c_23[21]     9.778        4.749
+crc_256_pwr_0.genblk1\[2\]\.u0.u0.lfsr_q[22]     FCCC_0/GL2     SLE      D       lfsr_c_24[22]     9.778        4.797
+crc_256_pwr_0.genblk1\[3\]\.u0.u0.lfsr_q[26]     FCCC_0/GL2     SLE      D       lfsr_c_28[26]     9.778        4.860
+=====================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.222
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.778
+
+    - Propagation time:                      5.394
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 4.385
+
+    Number of logic level(s):                7
+    Starting point:                          crc_256_pwr_0.genblk1\[2\]\.u0.crc_staged_out[146] / Q
+    Ending point:                            crc_256_pwr_0.genblk1\[3\]\.u0.u0.lfsr_q[13] / D
+    The start point is clocked by            FCCC_0/GL2 [rising] on pin CLK
+    The end   point is clocked by            FCCC_0/GL2 [rising] on pin CLK
+
+Instance / Net                                                                      Pin      Pin               Arrival     No. of    
+Name                                                                       Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------
+crc_256_pwr_0.genblk1\[2\]\.u0.crc_staged_out[146]                         SLE      Q        Out     0.094     0.094       -         
+casc_data\[3\][146]                                                        Net      -        -       0.779     -           6         
+crc_256_pwr_0.genblk1\[3\]\.u0.u0.lfsr_c_17_0_a2_0_a4_0_a3_0_a2_1[15]      CFG2     B        In      -         0.873       -         
+crc_256_pwr_0.genblk1\[3\]\.u0.u0.lfsr_c_17_0_a2_0_a4_0_a3_0_a2_1[15]      CFG2     Y        Out     0.143     1.016       -         
+N_636                                                                      Net      -        -       0.744     -           5         
+crc_256_pwr_0.genblk1\[3\]\.u0.u0.lfsr_c_30_0_a2_5_a2_54_a3_0_a2_7[28]     CFG3     C        In      -         1.760       -         
+crc_256_pwr_0.genblk1\[3\]\.u0.u0.lfsr_c_30_0_a2_5_a2_54_a3_0_a2_7[28]     CFG3     Y        Out     0.196     1.956       -         
+N_721                                                                      Net      -        -       0.708     -           4         
+crc_256_pwr_0.genblk1\[3\]\.u0.u0.lfsr_c_21_0_a2_0_a2_1_a3_0_a2_6[19]      CFG4     C        In      -         2.664       -         
+crc_256_pwr_0.genblk1\[3\]\.u0.u0.lfsr_c_21_0_a2_0_a2_1_a3_0_a2_6[19]      CFG4     Y        Out     0.196     2.861       -         
+N_838                                                                      Net      -        -       0.708     -           4         
+crc_256_pwr_0.genblk1\[3\]\.u0.u0.lfsr_c_15_0_a4_0_a3_0_a2_29[13]          CFG4     C        In      -         3.569       -         
+crc_256_pwr_0.genblk1\[3\]\.u0.u0.lfsr_c_15_0_a4_0_a3_0_a2_29[13]          CFG4     Y        Out     0.196     3.765       -         
+lfsr_c_15_0_a4_0_a3_0_a2_29[13]                                            Net      -        -       0.216     -           1         
+crc_256_pwr_0.genblk1\[3\]\.u0.u0.lfsr_c_15_0_a4_0_a3_0_a2_34[13]          CFG4     D        In      -         3.981       -         
+crc_256_pwr_0.genblk1\[3\]\.u0.u0.lfsr_c_15_0_a4_0_a3_0_a2_34[13]          CFG4     Y        Out     0.284     4.265       -         
+lfsr_c_15_0_a4_0_a3_0_a2_34[13]                                            Net      -        -       0.216     -           1         
+crc_256_pwr_0.genblk1\[3\]\.u0.u0.lfsr_c_15_0_a4_0_a3_0_a2_37[13]          CFG4     C        In      -         4.481       -         
+crc_256_pwr_0.genblk1\[3\]\.u0.u0.lfsr_c_15_0_a4_0_a3_0_a2_37[13]          CFG4     Y        Out     0.196     4.678       -         
+lfsr_c_15_0_a4_0_a3_0_a2_37[13]                                            Net      -        -       0.216     -           1         
+crc_256_pwr_0.genblk1\[3\]\.u0.u0.lfsr_c_15_0_a4_0_a3_0_a2[13]             CFG4     D        In      -         4.894       -         
+crc_256_pwr_0.genblk1\[3\]\.u0.u0.lfsr_c_15_0_a4_0_a3_0_a2[13]             CFG4     Y        Out     0.284     5.177       -         
+lfsr_c_15[13]                                                              Net      -        -       0.216     -           1         
+crc_256_pwr_0.genblk1\[3\]\.u0.u0.lfsr_q[13]                               SLE      D        In      -         5.394       -         
+=====================================================================================================================================
+Total path delay (propagation time + setup) of 5.615 is 1.812(32.3%) logic and 3.803(67.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: fft_inpl_slowClock|divider_inferred_clock[2]
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                   Starting                                                                           Arrival          
+Instance                                                                                           Reference                                        Type     Pin     Net              Time        Slack
+                                                                                                   Clock                                                                                               
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COREFFT_0.genblk1\.DUT_INPLACE.sm_0.twid_wA_0.slowTimer.Q[2]                                       fft_inpl_slowClock|divider_inferred_clock[2]     SLE      Q       twid_wA_w[2]     0.076       3.554
+COREFFT_0.genblk1\.DUT_INPLACE.sm_0.twid_wA_0.slowTimer.Q[1]                                       fft_inpl_slowClock|divider_inferred_clock[2]     SLE      Q       twid_wA_w[1]     0.094       3.609
+COREFFT_0.genblk1\.DUT_INPLACE.sm_0.twid_wA_0.slowTimer.Q[0]                                       fft_inpl_slowClock|divider_inferred_clock[2]     SLE      Q       twid_wA_w[0]     0.094       4.307
+COREFFT_0.genblk1\.DUT_INPLACE.sm_0.twid_wA_0.slowTimer.Q[3]                                       fft_inpl_slowClock|divider_inferred_clock[2]     SLE      Q       twid_wA_w[3]     0.094       5.022
+COREFFT_0.genblk1\.DUT_INPLACE.sm_0.twid_wA_0.slowTimer.Q[4]                                       fft_inpl_slowClock|divider_inferred_clock[2]     SLE      Q       twid_wA_w[4]     0.094       5.414
+COREFFT_0.genblk1\.DUT_INPLACE.sm_0.twid_wA_0.slowTimer.Q[5]                                       fft_inpl_slowClock|divider_inferred_clock[2]     SLE      Q       twid_wA_w[5]     0.094       7.051
+COREFFT_0.genblk1\.DUT_INPLACE.sm_0.twid_wA_0.slowTimer.Q[6]                                       fft_inpl_slowClock|divider_inferred_clock[2]     SLE      Q       twid_wA_w[6]     0.094       7.204
+COREFFT_0.genblk1\.DUT_INPLACE.sm_0.twid_wA_0.ngrst2rst_0.pulse                                    fft_inpl_slowClock|divider_inferred_clock[2]     SLE      Q       pulse            0.094       8.179
+COREFFT_0.genblk1\.DUT_INPLACE.sm_0.twid_wA_0.twid_wEn                                             fft_inpl_slowClock|divider_inferred_clock[2]     SLE      Q       twid_wEn_w       0.094       8.763
+COREFFT_0.genblk1\.DUT_INPLACE.sm_0.twid_wA_0.ngrst2rst_0.sync_ngrst_0.genblk1\.delayLine\[3\]     fft_inpl_slowClock|divider_inferred_clock[2]     SLE      Q       synced_ngrst     0.076       8.986
+=======================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                        Starting                                                                                      Required          
+Instance                                                                                                                Reference                                        Type        Pin           Net                Time         Slack
+                                                                                                                        Clock                                                                                                           
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COREFFT_0.genblk1\.DUT_INPLACE.twidLUT_1.twidLUT_0.SmFu4_sram\.smGen_RAM_0.IGL2_FIR_FILTER_COREFFT_0_ram_smGen_R0C0     fft_inpl_slowClock|divider_inferred_clock[2]     RAM1K18     B_DIN[0]      N_35_i             9.708        3.554
+COREFFT_0.genblk1\.DUT_INPLACE.twidLUT_1.twidLUT_0.SmFu4_sram\.smGen_RAM_0.IGL2_FIR_FILTER_COREFFT_0_ram_smGen_R0C0     fft_inpl_slowClock|divider_inferred_clock[2]     RAM1K18     B_DIN[7]      twidData_w[7]      9.708        4.199
+COREFFT_0.genblk1\.DUT_INPLACE.twidLUT_1.twidLUT_0.SmFu4_sram\.smGen_RAM_0.IGL2_FIR_FILTER_COREFFT_0_ram_smGen_R0C0     fft_inpl_slowClock|divider_inferred_clock[2]     RAM1K18     B_DIN[10]     twidData_w[9]      9.708        4.307
+COREFFT_0.genblk1\.DUT_INPLACE.twidLUT_1.twidLUT_0.SmFu4_sram\.smGen_RAM_0.IGL2_FIR_FILTER_COREFFT_0_ram_smGen_R0C0     fft_inpl_slowClock|divider_inferred_clock[2]     RAM1K18     B_DIN[4]      twidData_w[4]      9.708        4.322
+COREFFT_0.genblk1\.DUT_INPLACE.twidLUT_1.twidLUT_0.SmFu4_sram\.smGen_RAM_0.IGL2_FIR_FILTER_COREFFT_0_ram_smGen_R0C0     fft_inpl_slowClock|divider_inferred_clock[2]     RAM1K18     B_DIN[11]     twidData_w[10]     9.708        4.394
+COREFFT_0.genblk1\.DUT_INPLACE.twidLUT_1.twidLUT_0.SmFu4_sram\.smGen_RAM_0.IGL2_FIR_FILTER_COREFFT_0_ram_smGen_R0C0     fft_inpl_slowClock|divider_inferred_clock[2]     RAM1K18     B_DIN[6]      twidData_w[6]      9.708        4.466
+COREFFT_0.genblk1\.DUT_INPLACE.twidLUT_1.twidLUT_0.SmFu4_sram\.smGen_RAM_0.IGL2_FIR_FILTER_COREFFT_0_ram_smGen_R0C0     fft_inpl_slowClock|divider_inferred_clock[2]     RAM1K18     B_DIN[12]     twidData_w[11]     9.708        4.468
+COREFFT_0.genblk1\.DUT_INPLACE.twidLUT_1.twidLUT_0.SmFu4_sram\.smGen_RAM_0.IGL2_FIR_FILTER_COREFFT_0_ram_smGen_R0C0     fft_inpl_slowClock|divider_inferred_clock[2]     RAM1K18     B_DIN[5]      twidData_w[5]      9.708        4.473
+COREFFT_0.genblk1\.DUT_INPLACE.twidLUT_1.twidLUT_0.SmFu4_sram\.smGen_RAM_0.IGL2_FIR_FILTER_COREFFT_0_ram_smGen_R0C0     fft_inpl_slowClock|divider_inferred_clock[2]     RAM1K18     B_DIN[13]     twidData_w[12]     9.708        4.508
+COREFFT_0.genblk1\.DUT_INPLACE.twidLUT_1.twidLUT_0.SmFu4_sram\.smGen_RAM_0.IGL2_FIR_FILTER_COREFFT_0_ram_smGen_R0C0     fft_inpl_slowClock|divider_inferred_clock[2]     RAM1K18     B_DIN[3]      N_110_i            9.708        4.588
+========================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.292
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.708
+
+    - Propagation time:                      6.154
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 3.554
+
+    Number of logic level(s):                7
+    Starting point:                          COREFFT_0.genblk1\.DUT_INPLACE.sm_0.twid_wA_0.slowTimer.Q[2] / Q
+    Ending point:                            COREFFT_0.genblk1\.DUT_INPLACE.twidLUT_1.twidLUT_0.SmFu4_sram\.smGen_RAM_0.IGL2_FIR_FILTER_COREFFT_0_ram_smGen_R0C0 / B_DIN[0]
+    The start point is clocked by            fft_inpl_slowClock|divider_inferred_clock[2] [falling] on pin CLK
+    The end   point is clocked by            fft_inpl_slowClock|divider_inferred_clock[2] [falling] on pin B_CLK
+
+Instance / Net                                                                                                                      Pin          Pin               Arrival     No. of    
+Name                                                                                                                    Type        Name         Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COREFFT_0.genblk1\.DUT_INPLACE.sm_0.twid_wA_0.slowTimer.Q[2]                                                            SLE         Q            Out     0.076     0.076       -         
+twid_wA_w[2]                                                                                                            Net         -            -       1.631     -           83        
+COREFFT_0.genblk1\.DUT_INPLACE.lut_0.T_1_31_0_.m2                                                                       CFG2        A            In      -         1.707       -         
+COREFFT_0.genblk1\.DUT_INPLACE.lut_0.T_1_31_0_.m2                                                                       CFG2        Y            Out     0.087     1.794       -         
+m2                                                                                                                      Net         -            -       0.995     -           16        
+COREFFT_0.genblk1\.DUT_INPLACE.lut_0.T_1_31_0_.m3                                                                       CFG3        C            In      -         2.789       -         
+COREFFT_0.genblk1\.DUT_INPLACE.lut_0.T_1_31_0_.m3                                                                       CFG3        Y            Out     0.182     2.971       -         
+m3                                                                                                                      Net         -            -       0.648     -           3         
+COREFFT_0.genblk1\.DUT_INPLACE.lut_0.T_1_31_0_.m11_1                                                                    CFG4        D            In      -         3.619       -         
+COREFFT_0.genblk1\.DUT_INPLACE.lut_0.T_1_31_0_.m11_1                                                                    CFG4        Y            Out     0.250     3.870       -         
+m11_1                                                                                                                   Net         -            -       0.432     -           2         
+COREFFT_0.genblk1\.DUT_INPLACE.lut_0.T_1_31_0_.m11_2_1                                                                  CFG4        C            In      -         4.302       -         
+COREFFT_0.genblk1\.DUT_INPLACE.lut_0.T_1_31_0_.m11_2_1                                                                  CFG4        Y            Out     0.196     4.498       -         
+m11_2_1                                                                                                                 Net         -            -       0.216     -           1         
+COREFFT_0.genblk1\.DUT_INPLACE.lut_0.T_1_31_0_.m11_2                                                                    CFG4        B            In      -         4.714       -         
+COREFFT_0.genblk1\.DUT_INPLACE.lut_0.T_1_31_0_.m11_2                                                                    CFG4        Y            Out     0.143     4.857       -         
+m11_2                                                                                                                   Net         -            -       0.216     -           1         
+COREFFT_0.genblk1\.DUT_INPLACE.lut_0.T_1_31_0_.m20                                                                      CFG3        C            In      -         5.073       -         
+COREFFT_0.genblk1\.DUT_INPLACE.lut_0.T_1_31_0_.m20                                                                      CFG3        Y            Out     0.196     5.270       -         
+m20                                                                                                                     Net         -            -       0.432     -           2         
+COREFFT_0.genblk1\.DUT_INPLACE.lut_0.T_1_31_0_.N_35_i                                                                   CFG3        C            In      -         5.702       -         
+COREFFT_0.genblk1\.DUT_INPLACE.lut_0.T_1_31_0_.N_35_i                                                                   CFG3        Y            Out     0.182     5.884       -         
+N_35_i                                                                                                                  Net         -            -       0.270     -           1         
+COREFFT_0.genblk1\.DUT_INPLACE.twidLUT_1.twidLUT_0.SmFu4_sram\.smGen_RAM_0.IGL2_FIR_FILTER_COREFFT_0_ram_smGen_R0C0     RAM1K18     B_DIN[0]     In      -         6.154       -         
+=========================================================================================================================================================================================
+Total path delay (propagation time + setup) of 6.446 is 1.606(24.9%) logic and 4.840(75.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: led_blink|clkout_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                          Arrival          
+Instance               Reference                           Type     Pin     Net          Time        Slack
+                       Clock                                                                              
+----------------------------------------------------------------------------------------------------------
+led_blink_0.led[1]     led_blink|clkout_inferred_clock     SLE      Q       led_c[1]     0.094       8.353
+led_blink_0.led[0]     led_blink|clkout_inferred_clock     SLE      Q       led_c[0]     0.094       8.409
+==========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                                            Required          
+Instance               Reference                           Type     Pin     Net            Time         Slack
+                       Clock                                                                                 
+-------------------------------------------------------------------------------------------------------------
+led_blink_0.led[1]     led_blink|clkout_inferred_clock     SLE      D       led_1[1]       9.778        8.353
+led_blink_0.led[0]     led_blink|clkout_inferred_clock     SLE      D       led_c_i[0]     9.778        8.409
+=============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.222
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.778
+
+    - Propagation time:                      1.425
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 8.353
+
+    Number of logic level(s):                1
+    Starting point:                          led_blink_0.led[1] / Q
+    Ending point:                            led_blink_0.led[1] / D
+    The start point is clocked by            led_blink|clkout_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            led_blink|clkout_inferred_clock [rising] on pin CLK
+
+Instance / Net                      Pin      Pin               Arrival     No. of    
+Name                       Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------
+led_blink_0.led[1]         SLE      Q        Out     0.094     0.094       -         
+led_c[1]                   Net      -        -       0.971     -           2         
+led_blink_0.led_RNO[1]     CFG2     B        In      -         1.066       -         
+led_blink_0.led_RNO[1]     CFG2     Y        Out     0.143     1.209       -         
+led_1[1]                   Net      -        -       0.216     -           1         
+led_blink_0.led[1]         SLE      D        In      -         1.425       -         
+=====================================================================================
+Total path delay (propagation time + setup) of 1.647 is 0.459(27.9%) logic and 1.188(72.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"d:/g5_soc/dsp/fir_filter/dsp_fir_filter/designer/igl2_fir_filter/synthesis.fdc":12:0:12:0|Timing constraint (through [get_pins { SYSRESET_0.POWER_ON_RESET_N }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+
+Finished final timing analysis (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:20s; Memory used current: 266MB peak: 273MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:20s; Memory used current: 266MB peak: 273MB)
+
+---------------------------------------
+Resource Usage Report for IGL2_FIR_FILTER 
+
+Mapping to part: m2s010vf256-1
+Cell usage:
+CCC             1 use
+CLKINT          7 uses
+FLASH_FREEZE    1 use
+RCOSC_25_50MHZ  1 use
+SYSRESET        1 use
+CFG1           10 uses
+CFG2           1079 uses
+CFG3           1544 uses
+CFG4           2312 uses
+
+Carry cells:
+ARI1            516 uses - used for arithmetic functions
+ARI1            42 uses - used for Wide-Mux implementation
+Total ARI1      558 uses
+
+
+Sequential Cells: 
+SLE            4095 uses
+
+DSP Blocks:   20 of 22 (90%)
+ MACC:        20 Mults
+
+I/O ports: 11
+I/O primitives: 9
+INBUF          3 uses
+OUTBUF         6 uses
+
+
+Global Clock Buffers: 7
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K18) : 12 of 21 (57%)
+
+Total LUTs:    5503
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 432; LUTs = 432;
+MACC     Interface Logic : SLEs = 720; LUTs = 720;
+
+Total number of SLEs after P&R:  4095 + 0 + 432 + 720 = 5247;
+Total number of LUTs after P&R:  5503 + 0 + 432 + 720 = 6655;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:20s; Memory used current: 44MB peak: 273MB)
+
+Process took 0h:00m:20s realtime, 0h:00m:20s cputime
+# Tue May 28 17:56:50 2019
+
+###########################################################]

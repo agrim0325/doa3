@@ -1,0 +1,45 @@
+Resource Usage Report for IGL2_FIR_FILTER 
+
+Mapping to part: m2s010vf256-1
+Cell usage:
+CCC             1 use
+CLKINT          7 uses
+FLASH_FREEZE    1 use
+RCOSC_25_50MHZ  1 use
+SYSRESET        1 use
+CFG1           10 uses
+CFG2           1079 uses
+CFG3           1544 uses
+CFG4           2312 uses
+
+Carry cells:
+ARI1            516 uses - used for arithmetic functions
+ARI1            42 uses - used for Wide-Mux implementation
+Total ARI1      558 uses
+
+
+Sequential Cells: 
+SLE            4095 uses
+
+DSP Blocks:   20 of 22 (90%)
+ MACC:        20 Mults
+
+I/O ports: 11
+I/O primitives: 9
+INBUF          3 uses
+OUTBUF         6 uses
+
+
+Global Clock Buffers: 7
+
+Total LUTs:    5503
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 432; LUTs = 432;
+MACC     Interface Logic : SLEs = 720; LUTs = 720;
+
+Total number of SLEs after P&R:  4095 + 0 + 432 + 720 = 5247;
+Total number of LUTs after P&R:  5503 + 0 + 432 + 720 = 6655;
+

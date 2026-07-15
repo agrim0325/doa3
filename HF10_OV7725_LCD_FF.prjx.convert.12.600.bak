@@ -1,0 +1,1019 @@
+KEY LIBERO "12.600"
+KEY CAPTURE "12.600.0.14"
+KEY DEFAULT_IMPORT_LOC "C:\Actelprj\A3P_Verilog_labs\lab2"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "SmartFusion2"
+KEY VendorTechnology_Die "PA4M1000_N"
+KEY VendorTechnology_Package "vf256"
+KEY VendorTechnology_Speed "-1"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_PART_RANGE "IND"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "0"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4M1000_N"
+KEY VendorTechnology_TEMPR "IND"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "IND"
+KEY ProjectLocation "C:\HELLO_FPGA\HF10_OV7725_LCD_FF"
+KEY ProjectDescription "SPI4.2"
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "TOP::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST LIBRARIES
+COREFFT_LIB
+COREFIR_LIB
+CORESYSSERVICES_LIB
+ENDLIST
+LIST LIBRARY_COREFFT_LIB
+ALIAS=COREFFT_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST LIBRARY_COREFIR_LIB
+ALIAS=COREFIR_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST LIBRARY_CORESYSSERVICES_LIB
+ALIAS=CORESYSSERVICES_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\DirectCore\COREFFT\7.0.104\coreparameters.v,tb_hdl"
+STATE="utd"
+TIME="1559106401"
+SIZE="944"
+LIBRARY="COREFFT_LIB"
+IS_READONLY="TRUE"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v,tb_hdl"
+STATE="utd"
+TIME="1556518913"
+SIZE="11104"
+LIBRARY="COREFFT_LIB"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.6.102\COREUART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1561626276"
+SIZE="573"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\FCCC\2.0.201\FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1566542219"
+SIZE="241"
+PARENT="<project>\component\work\FCCC_C0\FCCC_C0.cxf"
+PARENT="<project>\component\work\FlashFreeze_SB\FlashFreeze_SB.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1559110209"
+SIZE="684"
+PARENT="<project>\component\work\OSC_C0\OSC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps.v,hdl"
+STATE="utd"
+TIME="1556518741"
+SIZE="924"
+PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps_pre.v,hdl"
+STATE="utd"
+TIME="1556518741"
+SIZE="726"
+PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="PRECISION_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.cxf,actgen_cxf"
+STATE="utd"
+TIME="1559037096"
+SIZE="472"
+PARENT="<project>\component\work\RESET_GEN_C0\RESET_GEN_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.v,tb_hdl"
+STATE="utd"
+TIME="1559037096"
+SIZE="414"
+PARENT="<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS\1.1.500\MSS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1561376255"
+SIZE="526"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CCC\1.0.100\MSS_CCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1561376247"
+SIZE="253"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CC\1.0.100\MSS_CC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1561376247"
+SIZE="252"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CFGM\1.1.100\MSS_CFGM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1561376247"
+SIZE="254"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_CM3\1.0.200\MSS_CM3.cxf,actgen_cxf"
+STATE="utd"
+TIME="1561376247"
+SIZE="253"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_DDRB\1.0.200\MSS_DDRB.cxf,actgen_cxf"
+STATE="utd"
+TIME="1561376247"
+SIZE="254"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_EDAC\1.0.101\MSS_EDAC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1561376247"
+SIZE="254"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_ENVM\1.0.101\MSS_ENVM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1561376247"
+SIZE="254"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_FIC32\1.0.100\MSS_FIC32.cxf,actgen_cxf"
+STATE="utd"
+TIME="1561376247"
+SIZE="255"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_GPIO\1.0.100\MSS_GPIO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1561376247"
+SIZE="254"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_I2C\1.0.100\MSS_I2C.cxf,actgen_cxf"
+STATE="utd"
+TIME="1561376247"
+SIZE="253"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_INTR\1.0.200\MSS_INTR.cxf,actgen_cxf"
+STATE="utd"
+TIME="1561376247"
+SIZE="254"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_RESET\1.0.100\MSS_RESET.cxf,actgen_cxf"
+STATE="utd"
+TIME="1561376247"
+SIZE="255"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SECURITY\1.0.100\MSS_SECURITY.cxf,actgen_cxf"
+STATE="utd"
+TIME="1561376247"
+SIZE="258"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SmartFusion2MSS\MSS_SWITCH\1.0.101\MSS_SWITCH.cxf,actgen_cxf"
+STATE="utd"
+TIME="1561376247"
+SIZE="256"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1561626277"
+SIZE="4989"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0.v,hdl"
+STATE="utd"
+TIME="1561626276"
+SIZE="4346"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\coreparameters.v,tb_hdl"
+STATE="utd"
+TIME="1561626276"
+SIZE="466"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1561626276"
+SIZE="1948"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\mti\scripts\wave_vlog.do,do"
+STATE="utd"
+TIME="1561626276"
+SIZE="1458"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v,hdl"
+STATE="utd"
+TIME="1561626276"
+SIZE="6422"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v,hdl"
+STATE="utd"
+TIME="1561626276"
+SIZE="10082"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\fifo_256x8_g4.v,hdl"
+STATE="utd"
+TIME="1561626276"
+SIZE="6361"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v,hdl"
+STATE="utd"
+TIME="1561626276"
+SIZE="10506"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v,hdl"
+STATE="utd"
+TIME="1561626276"
+SIZE="5581"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\test\user\testbnch.v,tb_hdl"
+STATE="utd"
+TIME="1561626276"
+SIZE="39126"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+MODULE_UNDER_TEST="testbnch"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
+STATE="utd"
+TIME="1559111321"
+SIZE="1697"
+ENDFILE
+VALUE "<project>\component\work\FCCC_C0\FCCC_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1559118749"
+SIZE="10912"
+ENDFILE
+VALUE "<project>\component\work\FCCC_C0\FCCC_C0.v,hdl"
+STATE="utd"
+TIME="1559118749"
+SIZE="2654"
+PARENT="<project>\component\work\FCCC_C0\FCCC_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1559118749"
+SIZE="706"
+PARENT="<project>\component\work\FCCC_C0\FCCC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.v,hdl"
+STATE="utd"
+TIME="1559118749"
+SIZE="1913"
+PARENT="<project>\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FlashFreeze_SB\CCC_0\FlashFreeze_SB_CCC_0_FCCC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1566542219"
+SIZE="711"
+PARENT="<project>\component\work\FlashFreeze_SB\FlashFreeze_SB.cxf"
+ENDFILE
+VALUE "<project>\component\work\FlashFreeze_SB\CCC_0\FlashFreeze_SB_CCC_0_FCCC.v,hdl"
+STATE="utd"
+TIME="1566542219"
+SIZE="1916"
+PARENT="<project>\component\work\FlashFreeze_SB\CCC_0\FlashFreeze_SB_CCC_0_FCCC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FlashFreeze_SB\FlashFreeze_SB.cxf,actgen_cxf"
+STATE="utd"
+TIME="1566542219"
+SIZE="8037"
+ENDFILE
+VALUE "<project>\component\work\FlashFreeze_SB\FlashFreeze_SB.v,hdl"
+STATE="utd"
+TIME="1566542219"
+SIZE="10896"
+PARENT="<project>\component\work\FlashFreeze_SB\FlashFreeze_SB.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf,actgen_cxf"
+STATE="utd"
+TIME="1561376257"
+SIZE="17489"
+ENDFILE
+VALUE "<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.v,hdl"
+STATE="utd"
+TIME="1561376255"
+SIZE="45782"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS_pre.v,hdl"
+STATE="utd"
+TIME="1561376255"
+SIZE="59355"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="PRECISION_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS_syn.v,hdl"
+STATE="utd"
+TIME="1561376255"
+SIZE="51358"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\line_write_read\line_write_read.cxf,actgen_cxf"
+STATE="utd"
+TIME="1565259472"
+SIZE="4246"
+ENDFILE
+VALUE "<project>\component\work\line_write_read\line_write_read.v,hdl"
+STATE="utd"
+TIME="1565259472"
+SIZE="8000"
+PARENT="<project>\component\work\line_write_read\line_write_read.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\OSC_C0\OSC_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1559110209"
+SIZE="3076"
+ENDFILE
+VALUE "<project>\component\work\OSC_C0\OSC_C0.v,hdl"
+STATE="utd"
+TIME="1559110209"
+SIZE="2516"
+PARENT="<project>\component\work\OSC_C0\OSC_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1559110209"
+SIZE="461"
+PARENT="<project>\component\work\OSC_C0\OSC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v,hdl"
+STATE="utd"
+TIME="1559110209"
+SIZE="790"
+PARENT="<project>\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\RESET_GEN_C0\RESET_GEN_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1559037096"
+SIZE="1603"
+ENDFILE
+VALUE "<project>\component\work\RESET_GEN_C0\RESET_GEN_C0.v,tb_hdl"
+STATE="utd"
+TIME="1559037096"
+SIZE="1346"
+PARENT="<project>\component\work\RESET_GEN_C0\RESET_GEN_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\test\test.cxf,actgen_cxf"
+STATE="utd"
+TIME="1559113552"
+SIZE="2935"
+ENDFILE
+VALUE "<project>\component\work\test\test.v,tb_hdl"
+STATE="utd"
+TIME="1559113552"
+SIZE="3149"
+PARENT="<project>\component\work\test\test.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\TOP\TOP.cxf,actgen_cxf"
+STATE="utd"
+TIME="1566542248"
+SIZE="6125"
+ENDFILE
+VALUE "<project>\component\work\TOP\TOP.v,hdl"
+STATE="utd"
+TIME="1566542246"
+SIZE="12352"
+PARENT="<project>\component\work\TOP\TOP.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\UART_interface\UART_interface.cxf,actgen_cxf"
+STATE="utd"
+TIME="1565245319"
+SIZE="2980"
+ENDFILE
+VALUE "<project>\component\work\UART_interface\UART_interface.v,hdl"
+STATE="utd"
+TIME="1565245319"
+SIZE="5550"
+PARENT="<project>\component\work\UART_interface\UART_interface.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\constraint\io\user.pdc,io_pdc"
+STATE="utd"
+TIME="1564641495"
+SIZE="4753"
+IS_TARGET="TRUE"
+ENDFILE
+VALUE "<project>\constraint\TOP_derived_constraints.sdc,sdc"
+STATE="utd"
+TIME="1566542260"
+SIZE="1273"
+ENDFILE
+VALUE "<project>\designer\impl1\IGL2_FIR_FILTER.ide_des,ide_des"
+STATE="utd"
+TIME="1559106367"
+SIZE="372"
+ENDFILE
+VALUE "<project>\designer\impl1\TOP.ide_des,ide_des"
+STATE="utd"
+TIME="1559048266"
+SIZE="440"
+ENDFILE
+VALUE "<project>\designer\impl1\XTLOSC_FAB.ide_des,ide_des"
+STATE="utd"
+TIME="1559018024"
+SIZE="205"
+ENDFILE
+VALUE "<project>\hdl\addr_decoder.vhd,hdl"
+STATE="utd"
+TIME="1565328204"
+SIZE="6998"
+ENDFILE
+VALUE "<project>\hdl\apb3_if.vhd,hdl"
+STATE="utd"
+TIME="1565245636"
+SIZE="8486"
+ENDFILE
+VALUE "<project>\hdl\coreresetp.v,hdl"
+STATE="utd"
+TIME="1566542088"
+SIZE="71463"
+ENDFILE
+VALUE "<project>\hdl\CORERESETP_0.v,hdl"
+STATE="utd"
+TIME="1566542088"
+SIZE="9176"
+ENDFILE
+VALUE "<project>\hdl\coreresetp_pcie_hotreset.v,hdl"
+STATE="utd"
+TIME="1566542088"
+SIZE="9004"
+ENDFILE
+VALUE "<project>\hdl\double_flop.vhd,hdl"
+STATE="utd"
+TIME="1565328061"
+SIZE="5482"
+ENDFILE
+VALUE "<project>\hdl\FF_EXT.v,hdl"
+STATE="utd"
+TIME="1560255052"
+SIZE="298"
+ENDFILE
+VALUE "<project>\hdl\FF_GENERATOR.vhd,hdl"
+STATE="utd"
+TIME="1565328066"
+SIZE="5372"
+ENDFILE
+VALUE "<project>\hdl\Image_Enhancement.vhd,hdl"
+STATE="utd"
+TIME="1565328085"
+SIZE="9721"
+ENDFILE
+VALUE "<project>\hdl\LCD_FSM.vhd,hdl"
+STATE="utd"
+TIME="1565328140"
+SIZE="12678"
+ENDFILE
+VALUE "<project>\hdl\led_blink.v,hdl"
+STATE="utd"
+TIME="1559042399"
+SIZE="720"
+ENDFILE
+VALUE "<project>\hdl\mux_2_1.vhd,hdl"
+STATE="utd"
+TIME="1565328247"
+SIZE="5216"
+ENDFILE
+VALUE "<project>\hdl\RamDualPort.vhd,hdl"
+STATE="utd"
+TIME="1565328554"
+SIZE="6736"
+ENDFILE
+VALUE "<project>\hdl\receive_data.vhd,hdl"
+STATE="utd"
+TIME="1565328513"
+SIZE="16530"
+ENDFILE
+VALUE "<project>\hdl\Write_LSRAM.vhd,hdl"
+STATE="utd"
+TIME="1565328527"
+SIZE="9056"
+ENDFILE
+VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
+STATE="utd"
+TIME="1561376255"
+SIZE="500"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\peripheral_init.bfm,sim"
+STATE="utd"
+TIME="1503294041"
+SIZE="8450"
+PARENT="<project>\component\Actel\SmartFusion2MSS\MSS\1.1.500\MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1559113558"
+SIZE="10994"
+ENDFILE
+VALUE "<project>\simulation\subsystem.bfm,sim"
+STATE="utd"
+TIME="1566542247"
+SIZE="759"
+PARENT="<project>\component\work\TOP\TOP.cxf"
+ENDFILE
+VALUE "<project>\simulation\test.bfm,sim"
+STATE="utd"
+TIME="1561376255"
+SIZE="734"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+ENDFILE
+VALUE "<project>\simulation\user.bfm,sim"
+STATE="utd"
+TIME="1559044642"
+SIZE="555"
+PARENT="<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.cxf"
+ENDFILE
+VALUE "<project>\synthesis\IGL2_FIR_FILTER.so,so"
+STATE="utd"
+TIME="1559046410"
+SIZE="244"
+ENDFILE
+VALUE "<project>\synthesis\IGL2_FIR_FILTER_syn.prj,prj"
+STATE="utd"
+TIME="1566540215"
+SIZE="7791"
+ENDFILE
+VALUE "<project>\synthesis\IGL2_FIR_FILTER_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1559046409"
+SIZE="2140"
+ENDFILE
+VALUE "<project>\synthesis\TOP.so,so"
+STATE="utd"
+TIME="1566542284"
+SIZE="207"
+ENDFILE
+VALUE "<project>\synthesis\TOP.vm,syn_vm"
+STATE="utd"
+TIME="1566542283"
+SIZE="274219"
+ENDFILE
+VALUE "<project>\synthesis\TOP_syn.prj,prj"
+STATE="utd"
+TIME="1566542285"
+SIZE="4695"
+ENDFILE
+VALUE "<project>\synthesis\TOP_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1566542283"
+SIZE="2003"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "COREUART_C0_COREUART_C0_0_COREUART::work"
+FILE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v,hdl"
+LIST Other_Association
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\coreparameters.v,tb_hdl"
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\test\user\testbnch.v,tb_hdl"
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\mti\scripts\wave_vlog.do,do"
+ENDLIST
+ENDLIST
+LIST "FlashFreeze_SB_MSS::work"
+FILE "<project>\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.v,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+VALUE "<project>\simulation\peripheral_init.bfm,sim"
+ENDLIST
+ENDLIST
+LIST "TOP::work"
+FILE "<project>\component\work\TOP\TOP.v,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.v,tb_hdl"
+VALUE "<project>\component\work\RESET_GEN_C0\RESET_GEN_C0.v,tb_hdl"
+VALUE "<project>\component\work\test\test.v,tb_hdl"
+ENDLIST
+LIST SynthesisConstraints
+VALUE "<project>\constraint\TOP_derived_constraints.sdc,sdc"
+ENDLIST
+LIST TimingConstraints
+VALUE "<project>\constraint\TOP_derived_constraints.sdc,sdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\TOP.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST TOP
+VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.v,tb_hdl"
+VALUE "<project>\component\work\RESET_GEN_C0\RESET_GEN_C0.v,tb_hdl"
+VALUE "<project>\component\work\test\test.v,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+LIST TOP
+VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+LIST FlashFreeze_SB_MSS
+VALUE "<project>\simulation\CM3_compile_bfm.tcl,sim"
+VALUE "<project>\simulation\user.bfm,sim"
+VALUE "<project>\simulation\test.bfm,sim"
+VALUE "<project>\simulation\peripheral_init.bfm,sim"
+ENDLIST
+LIST COREUART_C0_COREUART_C0_0_COREUART
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\coreparameters.v,tb_hdl"
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\test\user\testbnch.v,tb_hdl"
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\mti\scripts\wave_vlog.do,do"
+ENDLIST
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1fs
+VsimOpt=
+EntityName=test
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="C:\Microsemi\Libero_SoC_v12.1\ModelSimPro\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_SoC_v12.1\Designer\binfp\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v12.1\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "TOP::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\TOP.vm,syn_vm)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+StartPage;StartPage;0
+ACTIVEVIEW;StartPage
+ENDLIST
+LIST ModuleSubBlockList
+LIST "addr_decoder::work","hdl\addr_decoder.vhd","FALSE","FALSE"
+ENDLIST
+LIST "apb3_if::work","hdl\apb3_if.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CORERESET_FF_0::work","hdl\CORERESETP_0.v","FALSE","FALSE"
+SUBBLOCK "CoreReset_FF::work","hdl\coreresetp.v","FALSE","FALSE"
+ENDLIST
+LIST "corereset_ff_pcie_hotreset::work","hdl\coreresetp_pcie_hotreset.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0::work","component\work\COREUART_C0\COREUART_C0.v","TRUE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_COREUART::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_COREUART::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_Rx_async::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_Tx_async::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_fifo_256x8::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\fifo_256x8_g4.v","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_Clock_gen::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_fifo_256x8::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\fifo_256x8_g4.v","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_fifo_ctrl_128::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\fifo_256x8_g4.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_fifo_ctrl_128::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\fifo_256x8_g4.v","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_ram128x8_pa4::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\fifo_256x8_g4.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_ram128x8_pa4::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\fifo_256x8_g4.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_Rx_async::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_Tx_async::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v","FALSE","FALSE"
+ENDLIST
+LIST "double_flop::work","hdl\double_flop.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CoreReset_FF::work","hdl\coreresetp.v","FALSE","FALSE"
+SUBBLOCK "corereset_ff_pcie_hotreset::work","hdl\coreresetp_pcie_hotreset.v","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_Clock_gen::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v","FALSE","FALSE"
+ENDLIST
+LIST "MSS_010::work","component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS_syn.v","FALSE","FALSE"
+ENDLIST
+LIST "FCCC_C0::work","component\work\FCCC_C0\FCCC_C0.v","TRUE","FALSE"
+SUBBLOCK "FCCC_C0_FCCC_C0_0_FCCC::work","component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.v","FALSE","FALSE"
+ENDLIST
+LIST "FCCC_C0_FCCC_C0_0_FCCC::work","component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.v","FALSE","FALSE"
+ENDLIST
+LIST "FF_EXT::work","hdl\FF_EXT.v","FALSE","FALSE"
+ENDLIST
+LIST "FF_GENERATOR::work","hdl\FF_GENERATOR.vhd","FALSE","FALSE"
+ENDLIST
+LIST "FlashFreeze_SB::work","component\work\FlashFreeze_SB\FlashFreeze_SB.v","TRUE","FALSE"
+SUBBLOCK "CORERESET_FF_0::work","hdl\CORERESETP_0.v","FALSE","FALSE"
+SUBBLOCK "FlashFreeze_SB_CCC_0_FCCC::work","component\work\FlashFreeze_SB\CCC_0\FlashFreeze_SB_CCC_0_FCCC.v","FALSE","FALSE"
+SUBBLOCK "FlashFreeze_SB_MSS::work","component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.v","TRUE","FALSE"
+ENDLIST
+LIST "FlashFreeze_SB_CCC_0_FCCC::work","component\work\FlashFreeze_SB\CCC_0\FlashFreeze_SB_CCC_0_FCCC.v","FALSE","FALSE"
+ENDLIST
+LIST "FlashFreeze_SB_MSS::work","component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.v","TRUE","FALSE"
+SUBBLOCK "MSS_010::work","component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS_syn.v","FALSE","FALSE"
+ENDLIST
+LIST "Image_Enhancement::work","hdl\Image_Enhancement.vhd","FALSE","FALSE"
+ENDLIST
+LIST "LCD_FSM::work","hdl\LCD_FSM.vhd","FALSE","FALSE"
+ENDLIST
+LIST "led_blink::work","hdl\led_blink.v","FALSE","FALSE"
+ENDLIST
+LIST "line_write_read::work","component\work\line_write_read\line_write_read.v","TRUE","FALSE"
+SUBBLOCK "Image_Enhancement::work","hdl\Image_Enhancement.vhd","FALSE","FALSE"
+SUBBLOCK "LCD_FSM::work","hdl\LCD_FSM.vhd","FALSE","FALSE"
+SUBBLOCK "WRITE_LSRAM::work","hdl\Write_LSRAM.vhd","FALSE","FALSE"
+SUBBLOCK "double_flop::work","hdl\double_flop.vhd","FALSE","FALSE"
+SUBBLOCK "ramDualPort::work","hdl\RamDualPort.vhd","FALSE","FALSE"
+ENDLIST
+LIST "mux_2_1::work","hdl\mux_2_1.vhd","FALSE","FALSE"
+ENDLIST
+LIST "OSC_C0::work","component\work\OSC_C0\OSC_C0.v","TRUE","FALSE"
+SUBBLOCK "OSC_C0_OSC_C0_0_OSC::work","component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v","FALSE","FALSE"
+ENDLIST
+LIST "OSC_C0_OSC_C0_0_OSC::work","component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v","FALSE","FALSE"
+SUBBLOCK "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
+SUBBLOCK "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "ramDualPort::work","hdl\RamDualPort.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "receive_data::work","hdl\receive_data.vhd","FALSE","FALSE"
+ENDLIST
+LIST "TOP::work","component\work\TOP\TOP.v","TRUE","FALSE"
+SUBBLOCK "FF_EXT::work","hdl\FF_EXT.v","FALSE","FALSE"
+SUBBLOCK "FF_GENERATOR::work","hdl\FF_GENERATOR.vhd","FALSE","FALSE"
+SUBBLOCK "FlashFreeze_SB::work","component\work\FlashFreeze_SB\FlashFreeze_SB.v","TRUE","FALSE"
+SUBBLOCK "OSC_C0::work","component\work\OSC_C0\OSC_C0.v","TRUE","FALSE"
+SUBBLOCK "UART_interface::work","component\work\UART_interface\UART_interface.v","TRUE","FALSE"
+SUBBLOCK "apb3_if::work","hdl\apb3_if.vhd","FALSE","FALSE"
+SUBBLOCK "led_blink::work","hdl\led_blink.v","FALSE","FALSE"
+SUBBLOCK "line_write_read::work","component\work\line_write_read\line_write_read.v","TRUE","FALSE"
+SUBBLOCK "mux_2_1::work","hdl\mux_2_1.vhd","FALSE","FALSE"
+ENDLIST
+LIST "UART_interface::work","component\work\UART_interface\UART_interface.v","TRUE","FALSE"
+SUBBLOCK "COREUART_C0::work","component\work\COREUART_C0\COREUART_C0.v","TRUE","FALSE"
+SUBBLOCK "addr_decoder::work","hdl\addr_decoder.vhd","FALSE","FALSE"
+SUBBLOCK "receive_data::work","hdl\receive_data.vhd","FALSE","FALSE"
+ENDLIST
+LIST "WRITE_LSRAM::work","hdl\Write_LSRAM.vhd","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "RESET_GEN::work","component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.v","FALSE","TRUE"
+ENDLIST
+LIST "RESET_GEN_C0::work","component\work\RESET_GEN_C0\RESET_GEN_C0.v","TRUE","TRUE"
+SUBBLOCK "RESET_GEN::work","component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.v","FALSE","TRUE"
+ENDLIST
+LIST "test::work","component\work\test\test.cxf","TRUE","TRUE"
+SUBBLOCK "RESET_GEN_C0::work","component\work\RESET_GEN_C0\RESET_GEN_C0.v","TRUE","TRUE"
+SUBBLOCK "TOP::work","component\work\TOP\TOP.v","TRUE","FALSE"
+ENDLIST
+LIST "test::work","component\work\test\test.v","TRUE","TRUE"
+SUBBLOCK "RESET_GEN_C0::work","component\work\RESET_GEN_C0\RESET_GEN_C0.v","TRUE","TRUE"
+SUBBLOCK "TOP::work","component\work\TOP\TOP.v","TRUE","FALSE"
+ENDLIST
+LIST "testbnch::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\test\user\testbnch.v","FALSE","TRUE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_COREUART::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v","FALSE","FALSE"
+ENDLIST
+LIST "bhv_dirac::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
+ENDLIST
+LIST "bhv_fEdge_ce::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
+ENDLIST
+LIST "bhv_gen::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
+SUBBLOCK "bhvEdge::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
+SUBBLOCK "bhv_dirac::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
+SUBBLOCK "bhv_fEdge_ce::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
+SUBBLOCK "bhv_lfsr::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
+SUBBLOCK "bhv_step::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
+ENDLIST
+LIST "bhv_lfsr::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
+ENDLIST
+LIST "bhv_step::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
+ENDLIST
+LIST "bhvClockGen::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
+ENDLIST
+LIST "bhvDelay::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
+ENDLIST
+LIST "bhvEdge::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+VALUE "constraint\io\user.pdc"
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+VALUE "constraint\TOP_derived_constraints.sdc"
+ENDLIST
+LIST FDCTabList
+ENDLIST

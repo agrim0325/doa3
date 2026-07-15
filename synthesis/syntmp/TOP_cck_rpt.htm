@@ -1,0 +1,159 @@
+<html><body><samp><pre>
+<!@TC:1784023885>
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: DESKTOP-PVRG6C7
+
+Implementation : synthesis
+
+# Written on Tue Jul 14 15:42:00 2026
+
+##### DESIGN INFO #######################################################
+
+Top View:                "TOP"
+Constraint File(s):      "D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 3 issues in 3 out of 5 constraints
+
+
+##### DETAILS ############################################################
+
+
+Clock Summary
+*************
+
+          Start                                         Requested     Requested     Clock                                                          Clock                     Clock
+Level     Clock                                         Frequency     Period        Type                                                           Group                     Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     50.0 MHz      20.000        declared                                                       default_clkgroup          15   
+1 .         FlashFreeze_SB_0/CCC_0/GL0                  100.0 MHz     10.000        generated (from OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup          702  
+1 .         FlashFreeze_SB_0/CCC_0/GL1                  24.0 MHz      41.667        generated (from OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup          0    
+                                                                                                                                                                                  
+0 -       led_blink|clkout_inferred_clock               100.0 MHz     10.000        inferred                                                       Inferred_clkgroup_0_1     2    
+                                                                                                                                                                                  
+0 -       FlashFreeze_SB|BIBUF_1_Y_inferred_clock       100.0 MHz     10.000        inferred                                                       Inferred_clkgroup_0_2     1    
+==================================================================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                              Clock     Source                                                        Clock Pin                                                                   Non-clock Pin     Non-clock Pin                                               
+Clock                                         Load      Pin                                                           Seq Example                                                                 Seq Example       Comb Example                                                
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     15        OSC_C0_0.OSC_C0_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.release_sdif0_core.C     -                 OSC_C0_0.OSC_C0_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
+FlashFreeze_SB_0/CCC_0/GL0                    702       FlashFreeze_SB_0.CCC_0.CCC_INST.GL0(CCC)                      apb3_if_0.cs_o.C                                                            -                 FlashFreeze_SB_0.CCC_0.GL0_INST.I(BUFG)                     
+FlashFreeze_SB_0/CCC_0/GL1                    0         FlashFreeze_SB_0.CCC_0.CCC_INST.GL1(CCC)                      -                                                                           -                 FlashFreeze_SB_0.AND2_0.A(AND2)                             
+                                                                                                                                                                                                                                                                                
+led_blink|clkout_inferred_clock               2         led_blink_0.clkout.Q[0](dffre)                                led_blink_0.led[0].C                                                        -                 -                                                           
+                                                                                                                                                                                                                                                                                
+FlashFreeze_SB|BIBUF_1_Y_inferred_clock       1         FlashFreeze_SB_0.BIBUF_1.O(IOBUF)                             FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST.I2C0_SCL_F2H_SCP       -                 -                                                           
+================================================================================================================================================================================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Starting                                      Ending                                        |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                        System                                        |     10.000           |     No paths         |     No paths         |     No paths                         
+System                                        OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     |     20.000           |     No paths         |     No paths         |     No paths                         
+System                                        FlashFreeze_SB_0/CCC_0/GL0                    |     10.000           |     No paths         |     No paths         |     No paths                         
+System                                        led_blink|clkout_inferred_clock               |     10.000           |     No paths         |     No paths         |     No paths                         
+OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     |     20.000           |     No paths         |     No paths         |     No paths                         
+OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     FlashFreeze_SB_0/CCC_0/GL0                    |     10.000           |     No paths         |     No paths         |     No paths                         
+FlashFreeze_SB_0/CCC_0/GL0                    OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     |     10.000           |     No paths         |     No paths         |     No paths                         
+FlashFreeze_SB_0/CCC_0/GL0                    FlashFreeze_SB_0/CCC_0/GL0                    |     10.000           |     No paths         |     No paths         |     No paths                         
+led_blink|clkout_inferred_clock               led_blink|clkout_inferred_clock               |     10.000           |     No paths         |     No paths         |     No paths                         
+=======================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+<a name=UnconstrainedStartEndPointsCCK55></a>Unconstrained Start/End Points</a>
+******************************
+
+p:CAM_PWDN_O
+p:DATA_I[0]
+p:DATA_I[1]
+p:DATA_I[2]
+p:DATA_I[3]
+p:DATA_I[4]
+p:DATA_I[5]
+p:DATA_I[6]
+p:DATA_I[7]
+p:DEVRST_N_0
+p:FF_Entry_SW
+p:Fabric_Active
+p:H_REF_I
+p:INIT_DONE
+p:LCD_RST_O
+p:PCLK_I
+p:RX
+p:SCL (bidir end point)
+p:SCL (bidir start point)
+p:SDA (bidir end point)
+p:SDA (bidir start point)
+p:SW_output
+p:TX
+p:V_SYNC_I
+p:Wake_On_Change_SW
+p:cs_o
+p:data_o[0]
+p:data_o[1]
+p:data_o[2]
+p:data_o[3]
+p:data_o[4]
+p:data_o[5]
+p:data_o[6]
+p:data_o[7]
+p:led[0]
+p:led[1]
+p:rd_o
+p:rs_o
+p:wr_o
+
+
+<a name=InapplicableconstraintsCCK56></a>Inapplicable constraints</a>
+************************
+
+(none)
+
+
+<a name=ApplicableConstraintsWithIssuesCCK57></a>Applicable constraints with issues</a>
+**********************************
+
+create_generated_clock -name FlashFreeze_SB_0/CCC_0/GL0 -multiply_by 24 -divide_by 12 -source [get_pins { FlashFreeze_SB_0.CCC_0.CCC_INST.RCOSC_25_50MHZ }] [get_pins { FlashFreeze_SB_0.CCC_0.CCC_INST.GL0 }]
+	@W:MT688:"d:/goa/doa-main/hf10_ov7725_lcd_ff/hf10_ov7725_lcd_ff/designer/top/synthesis.fdc":8:0:8:0|No path from master pin (-source) to source of clock FlashFreeze_SB_0/CCC_0/GL0 due to black box FlashFreeze_SB_0.CCC_0.CCC_INST
+create_generated_clock -name FlashFreeze_SB_0/CCC_0/GL1 -multiply_by 24 -divide_by 50 -source [get_pins { FlashFreeze_SB_0.CCC_0.CCC_INST.RCOSC_25_50MHZ }] [get_pins { FlashFreeze_SB_0.CCC_0.CCC_INST.GL1 }]
+	@W:MT688:"d:/goa/doa-main/hf10_ov7725_lcd_ff/hf10_ov7725_lcd_ff/designer/top/synthesis.fdc":9:0:9:0|No path from master pin (-source) to source of clock FlashFreeze_SB_0/CCC_0/GL1 due to black box FlashFreeze_SB_0.CCC_0.CCC_INST
+set_false_path -through [get_pins { FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST.CONFIG_PRESET_N }]
+	@W::"d:/goa/doa-main/hf10_ov7725_lcd_ff/hf10_ov7725_lcd_ff/designer/top/synthesis.fdc":10:0:10:0|Timing constraint (through [get_pins { FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST.CONFIG_PRESET_N }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design
+
+<a name=ConstraintsWithMatchingWildcardExpressionsCCK58></a>Constraints with matching wildcard expressions</a>
+**********************************************
+
+(none)
+
+
+<a name=LibraryReportCCK59></a>Library Report</a>
+**************
+
+
+# End of Constraint Checker Report
+
+</pre></samp></body></html>

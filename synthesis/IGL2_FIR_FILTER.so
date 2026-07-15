@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>IGL2_FIR_FILTER</design>
+	<target_verilog>D:\G5_SOC\DSP\FIR_FILTER\DSP_FIR_FILTER\synthesis\IGL2_FIR_FILTER.vm</target_verilog>
+</SynplifyOutput>

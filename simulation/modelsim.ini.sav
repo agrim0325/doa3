@@ -1,0 +1,14 @@
+[Library]
+others = $MODEL_TECH/../modelsim.ini
+SmartFusion2 = E:/Microchip/Libero_SoC_2025.2/Libero_SoC/Designer/lib/modelsimpro/precompiled/vlog/smartfusion2
+presynth = presynth
+COREFFT_LIB = COREFFT_LIB
+COREFIR_LIB = COREFIR_LIB
+CORESYSSERVICES_LIB = CORESYSSERVICES_LIB
+syncad_vhdl_lib = E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Designer/lib/actel/syncad_vhdl_lib
+
+[vcom]
+VHDL93 = 1
+
+[vsim]
+IterationLimit = 5000

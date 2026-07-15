@@ -1,0 +1,213 @@
+Resource Report
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+Date: Tue Jul 14 15:42:30 2026
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S010         |
+| Package                        | 256 VF         |
+| Speed Grade                    | -1             |
+| Temp                           | -40:25:100     |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | No             |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+------------------------------------------------------------------------+
+| Topcell | TOP                                                                    |
+| Format  | Verilog                                                                |
+| Source  | D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\synthesis\TOP.vm |
++---------+------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 1042 | 12084 | 8.62       |
+| DFF                       | 785  | 12084 | 6.50       |
+| I/O Register              | 0    | 414   | 0.00       |
+| User I/O                  | 37   | 138   | 26.81      |
+| -- Single-ended I/O       | 37   | 138   | 26.81      |
+| -- Differential I/O Pairs | 0    | 65    | 0.00       |
+| RAM64x18                  | 0    | 22    | 0.00       |
+| RAM1K18                   | 1    | 21    | 4.76       |
+| MACC                      | 3    | 22    | 13.64      |
+| Chip Globals              | 8    | 8     | 100.00     |
+| CCC                       | 1    | 2     | 50.00      |
+| RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 1    | 1     | 100.00     |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 898  | 641 |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 36   | 36  |
+| MACC Interface Logic     | 108  | 108 |
+| Total Used               | 1042 | 785 |
++--------------------------+------+-----+
+
+MSS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| Cortex-M3*    | 1    | 1     |
+| eNVM (256KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| TIMER*        | 2    | 2     |
+| CAN           | 0    | 1     |
+| SPI           | 0    | 2     |
+| I2C           | 1    | 2     |
+| UART          | 0    | 2     |
+| USB           | 0    | 1     |
+| MAC           | 0    | 1     |
+| MDDR          | 0    | 1     |
+| HPDMA         | 1    | 1     |
+| PDMA          | 1    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the MSS
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 7    |
+| 5      | 1    |
+| 11     | 8    |
+| 14     | 1    |
+| 17     | 8    |
+| 27     | 1    |
+| Total  | 26   |
++--------+------+
+
+Detailed MACC Resource Usage
++--------+------+
+| Length | Used |
+| 1      | 3    |
+| Total  | 3    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 14           | 0           | 0               |
+| Output I/O                    | 21           | 0           | 0               |
+| Bidirectional I/O             | 2            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS25     |  2.50v |  N/A |  14   |  21    |  2            |
++--------------+--------+------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+---------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                              |
++--------+---------+---------------------------------------------------------------------------------------------------+
+| 627    | INT_NET | Net   : FlashFreeze_SB_0_GL0                                                                      |
+|        |         | Driver: FlashFreeze_SB_0/CCC_0/GL0_INST/U0_RGB1                                                   |
+|        |         | Source: NETLIST                                                                                   |
+| 354    | INT_NET | Net   : MX2_0_Y_arst                                                                              |
+|        |         | Driver: MX2_0_RNI6A052/U0_RGB1                                                                    |
+|        |         | Source: NETLIST                                                                                   |
+| 178    | INT_NET | Net   : INIT_DONE_arst                                                                            |
+|        |         | Driver: FlashFreeze_SB_0/CORERESET_FF_0_0/CORERESET_FF_0_0/INIT_DONE_RNIV1UU3/U0_RGB1             |
+|        |         | Source: NETLIST                                                                                   |
+| 20     | INT_NET | Net   : FlashFreeze_SB_0/CORERESET_FF_0_0/CORERESET_FF_0_0/sm0_areset_n_clk_base_i                |
+|        |         | Driver: FlashFreeze_SB_0/CORERESET_FF_0_0/CORERESET_FF_0_0/sm0_areset_n_clk_base_RNIPALD1/U0_RGB1 |
+|        |         | Source: NETLIST                                                                                   |
+| 15     | INT_NET | Net   : OSC_C0_0_RCOSC_25_50MHZ_O2F                                                               |
+|        |         | Driver: OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1                                     |
+|        |         | Source: NETLIST                                                                                   |
+| 12     | INT_NET | Net   : FlashFreeze_SB_0/CORERESET_FF_0_0/CORERESET_FF_0_0/sm0_areset_n_arst                      |
+|        |         | Driver: FlashFreeze_SB_0/CORERESET_FF_0_0/CORERESET_FF_0_0/sm0_areset_n_RNI6L684/U0_RGB1          |
+|        |         | Source: NETLIST                                                                                   |
+| 2      | INT_NET | Net   : led_blink_0/clkout_Z                                                                      |
+|        |         | Driver: led_blink_0/clkout_inferred_clock_RNICM1K1/U0_RGB1                                        |
+|        |         | Source: NETLIST                                                                                   |
+| 1      | INT_NET | Net   : FlashFreeze_SB_0/CCC_0_GL1                                                                |
+|        |         | Driver: FlashFreeze_SB_0/CCC_0/GL1_INST/U0_RGB1                                                   |
+|        |         | Source: NETLIST                                                                                   |
++--------+---------+---------------------------------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+-----------------------------------------------------------------+
+| Fanout | Type    | Name                                                            |
++--------+---------+-----------------------------------------------------------------+
+| 151    | INT_NET | Net   : dot_osd_integration_0/tracker/vsync_rise_Z              |
+|        |         | Driver: dot_osd_integration_0/tracker/vsync_rise                |
+| 37     | INT_NET | Net   : line_write_read_0/LCD_FSM_0/s_state_Z[1]                |
+|        |         | Driver: line_write_read_0/LCD_FSM_0/s_state[1]                  |
+| 34     | INT_NET | Net   : line_write_read_0/LCD_FSM_0/s_state_Z[3]                |
+|        |         | Driver: line_write_read_0/LCD_FSM_0/s_state[3]                  |
+| 34     | INT_NET | Net   : line_write_read_0/LCD_FSM_0/s_state_Z[0]                |
+|        |         | Driver: line_write_read_0/LCD_FSM_0/s_state[0]                  |
+| 33     | INT_NET | Net   : line_write_read_0/WRITE_LSRAM_0_RAM_WR_EN_O             |
+|        |         | Driver: line_write_read_0/WRITE_LSRAM_0/un6_ram_wr_en_o_0_a2    |
+| 30     | INT_NET | Net   : line_write_read_0/WRITE_LSRAM_0/N_2151_i                |
+|        |         | Driver: line_write_read_0/WRITE_LSRAM_0/s_ram_address_cry_cy[0] |
+| 30     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/div3_x[0]             |
+|        |         | Driver: dot_osd_integration_0/overlay/eng/div3_x_1_0_.m4        |
+| 29     | INT_NET | Net   : line_write_read_0/LCD_FSM_0/s_state_Z[5]                |
+|        |         | Driver: line_write_read_0/LCD_FSM_0/s_state[5]                  |
+| 29     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/char_sel_Z[2]         |
+|        |         | Driver: dot_osd_integration_0/overlay/eng/char_sel[2]           |
+| 27     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/char_sel_Z[0]         |
+|        |         | Driver: dot_osd_integration_0/overlay/eng/char_sel[0]           |
++--------+---------+-----------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+-----------------------------------------------------------------+
+| Fanout | Type    | Name                                                            |
++--------+---------+-----------------------------------------------------------------+
+| 151    | INT_NET | Net   : dot_osd_integration_0/tracker/vsync_rise_Z              |
+|        |         | Driver: dot_osd_integration_0/tracker/vsync_rise                |
+| 37     | INT_NET | Net   : line_write_read_0/LCD_FSM_0/s_state_Z[1]                |
+|        |         | Driver: line_write_read_0/LCD_FSM_0/s_state[1]                  |
+| 34     | INT_NET | Net   : line_write_read_0/LCD_FSM_0/s_state_Z[3]                |
+|        |         | Driver: line_write_read_0/LCD_FSM_0/s_state[3]                  |
+| 34     | INT_NET | Net   : line_write_read_0/LCD_FSM_0/s_state_Z[0]                |
+|        |         | Driver: line_write_read_0/LCD_FSM_0/s_state[0]                  |
+| 33     | INT_NET | Net   : line_write_read_0/WRITE_LSRAM_0_RAM_WR_EN_O             |
+|        |         | Driver: line_write_read_0/WRITE_LSRAM_0/un6_ram_wr_en_o_0_a2    |
+| 30     | INT_NET | Net   : line_write_read_0/WRITE_LSRAM_0/N_2151_i                |
+|        |         | Driver: line_write_read_0/WRITE_LSRAM_0/s_ram_address_cry_cy[0] |
+| 30     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/div3_x[0]             |
+|        |         | Driver: dot_osd_integration_0/overlay/eng/div3_x_1_0_.m4        |
+| 29     | INT_NET | Net   : line_write_read_0/LCD_FSM_0/s_state_Z[5]                |
+|        |         | Driver: line_write_read_0/LCD_FSM_0/s_state[5]                  |
+| 29     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/char_sel_Z[2]         |
+|        |         | Driver: dot_osd_integration_0/overlay/eng/char_sel[2]           |
+| 27     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/char_sel_Z[0]         |
+|        |         | Driver: dot_osd_integration_0/overlay/eng/char_sel[0]           |
++--------+---------+-----------------------------------------------------------------+
+

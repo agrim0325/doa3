@@ -1,0 +1,248 @@
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: DESKTOP-PVRG6C7
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp202503synp2, Build 183R, Built Nov 18 2025 09:08:11, @
+
+Modified Files: 50
+FID:  path (prevtimestamp, timestamp)
+0        D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v (N/A, 2025-11-18 19:44:14)
+1        D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\arith.vhd (N/A, 2025-11-18 22:28:26)
+2        D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\location.map (N/A, 2025-11-18 22:28:26)
+3        D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\numeric.vhd (N/A, 2025-11-18 22:47:14)
+4        D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\signed.vhd (N/A, 2025-11-18 22:28:28)
+5        D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\std.vhd (N/A, 2025-11-18 22:28:28)
+6        D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd (N/A, 2025-11-18 22:28:28)
+7        D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\std_textio.vhd (N/A, 2025-11-18 22:28:28)
+8        D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\unsigned.vhd (N/A, 2025-11-18 22:28:28)
+9        D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd\hyperents.vhd (N/A, 2025-11-18 22:28:26)
+10       D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd\snps_haps_pkg.vhd (N/A, 2025-11-18 22:28:26)
+11       D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd\umr_capim.vhd (N/A, 2025-11-18 22:28:26)
+12       D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vlog\hypermods.v (N/A, 2025-11-18 22:28:24)
+13       D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vlog\scemi_objects.v (N/A, 2025-11-18 22:28:24)
+14       D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vlog\scemi_pipes.svh (N/A, 2025-11-18 22:28:24)
+15       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (N/A, 2026-07-14 12:16:05)
+16       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\syn_comps.v (N/A, 2026-07-14 15:41:23)
+17       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0.v (N/A, 2026-07-14 12:16:05)
+18       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v (N/A, 2026-07-14 12:16:06)
+19       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v (N/A, 2026-07-14 12:16:06)
+20       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v (N/A, 2026-07-14 12:16:06)
+21       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v (N/A, 2026-07-14 12:16:06)
+22       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\fifo_256x8_g4.v (N/A, 2026-07-14 12:16:06)
+23       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB\CCC_0\FlashFreeze_SB_CCC_0_FCCC.v (N/A, 2026-07-14 12:16:06)
+24       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB\FlashFreeze_SB.v (N/A, 2026-07-14 12:16:06)
+25       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.v (N/A, 2026-07-14 12:16:06)
+26       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS_syn.v (N/A, 2026-07-14 12:16:06)
+27       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0.v (N/A, 2026-07-14 12:16:06)
+28       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v (N/A, 2026-07-14 12:16:06)
+29       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06)
+30       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v (N/A, 2026-07-14 12:16:06)
+31       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v (N/A, 2026-07-14 12:16:06)
+32       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\CORERESETP_0.v (N/A, 2026-07-14 12:16:08)
+33       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_EXT.v (N/A, 2026-07-14 12:16:08)
+34       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd (N/A, 2026-07-14 12:16:08)
+35       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Image_Enhancement.vhd (N/A, 2026-07-14 12:16:08)
+36       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\LCD_FSM.vhd (N/A, 2026-07-14 12:16:08)
+37       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\RamDualPort.vhd (N/A, 2026-07-14 12:16:08)
+38       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd (N/A, 2026-07-14 12:16:08)
+39       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\addr_decoder.vhd (N/A, 2026-07-14 12:16:08)
+40       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\apb3_if.vhd (N/A, 2026-07-14 12:16:08)
+41       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v (N/A, 2026-07-14 12:16:08)
+42       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp_pcie_hotreset.v (N/A, 2026-07-14 12:16:08)
+43       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v (N/A, 2026-07-14 15:21:11)
+44       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_osd_integration.v (N/A, 2026-07-14 12:16:08)
+45       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\double_flop.vhd (N/A, 2026-07-14 12:16:08)
+46       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\led_blink.v (N/A, 2026-07-14 12:16:08)
+47       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\mux_2_1.vhd (N/A, 2026-07-14 12:16:08)
+48       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v (N/A, 2026-07-14 15:41:01)
+49       D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd (N/A, 2026-07-14 12:16:08)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 41
+MID:  lib.cell.view
+0        work.CORERESET_FF_0.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB\FlashFreeze_SB.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\CORERESETP_0.v (N/A, 2026-07-14 12:16:08) <-- (module definition)
+1        work.COREUART_C0.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0.v (N/A, 2026-07-14 12:16:05) <-- (module definition)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+2        work.COREUART_C0_COREUART_C0_0_COREUART.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0.v (N/A, 2026-07-14 12:16:05) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v (N/A, 2026-07-14 12:16:06) <-- (module definition)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+3        work.COREUART_C0_COREUART_C0_0_Clock_gen.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0.v (N/A, 2026-07-14 12:16:05) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v (N/A, 2026-07-14 12:16:06) <-- (module definition)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+4        work.COREUART_C0_COREUART_C0_0_Rx_async.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0.v (N/A, 2026-07-14 12:16:05) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v (N/A, 2026-07-14 12:16:06) <-- (module definition)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+5        work.COREUART_C0_COREUART_C0_0_Tx_async.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0.v (N/A, 2026-07-14 12:16:05) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v (N/A, 2026-07-14 12:16:06) <-- (module definition)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+6        work.COREUART_C0_COREUART_C0_0_fifo_256x8.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0.v (N/A, 2026-07-14 12:16:05) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\fifo_256x8_g4.v (N/A, 2026-07-14 12:16:06) <-- (module definition)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+7        work.COREUART_C0_COREUART_C0_0_fifo_ctrl_128.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0.v (N/A, 2026-07-14 12:16:05) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\fifo_256x8_g4.v (N/A, 2026-07-14 12:16:06) <-- (module definition)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+8        work.COREUART_C0_COREUART_C0_0_ram128x8_pa4.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0.v (N/A, 2026-07-14 12:16:05) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\fifo_256x8_g4.v (N/A, 2026-07-14 12:16:06) <-- (module definition)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+9        work.CoreReset_FF.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB\FlashFreeze_SB.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\CORERESETP_0.v (N/A, 2026-07-14 12:16:08) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v (N/A, 2026-07-14 12:16:08) <-- (module definition)
+10       work.FF_EXT.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_EXT.v (N/A, 2026-07-14 12:16:08) <-- (module definition)
+11       work.FlashFreeze_SB.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB\FlashFreeze_SB.v (N/A, 2026-07-14 12:16:06) <-- (module definition)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+12       work.FlashFreeze_SB_CCC_0_FCCC.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB\CCC_0\FlashFreeze_SB_CCC_0_FCCC.v (N/A, 2026-07-14 12:16:06) <-- (module definition)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB\FlashFreeze_SB.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+13       work.FlashFreeze_SB_MSS.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB\FlashFreeze_SB.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.v (N/A, 2026-07-14 12:16:06) <-- (module definition)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+14       work.MCHP_BLIC.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\syn_comps.v (N/A, 2026-07-14 15:41:23) <-- (module definition)
+15       work.MSS_010.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB\FlashFreeze_SB.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS_syn.v (N/A, 2026-07-14 12:16:06) <-- (module definition)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+16       work.OSC_C0.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0.v (N/A, 2026-07-14 12:16:06) <-- (module definition)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+17       work.OSC_C0_OSC_C0_0_OSC.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v (N/A, 2026-07-14 12:16:06) <-- (module definition)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+18       work.RCOSC_25_50MHZ.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (N/A, 2026-07-14 12:16:05) <-- (module definition)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+19       work.RCOSC_25_50MHZ_FAB.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (N/A, 2026-07-14 12:16:05) <-- (module definition)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+20       work.TOP.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (module definition)
+21       work.UART_interface.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v (N/A, 2026-07-14 12:16:06) <-- (module definition)
+22       work.addr_decoder.addr_decoder may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\addr_decoder.vhd (N/A, 2026-07-14 12:16:08) <-- (architecture and entity definition)
+24       work.apb3_if.apb3_if may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\apb3_if.vhd (N/A, 2026-07-14 12:16:08) <-- (architecture and entity definition)
+26       work.bin2bcd.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_osd_integration.v (N/A, 2026-07-14 12:16:08) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v (N/A, 2026-07-14 15:41:01) <-- (module definition)
+27       work.corereset_ff_pcie_hotreset.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB\FlashFreeze_SB.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\CORERESETP_0.v (N/A, 2026-07-14 12:16:08) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v (N/A, 2026-07-14 12:16:08) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp_pcie_hotreset.v (N/A, 2026-07-14 12:16:08) <-- (module definition)
+28       work.dot_detector.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v (N/A, 2026-07-14 15:21:11) <-- (module definition)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_osd_integration.v (N/A, 2026-07-14 12:16:08) <-- (may instantiate this module)
+29       work.dot_osd_integration.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_osd_integration.v (N/A, 2026-07-14 12:16:08) <-- (module definition)
+30       work.double_flop.double_flop may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\double_flop.vhd (N/A, 2026-07-14 12:16:08) <-- (architecture and entity definition)
+32       work.ff_generator.ff_generator may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd (N/A, 2026-07-14 12:16:08) <-- (architecture and entity definition)
+34       work.font5x7.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_osd_integration.v (N/A, 2026-07-14 12:16:08) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v (N/A, 2026-07-14 15:41:01) <-- (module definition)
+35       work.image_enhancement.image_enhancement may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Image_Enhancement.vhd (N/A, 2026-07-14 12:16:08) <-- (architecture and entity definition)
+37       work.lcd_fsm.lcd_fsm may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\LCD_FSM.vhd (N/A, 2026-07-14 12:16:08) <-- (architecture and entity definition)
+39       work.led_blink.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\led_blink.v (N/A, 2026-07-14 12:16:08) <-- (module definition)
+40       work.line_write_read.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v (N/A, 2026-07-14 12:16:06) <-- (module definition)
+41       work.mux_2_1.mux_2_1 may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\mux_2_1.vhd (N/A, 2026-07-14 12:16:08) <-- (architecture and entity definition)
+43       work.osd_engine.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_osd_integration.v (N/A, 2026-07-14 12:16:08) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v (N/A, 2026-07-14 15:41:01) <-- (module definition)
+44       work.osd_overlay.verilog may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_osd_integration.v (N/A, 2026-07-14 12:16:08) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v (N/A, 2026-07-14 15:41:01) <-- (module definition)
+45       work.ramdualport.ramdualport may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\RamDualPort.vhd (N/A, 2026-07-14 12:16:08) <-- (architecture and entity definition)
+47       work.receive_data.receive_data may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd (N/A, 2026-07-14 12:16:08) <-- (architecture and entity definition)
+50       work.write_lsram.write_lsram may have changed because the following files changed:
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v (N/A, 2026-07-14 12:16:06) <-- (may instantiate this module)
+                        D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd (N/A, 2026-07-14 12:16:08) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

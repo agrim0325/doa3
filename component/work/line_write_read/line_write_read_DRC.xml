@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>line_write_read</header>
+  <drc>
+    <status>F:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin WRITE_LSRAM_0:DATA_O</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/line_write_read/pins/WRITE_LSRAM_0:DATA_O</crossprobe>
+  </drc>
+</drcreport>

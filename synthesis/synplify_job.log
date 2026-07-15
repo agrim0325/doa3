@@ -1,0 +1,88 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "15:42:19    14-Jul-2026",
+	"Working Directory" : "D:/goa/doa-main/HF10_OV7725_LCD_FF/HF10_OV7725_LCD_FF/synthesis",
+	"Install" : "D:/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro"
+},
+"synthesis" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "15:41:25",
+   "Runtime" : "54s",
+   "Executable Run Time" : "52s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "15:41:25",
+      "Runtime" : "54s",
+      "Executable Run Time" : "52s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "15:41:25",
+         "Runtime" : "36s",
+         "Executable Run Time" : "35s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "15:41:25",
+            "Runtime" : "31s",
+            "Executable Run Time" : "30s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "D:/goa/doa-main/HF10_OV7725_LCD_FF/HF10_OV7725_LCD_FF/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Run Success" : "yes",
+               "Run Start Time" : "15:41:25",
+               "Run Time" : "30s",
+               "Exe Run Time" : "29s",
+               "max_parallel_jobs" : "4",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "D:/goa/doa-main/HF10_OV7725_LCD_FF/HF10_OV7725_LCD_FF/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Run Success" : "yes",
+               "Run Start Time" : "15:41:55",
+               "Run Time" : "01s",
+               "Exe Run Time" : "01s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "D:/goa/doa-main/HF10_OV7725_LCD_FF/HF10_OV7725_LCD_FF/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Run Success" : "yes",
+            "Run Start Time" : "15:41:56",
+            "Run Time" : "05s",
+            "Exe Run Time" : "05s",
+            "max_parallel_jobs" : "4",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "15:42:01",
+         "Runtime" : "18s",
+         "Executable Run Time" : "17s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "D:/goa/doa-main/HF10_OV7725_LCD_FF/HF10_OV7725_LCD_FF/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Run Success" : "yes",
+            "Run Start Time" : "15:42:01",
+            "Run Time" : "18s",
+            "Exe Run Time" : "17s",
+            "max_parallel_jobs" : "4",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}
