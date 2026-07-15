@@ -3,7 +3,7 @@
 <doc>
 <text>SmartTime Version 2025.2.0.14</text>
 <text>Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
-Date: Tue Jul 14 15:42:46 2026 </text>
+Date: Wed Jul 15 07:21:18 2026 </text>
 <table>
 <header>
 </header>
@@ -251,14 +251,14 @@ Date: Tue Jul 14 15:42:46 2026 </text>
  <item>dot_osd_integration_0/overlay/x_cnt[2]:SLn</item>
  <item>dot_osd_integration_0/overlay/x_cnt[3]:SLn</item>
  <item>dot_osd_integration_0/overlay/x_cnt[4]:SLn</item>
- <item>dot_osd_integration_0/overlay/x_cnt[5]:SLn</item>
- <item>dot_osd_integration_0/overlay/x_cnt[7]:SLn</item>
  <item>dot_osd_integration_0/overlay/x_cnt[9]:SLn</item>
  <item>dot_osd_integration_0/overlay/y_cnt[0]:SLn</item>
  <item>dot_osd_integration_0/overlay/y_cnt[1]:SLn</item>
  <item>dot_osd_integration_0/overlay/y_cnt[2]:SLn</item>
  <item>dot_osd_integration_0/overlay/y_cnt[3]:SLn</item>
  <item>dot_osd_integration_0/overlay/y_cnt[4]:SLn</item>
+ <item>dot_osd_integration_0/overlay/y_cnt[5]:SLn</item>
+ <item>dot_osd_integration_0/overlay/y_cnt[7]:SLn</item>
  <item>dot_osd_integration_0/overlay/y_cnt[9]:SLn</item>
  <item>dot_osd_integration_0/tracker/vsync_sr_0[0]:D</item>
  <item>line_write_read_0/LCD_FSM_0/s_v_sync_dly:D</item>

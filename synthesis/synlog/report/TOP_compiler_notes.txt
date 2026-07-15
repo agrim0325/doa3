@@ -1,158 +1,158 @@
 @N|Running in 64-bit mode
 @N|Running in 64-bit mode
-@N:"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\mux_2_1.vhd":28:7:28:13|Top entity is set to mux_2_1.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\addr_decoder.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\apb3_if.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Image_Enhancement.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\LCD_FSM.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\double_flop.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\RamDualPort.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\mux_2_1.vhd'.
-@N: CD231 :"D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N:"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\mux_2_1.vhd":28:7:28:13|Top entity is set to mux_2_1.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\addr_decoder.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\apb3_if.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Image_Enhancement.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\LCD_FSM.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\double_flop.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\RamDualPort.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\mux_2_1.vhd'.
+@N: CD231 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N|Running in 64-bit mode
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":1:7:1:18|Synthesizing module dot_detector in library work.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v":3:7:3:13|Synthesizing module bin2bcd in library work.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v":23:7:23:13|Synthesizing module font5x7 in library work.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v":56:7:56:16|Synthesizing module osd_engine in library work.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v":135:7:135:17|Synthesizing module osd_overlay in library work.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_osd_integration.v":3:7:3:25|Synthesizing module dot_osd_integration in library work.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_EXT.v":1:7:1:12|Synthesizing module FF_EXT in library work.
-@N: CG364 :"D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":126:7:126:10|Synthesizing module AND2 in library work.
-@N: CG364 :"D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":286:7:286:11|Synthesizing module BIBUF in library work.
-@N: CG364 :"D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
-@N: CG364 :"D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
-@N: CG364 :"D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND in library work.
-@N: CG364 :"D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":729:7:729:9|Synthesizing module CCC in library work.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB\CCC_0\FlashFreeze_SB_CCC_0_FCCC.v":5:7:5:31|Synthesizing module FlashFreeze_SB_CCC_0_FCCC in library work.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":23:7:23:18|Synthesizing module CoreReset_FF in library work.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\CORERESETP_0.v":9:7:9:20|Synthesizing module CORERESET_FF_0 in library work.
-@N: CG364 :"D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":837:7:837:18|Synthesizing module FLASH_FREEZE in library work.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS_syn.v":5:7:5:13|Synthesizing module MSS_010 in library work.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.v":9:7:9:24|Synthesizing module FlashFreeze_SB_MSS in library work.
-@N: CG364 :"D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":186:7:186:9|Synthesizing module MX2 in library work.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB\FlashFreeze_SB.v":9:7:9:20|Synthesizing module FlashFreeze_SB in library work.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\led_blink.v":3:7:3:15|Synthesizing module led_blink in library work.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v":9:7:9:21|Synthesizing module line_write_read in library work.
-@N: CG794 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v":141:12:141:24|Using module double_flop from library work
-@N: CG794 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v":155:18:155:36|Using module Image_Enhancement from library work
-@N: CG794 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v":174:8:174:16|Using module LCD_FSM from library work
-@N: CG794 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v":192:12:192:24|Using module ramDualPort from library work
-@N: CG794 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v":205:12:205:24|Using module WRITE_LSRAM from library work
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":46:7:46:24|Synthesizing module RCOSC_25_50MHZ_FAB in library work.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":10:7:10:20|Synthesizing module RCOSC_25_50MHZ in library work.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":5:7:5:25|Synthesizing module OSC_C0_OSC_C0_0_OSC in library work.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0.v":9:7:9:12|Synthesizing module OSC_C0 in library work.
-@N: CG364 :"D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":720:7:720:14|Synthesizing module SYSRESET in library work.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":30:0:30:34|Synthesizing module COREUART_C0_COREUART_C0_0_Clock_gen in library work.
-@N: CG179 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":346:0:346:6|Removing redundant assignment.
-@N: CG179 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":427:0:427:6|Removing redundant assignment.
-@N: CG179 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":532:0:532:6|Removing redundant assignment.
-@N: CG179 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":611:0:611:6|Removing redundant assignment.
-@N: CG179 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":716:0:716:6|Removing redundant assignment.
-@N: CG179 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":808:0:808:6|Removing redundant assignment.
-@N: CG179 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":915:0:915:6|Removing redundant assignment.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":14:0:14:33|Synthesizing module COREUART_C0_COREUART_C0_0_Tx_async in library work.
-@N: CG179 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":870:0:870:8|Removing redundant assignment.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v":14:0:14:33|Synthesizing module COREUART_C0_COREUART_C0_0_Rx_async in library work.
-@N: CG179 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v":750:0:750:7|Removing redundant assignment.
-@N: CG179 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v":857:0:857:8|Removing redundant assignment.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v":14:0:14:33|Synthesizing module COREUART_C0_COREUART_C0_0_COREUART in library work.
-@N: CG179 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v":1338:0:1338:7|Removing redundant assignment.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0.v":9:7:9:17|Synthesizing module COREUART_C0 in library work.
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v":9:7:9:20|Synthesizing module UART_interface in library work.
-@N: CG794 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v":96:13:96:26|Using module addr_decoder from library work
-@N: CG794 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v":136:13:136:26|Using module receive_data from library work
-@N: CG364 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v":9:7:9:9|Synthesizing module TOP in library work.
-@N: CG794 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v":188:0:188:8|Using module apb3_if from library work
-@N: CG794 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v":209:13:209:27|Using module FF_GENERATOR from library work
-@N: CG794 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v":309:8:309:16|Using module mux_2_1 from library work
-@N: CL162 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v":299:0:299:5|Found a potential sequential shift CUARTI1Il with address depth of 3 words and data bit width of 1.
-@N: CL201 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v":871:0:871:5|Trying to extract state machine for register CUARTll0.
-@N: CL201 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":301:0:301:5|Trying to extract state machine for register CUARTlI0l.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":81:0:81:7|Input CUARTI1I is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":84:0:84:7|Input CUARTlO1 is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":87:0:87:7|Input CUARTOI1 is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":14:7:14:9|Input XTL is unused.
-@N: CL201 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":1480:4:1480:9|Trying to extract state machine for register sdif3_state.
-@N: CL201 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":1415:4:1415:9|Trying to extract state machine for register sdif2_state.
-@N: CL201 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":1350:4:1350:9|Trying to extract state machine for register sdif1_state.
-@N: CL201 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":1285:4:1285:9|Trying to extract state machine for register sdif0_state.
-@N: CL201 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":1204:4:1204:9|Trying to extract state machine for register sm0_state.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":29:20:29:28|Input CLK_LTSSM is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":67:20:67:28|Input FPLL_LOCK is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":70:20:70:34|Input SDIF0_SPLL_LOCK is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":79:20:79:34|Input SDIF1_SPLL_LOCK is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":83:20:83:34|Input SDIF2_SPLL_LOCK is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":87:20:87:34|Input SDIF3_SPLL_LOCK is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":101:20:101:29|Input SDIF0_PSEL is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":102:20:102:31|Input SDIF0_PWRITE is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":103:20:103:31|Input SDIF0_PRDATA is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":104:20:104:29|Input SDIF1_PSEL is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":105:20:105:31|Input SDIF1_PWRITE is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":106:20:106:31|Input SDIF1_PRDATA is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":107:20:107:29|Input SDIF2_PSEL is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":108:20:108:31|Input SDIF2_PWRITE is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":109:20:109:31|Input SDIF2_PRDATA is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":110:20:110:29|Input SDIF3_PSEL is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":111:20:111:31|Input SDIF3_PWRITE is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":112:20:112:31|Input SDIF3_PRDATA is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":118:20:118:37|Input SOFT_EXT_RESET_OUT is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":119:20:119:33|Input SOFT_RESET_F2M is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":120:20:120:32|Input SOFT_M3_RESET is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":121:20:121:49|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":122:20:122:39|Input SOFT_FDDR_CORE_RESET is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":123:20:123:39|Input SOFT_SDIF0_PHY_RESET is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":124:20:124:40|Input SOFT_SDIF0_CORE_RESET is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":125:20:125:39|Input SOFT_SDIF1_PHY_RESET is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":126:20:126:40|Input SOFT_SDIF1_CORE_RESET is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":127:20:127:39|Input SOFT_SDIF2_PHY_RESET is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":128:20:128:40|Input SOFT_SDIF2_CORE_RESET is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":129:20:129:39|Input SOFT_SDIF3_PHY_RESET is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":130:20:130:40|Input SOFT_SDIF3_CORE_RESET is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":134:20:134:42|Input SOFT_SDIF0_0_CORE_RESET is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":135:20:135:42|Input SOFT_SDIF0_1_CORE_RESET is unused.
-@N: CL189 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_EXT.v":14:0:14:5|Register bit tg_out is always 1.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_EXT.v":3:6:3:8|Input clk is unused.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_EXT.v":3:10:3:13|Input lock is unused.
-@N: CL162 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":26:4:26:9|Found a potential sequential shift href_sr with address depth of 3 words and data bit width of 1.
-@N: CL162 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":26:4:26:9|Found a potential sequential shift pclk_sr with address depth of 3 words and data bit width of 1.
-@N: CL162 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":26:4:26:9|Found a potential sequential shift vsync_sr with address depth of 3 words and data bit width of 1.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":14:23:14:33|Input read_cell_i is unused.
-@N:"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\double_flop.vhd":30:7:30:17|Top entity is set to double_flop.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\addr_decoder.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\apb3_if.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Image_Enhancement.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\LCD_FSM.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\double_flop.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\RamDualPort.vhd'.
-@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\mux_2_1.vhd'.
-@N: CD231 :"D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
-@N: CD630 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\mux_2_1.vhd":28:7:28:13|Synthesizing work.mux_2_1.mux_2_1.
-@N: CD630 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd":30:7:30:18|Synthesizing work.ff_generator.ff_generator.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":1:7:1:18|Synthesizing module dot_detector in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v":3:7:3:13|Synthesizing module bin2bcd in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v":23:7:23:13|Synthesizing module font5x7 in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v":61:7:61:16|Synthesizing module osd_engine in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v":152:7:152:17|Synthesizing module osd_overlay in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_osd_integration.v":3:7:3:25|Synthesizing module dot_osd_integration in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_EXT.v":1:7:1:12|Synthesizing module FF_EXT in library work.
+@N: CG364 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":126:7:126:10|Synthesizing module AND2 in library work.
+@N: CG364 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":286:7:286:11|Synthesizing module BIBUF in library work.
+@N: CG364 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
+@N: CG364 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
+@N: CG364 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND in library work.
+@N: CG364 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":729:7:729:9|Synthesizing module CCC in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB\CCC_0\FlashFreeze_SB_CCC_0_FCCC.v":5:7:5:31|Synthesizing module FlashFreeze_SB_CCC_0_FCCC in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":23:7:23:18|Synthesizing module CoreReset_FF in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\CORERESETP_0.v":9:7:9:20|Synthesizing module CORERESET_FF_0 in library work.
+@N: CG364 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":837:7:837:18|Synthesizing module FLASH_FREEZE in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS_syn.v":5:7:5:13|Synthesizing module MSS_010 in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.v":9:7:9:24|Synthesizing module FlashFreeze_SB_MSS in library work.
+@N: CG364 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":186:7:186:9|Synthesizing module MX2 in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB\FlashFreeze_SB.v":9:7:9:20|Synthesizing module FlashFreeze_SB in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\led_blink.v":3:7:3:15|Synthesizing module led_blink in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v":9:7:9:21|Synthesizing module line_write_read in library work.
+@N: CG794 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v":141:12:141:24|Using module double_flop from library work
+@N: CG794 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v":155:18:155:36|Using module Image_Enhancement from library work
+@N: CG794 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v":174:8:174:16|Using module LCD_FSM from library work
+@N: CG794 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v":192:12:192:24|Using module ramDualPort from library work
+@N: CG794 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v":205:12:205:24|Using module WRITE_LSRAM from library work
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":46:7:46:24|Synthesizing module RCOSC_25_50MHZ_FAB in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":10:7:10:20|Synthesizing module RCOSC_25_50MHZ in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":5:7:5:25|Synthesizing module OSC_C0_OSC_C0_0_OSC in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0.v":9:7:9:12|Synthesizing module OSC_C0 in library work.
+@N: CG364 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":720:7:720:14|Synthesizing module SYSRESET in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":30:0:30:34|Synthesizing module COREUART_C0_COREUART_C0_0_Clock_gen in library work.
+@N: CG179 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":346:0:346:6|Removing redundant assignment.
+@N: CG179 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":427:0:427:6|Removing redundant assignment.
+@N: CG179 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":532:0:532:6|Removing redundant assignment.
+@N: CG179 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":611:0:611:6|Removing redundant assignment.
+@N: CG179 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":716:0:716:6|Removing redundant assignment.
+@N: CG179 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":808:0:808:6|Removing redundant assignment.
+@N: CG179 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":915:0:915:6|Removing redundant assignment.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":14:0:14:33|Synthesizing module COREUART_C0_COREUART_C0_0_Tx_async in library work.
+@N: CG179 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":870:0:870:8|Removing redundant assignment.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v":14:0:14:33|Synthesizing module COREUART_C0_COREUART_C0_0_Rx_async in library work.
+@N: CG179 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v":750:0:750:7|Removing redundant assignment.
+@N: CG179 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v":857:0:857:8|Removing redundant assignment.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v":14:0:14:33|Synthesizing module COREUART_C0_COREUART_C0_0_COREUART in library work.
+@N: CG179 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v":1338:0:1338:7|Removing redundant assignment.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0.v":9:7:9:17|Synthesizing module COREUART_C0 in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v":9:7:9:20|Synthesizing module UART_interface in library work.
+@N: CG794 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v":96:13:96:26|Using module addr_decoder from library work
+@N: CG794 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v":136:13:136:26|Using module receive_data from library work
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v":9:7:9:9|Synthesizing module TOP in library work.
+@N: CG794 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v":188:0:188:8|Using module apb3_if from library work
+@N: CG794 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v":209:13:209:27|Using module FF_GENERATOR from library work
+@N: CG794 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v":309:8:309:16|Using module mux_2_1 from library work
+@N: CL162 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v":299:0:299:5|Found a potential sequential shift CUARTI1Il with address depth of 3 words and data bit width of 1.
+@N: CL201 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v":871:0:871:5|Trying to extract state machine for register CUARTll0.
+@N: CL201 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":301:0:301:5|Trying to extract state machine for register CUARTlI0l.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":81:0:81:7|Input CUARTI1I is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":84:0:84:7|Input CUARTlO1 is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":87:0:87:7|Input CUARTOI1 is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":14:7:14:9|Input XTL is unused.
+@N: CL201 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":1480:4:1480:9|Trying to extract state machine for register sdif3_state.
+@N: CL201 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":1415:4:1415:9|Trying to extract state machine for register sdif2_state.
+@N: CL201 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":1350:4:1350:9|Trying to extract state machine for register sdif1_state.
+@N: CL201 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":1285:4:1285:9|Trying to extract state machine for register sdif0_state.
+@N: CL201 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":1204:4:1204:9|Trying to extract state machine for register sm0_state.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":29:20:29:28|Input CLK_LTSSM is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":67:20:67:28|Input FPLL_LOCK is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":70:20:70:34|Input SDIF0_SPLL_LOCK is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":79:20:79:34|Input SDIF1_SPLL_LOCK is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":83:20:83:34|Input SDIF2_SPLL_LOCK is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":87:20:87:34|Input SDIF3_SPLL_LOCK is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":101:20:101:29|Input SDIF0_PSEL is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":102:20:102:31|Input SDIF0_PWRITE is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":103:20:103:31|Input SDIF0_PRDATA is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":104:20:104:29|Input SDIF1_PSEL is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":105:20:105:31|Input SDIF1_PWRITE is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":106:20:106:31|Input SDIF1_PRDATA is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":107:20:107:29|Input SDIF2_PSEL is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":108:20:108:31|Input SDIF2_PWRITE is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":109:20:109:31|Input SDIF2_PRDATA is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":110:20:110:29|Input SDIF3_PSEL is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":111:20:111:31|Input SDIF3_PWRITE is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":112:20:112:31|Input SDIF3_PRDATA is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":118:20:118:37|Input SOFT_EXT_RESET_OUT is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":119:20:119:33|Input SOFT_RESET_F2M is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":120:20:120:32|Input SOFT_M3_RESET is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":121:20:121:49|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":122:20:122:39|Input SOFT_FDDR_CORE_RESET is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":123:20:123:39|Input SOFT_SDIF0_PHY_RESET is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":124:20:124:40|Input SOFT_SDIF0_CORE_RESET is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":125:20:125:39|Input SOFT_SDIF1_PHY_RESET is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":126:20:126:40|Input SOFT_SDIF1_CORE_RESET is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":127:20:127:39|Input SOFT_SDIF2_PHY_RESET is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":128:20:128:40|Input SOFT_SDIF2_CORE_RESET is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":129:20:129:39|Input SOFT_SDIF3_PHY_RESET is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":130:20:130:40|Input SOFT_SDIF3_CORE_RESET is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":134:20:134:42|Input SOFT_SDIF0_0_CORE_RESET is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":135:20:135:42|Input SOFT_SDIF0_1_CORE_RESET is unused.
+@N: CL189 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_EXT.v":14:0:14:5|Register bit tg_out is always 1.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_EXT.v":3:6:3:8|Input clk is unused.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_EXT.v":3:10:3:13|Input lock is unused.
+@N: CL162 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":27:4:27:9|Found a potential sequential shift href_sr with address depth of 3 words and data bit width of 1.
+@N: CL162 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":27:4:27:9|Found a potential sequential shift pclk_sr with address depth of 3 words and data bit width of 1.
+@N: CL162 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":27:4:27:9|Found a potential sequential shift vsync_sr with address depth of 3 words and data bit width of 1.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":14:23:14:33|Input read_cell_i is unused.
+@N:"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\double_flop.vhd":30:7:30:17|Top entity is set to double_flop.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\addr_decoder.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\apb3_if.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Image_Enhancement.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\LCD_FSM.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\double_flop.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\RamDualPort.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\mux_2_1.vhd'.
+@N: CD231 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\mux_2_1.vhd":28:7:28:13|Synthesizing work.mux_2_1.mux_2_1.
+@N: CD630 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd":30:7:30:18|Synthesizing work.ff_generator.ff_generator.
 @N: Setting default value for generic g_apb3_if_data_width to 32;
 @N: Setting default value for generic g_const_width to 12;
-@N: CD630 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\apb3_if.vhd":31:7:31:13|Synthesizing work.apb3_if.apb3_if.
-@N: CD630 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd":31:7:31:18|Synthesizing work.receive_data.receive_data.
-@N: CD231 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd":80:14:80:15|Using onehot encoding for type uart_fsm. For example, enumeration idle is mapped to "10000000000000000000".
-@N: CD604 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd":387:16:387:39|OTHERS clause is not synthesized.
-@N: CD630 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\addr_decoder.vhd":30:7:30:18|Synthesizing work.addr_decoder.addr_decoder.
-@N: CD630 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd":31:7:31:17|Synthesizing work.write_lsram.write_lsram.
-@N: CD630 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\RamDualPort.vhd":33:7:33:17|Synthesizing work.ramdualport.ramdualport.
-@N: CL134 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\RamDualPort.vhd":72:9:72:11|Found RAM ram, depth=1024, width=16
-@N: CD630 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\LCD_FSM.vhd":30:7:30:13|Synthesizing work.lcd_fsm.lcd_fsm.
-@N: CD232 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\LCD_FSM.vhd":86:15:86:16|Using gray code encoding for type split_fsm.
-@N: CD630 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Image_Enhancement.vhd":32:7:32:23|Synthesizing work.image_enhancement.image_enhancement.
-@N: CD630 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\double_flop.vhd":30:7:30:17|Synthesizing work.double_flop.double_flop.
-@N: CL201 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\LCD_FSM.vhd":179:16:179:17|Trying to extract state machine for register s_state.
-@N: CL162 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd":143:8:143:9|Found a potential sequential shift s_data with address depth of 2 words and data bit width of 8.
-@N: CL162 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd":143:8:143:9|Found a potential sequential shift s_data with address depth of 2 words and data bit width of 8.
-@N: CL201 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd":133:8:133:9|Trying to extract state machine for register state.
-@N: CL159 :"D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd":41:4:41:12|Input ff_done_i is unused.
+@N: CD630 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\apb3_if.vhd":31:7:31:13|Synthesizing work.apb3_if.apb3_if.
+@N: CD630 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd":31:7:31:18|Synthesizing work.receive_data.receive_data.
+@N: CD231 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd":80:14:80:15|Using onehot encoding for type uart_fsm. For example, enumeration idle is mapped to "10000000000000000000".
+@N: CD604 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd":387:16:387:39|OTHERS clause is not synthesized.
+@N: CD630 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\addr_decoder.vhd":30:7:30:18|Synthesizing work.addr_decoder.addr_decoder.
+@N: CD630 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd":31:7:31:17|Synthesizing work.write_lsram.write_lsram.
+@N: CD630 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\RamDualPort.vhd":33:7:33:17|Synthesizing work.ramdualport.ramdualport.
+@N: CL134 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\RamDualPort.vhd":72:9:72:11|Found RAM ram, depth=1024, width=16
+@N: CD630 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\LCD_FSM.vhd":30:7:30:13|Synthesizing work.lcd_fsm.lcd_fsm.
+@N: CD232 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\LCD_FSM.vhd":86:15:86:16|Using gray code encoding for type split_fsm.
+@N: CD630 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Image_Enhancement.vhd":32:7:32:23|Synthesizing work.image_enhancement.image_enhancement.
+@N: CD630 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\double_flop.vhd":30:7:30:17|Synthesizing work.double_flop.double_flop.
+@N: CL201 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\LCD_FSM.vhd":179:16:179:17|Trying to extract state machine for register s_state.
+@N: CL162 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd":143:8:143:9|Found a potential sequential shift s_data with address depth of 2 words and data bit width of 8.
+@N: CL162 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd":143:8:143:9|Found a potential sequential shift s_data with address depth of 2 words and data bit width of 8.
+@N: CL201 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd":133:8:133:9|Trying to extract state machine for register state.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd":41:4:41:12|Input ff_done_i is unused.
 @N|Running in 64-bit mode
 

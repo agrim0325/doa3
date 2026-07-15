@@ -18,7 +18,7 @@
         </version>
     </header>
     <nvm>
-        <region name="hex" address="0x000000" retrieveAddressFromFile="false" size="12768" format="HEX" type="Data Storage" wordSize="8" numberWords="12768" memFile="D:\Image_Processing_with_low_power_demo\Image_Processing_with_low_power_demo\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\SC\hellofpga_lcd_cam_ff\Release\hellofpga_lcd_cam_ff.hex" memType="INTELHEX" memFileTimeStamp="" clientType="public" program="true">
+        <region name="hex" address="0x000000" retrieveAddressFromFile="false" size="12768" format="HEX" type="Data Storage" wordSize="8" numberWords="12768" memFile="E:\Image_Processing_with_low_power_demo\Image_Processing_with_low_power_demo\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\SC\hellofpga_lcd_cam_ff\Release\hellofpga_lcd_cam_ff.hex" memType="INTELHEX" memFileTimeStamp="" clientType="public" program="true">
             <fabric_accessible/>
             <mss_accessible/>
             00000120910100007f030000810300008303000085030000870300000000

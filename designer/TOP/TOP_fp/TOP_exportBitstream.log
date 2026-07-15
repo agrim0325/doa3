@@ -1,24 +1,24 @@
 Software Version: 2025.2.0.14
-Opened 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\TOP_fp\TOP.pro'
-PDB file 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\TOP.pdb' has been loaded successfully.
-DESIGN : TOP;  CHECKSUM : 695E;  PDB_VERSION : 1.9
+Opened 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\TOP_fp\TOP.pro'
+PDB file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\TOP.pdb' has been loaded successfully.
+DESIGN : TOP;  CHECKSUM : 13A4;  PDB_VERSION : 1.9
 Info: Programming Interface selected is JTAG.
 Info: Design version: 6
-File/Folder 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\export\TOP.ppd' will be overwritten.
-Successfully exported PPD file for currently secured device: 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\export\TOP.ppd'; file programs Fabric and eNVM.
-Fabric component bitstream digest: 329c4a305c8472a6f9af49541e782f0714f716cee4c338aa264c6ebfa1a995da
+File/Folder 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\export\TOP.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\export\TOP.ppd'; file programs Fabric and eNVM.
+Fabric component bitstream digest: 5b720bd372ebf3cbfa28ef5d281d282e61e86099d06dafcaac80dec4fb049665
 eNVM_0 component bitstream digest: 815d0e951360d1e9e99de2f02f397f5c1f63fd1be97871a88d68e0573135aba2
-Entire bitstream digest: 6f5ca7ea03c791a86dcc4c159f79fbe6dc6ffaf37d31221be80d9826fb724058
-Finished: Tue Jul 14 15:46:03 2026 (Elapsed time 00:00:18)
+Entire bitstream digest: 5e81df33f4a5b00526a6138576e0942b268592990de6d5ce345747bbf4d27fc1
+Finished: Wed Jul 15 07:39:50 2026 (Elapsed time 00:00:04)
 
 Info: Programming Interface selected is JTAG.
 Info: Design version: 6
-File/Folder 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\export\TOP.dat' will be overwritten.
-Successfully exported DirectC file: 'D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\export\TOP.dat'; file programs Fabric and eNVM.
-Fabric component bitstream digest: 329c4a305c8472a6f9af49541e782f0714f716cee4c338aa264c6ebfa1a995da
+File/Folder 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\export\TOP.dat' will be overwritten.
+Successfully exported DirectC file: 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\export\TOP.dat'; file programs Fabric and eNVM.
+Fabric component bitstream digest: 5b720bd372ebf3cbfa28ef5d281d282e61e86099d06dafcaac80dec4fb049665
 eNVM_0 component bitstream digest: 815d0e951360d1e9e99de2f02f397f5c1f63fd1be97871a88d68e0573135aba2
-Entire bitstream digest: 6f5ca7ea03c791a86dcc4c159f79fbe6dc6ffaf37d31221be80d9826fb724058
-Finished: Tue Jul 14 15:46:19 2026 (Elapsed time 00:00:16)
+Entire bitstream digest: 5e81df33f4a5b00526a6138576e0942b268592990de6d5ce345747bbf4d27fc1
+Finished: Wed Jul 15 07:39:53 2026 (Elapsed time 00:00:03)
 
 Project saved.
 Project closed.

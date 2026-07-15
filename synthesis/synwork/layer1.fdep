@@ -1,37 +1,37 @@
 #defaultlanguage:vhdl
-#OPTIONS:"|-mixedhdl|-top|work.mux_2_1|-top|work.FF_GENERATOR|-top|work.apb3_if|-top|work.receive_data|-top|work.addr_decoder|-top|work.WRITE_LSRAM|-top|work.ramDualPort|-top|work.LCD_FSM|-top|work.Image_Enhancement|-top|work.double_flop|-mpparams|D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\synthesis\\synwork\\_mh_params|-layerid|1|-orig_srs|D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\synthesis\\synwork\\TOP_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
-#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\bin64\\c_vhdl.exe":1763486032
-#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\location.map":1763485106
-#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\std.vhd":1763485108
-#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd\\snps_haps_pkg.vhd":1763485106
-#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\std1164.vhd":1763485108
-#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\std_textio.vhd":1763485108
-#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\numeric.vhd":1763486234
-#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd\\umr_capim.vhd":1763485106
-#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\arith.vhd":1763485106
-#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\unsigned.vhd":1763485108
-#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd\\hyperents.vhd":1763485106
-#CUR:"D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\FF_GENERATOR.vhd":1784011568
-#CUR:"D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\addr_decoder.vhd":1784011568
-#CUR:"D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\receive_data.vhd":1784011568
-#CUR:"D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\apb3_if.vhd":1784011568
-#CUR:"D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\Image_Enhancement.vhd":1784011568
-#CUR:"D:\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\signed.vhd":1763485108
-#CUR:"D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\LCD_FSM.vhd":1784011568
-#CUR:"D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\Write_LSRAM.vhd":1784011568
-#CUR:"D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\double_flop.vhd":1784011568
-#CUR:"D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\RamDualPort.vhd":1784011568
-#CUR:"D:\\goa\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\mux_2_1.vhd":1784011568
-0 "D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd" vhdl
-1 "D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\addr_decoder.vhd" vhdl
-2 "D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd" vhdl
-3 "D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\apb3_if.vhd" vhdl
-4 "D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Image_Enhancement.vhd" vhdl
-5 "D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\LCD_FSM.vhd" vhdl
-6 "D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd" vhdl
-7 "D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\double_flop.vhd" vhdl
-8 "D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\RamDualPort.vhd" vhdl
-9 "D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\mux_2_1.vhd" vhdl
+#OPTIONS:"|-mixedhdl|-top|work.mux_2_1|-top|work.FF_GENERATOR|-top|work.apb3_if|-top|work.receive_data|-top|work.addr_decoder|-top|work.WRITE_LSRAM|-top|work.ramDualPort|-top|work.LCD_FSM|-top|work.Image_Enhancement|-top|work.double_flop|-mpparams|E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\synthesis\\synwork\\_mh_params|-layerid|1|-orig_srs|E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\synthesis\\synwork\\TOP_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\bin64\\c_vhdl.exe":1763486032
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\location.map":1763485106
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\std.vhd":1763485108
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd\\snps_haps_pkg.vhd":1763485106
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\std1164.vhd":1763485108
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\std_textio.vhd":1763485108
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\numeric.vhd":1763486234
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd\\umr_capim.vhd":1763485106
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\arith.vhd":1763485106
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\unsigned.vhd":1763485108
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd\\hyperents.vhd":1763485106
+#CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\FF_GENERATOR.vhd":1784011568
+#CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\addr_decoder.vhd":1784011568
+#CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\receive_data.vhd":1784011568
+#CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\apb3_if.vhd":1784011568
+#CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\Image_Enhancement.vhd":1784011568
+#CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vhd2008\\signed.vhd":1763485108
+#CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\LCD_FSM.vhd":1784011568
+#CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\Write_LSRAM.vhd":1784011568
+#CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\double_flop.vhd":1784011568
+#CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\RamDualPort.vhd":1784011568
+#CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\mux_2_1.vhd":1784011568
+0 "E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd" vhdl
+1 "E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\addr_decoder.vhd" vhdl
+2 "E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd" vhdl
+3 "E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\apb3_if.vhd" vhdl
+4 "E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Image_Enhancement.vhd" vhdl
+5 "E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\LCD_FSM.vhd" vhdl
+6 "E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd" vhdl
+7 "E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\double_flop.vhd" vhdl
+8 "E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\RamDualPort.vhd" vhdl
+9 "E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\mux_2_1.vhd" vhdl
 
 # Dependency Lists (Uses list)
 0 -1

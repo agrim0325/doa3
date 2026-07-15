@@ -6,9 +6,9 @@ with Synopsys, Inc. All other use, reproduction, modification, or distribution o
 Synopsys software or the associated documentation is strictly prohibited.
 Tool: Synplify Pro (R)
 Build: W-2025.03M-SP1-1
-Install: D:\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+Install: E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
 OS: Windows 10 or later
-Hostname: DESKTOP-PVRG6C7
+Hostname: LAPTOP-JM793N9B
 
 Implementation : synthesis
 
@@ -25,17 +25,17 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      641                100 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block TOP:	641 (38.73 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block TOP:	641 (34.89 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           612                100 %                
-ARI1          278                100 %                
+CFG           660                100 %                
+ARI1          412                100 %                
 BLACK BOX     9                  100 %                
 ======================================================
-Total COMBINATIONAL LOGIC in the block TOP:	899 (54.32 % Utilization)
+Total COMBINATIONAL LOGIC in the block TOP:	1081 (58.85 % Utilization)
 
 
 DSP
@@ -43,7 +43,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 MACC     3                  100 %                
 =================================================
-Total DSP in the block TOP:	3 (0.18 % Utilization)
+Total DSP in the block TOP:	3 (0.16 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -51,7 +51,7 @@ Name        Total elements     Utilization     Notes
 ----------------------------------------------------
 RAM1K18     1                  100 %                
 ====================================================
-Total MEMORY ELEMENTS in the block TOP:	1 (0.06 % Utilization)
+Total MEMORY ELEMENTS in the block TOP:	1 (0.05 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -59,7 +59,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     8                  100 %                
 ===================================================
-Total GLOBAL BUFFERS in the block TOP:	8 (0.48 % Utilization)
+Total GLOBAL BUFFERS in the block TOP:	8 (0.44 % Utilization)
 
 
 IO PADS
@@ -67,7 +67,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 IO       37                 100 %                
 =================================================
-Total IO PADS in the block TOP:	37 (2.24 % Utilization)
+Total IO PADS in the block TOP:	37 (2.01 % Utilization)
 
 ------------------------------------------------------------------
 ########   Utilization report for  cell:   FF_GENERATOR   ########
@@ -79,7 +79,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      1                  0.1560 %             
 =================================================
-Total SEQUENTIAL ELEMENTS in the block TOP.FF_GENERATOR:	1 (0.06 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block TOP.FF_GENERATOR:	1 (0.05 % Utilization)
 
 --------------------------------------------------------------------
 ########   Utilization report for  cell:   FlashFreeze_SB   ########
@@ -91,16 +91,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      46                 7.18 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block TOP.FlashFreeze_SB:	46 (2.78 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block TOP.FlashFreeze_SB:	46 (2.50 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           22                 3.59 %               
+CFG           22                 3.33 %               
 BLACK BOX     5                  55.6 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block TOP.FlashFreeze_SB:	27 (1.63 % Utilization)
+Total COMBINATIONAL LOGIC in the block TOP.FlashFreeze_SB:	27 (1.47 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -108,7 +108,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     5                  62.5 %               
 ===================================================
-Total GLOBAL BUFFERS in the block TOP.FlashFreeze_SB:	5 (0.30 % Utilization)
+Total GLOBAL BUFFERS in the block TOP.FlashFreeze_SB:	5 (0.27 % Utilization)
 
 
 IO PADS
@@ -116,7 +116,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 IO       2                  5.41 %               
 =================================================
-Total IO PADS in the block TOP.FlashFreeze_SB:	2 (0.12 % Utilization)
+Total IO PADS in the block TOP.FlashFreeze_SB:	2 (0.11 % Utilization)
 
 --------------------------------------------------------------------
 ########   Utilization report for  cell:   CORERESET_FF_0   ########
@@ -128,15 +128,15 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      46                 7.18 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block FlashFreeze_SB.CORERESET_FF_0:	46 (2.78 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block FlashFreeze_SB.CORERESET_FF_0:	46 (2.50 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      21                 3.43 %               
+CFG      21                 3.18 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block FlashFreeze_SB.CORERESET_FF_0:	21 (1.27 % Utilization)
+Total COMBINATIONAL LOGIC in the block FlashFreeze_SB.CORERESET_FF_0:	21 (1.14 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -144,7 +144,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     3                  37.5 %               
 ===================================================
-Total GLOBAL BUFFERS in the block FlashFreeze_SB.CORERESET_FF_0:	3 (0.18 % Utilization)
+Total GLOBAL BUFFERS in the block FlashFreeze_SB.CORERESET_FF_0:	3 (0.16 % Utilization)
 
 ----------------------------------------------------------------------------
 ########   Utilization report for  cell:   CoreReset_FF_Z1_layer0   ########
@@ -156,15 +156,15 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      46                 7.18 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block CORERESET_FF_0.CoreReset_FF_Z1_layer0:	46 (2.78 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block CORERESET_FF_0.CoreReset_FF_Z1_layer0:	46 (2.50 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      21                 3.43 %               
+CFG      21                 3.18 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block CORERESET_FF_0.CoreReset_FF_Z1_layer0:	21 (1.27 % Utilization)
+Total COMBINATIONAL LOGIC in the block CORERESET_FF_0.CoreReset_FF_Z1_layer0:	21 (1.14 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -172,7 +172,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     3                  37.5 %               
 ===================================================
-Total GLOBAL BUFFERS in the block CORERESET_FF_0.CoreReset_FF_Z1_layer0:	3 (0.18 % Utilization)
+Total GLOBAL BUFFERS in the block CORERESET_FF_0.CoreReset_FF_Z1_layer0:	3 (0.16 % Utilization)
 
 -------------------------------------------------------------------------------
 ########   Utilization report for  cell:   FlashFreeze_SB_CCC_0_FCCC   ########
@@ -182,10 +182,10 @@ Instance path:   FlashFreeze_SB.FlashFreeze_SB_CCC_0_FCCC
 COMBINATIONAL LOGIC
 Name          Total elements     Utilization     Notes
 ------------------------------------------------------
-CFG           1                  0.1630 %             
+CFG           1                  0.1520 %             
 BLACK BOX     1                  11.1 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block FlashFreeze_SB.FlashFreeze_SB_CCC_0_FCCC:	2 (0.12 % Utilization)
+Total COMBINATIONAL LOGIC in the block FlashFreeze_SB.FlashFreeze_SB_CCC_0_FCCC:	2 (0.11 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -193,7 +193,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     2                  25 %                 
 ===================================================
-Total GLOBAL BUFFERS in the block FlashFreeze_SB.FlashFreeze_SB_CCC_0_FCCC:	2 (0.12 % Utilization)
+Total GLOBAL BUFFERS in the block FlashFreeze_SB.FlashFreeze_SB_CCC_0_FCCC:	2 (0.11 % Utilization)
 
 ------------------------------------------------------------------------
 ########   Utilization report for  cell:   FlashFreeze_SB_MSS   ########
@@ -205,7 +205,7 @@ Name          Total elements     Utilization     Notes
 ------------------------------------------------------
 BLACK BOX     1                  11.1 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block FlashFreeze_SB.FlashFreeze_SB_MSS:	1 (0.06 % Utilization)
+Total COMBINATIONAL LOGIC in the block FlashFreeze_SB.FlashFreeze_SB_MSS:	1 (0.05 % Utilization)
 
 ------------------------------------------------------------
 ########   Utilization report for  cell:   OSC_C0   ########
@@ -217,7 +217,7 @@ Name          Total elements     Utilization     Notes
 ------------------------------------------------------
 BLACK BOX     2                  22.2 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block TOP.OSC_C0:	2 (0.12 % Utilization)
+Total COMBINATIONAL LOGIC in the block TOP.OSC_C0:	2 (0.11 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -225,7 +225,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     1                  12.5 %               
 ===================================================
-Total GLOBAL BUFFERS in the block TOP.OSC_C0:	1 (0.06 % Utilization)
+Total GLOBAL BUFFERS in the block TOP.OSC_C0:	1 (0.05 % Utilization)
 
 -------------------------------------------------------------------------
 ########   Utilization report for  cell:   OSC_C0_OSC_C0_0_OSC   ########
@@ -237,7 +237,7 @@ Name          Total elements     Utilization     Notes
 ------------------------------------------------------
 BLACK BOX     2                  22.2 %               
 ======================================================
-Total COMBINATIONAL LOGIC in the block OSC_C0.OSC_C0_OSC_C0_0_OSC:	2 (0.12 % Utilization)
+Total COMBINATIONAL LOGIC in the block OSC_C0.OSC_C0_OSC_C0_0_OSC:	2 (0.11 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -245,7 +245,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     1                  12.5 %               
 ===================================================
-Total GLOBAL BUFFERS in the block OSC_C0.OSC_C0_OSC_C0_0_OSC:	1 (0.06 % Utilization)
+Total GLOBAL BUFFERS in the block OSC_C0.OSC_C0_OSC_C0_0_OSC:	1 (0.05 % Utilization)
 
 --------------------------------------------------------------------
 ########   Utilization report for  cell:   UART_interface   ########
@@ -257,16 +257,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      164                25.6 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block TOP.UART_interface:	164 (9.91 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block TOP.UART_interface:	164 (8.93 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      96                 15.7 %               
-ARI1     14                 5.04 %               
+CFG      96                 14.5 %               
+ARI1     14                 3.4 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block TOP.UART_interface:	110 (6.65 % Utilization)
+Total COMBINATIONAL LOGIC in the block TOP.UART_interface:	110 (5.99 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   COREUART_C0   ########
@@ -278,16 +278,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      64                 9.98 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block UART_interface.COREUART_C0:	64 (3.87 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block UART_interface.COREUART_C0:	64 (3.48 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      70                 11.4 %               
-ARI1     14                 5.04 %               
+CFG      70                 10.6 %               
+ARI1     14                 3.4 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block UART_interface.COREUART_C0:	84 (5.08 % Utilization)
+Total COMBINATIONAL LOGIC in the block UART_interface.COREUART_C0:	84 (4.57 % Utilization)
 
 -----------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s   ########
@@ -299,16 +299,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      64                 9.98 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block COREUART_C0.COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s:	64 (3.87 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block COREUART_C0.COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s:	64 (3.48 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      70                 11.4 %               
-ARI1     14                 5.04 %               
+CFG      70                 10.6 %               
+ARI1     14                 3.4 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block COREUART_C0.COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s:	84 (5.08 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREUART_C0.COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s:	84 (4.57 % Utilization)
 
 ----------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREUART_C0_COREUART_C0_0_Clock_gen_1s_0s   ########                 
@@ -320,16 +320,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      20                 3.12 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s.COREUART_C0_COREUART_C0_0_Clock_gen_1s_0s:	20 (1.21 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s.COREUART_C0_COREUART_C0_0_Clock_gen_1s_0s:	20 (1.09 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      13                 2.12 %               
-ARI1     14                 5.04 %               
+CFG      13                 1.97 %               
+ARI1     14                 3.4 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s.COREUART_C0_COREUART_C0_0_Clock_gen_1s_0s:	27 (1.63 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s.COREUART_C0_COREUART_C0_0_Clock_gen_1s_0s:	27 (1.47 % Utilization)
 
 ---------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s   ########                 
@@ -341,15 +341,15 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      32                 4.99 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s.COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s:	32 (1.93 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s.COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s:	32 (1.74 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      42                 6.86 %               
+CFG      42                 6.36 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s.COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s:	42 (2.54 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s.COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s:	42 (2.29 % Utilization)
 
 ------------------------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   COREUART_C0_COREUART_C0_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s   ########                 
@@ -361,15 +361,15 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      11                 1.72 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s.COREUART_C0_COREUART_C0_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s:	11 (0.66 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s.COREUART_C0_COREUART_C0_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s:	11 (0.60 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      13                 2.12 %               
+CFG      13                 1.97 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s.COREUART_C0_COREUART_C0_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s:	13 (0.79 % Utilization)
+Total COMBINATIONAL LOGIC in the block COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s.COREUART_C0_COREUART_C0_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s:	13 (0.71 % Utilization)
 
 ------------------------------------------------------------------
 ########   Utilization report for  cell:   addr_decoder   ########
@@ -381,15 +381,15 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      50                 7.8 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block UART_interface.addr_decoder:	50 (3.02 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block UART_interface.addr_decoder:	50 (2.72 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      6                  0.980 %              
+CFG      6                  0.9090 %             
 =================================================
-Total COMBINATIONAL LOGIC in the block UART_interface.addr_decoder:	6 (0.36 % Utilization)
+Total COMBINATIONAL LOGIC in the block UART_interface.addr_decoder:	6 (0.33 % Utilization)
 
 ------------------------------------------------------------------
 ########   Utilization report for  cell:   receive_data   ########
@@ -401,15 +401,15 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      50                 7.8 %                
 =================================================
-Total SEQUENTIAL ELEMENTS in the block UART_interface.receive_data:	50 (3.02 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block UART_interface.receive_data:	50 (2.72 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      20                 3.27 %               
+CFG      20                 3.03 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block UART_interface.receive_data:	20 (1.21 % Utilization)
+Total COMBINATIONAL LOGIC in the block UART_interface.receive_data:	20 (1.09 % Utilization)
 
 -------------------------------------------------------------------------
 ########   Utilization report for  cell:   dot_osd_integration   ########
@@ -421,16 +421,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      203                31.7 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block TOP.dot_osd_integration:	203 (12.27 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block TOP.dot_osd_integration:	203 (11.05 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      281                45.9 %               
-ARI1     193                69.4 %               
+CFG      333                50.5 %               
+ARI1     327                79.4 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block TOP.dot_osd_integration:	474 (28.64 % Utilization)
+Total COMBINATIONAL LOGIC in the block TOP.dot_osd_integration:	660 (35.93 % Utilization)
 
 ------------------------------------------------------------------
 ########   Utilization report for  cell:   dot_detector   ########
@@ -442,16 +442,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      181                28.2 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block dot_osd_integration.dot_detector:	181 (10.94 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block dot_osd_integration.dot_detector:	181 (9.85 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      32                 5.23 %               
-ARI1     152                54.7 %               
+CFG      19                 2.88 %               
+ARI1     152                36.9 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block dot_osd_integration.dot_detector:	184 (11.12 % Utilization)
+Total COMBINATIONAL LOGIC in the block dot_osd_integration.dot_detector:	171 (9.31 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   osd_overlay   ########
@@ -463,16 +463,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      22                 3.43 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block dot_osd_integration.osd_overlay:	22 (1.33 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block dot_osd_integration.osd_overlay:	22 (1.20 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      249                40.7 %               
-ARI1     41                 14.7 %               
+CFG      314                47.6 %               
+ARI1     175                42.5 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block dot_osd_integration.osd_overlay:	290 (17.52 % Utilization)
+Total COMBINATIONAL LOGIC in the block dot_osd_integration.osd_overlay:	489 (26.62 % Utilization)
 
 ----------------------------------------------------------------
 ########   Utilization report for  cell:   osd_engine   ########
@@ -482,10 +482,10 @@ Instance path:   osd_overlay.osd_engine
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      230                37.6 %               
-ARI1     19                 6.83 %               
+CFG      290                43.9 %               
+ARI1     153                37.1 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block osd_overlay.osd_engine:	249 (15.05 % Utilization)
+Total COMBINATIONAL LOGIC in the block osd_overlay.osd_engine:	443 (24.12 % Utilization)
 
 -------------------------------------------------------------
 ########   Utilization report for  cell:   bin2bcd   ########
@@ -495,9 +495,9 @@ Instance path:   osd_engine.bin2bcd
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      40                 6.54 %               
+CFG      39                 5.91 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block osd_engine.bin2bcd:	40 (2.42 % Utilization)
+Total COMBINATIONAL LOGIC in the block osd_engine.bin2bcd:	39 (2.12 % Utilization)
 
 ---------------------------------------------------------------
 ########   Utilization report for  cell:   bin2bcd_1   ########
@@ -507,9 +507,9 @@ Instance path:   osd_engine.bin2bcd_1
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      38                 6.21 %               
+CFG      37                 5.61 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block osd_engine.bin2bcd_1:	38 (2.30 % Utilization)
+Total COMBINATIONAL LOGIC in the block osd_engine.bin2bcd_1:	37 (2.01 % Utilization)
 
 -------------------------------------------------------------
 ########   Utilization report for  cell:   font5x7   ########
@@ -519,10 +519,10 @@ Instance path:   osd_engine.font5x7
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      67                 10.9 %               
-ARI1     15                 5.4 %                
+CFG      75                 11.4 %               
+ARI1     21                 5.1 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block osd_engine.font5x7:	82 (4.95 % Utilization)
+Total COMBINATIONAL LOGIC in the block osd_engine.font5x7:	96 (5.23 % Utilization)
 
 ---------------------------------------------------------------
 ########   Utilization report for  cell:   led_blink   ########
@@ -534,16 +534,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      30                 4.68 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block TOP.led_blink:	30 (1.81 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block TOP.led_blink:	30 (1.63 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      5                  0.8170 %             
-ARI1     27                 9.71 %               
+CFG      5                  0.7580 %             
+ARI1     27                 6.55 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block TOP.led_blink:	32 (1.93 % Utilization)
+Total COMBINATIONAL LOGIC in the block TOP.led_blink:	32 (1.74 % Utilization)
 
 
 GLOBAL BUFFERS
@@ -551,7 +551,7 @@ Name       Total elements     Utilization     Notes
 ---------------------------------------------------
 GLOBAL     1                  12.5 %               
 ===================================================
-Total GLOBAL BUFFERS in the block TOP.led_blink:	1 (0.06 % Utilization)
+Total GLOBAL BUFFERS in the block TOP.led_blink:	1 (0.05 % Utilization)
 
 ---------------------------------------------------------------------
 ########   Utilization report for  cell:   line_write_read   ########
@@ -563,16 +563,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      184                28.7 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block TOP.line_write_read:	184 (11.12 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block TOP.line_write_read:	184 (10.02 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      178                29.1 %               
-ARI1     44                 15.8 %               
+CFG      170                25.8 %               
+ARI1     44                 10.7 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block TOP.line_write_read:	222 (13.41 % Utilization)
+Total COMBINATIONAL LOGIC in the block TOP.line_write_read:	214 (11.65 % Utilization)
 
 
 DSP
@@ -580,7 +580,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 MACC     3                  100 %                
 =================================================
-Total DSP in the block TOP.line_write_read:	3 (0.18 % Utilization)
+Total DSP in the block TOP.line_write_read:	3 (0.16 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -588,7 +588,7 @@ Name        Total elements     Utilization     Notes
 ----------------------------------------------------
 RAM1K18     1                  100 %                
 ====================================================
-Total MEMORY ELEMENTS in the block TOP.line_write_read:	1 (0.06 % Utilization)
+Total MEMORY ELEMENTS in the block TOP.line_write_read:	1 (0.05 % Utilization)
 
 -----------------------------------------------------------------------
 ########   Utilization report for  cell:   Image_Enhancement   ########
@@ -600,15 +600,15 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      69                 10.8 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block line_write_read.Image_Enhancement:	69 (4.17 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block line_write_read.Image_Enhancement:	69 (3.76 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      19                 3.1 %                
+CFG      19                 2.88 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block line_write_read.Image_Enhancement:	19 (1.15 % Utilization)
+Total COMBINATIONAL LOGIC in the block line_write_read.Image_Enhancement:	19 (1.03 % Utilization)
 
 
 DSP
@@ -616,7 +616,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 MACC     3                  100 %                
 =================================================
-Total DSP in the block line_write_read.Image_Enhancement:	3 (0.18 % Utilization)
+Total DSP in the block line_write_read.Image_Enhancement:	3 (0.16 % Utilization)
 
 -------------------------------------------------------------
 ########   Utilization report for  cell:   LCD_FSM   ########
@@ -628,16 +628,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      30                 4.68 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block line_write_read.LCD_FSM:	30 (1.81 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block line_write_read.LCD_FSM:	30 (1.63 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      130                21.2 %               
-ARI1     11                 3.96 %               
+CFG      120                18.2 %               
+ARI1     11                 2.67 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block line_write_read.LCD_FSM:	141 (8.52 % Utilization)
+Total COMBINATIONAL LOGIC in the block line_write_read.LCD_FSM:	131 (7.13 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   WRITE_LSRAM   ########
@@ -649,16 +649,16 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      48                 7.49 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block line_write_read.WRITE_LSRAM:	48 (2.90 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block line_write_read.WRITE_LSRAM:	48 (2.61 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      13                 2.12 %               
-ARI1     33                 11.9 %               
+CFG      15                 2.27 %               
+ARI1     33                 8.01 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block line_write_read.WRITE_LSRAM:	46 (2.78 % Utilization)
+Total COMBINATIONAL LOGIC in the block line_write_read.WRITE_LSRAM:	48 (2.61 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   double_flop   ########
@@ -670,7 +670,7 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      20                 3.12 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block line_write_read.double_flop:	20 (1.21 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block line_write_read.double_flop:	20 (1.09 % Utilization)
 
 -----------------------------------------------------------------
 ########   Utilization report for  cell:   ramDualPort   ########
@@ -682,15 +682,15 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      17                 2.65 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block line_write_read.ramDualPort:	17 (1.03 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block line_write_read.ramDualPort:	17 (0.93 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      16                 2.61 %               
+CFG      16                 2.42 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block line_write_read.ramDualPort:	16 (0.97 % Utilization)
+Total COMBINATIONAL LOGIC in the block line_write_read.ramDualPort:	16 (0.87 % Utilization)
 
 
 MEMORY ELEMENTS
@@ -698,7 +698,7 @@ Name        Total elements     Utilization     Notes
 ----------------------------------------------------
 RAM1K18     1                  100 %                
 ====================================================
-Total MEMORY ELEMENTS in the block line_write_read.ramDualPort:	1 (0.06 % Utilization)
+Total MEMORY ELEMENTS in the block line_write_read.ramDualPort:	1 (0.05 % Utilization)
 
 -------------------------------------------------------------
 ########   Utilization report for  cell:   mux_2_1   ########
@@ -708,9 +708,9 @@ Instance path:   TOP.mux_2_1
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      20                 3.27 %               
+CFG      21                 3.18 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block TOP.mux_2_1:	20 (1.21 % Utilization)
+Total COMBINATIONAL LOGIC in the block TOP.mux_2_1:	21 (1.14 % Utilization)
 
 --------------------------------------------------------------------------------------------------------------------
 ########   Utilization report for  cell:   work_apb3_if_apb3_if_32_12_1_g_APB3_IF_DATA_WIDTHg_CONST_WIDTH   ########
@@ -722,15 +722,15 @@ Name     Total elements     Utilization     Notes
 -------------------------------------------------
 SLE      13                 2.03 %               
 =================================================
-Total SEQUENTIAL ELEMENTS in the block TOP.work_apb3_if_apb3_if_32_12_1_g_APB3_IF_DATA_WIDTHg_CONST_WIDTH:	13 (0.79 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block TOP.work_apb3_if_apb3_if_32_12_1_g_APB3_IF_DATA_WIDTHg_CONST_WIDTH:	13 (0.71 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-CFG      10                 1.63 %               
+CFG      13                 1.97 %               
 =================================================
-Total COMBINATIONAL LOGIC in the block TOP.work_apb3_if_apb3_if_32_12_1_g_APB3_IF_DATA_WIDTHg_CONST_WIDTH:	10 (0.60 % Utilization)
+Total COMBINATIONAL LOGIC in the block TOP.work_apb3_if_apb3_if_32_12_1_g_APB3_IF_DATA_WIDTHg_CONST_WIDTH:	13 (0.71 % Utilization)
 
 
 ##### END OF AREA REPORT #####]

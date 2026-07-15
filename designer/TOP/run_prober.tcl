@@ -1,5 +1,5 @@
 probe \
-    -desdir {D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP} \
+    -desdir {E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP} \
     -design TOP \
     -fam SmartFusion2 \
     -die PA4M1000_N \

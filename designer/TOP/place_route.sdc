@@ -1,7 +1,7 @@
 # Microchip Technology Inc.
-# Date: 2026-Jul-14 15:42:34
+# Date: 2026-Jul-15 07:21:12
 # This file was generated based on the following SDC source files:
-#   D:/goa/doa-main/HF10_OV7725_LCD_FF/HF10_OV7725_LCD_FF/constraint/TOP_derived_constraints.sdc
+#   E:/finaldestination/doa-main/HF10_OV7725_LCD_FF/HF10_OV7725_LCD_FF/constraint/TOP_derived_constraints.sdc
 #
 
 create_clock -name {OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT} -period 20 [ get_pins { OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT } ]

@@ -5,15 +5,15 @@ The file contains the area information from mapper to be displayed as part of th
 *******************************************************************************************-->
 <report_table display_priority="1" name="Area Summary">
 <report_link name="Detailed report">
-<data>D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\synthesis\synlog\report\TOP_fpga_mapper_resourceusage.rpt</data>
+<data>E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\synthesis\synlog\report\TOP_fpga_mapper_resourceusage.rpt</data>
 <title>Resource Usage</title>
 </report_link>
 <report_link name="Hierarchical Area report">
-<data>D:\goa\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\synthesis\synlog\report\TOP_fpga_mapper_hier_area_report.xml</data>
+<data>E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\synthesis\synlog\report\TOP_fpga_mapper_hier_area_report.xml</data>
 <title>Hierarchical Area Report</title>
 </report_link>
 <parameter tooltip="Total Carry Cells used" name="Carry Cells">
-<data>278</data>
+<data>412</data>
 </parameter>
 <parameter tooltip="Total Sequential Cells used" name="Sequential Cells">
 <data>641</data>
@@ -31,6 +31,6 @@ The file contains the area information from mapper to be displayed as part of th
 <data>1</data>
 </parameter>
 <parameter tcl_name="total_luts" tooltip="Total LUTs used" name="LUTs">
-<data>890</data>
+<data>1072</data>
 </parameter>
 </report_table>
