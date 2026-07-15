@@ -497,8 +497,8 @@ SIZE="5699"
 ENDFILE
 VALUE "<project>\hdl\dot_osd_integration.v,hdl"
 STATE="utd"
-TIME="1784050845"
-SIZE="1778"
+TIME="1784140746"
+SIZE="1934"
 ENDFILE
 VALUE "<project>\hdl\double_flop.vhd,hdl"
 STATE="utd"
@@ -537,8 +537,8 @@ SIZE="5386"
 ENDFILE
 VALUE "<project>\hdl\osd_overlay.v,hdl"
 STATE="utd"
-TIME="1784050907"
-SIZE="8747"
+TIME="1784140732"
+SIZE="10735"
 ENDFILE
 VALUE "<project>\hdl\RamDualPort.vhd,hdl"
 STATE="utd"
@@ -607,22 +607,22 @@ SIZE="2081"
 ENDFILE
 VALUE "<project>\synthesis\TOP.so,so"
 STATE="utd"
-TIME="1784023938"
-SIZE="234"
+TIME="1784080263"
+SIZE="247"
 ENDFILE
 VALUE "<project>\synthesis\TOP.vm,syn_vm"
-STATE="utd"
-TIME="1784023936"
-SIZE="461035"
+STATE="ood"
+TIME="1784080262"
+SIZE="517111"
 ENDFILE
 VALUE "<project>\synthesis\TOP_syn.prj,prj"
 STATE="utd"
-TIME="1784050951"
+TIME="1784080264"
 SIZE="6726"
 ENDFILE
 VALUE "<project>\synthesis\TOP_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1784023936"
+TIME="1784080262"
 SIZE="2020"
 ENDFILE
 ENDLIST
@@ -668,7 +668,6 @@ ENDLIST
 LIST ProjectState5.1
 LIST Impl1
 ideSTIMULUS=StateSuccess
-ideSYNTHESIS(<project>\synthesis\TOP.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -679,7 +678,6 @@ ENDUsed_File_List
 ENDLIST
 LIST Impl2
 ideSTIMULUS=StateSuccess
-ideSYNTHESIS(<project>\synthesis\TOP.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -688,9 +686,6 @@ ENDLIST
 Used_File_List
 ENDUsed_File_List
 ENDLIST
-ENDLIST
-LIST synthesis_implementations
-VALUE "synthesis"
 ENDLIST
 ENDLIST
 ENDLIST
@@ -812,7 +807,6 @@ LIST ProjectState5.1
 LIST "TOP::work"
 LIST Impl1
 ideSTIMULUS=StateSuccess
-ideSYNTHESIS(<project>\synthesis\TOP.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -823,7 +817,6 @@ ENDUsed_File_List
 ENDLIST
 LIST Impl2
 ideSTIMULUS=StateSuccess
-ideSYNTHESIS(<project>\synthesis\TOP.vm,syn_vm)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -846,8 +839,13 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+HDL;hdl\dot_osd_integration.v;0
+Reports;Reports;0
+ReportsCurrentItem;Export Bitstream:TOP_exportBitstream.log
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+HDL;hdl\osd_overlay.v;0
+HDL;hdl\dot_detector.v;0
+ACTIVEVIEW;hdl\dot_osd_integration.v
 ENDLIST
 LIST ModuleSubBlockList
 LIST "addr_decoder::work","hdl\addr_decoder.vhd","FALSE","FALSE"
@@ -881,6 +879,14 @@ ENDLIST
 LIST "COREUART_C0_COREUART_C0_0_Rx_async::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v","FALSE","FALSE"
 ENDLIST
 LIST "COREUART_C0_COREUART_C0_0_Tx_async::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v","FALSE","FALSE"
+ENDLIST
+LIST "DESIGN_FIRMWARE::work","component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf","TRUE","FALSE"
+SUBBLOCK "SmartFusion2_CMSIS::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_GPIO_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_HPDMA_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
 ENDLIST
 LIST "dot_detector::work","hdl\dot_detector.v","FALSE","FALSE"
 ENDLIST
@@ -950,6 +956,18 @@ LIST "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.v"
 ENDLIST
 LIST "receive_data::work","hdl\receive_data.vhd","FALSE","FALSE"
 ENDLIST
+LIST "SmartFusion2_CMSIS::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_GPIO_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_HPDMA_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
+ENDLIST
 LIST "TOP::work","component\work\TOP\TOP.v","TRUE","FALSE"
 SUBBLOCK "FF_EXT::work","hdl\FF_EXT.v","FALSE","FALSE"
 SUBBLOCK "FF_GENERATOR::work","hdl\FF_GENERATOR.vhd","FALSE","FALSE"
@@ -980,27 +998,6 @@ SUBBLOCK "TOP::work","component\work\TOP\TOP.v","TRUE","FALSE"
 ENDLIST
 LIST "testbnch::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\test\user\testbnch.v","FALSE","TRUE"
 SUBBLOCK "COREUART_C0_COREUART_C0_0_COREUART::work","component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v","FALSE","FALSE"
-ENDLIST
-LIST "bhv_dirac::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
-ENDLIST
-LIST "bhv_fEdge_ce::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
-ENDLIST
-LIST "bhv_gen::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
-SUBBLOCK "bhvEdge::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
-SUBBLOCK "bhv_dirac::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
-SUBBLOCK "bhv_fEdge_ce::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
-SUBBLOCK "bhv_lfsr::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
-SUBBLOCK "bhv_step::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
-ENDLIST
-LIST "bhv_lfsr::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
-ENDLIST
-LIST "bhv_step::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
-ENDLIST
-LIST "bhvClockGen::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
-ENDLIST
-LIST "bhvDelay::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
-ENDLIST
-LIST "bhvEdge::COREFFT_LIB","component\Actel\DirectCore\COREFFT\7.0.104\rtl\in_place\vlog\test\user\bhvKit.v","FALSE","TRUE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList

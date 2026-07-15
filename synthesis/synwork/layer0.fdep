@@ -1,11 +1,11 @@
 #OPTIONS:"|-mixedhdl|-modhint|E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\synthesis\\synwork\\_verilog_hintfile|-top|TOP|-layerid|0|-orig_srs|E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\synthesis\\synwork\\TOP_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\synthesis\\|-I|E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib|-v2001|-devicelib|E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
 #CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\bin64\\c_ver.exe":1763485870
-#CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\synthesis\\synwork\\_verilog_hintfile":1784080220
+#CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\synthesis\\synwork\\_verilog_hintfile":1784140798
 #CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\generic\\smartfusion2.v":1763475254
 #CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\hypermods.v":1763485104
 #CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\scemi_objects.v":1763485104
 #CUR:"E:\\Microchip\\Libero_SoC_2025.2\\Libero_SoC\\Synplify_Pro\\lib\\vlog\\scemi_pipes.svh":1763485104
-#CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\component\\syn_comps.v":1784080211
+#CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\component\\syn_comps.v":1784140786
 #CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\FF_EXT.v":1784011568
 #CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\coreresetp_pcie_hotreset.v":1784011568
 #CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\coreresetp.v":1784011568
@@ -24,9 +24,9 @@
 #CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\component\\work\\COREUART_C0\\COREUART_C0_0\\rtl\\vlog\\core_obfuscated\\CoreUART.v":1784011566
 #CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\component\\work\\COREUART_C0\\COREUART_C0.v":1784011564
 #CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\component\\work\\UART_interface\\UART_interface.v":1784011566
-#CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\dot_detector.v":1784050835
-#CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\osd_overlay.v":1784050907
-#CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\dot_osd_integration.v":1784050845
+#CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\dot_detector.v":1784140774
+#CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\osd_overlay.v":1784140732
+#CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\dot_osd_integration.v":1784140746
 #CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\hdl\\led_blink.v":1784011568
 #CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\component\\work\\line_write_read\\line_write_read.v":1784011566
 #CUR:"E:\\finaldestination\\doa-main\\HF10_OV7725_LCD_FF\\HF10_OV7725_LCD_FF\\component\\work\\TOP\\TOP.v":1784011566

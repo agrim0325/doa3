@@ -11,22 +11,23 @@ MX2             2 uses
 RCOSC_25_50MHZ  1 use
 RCOSC_25_50MHZ_FAB  1 use
 SYSRESET        1 use
-CFG1           10 uses
-CFG2           126 uses
-CFG3           182 uses
-CFG4           342 uses
+CFG1           9 uses
+CFG2           148 uses
+CFG3           196 uses
+CFG4           381 uses
 
 Carry cells:
-ARI1            387 uses - used for arithmetic functions
-ARI1            25 uses - used for Wide-Mux implementation
-Total ARI1      412 uses
+ARI1            476 uses - used for arithmetic functions
+ARI1            32 uses - used for Wide-Mux implementation
+Total ARI1      508 uses
 
 
 Sequential Cells: 
-SLE            641 uses
+SLE            692 uses
 
-DSP Blocks:    3 of 22 (13%)
+DSP Blocks:    4 of 22 (18%)
  MACC:         3 MultAdds
+ MACC:         1 Mult
 
 I/O ports: 38
 I/O primitives: 37
@@ -37,14 +38,14 @@ OUTBUF         21 uses
 
 Global Clock Buffers: 8
 
-Total LUTs:    1072
+Total LUTs:    1242
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
 RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
 RAM1K18  Interface Logic : SLEs = 36; LUTs = 36;
-MACC     Interface Logic : SLEs = 108; LUTs = 108;
+MACC     Interface Logic : SLEs = 144; LUTs = 144;
 
-Total number of SLEs after P&R:  641 + 0 + 36 + 108 = 785;
-Total number of LUTs after P&R:  1072 + 0 + 36 + 108 = 1216;
+Total number of SLEs after P&R:  692 + 0 + 36 + 144 = 872;
+Total number of LUTs after P&R:  1242 + 0 + 36 + 144 = 1422;
 

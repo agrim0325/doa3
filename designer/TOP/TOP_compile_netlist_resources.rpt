@@ -1,6 +1,6 @@
 Resource Report
 Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
-Date: Wed Jul 15 07:21:09 2026
+Date: Thu Jul 16 00:10:53 2026
 
 Device Selection
 +--------------------------------+----------------+
@@ -37,15 +37,15 @@ Resource Usage
 +---------------------------+------+-------+------------+
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
-| 4LUT                      | 1234 | 12084 | 10.21      |
-| DFF                       | 785  | 12084 | 6.50       |
+| 4LUT                      | 1442 | 12084 | 11.93      |
+| DFF                       | 872  | 12084 | 7.22       |
 | I/O Register              | 0    | 414   | 0.00       |
 | User I/O                  | 37   | 138   | 26.81      |
 | -- Single-ended I/O       | 37   | 138   | 26.81      |
 | -- Differential I/O Pairs | 0    | 65    | 0.00       |
 | RAM64x18                  | 0    | 22    | 0.00       |
 | RAM1K18                   | 1    | 21    | 4.76       |
-| MACC                      | 3    | 22    | 13.64      |
+| MACC                      | 4    | 22    | 18.18      |
 | Chip Globals              | 8    | 8     | 100.00     |
 | CCC                       | 1    | 2     | 50.00      |
 | RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
@@ -58,11 +58,11 @@ Detailed Logic Resource Usage
 +--------------------------+------+-----+
 | Type                     | 4LUT | DFF |
 +--------------------------+------+-----+
-| Fabric Logic             | 1090 | 641 |
+| Fabric Logic             | 1262 | 692 |
 | RAM64x18 Interface Logic | 0    | 0   |
 | RAM1K18 Interface Logic  | 36   | 36  |
-| MACC Interface Logic     | 108  | 108 |
-| Total Used               | 1234 | 785 |
+| MACC Interface Logic     | 144  | 144 |
+| Total Used               | 1442 | 872 |
 +--------------------------+------+-----+
 
 MSS Resource Usage
@@ -89,21 +89,23 @@ MSS Resource Usage
 Detailed Carry Chains Resource Usage
 +--------+------+
 | Length | Used |
-| 2      | 10   |
-| 5      | 1    |
-| 11     | 14   |
-| 12     | 6    |
+| 2      | 11   |
+| 5      | 2    |
+| 11     | 11   |
+| 12     | 4    |
+| 13     | 1    |
 | 14     | 1    |
-| 17     | 8    |
+| 16     | 1    |
+| 17     | 15   |
 | 27     | 1    |
-| Total  | 41   |
+| Total  | 47   |
 +--------+------+
 
 Detailed MACC Resource Usage
 +--------+------+
 | Length | Used |
-| 1      | 3    |
-| Total  | 3    |
+| 1      | 4    |
+| Total  | 4    |
 +--------+------+
 
 I/O Function
@@ -128,10 +130,10 @@ Nets assigned to chip global resources
 +--------+---------+---------------------------------------------------------------------------------------------------+
 | Fanout | Type    | Name                                                                                              |
 +--------+---------+---------------------------------------------------------------------------------------------------+
-| 627    | INT_NET | Net   : FlashFreeze_SB_0_GL0                                                                      |
+| 678    | INT_NET | Net   : FlashFreeze_SB_0_GL0                                                                      |
 |        |         | Driver: FlashFreeze_SB_0/CCC_0/GL0_INST/U0_RGB1                                                   |
 |        |         | Source: NETLIST                                                                                   |
-| 354    | INT_NET | Net   : MX2_0_Y_arst                                                                              |
+| 405    | INT_NET | Net   : MX2_0_Y_arst                                                                              |
 |        |         | Driver: MX2_0_RNI6A052/U0_RGB1                                                                    |
 |        |         | Source: NETLIST                                                                                   |
 | 178    | INT_NET | Net   : INIT_DONE_arst                                                                            |
@@ -164,51 +166,51 @@ High fanout nets
 +--------+---------+--------------------------------------------------------------+
 | Fanout | Type    | Name                                                         |
 +--------+---------+--------------------------------------------------------------+
-| 151    | INT_NET | Net   : dot_osd_integration_0/tracker/vsync_rise_Z           |
+| 205    | INT_NET | Net   : dot_osd_integration_0/tracker/vsync_rise_Z           |
 |        |         | Driver: dot_osd_integration_0/tracker/vsync_rise             |
-| 62     | INT_NET | Net   : dot_osd_integration_0/un1_center_x_cry_15            |
-|        |         | Driver: dot_osd_integration_0/tracker/un1_center_x_cry_0     |
-| 54     | INT_NET | Net   : dot_osd_integration_0/un1_center_y_cry_15            |
-|        |         | Driver: dot_osd_integration_0/tracker/un1_center_y_cry_0     |
-| 38     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/div3_x[1]          |
+| 41     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/div3_y[1]          |
+|        |         | Driver: dot_osd_integration_0/overlay/eng/div3_y_2_0_.m13    |
+| 40     | INT_NET | Net   : CFG0_GND_INST_NET                                    |
+|        |         | Driver: CFG0_GND_INST                                        |
+| 36     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/div3_x[1]          |
 |        |         | Driver: dot_osd_integration_0/overlay/eng/div3_x_1_0_.m6     |
-| 36     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/div3_x[0]          |
+| 35     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/div3_x18           |
+|        |         | Driver: dot_osd_integration_0/overlay/eng/div3_x_0.div3_x18  |
+| 34     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/div3_x[0]          |
 |        |         | Driver: dot_osd_integration_0/overlay/eng/div3_x_1_0_.m4     |
 | 32     | INT_NET | Net   : line_write_read_0/WRITE_LSRAM_0_RAM_WR_EN_O          |
 |        |         | Driver: line_write_read_0/WRITE_LSRAM_0/un6_ram_wr_en_o_0_a2 |
-| 31     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/char_sel_Z[2]      |
-|        |         | Driver: dot_osd_integration_0/overlay/eng/char_sel[2]        |
-| 31     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/char_sel_Z[1]      |
-|        |         | Driver: dot_osd_integration_0/overlay/eng/char_sel[1]        |
-| 30     | INT_NET | Net   : line_write_read_0/LCD_FSM_0/s_state_Z[4]             |
+| 32     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/div3_y[0]          |
+|        |         | Driver: dot_osd_integration_0/overlay/eng/div3_y_2_0_.m8     |
+| 30     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/div3_y[2]          |
+|        |         | Driver: dot_osd_integration_0/overlay/eng/div3_y_2_0_.m16    |
+| 28     | INT_NET | Net   : line_write_read_0/LCD_FSM_0/s_state_Z[4]             |
 |        |         | Driver: line_write_read_0/LCD_FSM_0/s_state[4]               |
-| 30     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/div3_x18           |
-|        |         | Driver: dot_osd_integration_0/overlay/eng/div3_x_0.div3_x18  |
 +--------+---------+--------------------------------------------------------------+
 
 High fanout nets (through buffer trees)
 +--------+---------+--------------------------------------------------------------+
 | Fanout | Type    | Name                                                         |
 +--------+---------+--------------------------------------------------------------+
-| 151    | INT_NET | Net   : dot_osd_integration_0/tracker/vsync_rise_Z           |
+| 205    | INT_NET | Net   : dot_osd_integration_0/tracker/vsync_rise_Z           |
 |        |         | Driver: dot_osd_integration_0/tracker/vsync_rise             |
-| 62     | INT_NET | Net   : dot_osd_integration_0/un1_center_x_cry_15            |
-|        |         | Driver: dot_osd_integration_0/tracker/un1_center_x_cry_0     |
-| 54     | INT_NET | Net   : dot_osd_integration_0/un1_center_y_cry_15            |
-|        |         | Driver: dot_osd_integration_0/tracker/un1_center_y_cry_0     |
-| 38     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/div3_x[1]          |
+| 41     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/div3_y[1]          |
+|        |         | Driver: dot_osd_integration_0/overlay/eng/div3_y_2_0_.m13    |
+| 40     | INT_NET | Net   : CFG0_GND_INST_NET                                    |
+|        |         | Driver: CFG0_GND_INST                                        |
+| 36     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/div3_x[1]          |
 |        |         | Driver: dot_osd_integration_0/overlay/eng/div3_x_1_0_.m6     |
-| 36     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/div3_x[0]          |
+| 35     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/div3_x18           |
+|        |         | Driver: dot_osd_integration_0/overlay/eng/div3_x_0.div3_x18  |
+| 34     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/div3_x[0]          |
 |        |         | Driver: dot_osd_integration_0/overlay/eng/div3_x_1_0_.m4     |
 | 32     | INT_NET | Net   : line_write_read_0/WRITE_LSRAM_0_RAM_WR_EN_O          |
 |        |         | Driver: line_write_read_0/WRITE_LSRAM_0/un6_ram_wr_en_o_0_a2 |
-| 31     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/char_sel_Z[2]      |
-|        |         | Driver: dot_osd_integration_0/overlay/eng/char_sel[2]        |
-| 31     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/char_sel_Z[1]      |
-|        |         | Driver: dot_osd_integration_0/overlay/eng/char_sel[1]        |
-| 30     | INT_NET | Net   : line_write_read_0/LCD_FSM_0/s_state_Z[4]             |
+| 32     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/div3_y[0]          |
+|        |         | Driver: dot_osd_integration_0/overlay/eng/div3_y_2_0_.m8     |
+| 30     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/div3_y[2]          |
+|        |         | Driver: dot_osd_integration_0/overlay/eng/div3_y_2_0_.m16    |
+| 28     | INT_NET | Net   : line_write_read_0/LCD_FSM_0/s_state_Z[4]             |
 |        |         | Driver: line_write_read_0/LCD_FSM_0/s_state[4]               |
-| 30     | INT_NET | Net   : dot_osd_integration_0/overlay/eng/div3_x18           |
-|        |         | Driver: dot_osd_integration_0/overlay/eng/div3_x_0.div3_x18  |
 +--------+---------+--------------------------------------------------------------+
 

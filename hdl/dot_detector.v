@@ -17,10 +17,10 @@ module dot_detector #(
     
     output wire [9:0]  center_x,
     output wire [9:0]  center_y,
-    output wire        dot_valid
+    output wire        dot_valid,
+    output wire [1:0]  dot_color // 00=BLK, 01=RED, 10=GRN
 );
 
-    // Shift registers for CDC (Clock Domain Crossing) and edge detection
     reg [2:0] pclk_sr, href_sr, vsync_sr;
     reg [7:0] data_sync1, data_sync2;
     
@@ -45,28 +45,27 @@ module dot_detector #(
     wire vsync_rise  = (vsync_sr[2:1] == 2'b01);
     wire href_active = href_sr[2];
     
-    // Position counters and byte tracking
     reg [15:0] col_idx;
     reg [15:0] row_idx;
     reg        byte_phase;
     reg [7:0]  first_byte;
     
-    // Global bounding box for the entire screen
     reg [15:0] glbl_min_x, glbl_max_x, glbl_min_y, glbl_max_y;
     reg [15:0] out_glbl_min_x, out_glbl_max_x, out_glbl_min_y, out_glbl_max_y;
     
-    // RGB extraction from RGB565 format
+    reg [15:0] cnt_blk, cnt_red, cnt_grn;
+    reg [1:0]  out_color;
+
     wire [4:0] px_red   = first_byte[7:3];
     wire [5:0] px_green = {first_byte[2:0], data_sync2[7:5]};
     wire [4:0] px_blue  = data_sync2[4:0];
     
-    // Threshold comparison logic
-    wire [4:0] th_r = threshold_i[7:3];
-    wire [5:0] th_g = threshold_i[7:2];
-    wire [4:0] th_b = threshold_i[7:3];
+    // Strict Chromatic Spectral Bounds
+    wire is_blk = (px_red < 5'h08) && (px_green < 6'h10) && (px_blue < 5'h08);
+    wire is_red = (px_red > 5'h0E) && (px_green < 6'h0A) && (px_blue < 5'h0A);
+    wire is_grn = (px_red < 5'h0A) && (px_green > 6'h1C) && (px_blue < 5'h0A);
     
-    // FIXED: Must use logical AND to ensure ALL channels are dark (true black dot)
-    wire pixel_match = (px_red < th_r) && (px_green < th_g) && (px_blue < th_b);
+    wire pixel_match = is_blk | is_red | is_grn;
     
     always @(posedge sys_clk_i or negedge reset_n_i) begin
         if (!reset_n_i) begin
@@ -75,44 +74,35 @@ module dot_detector #(
             byte_phase <= 1'b0;
             first_byte <= 8'd0;
             
-            glbl_min_x <= 16'hFFFF;
-            glbl_max_x <= 16'h0000;
-            glbl_min_y <= 16'hFFFF;
-            glbl_max_y <= 16'h0000;
+            glbl_min_x <= 16'hFFFF; glbl_max_x <= 16'h0000;
+            glbl_min_y <= 16'hFFFF; glbl_max_y <= 16'h0000;
             
-            out_glbl_min_x <= 16'h0000;
-            out_glbl_max_x <= 16'h0000;
-            out_glbl_min_y <= 16'h0000;
-            out_glbl_max_y <= 16'h0000;
-
+            out_glbl_min_x <= 16'h0000; out_glbl_max_x <= 16'h0000;
+            out_glbl_min_y <= 16'h0000; out_glbl_max_y <= 16'h0000;
+            
+            cnt_blk <= 16'd0; cnt_red <= 16'd0; cnt_grn <= 16'd0;
+            out_color <= 2'd0;
         end else begin
-            // VSYNC indicates a new frame
             if (vsync_rise) begin
+                out_glbl_min_x <= glbl_min_x; out_glbl_max_x <= glbl_max_x;
+                out_glbl_min_y <= glbl_min_y; out_glbl_max_y <= glbl_max_y;
                 
-                // Latch global bounding box for this frame
-                out_glbl_min_x <= glbl_min_x;
-                out_glbl_max_x <= glbl_max_x;
-                out_glbl_min_y <= glbl_min_y;
-                out_glbl_max_y <= glbl_max_y;
+                // Statistical Classification Comparator
+                if (cnt_red > cnt_blk && cnt_red > cnt_grn) out_color <= 2'd1;
+                else if (cnt_grn > cnt_blk && cnt_grn > cnt_red) out_color <= 2'd2;
+                else out_color <= 2'd0;
                 
-                // Reset accumulators for next frame
-                glbl_min_x <= 16'hFFFF;
-                glbl_max_x <= 16'h0000;
-                glbl_min_y <= 16'hFFFF;
-                glbl_max_y <= 16'h0000;
+                glbl_min_x <= 16'hFFFF; glbl_max_x <= 16'h0000;
+                glbl_min_y <= 16'hFFFF; glbl_max_y <= 16'h0000;
                 
-                col_idx    <= 16'd0;
-                row_idx    <= 16'd0;
-                byte_phase <= 1'b0;
+                cnt_blk <= 16'd0; cnt_red <= 16'd0; cnt_grn <= 16'd0;
+                col_idx <= 16'd0; row_idx <= 16'd0; byte_phase <= 1'b0;
             end else begin
-                // HREF falling edge marks the end of a horizontal line
                 if (href_fall) begin
                     row_idx    <= row_idx + 1'b1;
                     col_idx    <= 16'd0;
                     byte_phase <= 1'b0;
                 end
-                
-                // Process valid pixels during active video period
                 if (href_active && pclk_rise) begin
                     if (byte_phase == 1'b0) begin
                         first_byte <= data_sync2;
@@ -121,32 +111,36 @@ module dot_detector #(
                         byte_phase <= 1'b0;
                         col_idx    <= col_idx + 1'b1;
                         
-                        // Dynamically scale bounding box across entire 640x480 frame
                         if (pixel_match) begin
                             if (col_idx < glbl_min_x) glbl_min_x <= col_idx;
                             if (col_idx > glbl_max_x) glbl_max_x <= col_idx;
                             if (row_idx < glbl_min_y) glbl_min_y <= row_idx;
                             if (row_idx > glbl_max_y) glbl_max_y <= row_idx;
                         end
+                        
+                        // Parallel Spectral Density Integration
+                        if (is_blk) cnt_blk <= cnt_blk + 1'b1;
+                        if (is_red) cnt_red <= cnt_red + 1'b1;
+                        if (is_grn) cnt_grn <= cnt_grn + 1'b1;
                     end
                 end
             end
         end
     end
     
-    // Shared bus query decoder (legacy support for Cortex-M3 access)
     always @(*) begin
         case (read_reg_i)
-            3'd0: read_data_o = {16'd0, out_glbl_max_x}; // Example placeholder mapping
+            3'd0: read_data_o = {16'd0, out_glbl_max_x};
             default: read_data_o = 32'd0;
         endcase
     end
 
-    // Compute center coordinates for OSD (With overflow safety if dot is lost)
-    assign center_x = (out_glbl_min_x <= out_glbl_max_x) ? ((out_glbl_min_x + out_glbl_max_x) >> 1) : 10'd0;
-    assign center_y = (out_glbl_min_y <= out_glbl_max_y) ? ((out_glbl_min_y + out_glbl_max_y) >> 1) : 10'd0;
-    
-    // Valid dot if min is less than or equal to max
+    wire [15:0] raw_center_x = (out_glbl_min_x <= out_glbl_max_x) ? ((out_glbl_min_x + out_glbl_max_x) >> 1) : 16'd0;
+    wire [15:0] raw_center_y = (out_glbl_min_y <= out_glbl_max_y) ? ((out_glbl_min_y + out_glbl_max_y) >> 1) : 16'd0;
+
+    assign center_x = ((raw_center_x * 3) >> 2);
+    assign center_y = ((raw_center_y * 171) >> 8);
     assign dot_valid = (out_glbl_min_x <= out_glbl_max_x) ? 1'b1 : 1'b0;
+    assign dot_color = out_color;
 
 endmodule

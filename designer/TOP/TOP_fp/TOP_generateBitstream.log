@@ -1,15 +1,15 @@
 Software Version: 2025.2.0.14
 Opened 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\TOP_fp\TOP.pro'
 PDB file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\TOP.pdb' has been loaded successfully.
-DESIGN : TOP;  CHECKSUM : 13A4;  PDB_VERSION : 1.9
+DESIGN : TOP;  CHECKSUM : 1FCB;  PDB_VERSION : 1.9
 Info: Programming Interface selected is JTAG.
 Info: Design version: 6
 File/Folder 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\TOP.ppd' will be overwritten.
 Successfully exported PPD file for currently secured device: 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\TOP.ppd'; file programs Fabric and eNVM.
-Fabric component bitstream digest: 5b720bd372ebf3cbfa28ef5d281d282e61e86099d06dafcaac80dec4fb049665
+Fabric component bitstream digest: cb03e6d15f11ab75483791f0410f714e17d83a3db3661c642ae01660008144e4
 eNVM_0 component bitstream digest: 815d0e951360d1e9e99de2f02f397f5c1f63fd1be97871a88d68e0573135aba2
-Entire bitstream digest: 5e81df33f4a5b00526a6138576e0942b268592990de6d5ce345747bbf4d27fc1
-Finished: Wed Jul 15 07:39:01 2026 (Elapsed time 00:00:04)
+Entire bitstream digest: 24b510c678cceb1948c21f92440a255e2a21359b9613f5d91ec8e68071d742ba
+Finished: Thu Jul 16 00:12:17 2026 (Elapsed time 00:00:07)
 
 Project saved.
 Project closed.

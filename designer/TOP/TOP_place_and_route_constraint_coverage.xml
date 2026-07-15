@@ -3,7 +3,7 @@
 <doc>
 <text>SmartTime Version 2025.2.0.14</text>
 <text>Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
-Date: Wed Jul 15 07:21:18 2026 </text>
+Date: Thu Jul 16 00:11:03 2026 </text>
 <table>
 <header>
 </header>
@@ -50,9 +50,9 @@ Date: Wed Jul 15 07:21:18 2026 </text>
 </header>
 <row>
  <cell>Setup</cell>
- <cell>         1157</cell>
- <cell>           32</cell>
- <cell>         1189</cell>
+ <cell>         1259</cell>
+ <cell>           38</cell>
+ <cell>         1297</cell>
 </row>
 <row>
  <cell>Recovery</cell>
@@ -68,16 +68,16 @@ Date: Wed Jul 15 07:21:18 2026 </text>
 </row>
 <row>
  <cell>Total Setup</cell>
- <cell>         1375</cell>
- <cell>           51</cell>
- <cell>         1426</cell>
+ <cell>         1477</cell>
+ <cell>           57</cell>
+ <cell>         1534</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
- <cell>         1157</cell>
+ <cell>         1259</cell>
  <cell>           17</cell>
- <cell>         1174</cell>
+ <cell>         1276</cell>
 </row>
 <row>
  <cell>Removal</cell>
@@ -93,9 +93,9 @@ Date: Wed Jul 15 07:21:18 2026 </text>
 </row>
 <row>
  <cell>Total Hold</cell>
- <cell>         1375</cell>
+ <cell>         1477</cell>
  <cell>           36</cell>
- <cell>         1411</cell>
+ <cell>         1513</cell>
 </row>
 </table>
 <section>
@@ -111,9 +111,9 @@ Date: Wed Jul 15 07:21:18 2026 </text>
 </header>
 <row>
  <cell>Setup</cell>
- <cell>         1152</cell>
- <cell>           29</cell>
- <cell>         1181</cell>
+ <cell>         1254</cell>
+ <cell>           35</cell>
+ <cell>         1289</cell>
 </row>
 <row>
  <cell>Recovery</cell>
@@ -129,16 +129,16 @@ Date: Wed Jul 15 07:21:18 2026 </text>
 </row>
 <row>
  <cell>Total Setup</cell>
- <cell>         1355</cell>
- <cell>           44</cell>
- <cell>         1399</cell>
+ <cell>         1457</cell>
+ <cell>           50</cell>
+ <cell>         1507</cell>
 </row>
 <separator/>
 <row>
  <cell>Hold</cell>
- <cell>         1152</cell>
+ <cell>         1254</cell>
  <cell>           14</cell>
- <cell>         1166</cell>
+ <cell>         1268</cell>
 </row>
 <row>
  <cell>Removal</cell>
@@ -154,9 +154,9 @@ Date: Wed Jul 15 07:21:18 2026 </text>
 </row>
 <row>
  <cell>Total Hold</cell>
- <cell>         1355</cell>
+ <cell>         1457</cell>
  <cell>           29</cell>
- <cell>         1384</cell>
+ <cell>         1486</cell>
 </row>
 </table>
 <section>
@@ -251,6 +251,10 @@ Date: Wed Jul 15 07:21:18 2026 </text>
  <item>dot_osd_integration_0/overlay/x_cnt[2]:SLn</item>
  <item>dot_osd_integration_0/overlay/x_cnt[3]:SLn</item>
  <item>dot_osd_integration_0/overlay/x_cnt[4]:SLn</item>
+ <item>dot_osd_integration_0/overlay/x_cnt[5]:SLn</item>
+ <item>dot_osd_integration_0/overlay/x_cnt[6]:SLn</item>
+ <item>dot_osd_integration_0/overlay/x_cnt[7]:SLn</item>
+ <item>dot_osd_integration_0/overlay/x_cnt[8]:SLn</item>
  <item>dot_osd_integration_0/overlay/x_cnt[9]:SLn</item>
  <item>dot_osd_integration_0/overlay/y_cnt[0]:SLn</item>
  <item>dot_osd_integration_0/overlay/y_cnt[1]:SLn</item>
@@ -258,7 +262,9 @@ Date: Wed Jul 15 07:21:18 2026 </text>
  <item>dot_osd_integration_0/overlay/y_cnt[3]:SLn</item>
  <item>dot_osd_integration_0/overlay/y_cnt[4]:SLn</item>
  <item>dot_osd_integration_0/overlay/y_cnt[5]:SLn</item>
+ <item>dot_osd_integration_0/overlay/y_cnt[6]:SLn</item>
  <item>dot_osd_integration_0/overlay/y_cnt[7]:SLn</item>
+ <item>dot_osd_integration_0/overlay/y_cnt[8]:SLn</item>
  <item>dot_osd_integration_0/overlay/y_cnt[9]:SLn</item>
  <item>dot_osd_integration_0/tracker/vsync_sr_0[0]:D</item>
  <item>line_write_read_0/LCD_FSM_0/s_v_sync_dly:D</item>

@@ -16,8 +16,8 @@
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":1:7:1:18|Synthesizing module dot_detector in library work.
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v":3:7:3:13|Synthesizing module bin2bcd in library work.
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v":23:7:23:13|Synthesizing module font5x7 in library work.
-@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v":61:7:61:16|Synthesizing module osd_engine in library work.
-@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v":152:7:152:17|Synthesizing module osd_overlay in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v":65:7:65:16|Synthesizing module osd_engine in library work.
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v":176:7:176:17|Synthesizing module osd_overlay in library work.
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_osd_integration.v":3:7:3:25|Synthesizing module dot_osd_integration in library work.
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_EXT.v":1:7:1:12|Synthesizing module FF_EXT in library work.
 @N: CG364 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":126:7:126:10|Synthesizing module AND2 in library work.
@@ -120,6 +120,7 @@
 @N: CL162 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":27:4:27:9|Found a potential sequential shift href_sr with address depth of 3 words and data bit width of 1.
 @N: CL162 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":27:4:27:9|Found a potential sequential shift pclk_sr with address depth of 3 words and data bit width of 1.
 @N: CL162 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":27:4:27:9|Found a potential sequential shift vsync_sr with address depth of 3 words and data bit width of 1.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":12:23:12:33|Input threshold_i is unused.
 @N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":14:23:14:33|Input read_cell_i is unused.
 @N:"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\double_flop.vhd":30:7:30:17|Top entity is set to double_flop.
 @N: CD140 :	| Using the VHDL 2008 Standard for file 'E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd'.

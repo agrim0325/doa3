@@ -3,7 +3,7 @@
 <doc>
 <title>Resource Report</title>
 <text>Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)</text>
-<text>Date: Wed Jul 15 07:21:09 2026
+<text>Date: Thu Jul 16 00:10:53 2026
 </text>
 <section><name>Device Selection</name></section>
 <table>
@@ -106,15 +106,15 @@
 </header>
 <row>
  <cell>4LUT</cell>
- <cell>1234</cell>
+ <cell>1442</cell>
  <cell>12084</cell>
- <cell>10.21</cell>
+ <cell>11.93</cell>
 </row>
 <row>
  <cell>DFF</cell>
- <cell>785</cell>
+ <cell>872</cell>
  <cell>12084</cell>
- <cell>6.50</cell>
+ <cell>7.22</cell>
 </row>
 <row>
  <cell>I/O Register</cell>
@@ -154,9 +154,9 @@
 </row>
 <row>
  <cell>MACC</cell>
- <cell>3</cell>
+ <cell>4</cell>
  <cell>22</cell>
- <cell>13.64</cell>
+ <cell>18.18</cell>
 </row>
 <row>
  <cell>Chip Globals</cell>
@@ -204,8 +204,8 @@
 </header>
 <row>
  <cell>Fabric Logic</cell>
- <cell>1090</cell>
- <cell>641</cell>
+ <cell>1262</cell>
+ <cell>692</cell>
 </row>
 <row>
  <cell>RAM64x18 Interface Logic</cell>
@@ -219,13 +219,13 @@
 </row>
 <row>
  <cell>MACC Interface Logic</cell>
- <cell>108</cell>
- <cell>108</cell>
+ <cell>144</cell>
+ <cell>144</cell>
 </row>
 <row>
  <cell>Total Used</cell>
- <cell>1234</cell>
- <cell>785</cell>
+ <cell>1442</cell>
+ <cell>872</cell>
 </row>
 </table>
 <section><name>MSS Resource Usage</name></section>
@@ -313,27 +313,35 @@
 </row>
 <row>
  <cell>2</cell>
- <cell>10</cell>
+ <cell>11</cell>
 </row>
 <row>
  <cell>5</cell>
- <cell>1</cell>
+ <cell>2</cell>
 </row>
 <row>
  <cell>11</cell>
- <cell>14</cell>
+ <cell>11</cell>
 </row>
 <row>
  <cell>12</cell>
- <cell>6</cell>
+ <cell>4</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>1</cell>
 </row>
 <row>
  <cell>14</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>16</cell>
  <cell>1</cell>
 </row>
 <row>
  <cell>17</cell>
- <cell>8</cell>
+ <cell>15</cell>
 </row>
 <row>
  <cell>27</cell>
@@ -341,7 +349,7 @@
 </row>
 <row>
  <cell>Total</cell>
- <cell>41</cell>
+ <cell>47</cell>
 </row>
 </table>
 <section><name>Detailed MACC Resource Usage</name></section>
@@ -354,11 +362,11 @@
 </row>
 <row>
  <cell>1</cell>
- <cell>3</cell>
+ <cell>4</cell>
 </row>
 <row>
  <cell>Total</cell>
- <cell>3</cell>
+ <cell>4</cell>
 </row>
 </table>
 <section><name>I/O Function</name></section>
@@ -427,7 +435,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>627</cell>
+ <cell>678</cell>
  <cell>INT_NET</cell>
  <cell>Net   : FlashFreeze_SB_0_GL0</cell>
 </row>
@@ -442,7 +450,7 @@
  <cell>Source: NETLIST</cell>
 </row>
 <row>
- <cell>354</cell>
+ <cell>405</cell>
  <cell>INT_NET</cell>
  <cell>Net   : MX2_0_Y_arst</cell>
 </row>
@@ -563,7 +571,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>151</cell>
+ <cell>205</cell>
  <cell>INT_NET</cell>
  <cell>Net   : dot_osd_integration_0/tracker/vsync_rise_Z</cell>
 </row>
@@ -573,27 +581,27 @@
  <cell>Driver: dot_osd_integration_0/tracker/vsync_rise</cell>
 </row>
 <row>
- <cell>62</cell>
+ <cell>41</cell>
  <cell>INT_NET</cell>
- <cell>Net   : dot_osd_integration_0/un1_center_x_cry_15</cell>
+ <cell>Net   : dot_osd_integration_0/overlay/eng/div3_y[1]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: dot_osd_integration_0/tracker/un1_center_x_cry_0</cell>
+ <cell>Driver: dot_osd_integration_0/overlay/eng/div3_y_2_0_.m13</cell>
 </row>
 <row>
- <cell>54</cell>
+ <cell>40</cell>
  <cell>INT_NET</cell>
- <cell>Net   : dot_osd_integration_0/un1_center_y_cry_15</cell>
+ <cell>Net   : CFG0_GND_INST_NET</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: dot_osd_integration_0/tracker/un1_center_y_cry_0</cell>
+ <cell>Driver: CFG0_GND_INST</cell>
 </row>
 <row>
- <cell>38</cell>
+ <cell>36</cell>
  <cell>INT_NET</cell>
  <cell>Net   : dot_osd_integration_0/overlay/eng/div3_x[1]</cell>
 </row>
@@ -603,7 +611,17 @@
  <cell>Driver: dot_osd_integration_0/overlay/eng/div3_x_1_0_.m6</cell>
 </row>
 <row>
- <cell>36</cell>
+ <cell>35</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : dot_osd_integration_0/overlay/eng/div3_x18</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: dot_osd_integration_0/overlay/eng/div3_x_0.div3_x18</cell>
+</row>
+<row>
+ <cell>34</cell>
  <cell>INT_NET</cell>
  <cell>Net   : dot_osd_integration_0/overlay/eng/div3_x[0]</cell>
 </row>
@@ -623,27 +641,27 @@
  <cell>Driver: line_write_read_0/WRITE_LSRAM_0/un6_ram_wr_en_o_0_a2</cell>
 </row>
 <row>
- <cell>31</cell>
+ <cell>32</cell>
  <cell>INT_NET</cell>
- <cell>Net   : dot_osd_integration_0/overlay/eng/char_sel_Z[2]</cell>
+ <cell>Net   : dot_osd_integration_0/overlay/eng/div3_y[0]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: dot_osd_integration_0/overlay/eng/char_sel[2]</cell>
-</row>
-<row>
- <cell>31</cell>
- <cell>INT_NET</cell>
- <cell>Net   : dot_osd_integration_0/overlay/eng/char_sel_Z[1]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: dot_osd_integration_0/overlay/eng/char_sel[1]</cell>
+ <cell>Driver: dot_osd_integration_0/overlay/eng/div3_y_2_0_.m8</cell>
 </row>
 <row>
  <cell>30</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : dot_osd_integration_0/overlay/eng/div3_y[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: dot_osd_integration_0/overlay/eng/div3_y_2_0_.m16</cell>
+</row>
+<row>
+ <cell>28</cell>
  <cell>INT_NET</cell>
  <cell>Net   : line_write_read_0/LCD_FSM_0/s_state_Z[4]</cell>
 </row>
@@ -651,16 +669,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: line_write_read_0/LCD_FSM_0/s_state[4]</cell>
-</row>
-<row>
- <cell>30</cell>
- <cell>INT_NET</cell>
- <cell>Net   : dot_osd_integration_0/overlay/eng/div3_x18</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: dot_osd_integration_0/overlay/eng/div3_x_0.div3_x18</cell>
 </row>
 </table>
 <section><name>High fanout nets (through buffer trees)</name></section>
@@ -671,7 +679,7 @@
  <cell>Name</cell>
 </header>
 <row>
- <cell>151</cell>
+ <cell>205</cell>
  <cell>INT_NET</cell>
  <cell>Net   : dot_osd_integration_0/tracker/vsync_rise_Z</cell>
 </row>
@@ -681,27 +689,27 @@
  <cell>Driver: dot_osd_integration_0/tracker/vsync_rise</cell>
 </row>
 <row>
- <cell>62</cell>
+ <cell>41</cell>
  <cell>INT_NET</cell>
- <cell>Net   : dot_osd_integration_0/un1_center_x_cry_15</cell>
+ <cell>Net   : dot_osd_integration_0/overlay/eng/div3_y[1]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: dot_osd_integration_0/tracker/un1_center_x_cry_0</cell>
+ <cell>Driver: dot_osd_integration_0/overlay/eng/div3_y_2_0_.m13</cell>
 </row>
 <row>
- <cell>54</cell>
+ <cell>40</cell>
  <cell>INT_NET</cell>
- <cell>Net   : dot_osd_integration_0/un1_center_y_cry_15</cell>
+ <cell>Net   : CFG0_GND_INST_NET</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: dot_osd_integration_0/tracker/un1_center_y_cry_0</cell>
+ <cell>Driver: CFG0_GND_INST</cell>
 </row>
 <row>
- <cell>38</cell>
+ <cell>36</cell>
  <cell>INT_NET</cell>
  <cell>Net   : dot_osd_integration_0/overlay/eng/div3_x[1]</cell>
 </row>
@@ -711,7 +719,17 @@
  <cell>Driver: dot_osd_integration_0/overlay/eng/div3_x_1_0_.m6</cell>
 </row>
 <row>
- <cell>36</cell>
+ <cell>35</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : dot_osd_integration_0/overlay/eng/div3_x18</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: dot_osd_integration_0/overlay/eng/div3_x_0.div3_x18</cell>
+</row>
+<row>
+ <cell>34</cell>
  <cell>INT_NET</cell>
  <cell>Net   : dot_osd_integration_0/overlay/eng/div3_x[0]</cell>
 </row>
@@ -731,27 +749,27 @@
  <cell>Driver: line_write_read_0/WRITE_LSRAM_0/un6_ram_wr_en_o_0_a2</cell>
 </row>
 <row>
- <cell>31</cell>
+ <cell>32</cell>
  <cell>INT_NET</cell>
- <cell>Net   : dot_osd_integration_0/overlay/eng/char_sel_Z[2]</cell>
+ <cell>Net   : dot_osd_integration_0/overlay/eng/div3_y[0]</cell>
 </row>
 <row>
  <cell></cell>
  <cell></cell>
- <cell>Driver: dot_osd_integration_0/overlay/eng/char_sel[2]</cell>
-</row>
-<row>
- <cell>31</cell>
- <cell>INT_NET</cell>
- <cell>Net   : dot_osd_integration_0/overlay/eng/char_sel_Z[1]</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: dot_osd_integration_0/overlay/eng/char_sel[1]</cell>
+ <cell>Driver: dot_osd_integration_0/overlay/eng/div3_y_2_0_.m8</cell>
 </row>
 <row>
  <cell>30</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : dot_osd_integration_0/overlay/eng/div3_y[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: dot_osd_integration_0/overlay/eng/div3_y_2_0_.m16</cell>
+</row>
+<row>
+ <cell>28</cell>
  <cell>INT_NET</cell>
  <cell>Net   : line_write_read_0/LCD_FSM_0/s_state_Z[4]</cell>
 </row>
@@ -759,16 +777,6 @@
  <cell></cell>
  <cell></cell>
  <cell>Driver: line_write_read_0/LCD_FSM_0/s_state[4]</cell>
-</row>
-<row>
- <cell>30</cell>
- <cell>INT_NET</cell>
- <cell>Net   : dot_osd_integration_0/overlay/eng/div3_x18</cell>
-</row>
-<row>
- <cell></cell>
- <cell></cell>
- <cell>Driver: dot_osd_integration_0/overlay/eng/div3_x_0.div3_x18</cell>
 </row>
 </table>
 </doc>

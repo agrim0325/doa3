@@ -3,7 +3,7 @@
 #OS: Windows 10 or later
 #Hostname: LAPTOP-JM793N9B
 
-# Wed Jul 15 07:20:17 2026
+# Thu Jul 16 00:09:54 2026
 
 #Implementation: synthesis
 
@@ -54,11 +54,11 @@ Synopsys VHDL Compiler, Version comp202503synp2, Build 183R, Built Nov 18 2025 0
 VHDL syntax check successful!
 @N: CD231 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 153MB peak: 153MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 153MB peak: 154MB)
 
 
 Process completed successfully.
-# Wed Jul 15 07:20:20 2026
+# Thu Jul 16 00:09:58 2026
 
 ###########################################################]
 ###########################################################[
@@ -125,11 +125,11 @@ Synopsys Verilog Compiler, Version comp202503synp2, Build 183R, Built Nov 18 202
 @I::"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v" (library work)
 Verilog syntax check successful!
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 153MB peak: 153MB)
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 153MB peak: 154MB)
 
 
 Process completed successfully.
-# Wed Jul 15 07:20:22 2026
+# Thu Jul 16 00:10:00 2026
 
 ###########################################################]
 ###########################################################[
@@ -181,46 +181,46 @@ Process completed successfully.
 Verilog syntax check successful!
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":1:7:1:18|Synthesizing module dot_detector in library work.
 Running optimization stage 1 on dot_detector .......
-Finished optimization stage 1 on dot_detector (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 159MB)
+Finished optimization stage 1 on dot_detector (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 160MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v":3:7:3:13|Synthesizing module bin2bcd in library work.
 Running optimization stage 1 on bin2bcd .......
-Finished optimization stage 1 on bin2bcd (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 159MB)
+Finished optimization stage 1 on bin2bcd (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 161MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v":23:7:23:13|Synthesizing module font5x7 in library work.
 Running optimization stage 1 on font5x7 .......
-Finished optimization stage 1 on font5x7 (CPU Time 0h:00m:00s, Memory Used current: 159MB peak: 160MB)
-@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v":61:7:61:16|Synthesizing module osd_engine in library work.
+Finished optimization stage 1 on font5x7 (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v":65:7:65:16|Synthesizing module osd_engine in library work.
 Running optimization stage 1 on osd_engine .......
-Finished optimization stage 1 on osd_engine (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 160MB)
-@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v":152:7:152:17|Synthesizing module osd_overlay in library work.
+Finished optimization stage 1 on osd_engine (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 162MB)
+@N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\osd_overlay.v":176:7:176:17|Synthesizing module osd_overlay in library work.
 Running optimization stage 1 on osd_overlay .......
-Finished optimization stage 1 on osd_overlay (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 160MB)
+Finished optimization stage 1 on osd_overlay (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_osd_integration.v":3:7:3:25|Synthesizing module dot_osd_integration in library work.
 Running optimization stage 1 on dot_osd_integration .......
-Finished optimization stage 1 on dot_osd_integration (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 160MB)
+Finished optimization stage 1 on dot_osd_integration (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_EXT.v":1:7:1:12|Synthesizing module FF_EXT in library work.
 Running optimization stage 1 on FF_EXT .......
-Finished optimization stage 1 on FF_EXT (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 161MB)
+Finished optimization stage 1 on FF_EXT (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
 @N: CG364 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":126:7:126:10|Synthesizing module AND2 in library work.
 Running optimization stage 1 on AND2 .......
-Finished optimization stage 1 on AND2 (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 161MB)
+Finished optimization stage 1 on AND2 (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
 @N: CG364 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":286:7:286:11|Synthesizing module BIBUF in library work.
 Running optimization stage 1 on BIBUF .......
-Finished optimization stage 1 on BIBUF (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 161MB)
+Finished optimization stage 1 on BIBUF (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
 @N: CG364 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
 Running optimization stage 1 on CLKINT .......
-Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 161MB)
+Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
 @N: CG364 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
 Running optimization stage 1 on VCC .......
-Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 161MB)
+Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
 @N: CG364 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND in library work.
 Running optimization stage 1 on GND .......
-Finished optimization stage 1 on GND (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 161MB)
+Finished optimization stage 1 on GND (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
 @N: CG364 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":729:7:729:9|Synthesizing module CCC in library work.
 Running optimization stage 1 on CCC .......
-Finished optimization stage 1 on CCC (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 161MB)
+Finished optimization stage 1 on CCC (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB\CCC_0\FlashFreeze_SB_CCC_0_FCCC.v":5:7:5:31|Synthesizing module FlashFreeze_SB_CCC_0_FCCC in library work.
 Running optimization stage 1 on FlashFreeze_SB_CCC_0_FCCC .......
-Finished optimization stage 1 on FlashFreeze_SB_CCC_0_FCCC (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 161MB)
+Finished optimization stage 1 on FlashFreeze_SB_CCC_0_FCCC (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":23:7:23:18|Synthesizing module CoreReset_FF in library work.
 
 	FAMILY=32'b00000000000000000000000000010011
@@ -293,28 +293,28 @@ Running optimization stage 1 on CoreReset_FF_Z1_layer0 .......
 @W: CL169 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":1548:4:1548:9|Pruning unused register sm2_state[2:0]. Make sure that there are no unused intermediate registers.
 @W: CL169 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":868:4:868:9|Pruning unused register sm2_areset_n_q2. Make sure that there are no unused intermediate registers.
 @W: CL169 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":868:4:868:9|Pruning unused register sm2_areset_n_q1. Make sure that there are no unused intermediate registers.
-Finished optimization stage 1 on CoreReset_FF_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 161MB)
+Finished optimization stage 1 on CoreReset_FF_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 163MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\CORERESETP_0.v":9:7:9:20|Synthesizing module CORERESET_FF_0 in library work.
 Running optimization stage 1 on CORERESET_FF_0 .......
-Finished optimization stage 1 on CORERESET_FF_0 (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 161MB)
+Finished optimization stage 1 on CORERESET_FF_0 (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 163MB)
 @N: CG364 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":837:7:837:18|Synthesizing module FLASH_FREEZE in library work.
 Running optimization stage 1 on FLASH_FREEZE .......
-Finished optimization stage 1 on FLASH_FREEZE (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 161MB)
+Finished optimization stage 1 on FLASH_FREEZE (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 163MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS_syn.v":5:7:5:13|Synthesizing module MSS_010 in library work.
 Running optimization stage 1 on MSS_010 .......
-Finished optimization stage 1 on MSS_010 (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 161MB)
+Finished optimization stage 1 on MSS_010 (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 163MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB_MSS\FlashFreeze_SB_MSS.v":9:7:9:24|Synthesizing module FlashFreeze_SB_MSS in library work.
 Running optimization stage 1 on FlashFreeze_SB_MSS .......
-Finished optimization stage 1 on FlashFreeze_SB_MSS (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 161MB)
+Finished optimization stage 1 on FlashFreeze_SB_MSS (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 163MB)
 @N: CG364 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":186:7:186:9|Synthesizing module MX2 in library work.
 Running optimization stage 1 on MX2 .......
-Finished optimization stage 1 on MX2 (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 161MB)
+Finished optimization stage 1 on MX2 (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 163MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\FlashFreeze_SB\FlashFreeze_SB.v":9:7:9:20|Synthesizing module FlashFreeze_SB in library work.
 Running optimization stage 1 on FlashFreeze_SB .......
-Finished optimization stage 1 on FlashFreeze_SB (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 161MB)
+Finished optimization stage 1 on FlashFreeze_SB (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 163MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\led_blink.v":3:7:3:15|Synthesizing module led_blink in library work.
 Running optimization stage 1 on led_blink .......
-Finished optimization stage 1 on led_blink (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+Finished optimization stage 1 on led_blink (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 163MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v":9:7:9:21|Synthesizing module line_write_read in library work.
 @N: CG794 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v":141:12:141:24|Using module double_flop from library work
 @N: CG794 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v":155:18:155:36|Using module Image_Enhancement from library work
@@ -322,26 +322,26 @@ Finished optimization stage 1 on led_blink (CPU Time 0h:00m:00s, Memory Used cur
 @N: CG794 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v":192:12:192:24|Using module ramDualPort from library work
 @N: CG794 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\line_write_read\line_write_read.v":205:12:205:24|Using module WRITE_LSRAM from library work
 Running optimization stage 1 on line_write_read .......
-Finished optimization stage 1 on line_write_read (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+Finished optimization stage 1 on line_write_read (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 163MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":46:7:46:24|Synthesizing module RCOSC_25_50MHZ_FAB in library work.
 Running optimization stage 1 on RCOSC_25_50MHZ_FAB .......
-Finished optimization stage 1 on RCOSC_25_50MHZ_FAB (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+Finished optimization stage 1 on RCOSC_25_50MHZ_FAB (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 163MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":10:7:10:20|Synthesizing module RCOSC_25_50MHZ in library work.
 Running optimization stage 1 on RCOSC_25_50MHZ .......
-Finished optimization stage 1 on RCOSC_25_50MHZ (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+Finished optimization stage 1 on RCOSC_25_50MHZ (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 163MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":5:7:5:25|Synthesizing module OSC_C0_OSC_C0_0_OSC in library work.
 Running optimization stage 1 on OSC_C0_OSC_C0_0_OSC .......
 @W: CL318 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
 @W: CL318 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
 @W: CL318 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
 @W: CL318 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
-Finished optimization stage 1 on OSC_C0_OSC_C0_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+Finished optimization stage 1 on OSC_C0_OSC_C0_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 163MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0.v":9:7:9:12|Synthesizing module OSC_C0 in library work.
 Running optimization stage 1 on OSC_C0 .......
-Finished optimization stage 1 on OSC_C0 (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+Finished optimization stage 1 on OSC_C0 (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 163MB)
 @N: CG364 :"E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\smartfusion2.v":720:7:720:14|Synthesizing module SYSRESET in library work.
 Running optimization stage 1 on SYSRESET .......
-Finished optimization stage 1 on SYSRESET (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 161MB)
+Finished optimization stage 1 on SYSRESET (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 163MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":30:0:30:34|Synthesizing module COREUART_C0_COREUART_C0_0_Clock_gen in library work.
 
 	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000001
@@ -355,7 +355,7 @@ Finished optimization stage 1 on SYSRESET (CPU Time 0h:00m:00s, Memory Used curr
 @N: CG179 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":808:0:808:6|Removing redundant assignment.
 @N: CG179 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Clock_gen.v":915:0:915:6|Removing redundant assignment.
 Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Clock_gen_1s_0s .......
-Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Clock_gen_1s_0s (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 162MB)
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Clock_gen_1s_0s (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 164MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":14:0:14:33|Synthesizing module COREUART_C0_COREUART_C0_0_Tx_async in library work.
 
 	SYNC_RESET=32'b00000000000000000000000000000000
@@ -374,7 +374,7 @@ Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Clock_gen_1s_0s (CPU 
 Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s .......
 @W: CL190 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":301:0:301:5|Optimizing register bit CUARTI00l to a constant 1. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: CL169 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":301:0:301:5|Pruning unused register CUARTI00l. Make sure that there are no unused intermediate registers.
-Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 162MB)
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 164MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v":14:0:14:33|Synthesizing module COREUART_C0_COREUART_C0_0_Rx_async in library work.
 
 	SYNC_RESET=32'b00000000000000000000000000000000
@@ -388,7 +388,7 @@ Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Tx_async_0s_0s_0s_1s_
 @N: CG179 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v":857:0:857:8|Removing redundant assignment.
 Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s .......
 @W: CL177 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v":1613:0:1613:5|Sharing sequential element CUARTI1l and merging CUARTIO0. Add a syn_preserve attribute to the element to prevent sharing.
-Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 162MB)
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 164MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v":14:0:14:33|Synthesizing module COREUART_C0_COREUART_C0_0_COREUART in library work.
 
 	TX_FIFO=32'b00000000000000000000000000000000
@@ -411,29 +411,29 @@ Running optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_
 @W: CL169 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v":888:0:888:5|Pruning unused register CUARTOO0. Make sure that there are no unused intermediate registers.
 @W: CL169 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v":888:0:888:5|Pruning unused register CUARTl1l. Make sure that there are no unused intermediate registers.
 @W: CL169 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\CoreUART.v":405:0:405:5|Pruning unused register CUARTIll. Make sure that there are no unused intermediate registers.
-Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 162MB)
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 164MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0.v":9:7:9:17|Synthesizing module COREUART_C0 in library work.
 Running optimization stage 1 on COREUART_C0 .......
-Finished optimization stage 1 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 162MB)
+Finished optimization stage 1 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 164MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v":9:7:9:20|Synthesizing module UART_interface in library work.
 @N: CG794 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v":96:13:96:26|Using module addr_decoder from library work
 @N: CG794 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\UART_interface\UART_interface.v":136:13:136:26|Using module receive_data from library work
 Running optimization stage 1 on UART_interface .......
-Finished optimization stage 1 on UART_interface (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 162MB)
+Finished optimization stage 1 on UART_interface (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 164MB)
 @N: CG364 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v":9:7:9:9|Synthesizing module TOP in library work.
 @N: CG794 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v":188:0:188:8|Using module apb3_if from library work
 @N: CG794 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v":209:13:209:27|Using module FF_GENERATOR from library work
 @N: CG794 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\TOP\TOP.v":309:8:309:16|Using module mux_2_1 from library work
 Running optimization stage 1 on TOP .......
-Finished optimization stage 1 on TOP (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 162MB)
+Finished optimization stage 1 on TOP (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 164MB)
 Running optimization stage 2 on TOP .......
-Finished optimization stage 2 on TOP (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 162MB)
+Finished optimization stage 2 on TOP (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
 Running optimization stage 2 on UART_interface .......
-Finished optimization stage 2 on UART_interface (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 162MB)
+Finished optimization stage 2 on UART_interface (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
 Running optimization stage 2 on COREUART_C0 .......
-Finished optimization stage 2 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 162MB)
+Finished optimization stage 2 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
 Running optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s .......
-Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 162MB)
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART_0s_0s_0s_19s_1s_0s (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
 Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s .......
 @N: CL162 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v":299:0:299:5|Found a potential sequential shift CUARTI1Il with address depth of 3 words and data bit width of 1.
 @N: CL201 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Rx_async.v":871:0:871:5|Trying to extract state machine for register CUARTll0.
@@ -443,7 +443,7 @@ State machine has 4 reachable states with original encodings of:
    01
    10
    11
-Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s (CPU Time 0h:00m:00s, Memory Used current: 161MB peak: 162MB)
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 164MB)
 Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s .......
 @N: CL201 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":301:0:301:5|Trying to extract state machine for register CUARTlI0l.
 Extracted state machine for register CUARTlI0l
@@ -457,36 +457,36 @@ State machine has 6 reachable states with original encodings of:
 @N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":81:0:81:7|Input CUARTI1I is unused.
 @N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":84:0:84:7|Input CUARTlO1 is unused.
 @N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\COREUART_C0\COREUART_C0_0\rtl\vlog\core_obfuscated\Tx_async.v":87:0:87:7|Input CUARTOI1 is unused.
-Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 162MB)
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s (CPU Time 0h:00m:00s, Memory Used current: 163MB peak: 164MB)
 Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_1s_0s .......
-Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_1s_0s (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen_1s_0s (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on SYSRESET .......
-Finished optimization stage 2 on SYSRESET (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on SYSRESET (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on OSC_C0 .......
-Finished optimization stage 2 on OSC_C0 (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on OSC_C0 (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on OSC_C0_OSC_C0_0_OSC .......
 @N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":14:7:14:9|Input XTL is unused.
-Finished optimization stage 2 on OSC_C0_OSC_C0_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on OSC_C0_OSC_C0_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on RCOSC_25_50MHZ .......
-Finished optimization stage 2 on RCOSC_25_50MHZ (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on RCOSC_25_50MHZ (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on RCOSC_25_50MHZ_FAB .......
-Finished optimization stage 2 on RCOSC_25_50MHZ_FAB (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on RCOSC_25_50MHZ_FAB (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on line_write_read .......
-Finished optimization stage 2 on line_write_read (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on line_write_read (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on led_blink .......
-Finished optimization stage 2 on led_blink (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on led_blink (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on FlashFreeze_SB .......
-Finished optimization stage 2 on FlashFreeze_SB (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on FlashFreeze_SB (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on MX2 .......
-Finished optimization stage 2 on MX2 (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on MX2 (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on FlashFreeze_SB_MSS .......
-Finished optimization stage 2 on FlashFreeze_SB_MSS (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on FlashFreeze_SB_MSS (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on MSS_010 .......
-Finished optimization stage 2 on MSS_010 (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on MSS_010 (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on FLASH_FREEZE .......
-Finished optimization stage 2 on FLASH_FREEZE (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on FLASH_FREEZE (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on CORERESET_FF_0 .......
-Finished optimization stage 2 on CORERESET_FF_0 (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on CORERESET_FF_0 (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on CoreReset_FF_Z1_layer0 .......
 @W: CL177 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":1078:4:1078:9|Sharing sequential element sdif0_spll_lock_q2 and merging fpll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
 @W: CL177 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":1078:4:1078:9|Sharing sequential element sdif1_spll_lock_q2 and merging fpll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
@@ -563,44 +563,44 @@ State machine has 7 reachable states with original encodings of:
 @N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":130:20:130:40|Input SOFT_SDIF3_CORE_RESET is unused.
 @N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":134:20:134:42|Input SOFT_SDIF0_0_CORE_RESET is unused.
 @N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\coreresetp.v":135:20:135:42|Input SOFT_SDIF0_1_CORE_RESET is unused.
-Finished optimization stage 2 on CoreReset_FF_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on CoreReset_FF_Z1_layer0 (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on FlashFreeze_SB_CCC_0_FCCC .......
-Finished optimization stage 2 on FlashFreeze_SB_CCC_0_FCCC (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on FlashFreeze_SB_CCC_0_FCCC (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on CCC .......
-Finished optimization stage 2 on CCC (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on CCC (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on GND .......
-Finished optimization stage 2 on GND (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on GND (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on VCC .......
-Finished optimization stage 2 on VCC (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on VCC (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on CLKINT .......
-Finished optimization stage 2 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on BIBUF .......
-Finished optimization stage 2 on BIBUF (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on BIBUF (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on AND2 .......
-Finished optimization stage 2 on AND2 (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on AND2 (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on FF_EXT .......
 @N: CL189 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_EXT.v":14:0:14:5|Register bit tg_out is always 1.
 @W: CL169 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_EXT.v":10:0:10:5|Pruning unused register lock_reg. Make sure that there are no unused intermediate registers.
 @N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_EXT.v":3:6:3:8|Input clk is unused.
 @N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_EXT.v":3:10:3:13|Input lock is unused.
-Finished optimization stage 2 on FF_EXT (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on FF_EXT (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on dot_osd_integration .......
-Finished optimization stage 2 on dot_osd_integration (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on dot_osd_integration (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on osd_overlay .......
-Finished optimization stage 2 on osd_overlay (CPU Time 0h:00m:00s, Memory Used current: 162MB peak: 164MB)
+Finished optimization stage 2 on osd_overlay (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
 Running optimization stage 2 on osd_engine .......
-Finished optimization stage 2 on osd_engine (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
+Finished optimization stage 2 on osd_engine (CPU Time 0h:00m:00s, Memory Used current: 168MB peak: 168MB)
 Running optimization stage 2 on font5x7 .......
-Finished optimization stage 2 on font5x7 (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
+Finished optimization stage 2 on font5x7 (CPU Time 0h:00m:00s, Memory Used current: 166MB peak: 168MB)
 Running optimization stage 2 on bin2bcd .......
-Finished optimization stage 2 on bin2bcd (CPU Time 0h:00m:00s, Memory Used current: 164MB peak: 166MB)
+Finished optimization stage 2 on bin2bcd (CPU Time 0h:00m:00s, Memory Used current: 166MB peak: 168MB)
 Running optimization stage 2 on dot_detector .......
 @N: CL162 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":27:4:27:9|Found a potential sequential shift href_sr with address depth of 3 words and data bit width of 1.
 @N: CL162 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":27:4:27:9|Found a potential sequential shift pclk_sr with address depth of 3 words and data bit width of 1.
 @N: CL162 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":27:4:27:9|Found a potential sequential shift vsync_sr with address depth of 3 words and data bit width of 1.
-@W: CL246 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":12:23:12:33|Input port bits 1 to 0 of threshold_i[7:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":12:23:12:33|Input threshold_i is unused.
 @N: CL159 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\dot_detector.v":14:23:14:33|Input read_cell_i is unused.
-Finished optimization stage 2 on dot_detector (CPU Time 0h:00m:00s, Memory Used current: 165MB peak: 168MB)
+Finished optimization stage 2 on dot_detector (CPU Time 0h:00m:00s, Memory Used current: 169MB peak: 170MB)
 
 For a summary of runtime per design unit, please see file:
 ==========================================================
@@ -608,11 +608,11 @@ For a summary of runtime per design unit, please see file:
 
 
 
-At c_ver Exit (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 165MB peak: 168MB)
+At c_ver Exit (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 169MB peak: 170MB)
 
 
 Process completed successfully.
-# Wed Jul 15 07:20:37 2026
+# Thu Jul 16 00:10:12 2026
 
 ###########################################################]
 ###########################################################[
@@ -632,7 +632,7 @@ VHDL syntax check successful!
 @N: CD630 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\mux_2_1.vhd":28:7:28:13|Synthesizing work.mux_2_1.mux_2_1.
 Post processing for work.mux_2_1.mux_2_1
 Running optimization stage 1 on mux_2_1 .......
-Finished optimization stage 1 on mux_2_1 (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 155MB)
+Finished optimization stage 1 on mux_2_1 (CPU Time 0h:00m:00s, Memory Used current: 155MB peak: 155MB)
 @N: CD630 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd":30:7:30:18|Synthesizing work.ff_generator.ff_generator.
 Post processing for work.ff_generator.ff_generator
 Running optimization stage 1 on FF_GENERATOR .......
@@ -640,38 +640,38 @@ Running optimization stage 1 on FF_GENERATOR .......
 @W: CL169 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd":108:8:108:9|Pruning unused register s_ff_done_2. Make sure that there are no unused intermediate registers.
 @W: CL169 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd":108:8:108:9|Pruning unused register s_ff_to_start_dly_2. Make sure that there are no unused intermediate registers.
 @W: CL169 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\FF_GENERATOR.vhd":108:8:108:9|Pruning unused register s_ff_to_start_2. Make sure that there are no unused intermediate registers.
-Finished optimization stage 1 on FF_GENERATOR (CPU Time 0h:00m:00s, Memory Used current: 154MB peak: 155MB)
+Finished optimization stage 1 on FF_GENERATOR (CPU Time 0h:00m:00s, Memory Used current: 155MB peak: 156MB)
 @N: Setting default value for generic g_apb3_if_data_width to 32;
 @N: Setting default value for generic g_const_width to 12;
 @N: CD630 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\apb3_if.vhd":31:7:31:13|Synthesizing work.apb3_if.apb3_if.
 Post processing for work.apb3_if.apb3_if
 Running optimization stage 1 on work_apb3_if_apb3_if_32_12_1_g_APB3_IF_DATA_WIDTHg_CONST_WIDTH .......
-Finished optimization stage 1 on work_apb3_if_apb3_if_32_12_1_g_APB3_IF_DATA_WIDTHg_CONST_WIDTH (CPU Time 0h:00m:00s, Memory Used current: 155MB peak: 156MB)
+Finished optimization stage 1 on work_apb3_if_apb3_if_32_12_1_g_APB3_IF_DATA_WIDTHg_CONST_WIDTH (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 157MB)
 @N: CD630 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd":31:7:31:18|Synthesizing work.receive_data.receive_data.
 @N: CD231 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd":80:14:80:15|Using onehot encoding for type uart_fsm. For example, enumeration idle is mapped to "10000000000000000000".
 @N: CD604 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd":387:16:387:39|OTHERS clause is not synthesized.
 Post processing for work.receive_data.receive_data
 Running optimization stage 1 on receive_data .......
-Finished optimization stage 1 on receive_data (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 156MB)
+Finished optimization stage 1 on receive_data (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 157MB)
 @N: CD630 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\addr_decoder.vhd":30:7:30:18|Synthesizing work.addr_decoder.addr_decoder.
 Post processing for work.addr_decoder.addr_decoder
 Running optimization stage 1 on addr_decoder .......
-Finished optimization stage 1 on addr_decoder (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 157MB)
+Finished optimization stage 1 on addr_decoder (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
 @N: CD630 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd":31:7:31:17|Synthesizing work.write_lsram.write_lsram.
 Post processing for work.write_lsram.write_lsram
 Running optimization stage 1 on WRITE_LSRAM .......
 @A: CL282 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd":143:8:143:9|Feedback mux created for signal s_data[15:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
-Finished optimization stage 1 on WRITE_LSRAM (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 157MB)
+Finished optimization stage 1 on WRITE_LSRAM (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
 @N: CD630 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\RamDualPort.vhd":33:7:33:17|Synthesizing work.ramdualport.ramdualport.
 Post processing for work.ramdualport.ramdualport
 Running optimization stage 1 on ramDualPort .......
 @N: CL134 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\RamDualPort.vhd":72:9:72:11|Found RAM ram, depth=1024, width=16
-Finished optimization stage 1 on ramDualPort (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 157MB)
+Finished optimization stage 1 on ramDualPort (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
 @N: CD630 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\LCD_FSM.vhd":30:7:30:13|Synthesizing work.lcd_fsm.lcd_fsm.
 @N: CD232 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\LCD_FSM.vhd":86:15:86:16|Using gray code encoding for type split_fsm.
 Post processing for work.lcd_fsm.lcd_fsm
 Running optimization stage 1 on LCD_FSM .......
-Finished optimization stage 1 on LCD_FSM (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 157MB)
+Finished optimization stage 1 on LCD_FSM (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
 @N: CD630 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Image_Enhancement.vhd":32:7:32:23|Synthesizing work.image_enhancement.image_enhancement.
 Post processing for work.image_enhancement.image_enhancement
 Running optimization stage 1 on Image_Enhancement .......
@@ -688,7 +688,7 @@ Running optimization stage 1 on double_flop .......
 @A: CL282 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\double_flop.vhd":107:8:107:9|Feedback mux created for signal s_data2[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
 Finished optimization stage 1 on double_flop (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
 Running optimization stage 2 on double_flop .......
-Finished optimization stage 2 on double_flop (CPU Time 0h:00m:00s, Memory Used current: 156MB peak: 158MB)
+Finished optimization stage 2 on double_flop (CPU Time 0h:00m:00s, Memory Used current: 157MB peak: 158MB)
 Running optimization stage 2 on Image_Enhancement .......
 Finished optimization stage 2 on Image_Enhancement (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 159MB)
 Running optimization stage 2 on LCD_FSM .......
@@ -738,16 +738,16 @@ State machine has 43 reachable states with original encodings of:
    111100
    111101
    111111
-Finished optimization stage 2 on LCD_FSM (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 159MB)
+Finished optimization stage 2 on LCD_FSM (CPU Time 0h:00m:00s, Memory Used current: 159MB peak: 160MB)
 Running optimization stage 2 on ramDualPort .......
-Finished optimization stage 2 on ramDualPort (CPU Time 0h:00m:00s, Memory Used current: 158MB peak: 159MB)
+Finished optimization stage 2 on ramDualPort (CPU Time 0h:00m:00s, Memory Used current: 159MB peak: 160MB)
 Running optimization stage 2 on WRITE_LSRAM .......
 @N: CL162 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd":143:8:143:9|Found a potential sequential shift s_data with address depth of 2 words and data bit width of 8.
 @N: CL162 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\Write_LSRAM.vhd":143:8:143:9|Found a potential sequential shift s_data with address depth of 2 words and data bit width of 8.
-Finished optimization stage 2 on WRITE_LSRAM (CPU Time 0h:00m:00s, Memory Used current: 159MB peak: 159MB)
+Finished optimization stage 2 on WRITE_LSRAM (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 160MB)
 Running optimization stage 2 on addr_decoder .......
 @W: CL246 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\addr_decoder.vhd":51:4:51:9|Input port bits 31 to 20 of data_i(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
-Finished optimization stage 2 on addr_decoder (CPU Time 0h:00m:00s, Memory Used current: 159MB peak: 159MB)
+Finished optimization stage 2 on addr_decoder (CPU Time 0h:00m:00s, Memory Used current: 160MB peak: 160MB)
 Running optimization stage 2 on receive_data .......
 @N: CL201 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\receive_data.vhd":133:8:133:9|Trying to extract state machine for register state.
 Extracted state machine for register state
@@ -772,7 +772,7 @@ State machine has 20 reachable states with original encodings of:
    00100000000000000000
    01000000000000000000
    10000000000000000000
-Finished optimization stage 2 on receive_data (CPU Time 0h:00m:00s, Memory Used current: 159MB peak: 159MB)
+Finished optimization stage 2 on receive_data (CPU Time 0h:00m:00s, Memory Used current: 159MB peak: 160MB)
 Running optimization stage 2 on work_apb3_if_apb3_if_32_12_1_g_APB3_IF_DATA_WIDTHg_CONST_WIDTH .......
 @W: CL246 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\apb3_if.vhd":51:4:51:10|Input port bits 31 to 12 of paddr_i(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
 @W: CL246 :"E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\hdl\apb3_if.vhd":52:4:52:11|Input port bits 31 to 8 of pwdata_i(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
@@ -789,11 +789,11 @@ For a summary of runtime per design unit, please see file:
 
 
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 158MB peak: 160MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 159MB peak: 160MB)
 
 
 Process completed successfully.
-# Wed Jul 15 07:20:42 2026
+# Thu Jul 16 00:10:16 2026
 
 ###########################################################]
 ###########################################################[
@@ -820,12 +820,12 @@ For a summary of linker messages for components that did not bind, please see lo
 =======================================================================================
 
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 157MB peak: 158MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 158MB peak: 159MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Jul 15 07:20:43 2026
+# Thu Jul 16 00:10:16 2026
 
 ###########################################################]
 
@@ -835,12 +835,12 @@ For a summary of runtime and memory usage for all design units, please see file:
 
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:21s; Memory used current: 92MB peak: 93MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:16s; Memory used current: 93MB peak: 93MB)
 
-Process took 0h:00m:24s realtime, 0h:00m:21s cputime
+Process took 0h:00m:21s realtime, 0h:00m:16s cputime
 
 Process completed successfully.
-# Wed Jul 15 07:20:43 2026
+# Thu Jul 16 00:10:17 2026
 
 ###########################################################]
 ###########################################################[
@@ -861,17 +861,17 @@ Synopsys Synopsys Netlist Linker, Version comp202503synp2, Build 183R, Built Nov
 
 @N|Running in 64-bit mode
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 158MB peak: 159MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 159MB peak: 160MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Jul 15 07:20:45 2026
+# Thu Jul 16 00:10:18 2026
 
 ###########################################################]
 Premap Report
 
-# Wed Jul 15 07:20:45 2026
+# Thu Jul 16 00:10:19 2026
 
 
 Copyright (C) 1994-2025 Synopsys, Inc.
@@ -889,10 +889,10 @@ Implementation : synthesis
 Synopsys Microchip Technology Pre-mapping, Version map202503actsp1, Build 108R, Built Nov 18 2025 06:37:26, @
 
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 186MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 187MB)
 
 
-Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 203MB)
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 204MB)
 
 Reading constraint file: E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\synthesis.fdc
 @L: E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\synthesis\TOP_scck.rpt 
@@ -901,27 +901,27 @@ See clock summary report "E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_O
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 202MB peak: 203MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 203MB peak: 204MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 202MB peak: 203MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 203MB peak: 204MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 202MB peak: 203MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 204MB peak: 204MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 202MB peak: 204MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 204MB peak: 206MB)
 
 NConnInternalConnection caching is on
 
 Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
-@N: FX1171 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\osd_overlay.v":182:2:182:7|Found instance dot_osd_integration_0.overlay.byte_phase with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\osd_overlay.v":207:2:207:7|Found instance dot_osd_integration_0.overlay.byte_phase with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
 @W: BN132 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1204:4:1204:9|Removing sequential instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 258MB)
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 260MB peak: 260MB)
 
 
-Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 259MB)
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 260MB peak: 261MB)
 
 @N: MO111 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
 @N: MO111 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
@@ -934,10 +934,10 @@ Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 @W: MO129 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":851:4:851:9|Sequential instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm1_areset_n_q1 is reduced to a combinational gate by constant propagation.
 @W: MO129 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1503:4:1503:9|Sequential instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.RESET_N_F2M_int is reduced to a combinational gate by constant propagation.
 
-Started DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 259MB)
+Started DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 260MB peak: 261MB)
 
 
-Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 259MB)
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 260MB peak: 261MB)
 
 @N: BN115 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\top\top.v":240:7:240:14|Removing instance FF_EXT_0 (in view: work.TOP(verilog)) because it does not drive other instances.
 @N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\coreuart_c0\coreuart_c0_0\rtl\vlog\core_obfuscated\rx_async.v":1613:0:1613:5|Removing sequential instance CUARTI0I (in view: work.COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
@@ -973,7 +973,7 @@ Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:0
 @N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\coreuart_c0\coreuart_c0_0\rtl\vlog\core_obfuscated\rx_async.v":871:0:871:5|Removing sequential instance CUARTl1Il (in view: work.COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: FX1184 |Applying syn_allowed_resources blockrams=21,dsps=22 on top level netlist TOP 
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 260MB peak: 260MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 262MB)
 
 @W: MT688 :"e:/finaldestination/doa-main/hf10_ov7725_lcd_ff/hf10_ov7725_lcd_ff/designer/top/synthesis.fdc":8:0:8:0|No path from master pin (-source) to source of clock FlashFreeze_SB_0/CCC_0/GL0 due to black box FlashFreeze_SB_0.CCC_0.CCC_INST 
 @W: MT688 :"e:/finaldestination/doa-main/hf10_ov7725_lcd_ff/hf10_ov7725_lcd_ff/designer/top/synthesis.fdc":9:0:9:0|No path from master pin (-source) to source of clock FlashFreeze_SB_0/CCC_0/GL1 due to black box FlashFreeze_SB_0.CCC_0.CCC_INST 
@@ -986,7 +986,7 @@ Clock Summary
 Level     Clock                                         Frequency     Period        Type                                                           Group                     Load 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 0 -       OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     50.0 MHz      20.000        declared                                                       default_clkgroup          15   
-1 .         FlashFreeze_SB_0/CCC_0/GL0                  100.0 MHz     10.000        generated (from OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup          741  
+1 .         FlashFreeze_SB_0/CCC_0/GL0                  100.0 MHz     10.000        generated (from OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup          791  
 1 .         FlashFreeze_SB_0/CCC_0/GL1                  24.0 MHz      41.667        generated (from OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup          0    
                                                                                                                                                                                   
 0 -       System                                        100.0 MHz     10.000        system                                                         system_clkgroup           0    
@@ -1005,7 +1005,7 @@ Clock Load Summary
 Clock                                         Load      Pin                                                           Seq Example                                                                 Seq Example       Comb Example                                                
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     15        OSC_C0_0.OSC_C0_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.release_sdif0_core.C     -                 OSC_C0_0.OSC_C0_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
-FlashFreeze_SB_0/CCC_0/GL0                    741       FlashFreeze_SB_0.CCC_0.CCC_INST.GL0(CCC)                      apb3_if_0.cs_o.C                                                            -                 FlashFreeze_SB_0.CCC_0.GL0_INST.I(BUFG)                     
+FlashFreeze_SB_0/CCC_0/GL0                    791       FlashFreeze_SB_0.CCC_0.CCC_INST.GL0(CCC)                      apb3_if_0.cs_o.C                                                            -                 FlashFreeze_SB_0.CCC_0.GL0_INST.I(BUFG)                     
 FlashFreeze_SB_0/CCC_0/GL1                    0         FlashFreeze_SB_0.CCC_0.CCC_INST.GL1(CCC)                      -                                                                           -                 FlashFreeze_SB_0.AND2_0.A(AND2)                             
                                                                                                                                                                                                                                                                                 
 System                                        0         -                                                             -                                                                           -                 -                                                           
@@ -1022,7 +1022,7 @@ FlashFreeze_SB|BIBUF_1_Y_inferred_clock       1         FlashFreeze_SB_0.BIBUF_1
 Finished Pre Mapping Phase.
 @N: BN225 |Writing default property annotation file E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\synthesis\TOP.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 261MB peak: 261MB)
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 263MB peak: 263MB)
 
 Encoding state machine sm0_state[6:0] (in view: work.CoreReset_FF_Z1_layer0(verilog))
 original code -> new code
@@ -1116,23 +1116,23 @@ original code -> new code
    01000000000000000000 -> 01000000000000000000
    10000000000000000000 -> 10000000000000000000
 
-Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 264MB peak: 264MB)
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 266MB peak: 266MB)
 
 @W: MF511 |Found issues with constraints. Please check constraint checker report "E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\synthesis\TOP_cck.rpt" .
 
-Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 265MB peak: 265MB)
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 268MB peak: 268MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 174MB peak: 266MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 181MB peak: 268MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Wed Jul 15 07:20:48 2026
+# Thu Jul 16 00:10:21 2026
 
 ###########################################################]
 Map & Optimize Report
 
-# Wed Jul 15 07:20:49 2026
+# Thu Jul 16 00:10:22 2026
 
 
 Copyright (C) 1994-2025 Synopsys, Inc.
@@ -1150,26 +1150,26 @@ Implementation : synthesis
 Synopsys Microchip Technology Mapper, Version map202503actsp1, Build 108R, Built Nov 18 2025 06:37:26, @
 
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 186MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 187MB)
 
 @N: MF916 |Option synthesis_strategy=base is enabled. 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 203MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 204MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 203MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 204MB)
 
 
-Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 203MB)
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 204MB)
 
 
-Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 203MB)
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 204MB)
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 257MB)
 
 
 Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
@@ -1183,18 +1183,22 @@ Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic.
 @W: BN132 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\coreresetp.v":1044:4:1044:9|Removing sequential instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.CONFIG1_DONE_clk_base because it is equivalent to instance FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.fpll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\coreuart_c0\coreuart_c0_0\rtl\vlog\core_obfuscated\rx_async.v":1339:0:1339:5|Removing sequential instance CUARTI0Il (in view: work.COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 261MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 265MB)
 
 
-Starting area decomp  (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 262MB)
+Starting area decomp  (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 266MB)
 
 @N: FX403 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\ramdualport.vhd":72:9:72:11|Property "block_ram" or "no_rw_check" found for RAM line_write_read_0.ramDualPort_0.ram[15:0] with specified coding style. Inferring block RAM.
 @W: FX107 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\ramdualport.vhd":72:9:72:11|RAM line_write_read_0.ramDualPort_0.ram[15:0] (in view: work.TOP(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
-@N: MO231 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":71:4:71:9|Found counter in view:work.dot_detector(verilog) instance col_idx[15:0] 
-@N: MO231 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":71:4:71:9|Found counter in view:work.dot_detector(verilog) instance row_idx[15:0] 
-@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":71:4:71:9|Removing sequential instance first_byte[3] (in view: work.dot_detector(verilog)) because it does not drive other instances.
-@N: MF179 :"e:\microchip\libero_soc_2025.2\libero_soc\synplify_pro\lib\vhd2008\signed.vhd":91:16:91:33|Found 11 by 11 bit equality operator ('==') un1_py_6 (in view: work.osd_engine(verilog))
-@N: MF179 :"e:\microchip\libero_soc_2025.2\libero_soc\synplify_pro\lib\vhd2008\signed.vhd":91:16:91:33|Found 11 by 11 bit equality operator ('==') un1_px_15 (in view: work.osd_engine(verilog))
+@N: MO231 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":70:4:70:9|Found counter in view:work.dot_detector(verilog) instance cnt_red[15:0] 
+@N: MO231 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":70:4:70:9|Found counter in view:work.dot_detector(verilog) instance cnt_grn[15:0] 
+@N: MO231 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":70:4:70:9|Found counter in view:work.dot_detector(verilog) instance cnt_blk[15:0] 
+@N: MO231 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":70:4:70:9|Found counter in view:work.dot_detector(verilog) instance col_idx[15:0] 
+@N: MO231 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":70:4:70:9|Found counter in view:work.dot_detector(verilog) instance row_idx[15:0] 
+@N: MF179 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\osd_overlay.v":133:18:133:35|Found 11 by 11 bit equality operator ('==') un1_px_16 (in view: work.osd_engine(verilog))
+@N: MF179 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\osd_overlay.v":133:38:133:54|Found 11 by 11 bit equality operator ('==') un1_px_17 (in view: work.osd_engine(verilog))
+@N: MF179 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\osd_overlay.v":134:18:134:35|Found 11 by 11 bit equality operator ('==') un1_py_9 (in view: work.osd_engine(verilog))
+@N: MF179 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\osd_overlay.v":134:38:134:54|Found 11 by 11 bit equality operator ('==') un1_py_10 (in view: work.osd_engine(verilog))
 Encoding state machine sm0_state[6:0] (in view: work.CoreReset_FF_Z1_layer0(verilog))
 original code -> new code
    000 -> 0000001
@@ -1300,13 +1304,13 @@ original code -> new code
 @N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance s_addr[14] (in view: work.receive_data(receive_data)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
 @N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance s_addr[15] (in view: work.receive_data(receive_data)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
 
-Finished area decomp  (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 265MB peak: 265MB)
+Finished area decomp  (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 272MB peak: 272MB)
 
 
-Starting factoring (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 265MB peak: 266MB)
+Starting factoring (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 272MB peak: 273MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 282MB peak: 282MB)
+Finished factoring (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 286MB peak: 286MB)
 
 
 Available hyper_sources - for debug and ip models
@@ -1328,66 +1332,66 @@ NConnInternalConnection caching is on
 @W: BN132 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\write_lsram.vhd":143:8:143:9|Removing instance line_write_read_0.WRITE_LSRAM_0.s_pclk_dly because it is equivalent to instance dot_osd_integration_0.tracker.pclk_sr_2[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\write_lsram.vhd":143:8:143:9|Removing instance line_write_read_0.WRITE_LSRAM_0.s_h_ref_dly because it is equivalent to instance dot_osd_integration_0.tracker.href_sr_2[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 280MB peak: 283MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 280MB peak: 288MB)
 
-@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[24] (in view: work.TOP(verilog)) because it does not drive other instances.
-@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[25] (in view: work.TOP(verilog)) because it does not drive other instances.
-@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[26] (in view: work.TOP(verilog)) because it does not drive other instances.
-@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[27] (in view: work.TOP(verilog)) because it does not drive other instances.
-@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[28] (in view: work.TOP(verilog)) because it does not drive other instances.
-@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[29] (in view: work.TOP(verilog)) because it does not drive other instances.
-@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[30] (in view: work.TOP(verilog)) because it does not drive other instances.
-@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[31] (in view: work.TOP(verilog)) because it does not drive other instances.
 @N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[20] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[24] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[26] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[28] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[30] (in view: work.TOP(verilog)) because it does not drive other instances.
 @N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[21] (in view: work.TOP(verilog)) because it does not drive other instances.
 @N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[22] (in view: work.TOP(verilog)) because it does not drive other instances.
 @N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[23] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[25] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[27] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[29] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[31] (in view: work.TOP(verilog)) because it does not drive other instances.
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 280MB peak: 283MB)
-
-
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 280MB peak: 283MB)
-
-
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 280MB peak: 283MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 281MB peak: 288MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 281MB peak: 283MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 281MB peak: 288MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 300MB peak: 300MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 281MB peak: 288MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 281MB peak: 288MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:13s; Memory used current: 307MB peak: 307MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:10s		     3.06ns		1157 /       624
-@N: FP130 |Promoting Net MX2_0_Y_arst on CLKINT  I_615 
-@N: FP130 |Promoting Net INIT_DONE_arst on CLKINT  I_616 
-@N: FP130 |Promoting Net FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n_clk_base_i on CLKINT  I_617 
-@N: FP130 |Promoting Net FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n_arst on CLKINT  I_618 
-@N: FP130 |Promoting Net led_blink_0.clkout on CLKINT  I_619 
+   1		0h:00m:13s		     3.06ns		1333 /       675
+@N: FP130 |Promoting Net MX2_0_Y_arst on CLKINT  I_581 
+@N: FP130 |Promoting Net INIT_DONE_arst on CLKINT  I_582 
+@N: FP130 |Promoting Net FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n_clk_base_i on CLKINT  I_583 
+@N: FP130 |Promoting Net FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n_arst on CLKINT  I_584 
+@N: FP130 |Promoting Net led_blink_0.clkout on CLKINT  I_585 
 
 Added 0 Buffers
 Added 0 Cells via replication
 	Added 0 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 304MB peak: 304MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:14s; Memory used current: 311MB peak: 311MB)
 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 304MB peak: 304MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 311MB peak: 312MB)
 
 
-Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 304MB peak: 305MB)
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 311MB peak: 312MB)
 
 
-Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 304MB peak: 305MB)
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 311MB peak: 312MB)
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 249MB peak: 305MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:15s; Memory used current: 254MB peak: 312MB)
 
 Writing Analyst data base E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\synthesis\synwork\TOP_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 302MB peak: 305MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:17s; Memory used current: 308MB peak: 312MB)
 
 Writing Verilog Simulation files
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
@@ -1395,13 +1399,13 @@ Writing Verilog Simulation files
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 @W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
 
-Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 303MB peak: 305MB)
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:18s; Memory used current: 309MB peak: 312MB)
 
 
-Finished Writing Netlists (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 303MB peak: 305MB)
+Finished Writing Netlists (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:19s; Memory used current: 309MB peak: 312MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 299MB peak: 305MB)
+Start final timing analysis (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:19s; Memory used current: 305MB peak: 312MB)
 
 @W: MT246 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\flashfreeze_sb\flashfreeze_sb.v":235:13:235:26|Blackbox FLASH_FREEZE is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
 @W: MT246 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\flashfreeze_sb\ccc_0\flashfreeze_sb_ccc_0_fccc.v":27:36:27:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
@@ -1413,7 +1417,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Wed Jul 15 07:21:03 2026
+# Timing report written on Thu Jul 16 00:10:44 2026
 #
 
 
@@ -1746,12 +1750,12 @@ FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n_q1     System   
 FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n_q2     System        SLE      ALn     sm0_areset_n_arst     10.000       4.209
 dot_osd_integration_0.tracker.byte_phase                               System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
 led_blink_0.clkout                                                     System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
-dot_osd_integration_0.tracker.col_idx[0]                               System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
-dot_osd_integration_0.tracker.col_idx[1]                               System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
-dot_osd_integration_0.tracker.col_idx[2]                               System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
-dot_osd_integration_0.tracker.col_idx[3]                               System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
-dot_osd_integration_0.tracker.col_idx[4]                               System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
-dot_osd_integration_0.tracker.col_idx[5]                               System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
+dot_osd_integration_0.tracker.cnt_blk[0]                               System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
+dot_osd_integration_0.tracker.cnt_blk[1]                               System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
+dot_osd_integration_0.tracker.cnt_blk[2]                               System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
+dot_osd_integration_0.tracker.cnt_blk[3]                               System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
+dot_osd_integration_0.tracker.cnt_blk[4]                               System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
+dot_osd_integration_0.tracker.cnt_blk[5]                               System        SLE      ALn     MX2_0_Y_arst          10.000       5.196
 ==============================================================================================================================================
 
 
@@ -1804,10 +1808,10 @@ Timing exceptions that could not be applied
 @W: MT447 :"e:/finaldestination/doa-main/hf10_ov7725_lcd_ff/hf10_ov7725_lcd_ff/designer/top/synthesis.fdc":10:0:10:0|Timing constraint (through [get_pins { FlashFreeze_SB_0.FlashFreeze_SB_MSS_0.MSS_ADLIB_INST.CONFIG_PRESET_N }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 300MB peak: 305MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:20s; Memory used current: 307MB peak: 312MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:13s; Memory used current: 300MB peak: 305MB)
+Finished timing report (Real Time elapsed 0h:00m:22s; CPU Time elapsed 0h:00m:20s; Memory used current: 307MB peak: 312MB)
 
 ---------------------------------------
 Resource Usage Report for TOP 
@@ -1823,22 +1827,23 @@ MX2             2 uses
 RCOSC_25_50MHZ  1 use
 RCOSC_25_50MHZ_FAB  1 use
 SYSRESET        1 use
-CFG1           10 uses
-CFG2           126 uses
-CFG3           182 uses
-CFG4           342 uses
+CFG1           9 uses
+CFG2           148 uses
+CFG3           196 uses
+CFG4           381 uses
 
 Carry cells:
-ARI1            387 uses - used for arithmetic functions
-ARI1            25 uses - used for Wide-Mux implementation
-Total ARI1      412 uses
+ARI1            476 uses - used for arithmetic functions
+ARI1            32 uses - used for Wide-Mux implementation
+Total ARI1      508 uses
 
 
 Sequential Cells: 
-SLE            641 uses
+SLE            692 uses
 
-DSP Blocks:    3 of 22 (13%)
+DSP Blocks:    4 of 22 (18%)
  MACC:         3 MultAdds
+ MACC:         1 Mult
 
 I/O ports: 38
 I/O primitives: 37
@@ -1852,22 +1857,22 @@ Global Clock Buffers: 8
 RAM/ROM usage summary
 Total Block RAMs (RAM1K18) : 1 of 21 (4%)
 
-Total LUTs:    1072
+Total LUTs:    1242
 
 Extra resources required for RAM and MACC interface logic during P&R:
 
 RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
 RAM1K18  Interface Logic : SLEs = 36; LUTs = 36;
-MACC     Interface Logic : SLEs = 108; LUTs = 108;
+MACC     Interface Logic : SLEs = 144; LUTs = 144;
 
-Total number of SLEs after P&R:  641 + 0 + 36 + 108 = 785;
-Total number of LUTs after P&R:  1072 + 0 + 36 + 108 = 1216;
+Total number of SLEs after P&R:  692 + 0 + 36 + 144 = 872;
+Total number of LUTs after P&R:  1242 + 0 + 36 + 144 = 1422;
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:13s; Memory used current: 140MB peak: 305MB)
+At Mapper Exit (Real Time elapsed 0h:00m:22s; CPU Time elapsed 0h:00m:20s; Memory used current: 145MB peak: 312MB)
 
-Process took 0h:00m:14s realtime, 0h:00m:13s cputime
-# Wed Jul 15 07:21:03 2026
+Process took 0h:00m:22s realtime, 0h:00m:21s cputime
+# Thu Jul 16 00:10:45 2026
 
 ###########################################################]

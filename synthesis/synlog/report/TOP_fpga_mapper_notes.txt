@@ -7,11 +7,15 @@
 @N: MO111 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
 @N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\component\work\coreuart_c0\coreuart_c0_0\rtl\vlog\core_obfuscated\rx_async.v":1339:0:1339:5|Removing sequential instance CUARTI0Il (in view: work.COREUART_C0_COREUART_C0_0_Rx_async_0s_0s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: FX403 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\ramdualport.vhd":72:9:72:11|Property "block_ram" or "no_rw_check" found for RAM line_write_read_0.ramDualPort_0.ram[15:0] with specified coding style. Inferring block RAM.
-@N: MO231 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":71:4:71:9|Found counter in view:work.dot_detector(verilog) instance col_idx[15:0] 
-@N: MO231 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":71:4:71:9|Found counter in view:work.dot_detector(verilog) instance row_idx[15:0] 
-@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":71:4:71:9|Removing sequential instance first_byte[3] (in view: work.dot_detector(verilog)) because it does not drive other instances.
-@N: MF179 :"e:\microchip\libero_soc_2025.2\libero_soc\synplify_pro\lib\vhd2008\signed.vhd":91:16:91:33|Found 11 by 11 bit equality operator ('==') un1_py_6 (in view: work.osd_engine(verilog))
-@N: MF179 :"e:\microchip\libero_soc_2025.2\libero_soc\synplify_pro\lib\vhd2008\signed.vhd":91:16:91:33|Found 11 by 11 bit equality operator ('==') un1_px_15 (in view: work.osd_engine(verilog))
+@N: MO231 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":70:4:70:9|Found counter in view:work.dot_detector(verilog) instance cnt_red[15:0] 
+@N: MO231 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":70:4:70:9|Found counter in view:work.dot_detector(verilog) instance cnt_grn[15:0] 
+@N: MO231 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":70:4:70:9|Found counter in view:work.dot_detector(verilog) instance cnt_blk[15:0] 
+@N: MO231 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":70:4:70:9|Found counter in view:work.dot_detector(verilog) instance col_idx[15:0] 
+@N: MO231 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\dot_detector.v":70:4:70:9|Found counter in view:work.dot_detector(verilog) instance row_idx[15:0] 
+@N: MF179 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\osd_overlay.v":133:18:133:35|Found 11 by 11 bit equality operator ('==') un1_px_16 (in view: work.osd_engine(verilog))
+@N: MF179 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\osd_overlay.v":133:38:133:54|Found 11 by 11 bit equality operator ('==') un1_px_17 (in view: work.osd_engine(verilog))
+@N: MF179 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\osd_overlay.v":134:18:134:35|Found 11 by 11 bit equality operator ('==') un1_py_9 (in view: work.osd_engine(verilog))
+@N: MF179 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\osd_overlay.v":134:38:134:54|Found 11 by 11 bit equality operator ('==') un1_py_10 (in view: work.osd_engine(verilog))
 @N: MO231 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\write_lsram.vhd":200:8:200:9|Found counter in view:work.WRITE_LSRAM(write_lsram) instance s_ram_address[9:0] 
 @N: MO231 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\write_lsram.vhd":177:8:177:9|Found counter in view:work.WRITE_LSRAM(write_lsram) instance s_v_counter[9:0] 
 @N: MO231 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\write_lsram.vhd":143:8:143:9|Found counter in view:work.WRITE_LSRAM(write_lsram) instance s_h_counter[9:0] 
@@ -26,23 +30,23 @@
 @N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance s_addr[13] (in view: work.receive_data(receive_data)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
 @N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance s_addr[14] (in view: work.receive_data(receive_data)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
 @N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance s_addr[15] (in view: work.receive_data(receive_data)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
-@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[24] (in view: work.TOP(verilog)) because it does not drive other instances.
-@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[25] (in view: work.TOP(verilog)) because it does not drive other instances.
-@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[26] (in view: work.TOP(verilog)) because it does not drive other instances.
-@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[27] (in view: work.TOP(verilog)) because it does not drive other instances.
-@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[28] (in view: work.TOP(verilog)) because it does not drive other instances.
-@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[29] (in view: work.TOP(verilog)) because it does not drive other instances.
-@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[30] (in view: work.TOP(verilog)) because it does not drive other instances.
-@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[31] (in view: work.TOP(verilog)) because it does not drive other instances.
 @N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[20] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[24] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[26] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[28] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[30] (in view: work.TOP(verilog)) because it does not drive other instances.
 @N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[21] (in view: work.TOP(verilog)) because it does not drive other instances.
 @N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[22] (in view: work.TOP(verilog)) because it does not drive other instances.
 @N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[23] (in view: work.TOP(verilog)) because it does not drive other instances.
-@N: FP130 |Promoting Net MX2_0_Y_arst on CLKINT  I_615 
-@N: FP130 |Promoting Net INIT_DONE_arst on CLKINT  I_616 
-@N: FP130 |Promoting Net FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n_clk_base_i on CLKINT  I_617 
-@N: FP130 |Promoting Net FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n_arst on CLKINT  I_618 
-@N: FP130 |Promoting Net led_blink_0.clkout on CLKINT  I_619 
+@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[25] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[27] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[29] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: BN362 :"e:\finaldestination\doa-main\hf10_ov7725_lcd_ff\hf10_ov7725_lcd_ff\hdl\receive_data.vhd":133:8:133:9|Removing sequential instance UART_interface_0.receive_data_0.s_data[31] (in view: work.TOP(verilog)) because it does not drive other instances.
+@N: FP130 |Promoting Net MX2_0_Y_arst on CLKINT  I_581 
+@N: FP130 |Promoting Net INIT_DONE_arst on CLKINT  I_582 
+@N: FP130 |Promoting Net FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n_clk_base_i on CLKINT  I_583 
+@N: FP130 |Promoting Net FlashFreeze_SB_0.CORERESET_FF_0_0.CORERESET_FF_0_0.sm0_areset_n_arst on CLKINT  I_584 
+@N: FP130 |Promoting Net led_blink_0.clkout on CLKINT  I_585 
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 @N: MT615 |Found clock OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT with period 20.00ns 

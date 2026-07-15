@@ -25,6 +25,7 @@ module dot_osd_integration (
     wire [9:0] dot_x;
     wire [9:0] dot_y;
     wire       dot_valid;
+    wire [1:0] dot_color;
 
     dot_detector tracker (
         .pclk_i      ( pclk_i ),
@@ -39,7 +40,8 @@ module dot_osd_integration (
         .read_data_o ( ),
         .center_x    ( dot_x ),
         .center_y    ( dot_y ),
-        .dot_valid   ( dot_valid )
+        .dot_valid   ( dot_valid ),
+        .dot_color (dot_color)
     );
 
     osd_overlay overlay (
@@ -49,6 +51,7 @@ module dot_osd_integration (
         .dot_x      ( dot_x ),
         .dot_y      ( dot_y ),
         .dot_valid  ( dot_valid ),
+        .dot_color(dot_color),
         
         .fsm_cs_o   ( fsm_cs_o ),
         .fsm_dc_o   ( fsm_dc_o ),

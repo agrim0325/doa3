@@ -1,7 +1,7 @@
 E:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\bin64\syn_nfilter.exe  -link  -top  TOP  -multisrs  E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\synthesis\synwork\TOP_comp.srs  -osyn  E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\synthesis\synwork\TOP_mult.srs  -log  E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\synthesis\synlog\TOP_multi_srs_gen.srr 
 relcom:..\..\..\..\..\..\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\bin64\syn_nfilter.exe -link -top TOP -multisrs ..\synwork\TOP_comp.srs -osyn ..\synwork\TOP_mult.srs -log ..\synlog\TOP_multi_srs_gen.srr
-rc:0 success:1 runtime:1
-file:..\synwork\top_comp.srs|io:i|time:1784080243|size:129344|exec:0|csum:6DF6383559DCB9C5CC877124F4E30C9F
-file:..\synwork\top_mult.srs|io:o|time:1784080245|size:9004|exec:0|csum:
-file:..\synlog\top_multi_srs_gen.srr|io:o|time:1784080245|size:1080|exec:0|csum:
+rc:0 success:1 runtime:0
+file:..\synwork\top_comp.srs|io:i|time:1784140816|size:133024|exec:0|csum:58AAE5C1C69F6D565FBC937EDB367994
+file:..\synwork\top_mult.srs|io:o|time:1784140818|size:9008|exec:0|csum:
+file:..\synlog\top_multi_srs_gen.srr|io:o|time:1784140818|size:1080|exec:0|csum:
 file:..\..\..\..\..\..\microchip\libero_soc_2025.2\libero_soc\synplify_pro\bin64\syn_nfilter.exe|io:i|time:1763486150|size:10805248|exec:1|csum:DD061854CD136B38774287DB8598CC64

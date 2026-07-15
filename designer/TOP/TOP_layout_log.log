@@ -22,7 +22,7 @@ Total time spent in I/O Bank and Globals Assigner: 0 seconds
 TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
 
 Placer V5.0 - 2025.2.0 
-Design: TOP                             Started: Wed Jul 15 07:21:21 2026
+Design: TOP                             Started: Thu Jul 16 00:11:06 2026
 
 Initializing Normal-Effort Timing-Driven Placement ...
 Clustering ...
@@ -31,39 +31,39 @@ Improving placement ...
 End of placement.
 
 Placer Runtime Summary   :
-Clustering (1 pass)      : 0 seconds
-Placement                : 1 seconds
-Improvement              : 7 seconds
+Clustering (1 pass)      : 1 seconds
+Placement                : 3 seconds
+Improvement              : 3 seconds
 
 Placer completed successfully.
 
 Design: TOP                             
-Finished: Wed Jul 15 07:21:43 2026
-Total CPU Time:     00:00:20            Total Elapsed Time: 00:00:22
-Total Memory Usage: 296.0 Mbytes
+Finished: Thu Jul 16 00:11:33 2026
+Total CPU Time:     00:00:24            Total Elapsed Time: 00:00:27
+Total Memory Usage: 298.2 Mbytes
                         o - o - o - o - o - o
 
 
 Router 
-Design: E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\TOPStarted: Wed Jul 15 07:21:46 2026
+Design: E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\TOPStarted: Thu Jul 16 00:11:35 2026
 
 
 Router completed successfully.
 
 Design: E:\finaldestination\doa-main\HF10_OV7725_LCD_FF\HF10_OV7725_LCD_FF\designer\TOP\TOP
-Finished: Wed Jul 15 07:21:57 2026
-Total CPU Time:     00:00:11            Total Elapsed Time: 00:00:11
-Total Memory Usage: 448.6 Mbytes
+Finished: Thu Jul 16 00:11:40 2026
+Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:05
+Total Memory Usage: 449.6 Mbytes
                         o - o - o - o - o - o
 
 Resource Usage
 +---------------+------+-------+------------+
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
-| 4LUT          | 1234 | 12084 | 10.21      |
-| DFF           | 785  | 12084 | 6.50       |
+| 4LUT          | 1442 | 12084 | 11.93      |
+| DFF           | 872  | 12084 | 7.22       |
 | I/O Register  | 0    | 414   | 0.00       |
-| Logic Element | 1440 | 12084 | 11.92      |
+| Logic Element | 1648 | 12084 | 13.64      |
 +---------------+------+-------+------------+
 
 I/O Placement
